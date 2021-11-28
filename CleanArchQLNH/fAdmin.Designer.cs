@@ -210,7 +210,7 @@ namespace CleanArchQLNH
             // 
             // tcAdmin
             // 
-            // this.tcAdmin.Controls.Add(this.tpBill);
+            this.tcAdmin.Controls.Add(this.tpBill);
             // this.tcAdmin.Controls.Add(this.tpFood);
             // this.tcAdmin.Controls.Add(this.tpTable);
             // this.tcAdmin.Controls.Add(this.tpPromotion);
@@ -225,174 +225,174 @@ namespace CleanArchQLNH
             // 
             // tpBill
             // 
-            // this.tpBill.Controls.Add(this.panel1);
-            // this.tpBill.Controls.Add(this.pnDatetimePicker);
-            // this.tpBill.Location = new System.Drawing.Point(4, 24);
-            // this.tpBill.Name = "tpBill";
-            // this.tpBill.Padding = new System.Windows.Forms.Padding(3);
-            // this.tpBill.Size = new System.Drawing.Size(648, 361);
-            // this.tpBill.TabIndex = 0;
-            // this.tpBill.Text = "Doanh thu";
-            // this.tpBill.UseVisualStyleBackColor = true;
-            // // 
-            // // panel1
-            // // 
-            // this.panel1.Controls.Add(this.dtgvBill);
-            // this.panel1.Location = new System.Drawing.Point(4, 47);
-            // this.panel1.Name = "panel1";
-            // this.panel1.Size = new System.Drawing.Size(641, 311);
-            // this.panel1.TabIndex = 2;
-            // // 
-            // // dtgvBill
-            // // 
-            // this.dtgvBill.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            // this.dtgvBill.Location = new System.Drawing.Point(0, 0);
-            // this.dtgvBill.Name = "dtgvBill";
-            // this.dtgvBill.ReadOnly = true;
-            // this.dtgvBill.RowTemplate.Height = 25;
-            // this.dtgvBill.Size = new System.Drawing.Size(641, 311);
-            // this.dtgvBill.TabIndex = 0;
-            // // 
-            // // pnDatetimePicker
-            // // 
-            // this.pnDatetimePicker.Controls.Add(this.btnViewBill);
-            // this.pnDatetimePicker.Controls.Add(this.lbDays);
-            // this.pnDatetimePicker.Controls.Add(this.lbMonths);
-            // this.pnDatetimePicker.Controls.Add(this.lbYears);
-            // this.pnDatetimePicker.Controls.Add(this.cmbDaysInViewBill);
-            // this.pnDatetimePicker.Controls.Add(this.cmbMonthsInViewBill);
-            // this.pnDatetimePicker.Controls.Add(this.cmbYearsInViewBill);
-            // this.pnDatetimePicker.Location = new System.Drawing.Point(4, 4);
-            // this.pnDatetimePicker.Name = "pnDatetimePicker";
-            // this.pnDatetimePicker.Size = new System.Drawing.Size(641, 36);
-            // this.pnDatetimePicker.TabIndex = 1;
-            // // 
-            // // btnViewBill
-            // // 
-            // this.btnViewBill.Location = new System.Drawing.Point(550, 6);
-            // this.btnViewBill.Name = "btnViewBill";
-            // this.btnViewBill.Size = new System.Drawing.Size(75, 23);
-            // this.btnViewBill.TabIndex = 2;
-            // this.btnViewBill.Text = "Thống kê";
-            // this.btnViewBill.UseVisualStyleBackColor = true;
+            this.tpBill.Controls.Add(this.panel1);
+            this.tpBill.Controls.Add(this.pnDatetimePicker);
+            this.tpBill.Location = new System.Drawing.Point(4, 24);
+            this.tpBill.Name = "tpBill";
+            this.tpBill.Padding = new System.Windows.Forms.Padding(3);
+            this.tpBill.Size = new System.Drawing.Size(648, 361);
+            this.tpBill.TabIndex = 0;
+            this.tpBill.Text = "Doanh thu";
+            this.tpBill.UseVisualStyleBackColor = true;
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.dtgvBill);
+            this.panel1.Location = new System.Drawing.Point(4, 47);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(641, 311);
+            this.panel1.TabIndex = 2;
+            // 
+            // dtgvBill
+            // 
+            this.dtgvBill.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvBill.Location = new System.Drawing.Point(0, 0);
+            this.dtgvBill.Name = "dtgvBill";
+            this.dtgvBill.ReadOnly = true;
+            this.dtgvBill.RowTemplate.Height = 25;
+            this.dtgvBill.Size = new System.Drawing.Size(641, 311);
+            this.dtgvBill.TabIndex = 0;
+            // 
+            // pnDatetimePicker
+            // 
+            this.pnDatetimePicker.Controls.Add(this.btnViewBill);
+            this.pnDatetimePicker.Controls.Add(this.lbDays);
+            this.pnDatetimePicker.Controls.Add(this.lbMonths);
+            this.pnDatetimePicker.Controls.Add(this.lbYears);
+            this.pnDatetimePicker.Controls.Add(this.cmbDaysInViewBill);
+            this.pnDatetimePicker.Controls.Add(this.cmbMonthsInViewBill);
+            this.pnDatetimePicker.Controls.Add(this.cmbYearsInViewBill);
+            this.pnDatetimePicker.Location = new System.Drawing.Point(4, 4);
+            this.pnDatetimePicker.Name = "pnDatetimePicker";
+            this.pnDatetimePicker.Size = new System.Drawing.Size(641, 36);
+            this.pnDatetimePicker.TabIndex = 1;
+            // 
+            // btnViewBill
+            // 
+            this.btnViewBill.Location = new System.Drawing.Point(550, 6);
+            this.btnViewBill.Name = "btnViewBill";
+            this.btnViewBill.Size = new System.Drawing.Size(75, 23);
+            this.btnViewBill.TabIndex = 2;
+            this.btnViewBill.Text = "Thống kê";
+            this.btnViewBill.UseVisualStyleBackColor = true;
             // this.btnViewBill.Click += new System.EventHandler(this.btnViewBill_Click);
-            // // lbDays
-            // // 
-            // this.lbDays.AutoSize = true;
-            // this.lbDays.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            // this.lbDays.Location = new System.Drawing.Point(10, 7);
-            // this.lbDays.Name = "lbDays";
-            // this.lbDays.Size = new System.Drawing.Size(50, 19);
-            // this.lbDays.TabIndex = 0;
-            // this.lbDays.Text = "Ngày:";
-            // // 
-            // // lbMonths
-            // // 
-            // this.lbMonths.AutoSize = true;
-            // this.lbMonths.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            // this.lbMonths.Location = new System.Drawing.Point(190, 7);
-            // this.lbMonths.Name = "lbMonths";
-            // this.lbMonths.Size = new System.Drawing.Size(56, 19);
-            // this.lbMonths.TabIndex = 1;
-            // this.lbMonths.Text = "Tháng:";
-            // // 
-            // // lbYears
-            // // 
-            // this.lbYears.AutoSize = true;
-            // this.lbYears.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            // this.lbYears.Location = new System.Drawing.Point(370, 7);
-            // this.lbYears.Name = "lbYears";
-            // this.lbYears.Size = new System.Drawing.Size(46, 19);
-            // this.lbYears.TabIndex = 1;
-            // this.lbYears.Text = "Năm:";
-            // // 
-            // // cmbDaysInViewBill
-            // // 
-            // this.cmbDaysInViewBill.DropDownHeight = 170;
-            // this.cmbDaysInViewBill.FormattingEnabled = true;
-            // this.cmbDaysInViewBill.IntegralHeight = false;
-            // this.cmbDaysInViewBill.Items.AddRange(new object[] {
-            // "01",
-            // "02",
-            // "03",
-            // "04",
-            // "05",
-            // "06",
-            // "07",
-            // "08",
-            // "09",
-            // "10",
-            // "11",
-            // "12",
-            // "13",
-            // "14",
-            // "15",
-            // "16",
-            // "17",
-            // "18",
-            // "19",
-            // "20",
-            // "21",
-            // "22",
-            // "23",
-            // "24",
-            // "25",
-            // "26",
-            // "27",
-            // "28",
-            // "29",
-            // "30",
-            // "31"});
-            // this.cmbDaysInViewBill.Location = new System.Drawing.Point(70, 4);
-            // this.cmbDaysInViewBill.Name = "cmbDaysInViewBill";
-            // this.cmbDaysInViewBill.Size = new System.Drawing.Size(90, 25);
-            // this.cmbDaysInViewBill.TabIndex = 0;
-            // // 
-            // // cmbMonthsInViewBill
-            // // 
-            // this.cmbMonthsInViewBill.DropDownHeight = 170;
-            // this.cmbMonthsInViewBill.FormattingEnabled = true;
-            // this.cmbMonthsInViewBill.IntegralHeight = false;
-            // this.cmbMonthsInViewBill.Items.AddRange(new object[] {
-            // "01",
-            // "02",
-            // "03",
-            // "04",
-            // "05",
-            // "06",
-            // "07",
-            // "08",
-            // "09",
-            // "10",
-            // "11",
-            // "12"});
-            // this.cmbMonthsInViewBill.Location = new System.Drawing.Point(250, 4);
-            // this.cmbMonthsInViewBill.Name = "cmbMonthsInViewBill";
-            // this.cmbMonthsInViewBill.Size = new System.Drawing.Size(90, 25);
-            // this.cmbMonthsInViewBill.TabIndex = 1;
-            // // 
-            // // cmbYearsInViewBill
-            // // 
-            // this.cmbYearsInViewBill.DropDownHeight = 170;
-            // this.cmbYearsInViewBill.FormattingEnabled = true;
-            // this.cmbYearsInViewBill.IntegralHeight = false;
-            // this.cmbYearsInViewBill.Items.AddRange(new object[] {
-            // 2019,
-            // 2020,
-            // 2021,
-            // 2022,
-            // 2023,
-            // 2024,
-            // 2026,
-            // 2027,
-            // 2028,
-            // 2029,
-            // 2030});
-            // this.cmbYearsInViewBill.Location = new System.Drawing.Point(420, 4);
-            // this.cmbYearsInViewBill.Name = "cmbYearsInViewBill";
-            // this.cmbYearsInViewBill.Size = new System.Drawing.Size(90, 25);
-            // this.cmbYearsInViewBill.TabIndex = 2;
-            // //
+            // lbDays
+            // 
+            this.lbDays.AutoSize = true;
+            this.lbDays.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbDays.Location = new System.Drawing.Point(10, 7);
+            this.lbDays.Name = "lbDays";
+            this.lbDays.Size = new System.Drawing.Size(50, 19);
+            this.lbDays.TabIndex = 0;
+            this.lbDays.Text = "Ngày:";
+            // 
+            // lbMonths
+            // 
+            this.lbMonths.AutoSize = true;
+            this.lbMonths.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbMonths.Location = new System.Drawing.Point(190, 7);
+            this.lbMonths.Name = "lbMonths";
+            this.lbMonths.Size = new System.Drawing.Size(56, 19);
+            this.lbMonths.TabIndex = 1;
+            this.lbMonths.Text = "Tháng:";
+            // 
+            // lbYears
+            // 
+            this.lbYears.AutoSize = true;
+            this.lbYears.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbYears.Location = new System.Drawing.Point(370, 7);
+            this.lbYears.Name = "lbYears";
+            this.lbYears.Size = new System.Drawing.Size(46, 19);
+            this.lbYears.TabIndex = 1;
+            this.lbYears.Text = "Năm:";
+            // 
+            // cmbDaysInViewBill
+            // 
+            this.cmbDaysInViewBill.DropDownHeight = 170;
+            this.cmbDaysInViewBill.FormattingEnabled = true;
+            this.cmbDaysInViewBill.IntegralHeight = false;
+            this.cmbDaysInViewBill.Items.AddRange(new object[] {
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "08",
+            "09",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31"});
+            this.cmbDaysInViewBill.Location = new System.Drawing.Point(70, 4);
+            this.cmbDaysInViewBill.Name = "cmbDaysInViewBill";
+            this.cmbDaysInViewBill.Size = new System.Drawing.Size(90, 25);
+            this.cmbDaysInViewBill.TabIndex = 0;
+            // 
+            // cmbMonthsInViewBill
+            // 
+            this.cmbMonthsInViewBill.DropDownHeight = 170;
+            this.cmbMonthsInViewBill.FormattingEnabled = true;
+            this.cmbMonthsInViewBill.IntegralHeight = false;
+            this.cmbMonthsInViewBill.Items.AddRange(new object[] {
+            "01",
+            "02",
+            "03",
+            "04",
+            "05",
+            "06",
+            "07",
+            "08",
+            "09",
+            "10",
+            "11",
+            "12"});
+            this.cmbMonthsInViewBill.Location = new System.Drawing.Point(250, 4);
+            this.cmbMonthsInViewBill.Name = "cmbMonthsInViewBill";
+            this.cmbMonthsInViewBill.Size = new System.Drawing.Size(90, 25);
+            this.cmbMonthsInViewBill.TabIndex = 1;
+            // 
+            // cmbYearsInViewBill
+            // 
+            this.cmbYearsInViewBill.DropDownHeight = 170;
+            this.cmbYearsInViewBill.FormattingEnabled = true;
+            this.cmbYearsInViewBill.IntegralHeight = false;
+            this.cmbYearsInViewBill.Items.AddRange(new object[] {
+            2019,
+            2020,
+            2021,
+            2022,
+            2023,
+            2024,
+            2026,
+            2027,
+            2028,
+            2029,
+            2030});
+            this.cmbYearsInViewBill.Location = new System.Drawing.Point(420, 4);
+            this.cmbYearsInViewBill.Name = "cmbYearsInViewBill";
+            this.cmbYearsInViewBill.Size = new System.Drawing.Size(90, 25);
+            this.cmbYearsInViewBill.TabIndex = 2;
+            //
 
             // // 
             // // tpFood
@@ -1571,9 +1571,9 @@ namespace CleanArchQLNH
             this.Text = "Admin";
             this.pnAdmin.ResumeLayout(false);
             this.tcAdmin.ResumeLayout(false);
-            // this.tpBill.ResumeLayout(false);
-            // this.panel1.ResumeLayout(false);
-            // ((System.ComponentModel.ISupportInitialize)(this.dtgvBill)).EndInit();
+            this.tpBill.ResumeLayout(false);
+            this.panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvBill)).EndInit();
             // this.pnDatetimePicker.ResumeLayout(false);
             // this.tpFood.ResumeLayout(false);
             // this.panel2.ResumeLayout(false);
