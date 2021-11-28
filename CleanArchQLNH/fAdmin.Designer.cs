@@ -213,7 +213,7 @@ namespace CleanArchQLNH
             this.tcAdmin.Controls.Add(this.tpBill);
             // this.tcAdmin.Controls.Add(this.tpFood);
             // this.tcAdmin.Controls.Add(this.tpTable);
-            // this.tcAdmin.Controls.Add(this.tpPromotion);
+            this.tcAdmin.Controls.Add(this.tpPromotion);
             // this.tcAdmin.Controls.Add(this.tpStaff);
             this.tcAdmin.Controls.Add(this.tpOrderTable);
             this.tcAdmin.Location = new System.Drawing.Point(0, 0);
@@ -775,254 +775,254 @@ namespace CleanArchQLNH
             // this.btnSearchTable.UseVisualStyleBackColor = true;
             // this.btnSearchTable.Click += new System.EventHandler(this.btnSearchTable_Click);
             // // 
-            // // tpPromotion
-            // // 
-            // this.tpPromotion.Controls.Add(this.pnListPromotion);
-            // this.tpPromotion.Controls.Add(this.panel10);
-            // this.tpPromotion.Controls.Add(this.panel14);
-            // this.tpPromotion.Location = new System.Drawing.Point(4, 24);
-            // this.tpPromotion.Name = "tpPromotion";
-            // this.tpPromotion.Padding = new System.Windows.Forms.Padding(3);
-            // this.tpPromotion.Size = new System.Drawing.Size(648, 361);
-            // this.tpPromotion.TabIndex = 3;
-            // this.tpPromotion.Text = "Khuyến mãi";
-            // this.tpPromotion.UseVisualStyleBackColor = true;
-            // // 
-            // // pnListPromotion
-            // // 
-            // this.pnListPromotion.Controls.Add(this.dtgvPromotion);
-            // this.pnListPromotion.Location = new System.Drawing.Point(4, 3);
-            // this.pnListPromotion.Name = "pnListPromotion";
-            // this.pnListPromotion.Size = new System.Drawing.Size(367, 355);
-            // this.pnListPromotion.TabIndex = 11;
-            // // 
-            // // dtgvPromotion
-            // // 
-            // this.dtgvPromotion.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            // this.dtgvPromotion.Location = new System.Drawing.Point(2, 1);
-            // this.dtgvPromotion.Name = "dtgvPromotion";
-            // this.dtgvPromotion.ReadOnly = true;
-            // this.dtgvPromotion.RowTemplate.Height = 25;
-            // this.dtgvPromotion.Size = new System.Drawing.Size(365, 354);
-            // this.dtgvPromotion.TabIndex = 0;
-            // // 
-            // // panel9
-            // // 
-            // this.panel9.Controls.Add(this.btnDeletePromotion);
-            // this.panel9.Controls.Add(this.btnEditPromotion);
-            // this.panel9.Controls.Add(this.btnAddPromotion);
-            // this.panel9.Location = new System.Drawing.Point(2, 205);
-            // this.panel9.Name = "panel9";
-            // this.panel9.Size = new System.Drawing.Size(266, 45);
-            // this.panel9.TabIndex = 10;
-            // // 
-            // // btnDeletePromotion
-            // // 
-            // this.btnDeletePromotion.Location = new System.Drawing.Point(190, 5);
-            // this.btnDeletePromotion.Name = "btnDeletePromotion";
-            // this.btnDeletePromotion.Size = new System.Drawing.Size(75, 35);
-            // this.btnDeletePromotion.TabIndex = 2;
-            // this.btnDeletePromotion.Text = "Xóa";
-            // this.btnDeletePromotion.UseVisualStyleBackColor = true;
-            // this.btnDeletePromotion.Click += new System.EventHandler(this.btnDeletePromotion_Click);
-            // // 
-            // // btnEditPromotion
-            // // 
-            // this.btnEditPromotion.Location = new System.Drawing.Point(95, 5);
-            // this.btnEditPromotion.Name = "btnEditPromotion";
-            // this.btnEditPromotion.Size = new System.Drawing.Size(75, 35);
-            // this.btnEditPromotion.TabIndex = 1;
-            // this.btnEditPromotion.Text = "Sửa";
-            // this.btnEditPromotion.UseVisualStyleBackColor = true;
-            // this.btnEditPromotion.Click += new System.EventHandler(this.btnEditPromotion_Click);
-            // // 
-            // // btnAddPromotion
-            // // 
-            // this.btnAddPromotion.Location = new System.Drawing.Point(0, 5);
-            // this.btnAddPromotion.Name = "btnAddPromotion";
-            // this.btnAddPromotion.Size = new System.Drawing.Size(75, 35);
-            // this.btnAddPromotion.TabIndex = 0;
-            // this.btnAddPromotion.Text = "Thêm";
-            // this.btnAddPromotion.UseVisualStyleBackColor = true;
-            // this.btnAddPromotion.Click += new System.EventHandler(this.btnAddPromotion_Click);
-            // // 
-            // // panel10
-            // // 
-            // this.panel10.Controls.Add(this.pnPromotionPercent);
-            // this.panel10.Controls.Add(this.panel9);
-            // this.panel10.Controls.Add(this.pnPromotionToDate);
-            // this.panel10.Controls.Add(this.pnPromotionFromDate);
-            // this.panel10.Controls.Add(this.pnPromotionName);
-            // this.panel10.Controls.Add(this.pnPromotionID);
-            // this.panel10.Location = new System.Drawing.Point(377, 55);
-            // this.panel10.Name = "panel10";
-            // this.panel10.Size = new System.Drawing.Size(268, 302);
-            // this.panel10.TabIndex = 9;
-            // // 
-            // // pnPromotionPercent
-            // // 
-            // this.pnPromotionPercent.Controls.Add(this.txtPromotionPercent);
-            // this.pnPromotionPercent.Controls.Add(this.lbPromotionPercent);
-            // this.pnPromotionPercent.Location = new System.Drawing.Point(0, 164);
-            // this.pnPromotionPercent.Name = "pnPromotionPercent";
-            // this.pnPromotionPercent.Size = new System.Drawing.Size(267, 35);
-            // this.pnPromotionPercent.TabIndex = 4;
-            // // 
-            // // txtPromotionPercent
-            // // 
-            // this.txtPromotionPercent.Location = new System.Drawing.Point(97, 6);
-            // this.txtPromotionPercent.Name = "txtPromotionPercent";
-            // this.txtPromotionPercent.Size = new System.Drawing.Size(170, 23);
-            // this.txtPromotionPercent.TabIndex = 1;
-            // this.txtPromotionPercent.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPromotionPercent_KeyDown);
-            // // 
-            // // lbPromotionPercent
-            // // 
-            // this.lbPromotionPercent.AutoSize = true;
-            // this.lbPromotionPercent.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            // this.lbPromotionPercent.Location = new System.Drawing.Point(2, 8);
-            // this.lbPromotionPercent.Name = "lbPromotionPercent";
-            // this.lbPromotionPercent.Size = new System.Drawing.Size(62, 19);
-            // this.lbPromotionPercent.TabIndex = 0;
-            // this.lbPromotionPercent.Text = "% KM:";
-            // // 
-            // // pnPromotionToDate
-            // // 
-            // this.pnPromotionToDate.Controls.Add(this.mtxtPromotionToDate);
-            // this.pnPromotionToDate.Controls.Add(this.lbPromotionToDate);
-            // this.pnPromotionToDate.Location = new System.Drawing.Point(0, 123);
-            // this.pnPromotionToDate.Name = "pnPromotionToDate";
-            // this.pnPromotionToDate.Size = new System.Drawing.Size(267, 35);
-            // this.pnPromotionToDate.TabIndex = 3;
-            // // 
-            // // mtxtPromotionToDate
-            // // 
-            // this.mtxtPromotionToDate.Location = new System.Drawing.Point(97, 6);
-            // this.mtxtPromotionToDate.Mask = "00/00/0000";
-            // this.mtxtPromotionToDate.Name = "mtxtPromotionToDate";
-            // this.mtxtPromotionToDate.Size = new System.Drawing.Size(170, 23);
-            // this.mtxtPromotionToDate.TabIndex = 1;
-            // this.mtxtPromotionToDate.ValidatingType = typeof(System.DateTime);
-            // this.mtxtPromotionToDate.KeyDown += new System.Windows.Forms.KeyEventHandler(this.mtxtPromotionToDate_KeyDown);
-            // // 
-            // // lbPromotionToDate
-            // // 
-            // this.lbPromotionToDate.AutoSize = true;
-            // this.lbPromotionToDate.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            // this.lbPromotionToDate.Location = new System.Drawing.Point(2, 8);
-            // this.lbPromotionToDate.Name = "lbPromotionToDate";
-            // this.lbPromotionToDate.Size = new System.Drawing.Size(94, 19);
-            // this.lbPromotionToDate.TabIndex = 0;
-            // this.lbPromotionToDate.Text = "TG kết thúc:";
-            // // 
-            // // pnPromotionFromDate
-            // // 
-            // this.pnPromotionFromDate.Controls.Add(this.mtxtPromotionFromDate);
-            // this.pnPromotionFromDate.Controls.Add(this.lbPromotionFromDate);
-            // this.pnPromotionFromDate.Location = new System.Drawing.Point(0, 82);
-            // this.pnPromotionFromDate.Name = "pnPromotionFromDate";
-            // this.pnPromotionFromDate.Size = new System.Drawing.Size(267, 35);
-            // this.pnPromotionFromDate.TabIndex = 2;
-            // // 
-            // // mtxtPromotionFromDate
-            // // 
-            // this.mtxtPromotionFromDate.Location = new System.Drawing.Point(97, 6);
-            // this.mtxtPromotionFromDate.Mask = "00/00/0000";
-            // this.mtxtPromotionFromDate.Name = "mtxtPromotionFromDate";
-            // this.mtxtPromotionFromDate.Size = new System.Drawing.Size(170, 23);
-            // this.mtxtPromotionFromDate.TabIndex = 1;
-            // this.mtxtPromotionFromDate.ValidatingType = typeof(System.DateTime);
-            // this.mtxtPromotionFromDate.KeyDown += new System.Windows.Forms.KeyEventHandler(this.mtxtPromotionFromDate_KeyDown);
-            // // 
-            // // lbPromotionFromDate
-            // // 
-            // this.lbPromotionFromDate.AutoSize = true;
-            // this.lbPromotionFromDate.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            // this.lbPromotionFromDate.Location = new System.Drawing.Point(2, 8);
-            // this.lbPromotionFromDate.Name = "lbPromotionFromDate";
-            // this.lbPromotionFromDate.Size = new System.Drawing.Size(89, 19);
-            // this.lbPromotionFromDate.TabIndex = 0;
-            // this.lbPromotionFromDate.Text = "TG bắt đầu:";
-            // // 
-            // // pnPromotionName
-            // // 
-            // this.pnPromotionName.Controls.Add(this.txtPromotionName);
-            // this.pnPromotionName.Controls.Add(this.lbPromotionName);
-            // this.pnPromotionName.Location = new System.Drawing.Point(0, 41);
-            // this.pnPromotionName.Name = "pnPromotionName";
-            // this.pnPromotionName.Size = new System.Drawing.Size(267, 35);
-            // this.pnPromotionName.TabIndex = 1;
-            // // 
-            // // txtPromotionName
-            // // 
-            // this.txtPromotionName.Location = new System.Drawing.Point(97, 6);
-            // this.txtPromotionName.Name = "txtPromotionName";
-            // this.txtPromotionName.Size = new System.Drawing.Size(170, 23);
-            // this.txtPromotionName.TabIndex = 1;
-            // this.txtPromotionName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPromotionName_KeyDown);
-            // // 
-            // // lbPromotionName
-            // // 
-            // this.lbPromotionName.AutoSize = true;
-            // this.lbPromotionName.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            // this.lbPromotionName.Location = new System.Drawing.Point(2, 8);
-            // this.lbPromotionName.Name = "lbPromotionName";
-            // this.lbPromotionName.Size = new System.Drawing.Size(72, 19);
-            // this.lbPromotionName.TabIndex = 0;
-            // this.lbPromotionName.Text = "Tên KM:";
-            // // 
-            // // pnPromotionID
-            // // 
-            // this.pnPromotionID.Controls.Add(this.txtPromotionID);
-            // this.pnPromotionID.Controls.Add(this.lbPromotionID);
-            // this.pnPromotionID.Location = new System.Drawing.Point(0, 0);
-            // this.pnPromotionID.Name = "pnPromotionID";
-            // this.pnPromotionID.Size = new System.Drawing.Size(267, 35);
-            // this.pnPromotionID.TabIndex = 0;
-            // // 
-            // // txtPromotionID
-            // // 
-            // this.txtPromotionID.Location = new System.Drawing.Point(97, 6);
-            // this.txtPromotionID.Name = "txtPromotionID";
-            // this.txtPromotionID.ReadOnly = true;
-            // this.txtPromotionID.Size = new System.Drawing.Size(170, 23);
-            // this.txtPromotionID.TabIndex = 1;
-            // // 
-            // // lbPromotionID
-            // // 
-            // this.lbPromotionID.AutoSize = true;
-            // this.lbPromotionID.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            // this.lbPromotionID.Location = new System.Drawing.Point(2, 8);
-            // this.lbPromotionID.Name = "lbPromotionID";
-            // this.lbPromotionID.Size = new System.Drawing.Size(70, 19);
-            // this.lbPromotionID.TabIndex = 0;
-            // this.lbPromotionID.Text = "Mã KM:";
-            // // 
-            // // panel14
-            // // 
-            // this.panel14.Controls.Add(this.txtSearchPromotion);
-            // this.panel14.Controls.Add(this.btnSearchPromotion);
-            // this.panel14.Location = new System.Drawing.Point(377, 3);
-            // this.panel14.Name = "panel14";
-            // this.panel14.Size = new System.Drawing.Size(268, 45);
-            // this.panel14.TabIndex = 8;
-            // // 
-            // // txtSearchPromotion
-            // // 
-            // this.txtSearchPromotion.Location = new System.Drawing.Point(1, 15);
-            // this.txtSearchPromotion.Name = "txtSearchPromotion";
-            // this.txtSearchPromotion.Size = new System.Drawing.Size(186, 23);
-            // this.txtSearchPromotion.TabIndex = 4;
-            // // 
-            // // btnSearchPromotion
-            // // 
-            // this.btnSearchPromotion.Location = new System.Drawing.Point(193, 6);
-            // this.btnSearchPromotion.Name = "btnSearchPromotion";
-            // this.btnSearchPromotion.Size = new System.Drawing.Size(75, 35);
-            // this.btnSearchPromotion.TabIndex = 3;
-            // this.btnSearchPromotion.Text = "Tìm";
-            // this.btnSearchPromotion.UseVisualStyleBackColor = true;
-            // this.btnSearchPromotion.Click += new System.EventHandler(this.btnSearchPromotion_Click);
+            // tpPromotion
+            // 
+            this.tpPromotion.Controls.Add(this.pnListPromotion);
+            this.tpPromotion.Controls.Add(this.panel10);
+            this.tpPromotion.Controls.Add(this.panel14);
+            this.tpPromotion.Location = new System.Drawing.Point(4, 24);
+            this.tpPromotion.Name = "tpPromotion";
+            this.tpPromotion.Padding = new System.Windows.Forms.Padding(3);
+            this.tpPromotion.Size = new System.Drawing.Size(648, 361);
+            this.tpPromotion.TabIndex = 3;
+            this.tpPromotion.Text = "Khuyến mãi";
+            this.tpPromotion.UseVisualStyleBackColor = true;
+            // 
+            // pnListPromotion
+            // 
+            this.pnListPromotion.Controls.Add(this.dtgvPromotion);
+            this.pnListPromotion.Location = new System.Drawing.Point(4, 3);
+            this.pnListPromotion.Name = "pnListPromotion";
+            this.pnListPromotion.Size = new System.Drawing.Size(367, 355);
+            this.pnListPromotion.TabIndex = 11;
+            // 
+            // dtgvPromotion
+            // 
+            this.dtgvPromotion.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvPromotion.Location = new System.Drawing.Point(2, 1);
+            this.dtgvPromotion.Name = "dtgvPromotion";
+            this.dtgvPromotion.ReadOnly = true;
+            this.dtgvPromotion.RowTemplate.Height = 25;
+            this.dtgvPromotion.Size = new System.Drawing.Size(365, 354);
+            this.dtgvPromotion.TabIndex = 0;
+            // 
+            // panel9
+            // 
+            this.panel9.Controls.Add(this.btnDeletePromotion);
+            this.panel9.Controls.Add(this.btnEditPromotion);
+            this.panel9.Controls.Add(this.btnAddPromotion);
+            this.panel9.Location = new System.Drawing.Point(2, 205);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(266, 45);
+            this.panel9.TabIndex = 10;
+            // 
+            // btnDeletePromotion
+            // 
+            this.btnDeletePromotion.Location = new System.Drawing.Point(190, 5);
+            this.btnDeletePromotion.Name = "btnDeletePromotion";
+            this.btnDeletePromotion.Size = new System.Drawing.Size(75, 35);
+            this.btnDeletePromotion.TabIndex = 2;
+            this.btnDeletePromotion.Text = "Xóa";
+            this.btnDeletePromotion.UseVisualStyleBackColor = true;
+            //this.btnDeletePromotion.Click += new System.EventHandler(this.btnDeletePromotion_Click);
+            // 
+            // btnEditPromotion
+            // 
+            this.btnEditPromotion.Location = new System.Drawing.Point(95, 5);
+            this.btnEditPromotion.Name = "btnEditPromotion";
+            this.btnEditPromotion.Size = new System.Drawing.Size(75, 35);
+            this.btnEditPromotion.TabIndex = 1;
+            this.btnEditPromotion.Text = "Sửa";
+            this.btnEditPromotion.UseVisualStyleBackColor = true;
+            //this.btnEditPromotion.Click += new System.EventHandler(this.btnEditPromotion_Click);
+            // 
+            // btnAddPromotion
+            // 
+            this.btnAddPromotion.Location = new System.Drawing.Point(0, 5);
+            this.btnAddPromotion.Name = "btnAddPromotion";
+            this.btnAddPromotion.Size = new System.Drawing.Size(75, 35);
+            this.btnAddPromotion.TabIndex = 0;
+            this.btnAddPromotion.Text = "Thêm";
+            this.btnAddPromotion.UseVisualStyleBackColor = true;
+            //this.btnAddPromotion.Click += new System.EventHandler(this.btnAddPromotion_Click);
+            // 
+            // panel10
+            // 
+            this.panel10.Controls.Add(this.pnPromotionPercent);
+            this.panel10.Controls.Add(this.panel9);
+            this.panel10.Controls.Add(this.pnPromotionToDate);
+            this.panel10.Controls.Add(this.pnPromotionFromDate);
+            this.panel10.Controls.Add(this.pnPromotionName);
+            this.panel10.Controls.Add(this.pnPromotionID);
+            this.panel10.Location = new System.Drawing.Point(377, 55);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(268, 302);
+            this.panel10.TabIndex = 9;
+            // 
+            // pnPromotionPercent
+            // 
+            this.pnPromotionPercent.Controls.Add(this.txtPromotionPercent);
+            this.pnPromotionPercent.Controls.Add(this.lbPromotionPercent);
+            this.pnPromotionPercent.Location = new System.Drawing.Point(0, 164);
+            this.pnPromotionPercent.Name = "pnPromotionPercent";
+            this.pnPromotionPercent.Size = new System.Drawing.Size(267, 35);
+            this.pnPromotionPercent.TabIndex = 4;
+            // 
+            // txtPromotionPercent
+            // 
+            this.txtPromotionPercent.Location = new System.Drawing.Point(97, 6);
+            this.txtPromotionPercent.Name = "txtPromotionPercent";
+            this.txtPromotionPercent.Size = new System.Drawing.Size(170, 23);
+            this.txtPromotionPercent.TabIndex = 1;
+            //this.txtPromotionPercent.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPromotionPercent_KeyDown);
+            // 
+            // lbPromotionPercent
+            // 
+            this.lbPromotionPercent.AutoSize = true;
+            this.lbPromotionPercent.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbPromotionPercent.Location = new System.Drawing.Point(2, 8);
+            this.lbPromotionPercent.Name = "lbPromotionPercent";
+            this.lbPromotionPercent.Size = new System.Drawing.Size(62, 19);
+            this.lbPromotionPercent.TabIndex = 0;
+            this.lbPromotionPercent.Text = "% KM:";
+            // 
+            // pnPromotionToDate
+            // 
+            this.pnPromotionToDate.Controls.Add(this.mtxtPromotionToDate);
+            this.pnPromotionToDate.Controls.Add(this.lbPromotionToDate);
+            this.pnPromotionToDate.Location = new System.Drawing.Point(0, 123);
+            this.pnPromotionToDate.Name = "pnPromotionToDate";
+            this.pnPromotionToDate.Size = new System.Drawing.Size(267, 35);
+            this.pnPromotionToDate.TabIndex = 3;
+            // 
+            // mtxtPromotionToDate
+            // 
+            this.mtxtPromotionToDate.Location = new System.Drawing.Point(97, 6);
+            this.mtxtPromotionToDate.Mask = "00/00/0000";
+            this.mtxtPromotionToDate.Name = "mtxtPromotionToDate";
+            this.mtxtPromotionToDate.Size = new System.Drawing.Size(170, 23);
+            this.mtxtPromotionToDate.TabIndex = 1;
+            this.mtxtPromotionToDate.ValidatingType = typeof(System.DateTime);
+            //this.mtxtPromotionToDate.KeyDown += new System.Windows.Forms.KeyEventHandler(this.mtxtPromotionToDate_KeyDown);
+            // 
+            // lbPromotionToDate
+            // 
+            this.lbPromotionToDate.AutoSize = true;
+            this.lbPromotionToDate.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbPromotionToDate.Location = new System.Drawing.Point(2, 8);
+            this.lbPromotionToDate.Name = "lbPromotionToDate";
+            this.lbPromotionToDate.Size = new System.Drawing.Size(94, 19);
+            this.lbPromotionToDate.TabIndex = 0;
+            this.lbPromotionToDate.Text = "TG kết thúc:";
+            // 
+            // pnPromotionFromDate
+            // 
+            this.pnPromotionFromDate.Controls.Add(this.mtxtPromotionFromDate);
+            this.pnPromotionFromDate.Controls.Add(this.lbPromotionFromDate);
+            this.pnPromotionFromDate.Location = new System.Drawing.Point(0, 82);
+            this.pnPromotionFromDate.Name = "pnPromotionFromDate";
+            this.pnPromotionFromDate.Size = new System.Drawing.Size(267, 35);
+            this.pnPromotionFromDate.TabIndex = 2;
+            // 
+            // mtxtPromotionFromDate
+            // 
+            this.mtxtPromotionFromDate.Location = new System.Drawing.Point(97, 6);
+            this.mtxtPromotionFromDate.Mask = "00/00/0000";
+            this.mtxtPromotionFromDate.Name = "mtxtPromotionFromDate";
+            this.mtxtPromotionFromDate.Size = new System.Drawing.Size(170, 23);
+            this.mtxtPromotionFromDate.TabIndex = 1;
+            this.mtxtPromotionFromDate.ValidatingType = typeof(System.DateTime);
+           // this.mtxtPromotionFromDate.KeyDown += new System.Windows.Forms.KeyEventHandler(this.mtxtPromotionFromDate_KeyDown);
+            // 
+            // lbPromotionFromDate
+            // 
+            this.lbPromotionFromDate.AutoSize = true;
+            this.lbPromotionFromDate.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbPromotionFromDate.Location = new System.Drawing.Point(2, 8);
+            this.lbPromotionFromDate.Name = "lbPromotionFromDate";
+            this.lbPromotionFromDate.Size = new System.Drawing.Size(89, 19);
+            this.lbPromotionFromDate.TabIndex = 0;
+            this.lbPromotionFromDate.Text = "TG bắt đầu:";
+            // 
+            // pnPromotionName
+            // 
+            this.pnPromotionName.Controls.Add(this.txtPromotionName);
+            this.pnPromotionName.Controls.Add(this.lbPromotionName);
+            this.pnPromotionName.Location = new System.Drawing.Point(0, 41);
+            this.pnPromotionName.Name = "pnPromotionName";
+            this.pnPromotionName.Size = new System.Drawing.Size(267, 35);
+            this.pnPromotionName.TabIndex = 1;
+            // 
+            // txtPromotionName
+            // 
+            this.txtPromotionName.Location = new System.Drawing.Point(97, 6);
+            this.txtPromotionName.Name = "txtPromotionName";
+            this.txtPromotionName.Size = new System.Drawing.Size(170, 23);
+            this.txtPromotionName.TabIndex = 1;
+           // this.txtPromotionName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPromotionName_KeyDown);
+            // 
+            // lbPromotionName
+            // 
+            this.lbPromotionName.AutoSize = true;
+            this.lbPromotionName.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbPromotionName.Location = new System.Drawing.Point(2, 8);
+            this.lbPromotionName.Name = "lbPromotionName";
+            this.lbPromotionName.Size = new System.Drawing.Size(72, 19);
+            this.lbPromotionName.TabIndex = 0;
+            this.lbPromotionName.Text = "Tên KM:";
+            // 
+            // pnPromotionID
+            // 
+            this.pnPromotionID.Controls.Add(this.txtPromotionID);
+            this.pnPromotionID.Controls.Add(this.lbPromotionID);
+            this.pnPromotionID.Location = new System.Drawing.Point(0, 0);
+            this.pnPromotionID.Name = "pnPromotionID";
+            this.pnPromotionID.Size = new System.Drawing.Size(267, 35);
+            this.pnPromotionID.TabIndex = 0;
+            // 
+            // txtPromotionID
+            // 
+            this.txtPromotionID.Location = new System.Drawing.Point(97, 6);
+            this.txtPromotionID.Name = "txtPromotionID";
+            this.txtPromotionID.ReadOnly = true;
+            this.txtPromotionID.Size = new System.Drawing.Size(170, 23);
+            this.txtPromotionID.TabIndex = 1;
+            // 
+            // lbPromotionID
+            // 
+            this.lbPromotionID.AutoSize = true;
+            this.lbPromotionID.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbPromotionID.Location = new System.Drawing.Point(2, 8);
+            this.lbPromotionID.Name = "lbPromotionID";
+            this.lbPromotionID.Size = new System.Drawing.Size(70, 19);
+            this.lbPromotionID.TabIndex = 0;
+            this.lbPromotionID.Text = "Mã KM:";
+            // 
+            // panel14
+            // 
+            this.panel14.Controls.Add(this.txtSearchPromotion);
+            this.panel14.Controls.Add(this.btnSearchPromotion);
+            this.panel14.Location = new System.Drawing.Point(377, 3);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(268, 45);
+            this.panel14.TabIndex = 8;
+            // 
+            // txtSearchPromotion
+            // 
+            this.txtSearchPromotion.Location = new System.Drawing.Point(1, 15);
+            this.txtSearchPromotion.Name = "txtSearchPromotion";
+            this.txtSearchPromotion.Size = new System.Drawing.Size(186, 23);
+            this.txtSearchPromotion.TabIndex = 4;
+            // 
+            // btnSearchPromotion
+            // 
+            this.btnSearchPromotion.Location = new System.Drawing.Point(193, 6);
+            this.btnSearchPromotion.Name = "btnSearchPromotion";
+            this.btnSearchPromotion.Size = new System.Drawing.Size(75, 35);
+            this.btnSearchPromotion.TabIndex = 3;
+            this.btnSearchPromotion.Text = "Tìm";
+            this.btnSearchPromotion.UseVisualStyleBackColor = true;
+            //this.btnSearchPromotion.Click += new System.EventHandler(this.btnSearchPromotion_Click);
             // // 
             // // tpStaff
             // // 

@@ -352,3 +352,6 @@ C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\obj\Debug\net5.0-windows\ref\Cle
 C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.pdb
 C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.genruntimeconfig.cache
 C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAdmin.resources
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.dll
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.pdb
