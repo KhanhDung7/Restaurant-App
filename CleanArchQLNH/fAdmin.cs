@@ -446,37 +446,37 @@ namespace CleanArchQLNH
         //     dtgvPromotion.Columns[4].HeaderText = "Phần trăm KM";
         //     dtgvPromotion.Columns[4].Width = 50;
         // }
-        // //
-        // //EventPromotion
-        // //
-        // private void txtPromotionName_KeyDown(object sender, KeyEventArgs e)
-        // {
-        //     if (e.KeyCode == Keys.Enter) mtxtPromotionFromDate.Focus();
-        //     if (e.KeyCode == Keys.Down) mtxtPromotionFromDate.Focus();
-        //     if (e.KeyCode == Keys.Right) mtxtPromotionFromDate.Focus();
-        // }
-        // private void mtxtPromotionFromDate_KeyDown(object sender, KeyEventArgs e)
-        // {
-        //     if (e.KeyCode == Keys.Enter) mtxtPromotionToDate.Focus();
-        //     if (e.KeyCode == Keys.Up) txtPromotionName.Focus();
-        //     if (e.KeyCode == Keys.Down) mtxtPromotionToDate.Focus();
-        //     if (e.KeyCode == Keys.Left) txtPromotionName.Focus();
-        //     if (e.KeyCode == Keys.Right) mtxtPromotionToDate.Focus();
-        // }
-        // private void mtxtPromotionToDate_KeyDown(object sender, KeyEventArgs e)
-        // {
-        //     if (e.KeyCode == Keys.Enter) txtPromotionPercent.Focus();
-        //     if (e.KeyCode == Keys.Up) mtxtPromotionFromDate.Focus();
-        //     if (e.KeyCode == Keys.Down) txtPromotionPercent.Focus();
-        //     if (e.KeyCode == Keys.Left) mtxtPromotionFromDate.Focus();
-        //     if (e.KeyCode == Keys.Right) txtPromotionPercent.Focus();
-        // }
-        // private void txtPromotionPercent_KeyDown(object sender, KeyEventArgs e)
-        // {
-        //     if (e.KeyCode == Keys.Up) mtxtPromotionToDate.Focus();
-        //     if (e.KeyCode == Keys.Left) mtxtPromotionToDate.Focus();
-        // }
-        // //
+        //
+        //EventPromotion
+        //
+        private void txtPromotionName_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) mtxtPromotionFromDate.Focus();
+            if (e.KeyCode == Keys.Down) mtxtPromotionFromDate.Focus();
+            if (e.KeyCode == Keys.Right) mtxtPromotionFromDate.Focus();
+        }
+        private void mtxtPromotionFromDate_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) mtxtPromotionToDate.Focus();
+            if (e.KeyCode == Keys.Up) txtPromotionName.Focus();
+            if (e.KeyCode == Keys.Down) mtxtPromotionToDate.Focus();
+            if (e.KeyCode == Keys.Left) txtPromotionName.Focus();
+            if (e.KeyCode == Keys.Right) mtxtPromotionToDate.Focus();
+        }
+        private void mtxtPromotionToDate_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) txtPromotionPercent.Focus();
+            if (e.KeyCode == Keys.Up) mtxtPromotionFromDate.Focus();
+            if (e.KeyCode == Keys.Down) txtPromotionPercent.Focus();
+            if (e.KeyCode == Keys.Left) mtxtPromotionFromDate.Focus();
+            if (e.KeyCode == Keys.Right) txtPromotionPercent.Focus();
+        }
+        private void txtPromotionPercent_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Up) mtxtPromotionToDate.Focus();
+            if (e.KeyCode == Keys.Left) mtxtPromotionToDate.Focus();
+        }
+        //
         // //ActionPromotion
         // //
         // private void btnAddPromotion_Click(object sender, EventArgs e)
