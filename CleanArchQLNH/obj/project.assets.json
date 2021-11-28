@@ -450,41 +450,34 @@
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
-      "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Infrastructure\\Infrastructure.csproj",
       "System.Data.SqlClient >= 4.8.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\caodev\\.nuget\\packages\\": {}
+    "C:\\Users\\HP\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\CleanArchQLNH\\CleanArchQLNH.csproj",
+      "projectUniqueName": "C:\\xampp\\htdocs\\PL\\Restaurant-app\\CleanArchQLNH\\CleanArchQLNH.csproj",
       "projectName": "CleanArchQLNH",
-      "projectPath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\CleanArchQLNH\\CleanArchQLNH.csproj",
-      "packagesPath": "C:\\Users\\caodev\\.nuget\\packages\\",
-      "outputPath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\CleanArchQLNH\\obj\\",
+      "projectPath": "C:\\xampp\\htdocs\\PL\\Restaurant-app\\CleanArchQLNH\\CleanArchQLNH.csproj",
+      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+      "outputPath": "C:\\xampp\\htdocs\\PL\\Restaurant-app\\CleanArchQLNH\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\caodev\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "net5.0-windows7.0"
+        "net5.0-windows"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://nuget.org/api/v2": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
-          "projectReferences": {
-            "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Infrastructure\\Infrastructure.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -512,24 +505,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[5.0.11, 5.0.11]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[5.0.0, 5.0.0]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -538,19 +513,8 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Infrastructure\\Infrastructure.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Infrastructure\\Infrastructure.csproj",
-      "targetGraphs": [
-        "net5.0-windows7.0"
-      ]
-    }
-  ]
+  }
 }
