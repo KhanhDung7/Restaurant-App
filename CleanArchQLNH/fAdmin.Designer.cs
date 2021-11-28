@@ -1,6 +1,6 @@
 ﻿
 namespace CleanArchQLNH
-{
+{//
     partial class fAdmin
     {
         /// <summary>

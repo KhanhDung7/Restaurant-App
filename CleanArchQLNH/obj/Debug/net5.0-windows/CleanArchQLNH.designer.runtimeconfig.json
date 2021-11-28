@@ -7,7 +7,7 @@
     },
     "additionalProbingPaths": [
       "C:\\Users\\caodev\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\HP\\.nuget\\packages"
+      "C:\\Users\\caodev\\.nuget\\packages"
     ],
     "configProperties": {
       "Microsoft.NETCore.DotNetHostPolicy.SetAppPaths": true
