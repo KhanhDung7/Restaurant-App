@@ -212,7 +212,7 @@ namespace CleanArchQLNH
             // 
             this.tcAdmin.Controls.Add(this.tpBill);
             // this.tcAdmin.Controls.Add(this.tpFood);
-            // this.tcAdmin.Controls.Add(this.tpTable);
+            this.tcAdmin.Controls.Add(this.tpTable);
             // this.tcAdmin.Controls.Add(this.tpPromotion);
             // this.tcAdmin.Controls.Add(this.tpStaff);
             this.tcAdmin.Controls.Add(this.tpOrderTable);
@@ -586,195 +586,195 @@ namespace CleanArchQLNH
             // // 
             // // tpTable
             // // 
-            // this.tpTable.Controls.Add(this.panel8);
-            // this.tpTable.Controls.Add(this.pnTableStatus);
-            // this.tpTable.Controls.Add(this.panel7);
-            // this.tpTable.Controls.Add(this.panel12);
-            // this.tpTable.Location = new System.Drawing.Point(4, 24);
-            // this.tpTable.Name = "tpTable";
-            // this.tpTable.Padding = new System.Windows.Forms.Padding(3);
-            // this.tpTable.Size = new System.Drawing.Size(648, 361);
-            // this.tpTable.TabIndex = 2;
-            // this.tpTable.Text = "Bàn ăn";
-            // this.tpTable.UseVisualStyleBackColor = true;
-            // // 
-            // // panel8
-            // // 
-            // this.panel8.Controls.Add(this.dtgvTable);
-            // this.panel8.Location = new System.Drawing.Point(4, 3);
-            // this.panel8.Name = "panel8";
-            // this.panel8.Size = new System.Drawing.Size(367, 358);
-            // this.panel8.TabIndex = 8;
-            // // 
-            // // dtgvTable
-            // // 
-            // this.dtgvTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            // this.dtgvTable.Location = new System.Drawing.Point(0, 0);
-            // this.dtgvTable.Name = "dtgvTable";
-            // this.dtgvTable.ReadOnly = true;
-            // this.dtgvTable.RowTemplate.Height = 25;
-            // this.dtgvTable.Size = new System.Drawing.Size(367, 355);
-            // this.dtgvTable.TabIndex = 0;
-            // // 
-            // // pnTableStatus
-            // // 
-            // this.pnTableStatus.Controls.Add(this.cbTableStatus3);
-            // this.pnTableStatus.Controls.Add(this.cbTableStatus2);
-            // this.pnTableStatus.Controls.Add(this.cbTableStatus1);
-            // this.pnTableStatus.Controls.Add(this.lbTableStatus);
-            // this.pnTableStatus.Location = new System.Drawing.Point(377, 137);
-            // this.pnTableStatus.Name = "pnTableStatus";
-            // this.pnTableStatus.Size = new System.Drawing.Size(267, 88);
-            // this.pnTableStatus.TabIndex = 3;
-            // // 
-            // // cbTableStatus3
-            // // 
-            // this.cbTableStatus3.AutoSize = true;
-            // this.cbTableStatus3.Location = new System.Drawing.Point(97, 57);
-            // this.cbTableStatus3.Name = "cbTableStatus3";
-            // this.cbTableStatus3.Size = new System.Drawing.Size(112, 19);
-            // this.cbTableStatus3.TabIndex = 3;
-            // this.cbTableStatus3.Text = "Bàn đã được đặt";
-            // this.cbTableStatus3.UseVisualStyleBackColor = true;
+            this.tpTable.Controls.Add(this.panel8);
+            this.tpTable.Controls.Add(this.pnTableStatus);
+            this.tpTable.Controls.Add(this.panel7);
+            this.tpTable.Controls.Add(this.panel12);
+            this.tpTable.Location = new System.Drawing.Point(4, 24);
+            this.tpTable.Name = "tpTable";
+            this.tpTable.Padding = new System.Windows.Forms.Padding(3);
+            this.tpTable.Size = new System.Drawing.Size(648, 361);
+            this.tpTable.TabIndex = 2;
+            this.tpTable.Text = "Bàn ăn";
+            this.tpTable.UseVisualStyleBackColor = true;
+            // 
+            // panel8
+            // 
+            this.panel8.Controls.Add(this.dtgvTable);
+            this.panel8.Location = new System.Drawing.Point(4, 3);
+            this.panel8.Name = "panel8";
+            this.panel8.Size = new System.Drawing.Size(367, 358);
+            this.panel8.TabIndex = 8;
+            // 
+            // dtgvTable
+            // 
+            this.dtgvTable.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvTable.Location = new System.Drawing.Point(0, 0);
+            this.dtgvTable.Name = "dtgvTable";
+            this.dtgvTable.ReadOnly = true;
+            this.dtgvTable.RowTemplate.Height = 25;
+            this.dtgvTable.Size = new System.Drawing.Size(367, 355);
+            this.dtgvTable.TabIndex = 0;
+            // 
+            // pnTableStatus
+            // 
+            this.pnTableStatus.Controls.Add(this.cbTableStatus3);
+            this.pnTableStatus.Controls.Add(this.cbTableStatus2);
+            this.pnTableStatus.Controls.Add(this.cbTableStatus1);
+            this.pnTableStatus.Controls.Add(this.lbTableStatus);
+            this.pnTableStatus.Location = new System.Drawing.Point(377, 137);
+            this.pnTableStatus.Name = "pnTableStatus";
+            this.pnTableStatus.Size = new System.Drawing.Size(267, 88);
+            this.pnTableStatus.TabIndex = 3;
+            // 
+            // cbTableStatus3
+            // 
+            this.cbTableStatus3.AutoSize = true;
+            this.cbTableStatus3.Location = new System.Drawing.Point(97, 57);
+            this.cbTableStatus3.Name = "cbTableStatus3";
+            this.cbTableStatus3.Size = new System.Drawing.Size(112, 19);
+            this.cbTableStatus3.TabIndex = 3;
+            this.cbTableStatus3.Text = "Bàn đã được đặt";
+            this.cbTableStatus3.UseVisualStyleBackColor = true;
             // this.cbTableStatus3.Click += new System.EventHandler(this.cbTableStatus3_Click);
-            // // 
-            // // cbTableStatus2
-            // // 
-            // this.cbTableStatus2.AutoSize = true;
-            // this.cbTableStatus2.Location = new System.Drawing.Point(97, 32);
-            // this.cbTableStatus2.Name = "cbTableStatus2";
-            // this.cbTableStatus2.Size = new System.Drawing.Size(112, 19);
-            // this.cbTableStatus2.TabIndex = 2;
-            // this.cbTableStatus2.Text = "Bàn đã có người";
-            // this.cbTableStatus2.UseVisualStyleBackColor = true;
+            // 
+            // cbTableStatus2
+            // 
+            this.cbTableStatus2.AutoSize = true;
+            this.cbTableStatus2.Location = new System.Drawing.Point(97, 32);
+            this.cbTableStatus2.Name = "cbTableStatus2";
+            this.cbTableStatus2.Size = new System.Drawing.Size(112, 19);
+            this.cbTableStatus2.TabIndex = 2;
+            this.cbTableStatus2.Text = "Bàn đã có người";
+            this.cbTableStatus2.UseVisualStyleBackColor = true;
             // this.cbTableStatus2.Click += new System.EventHandler(this.cbTableStatus2_Click);
-            // // 
-            // // cbTableStatus1
-            // // 
-            // this.cbTableStatus1.AutoSize = true;
-            // this.cbTableStatus1.Location = new System.Drawing.Point(97, 7);
-            // this.cbTableStatus1.Name = "cbTableStatus1";
-            // this.cbTableStatus1.Size = new System.Drawing.Size(78, 19);
-            // this.cbTableStatus1.TabIndex = 1;
-            // this.cbTableStatus1.Text = "Bàn trống";
-            // this.cbTableStatus1.UseVisualStyleBackColor = true;
+            // 
+            // cbTableStatus1
+            // 
+            this.cbTableStatus1.AutoSize = true;
+            this.cbTableStatus1.Location = new System.Drawing.Point(97, 7);
+            this.cbTableStatus1.Name = "cbTableStatus1";
+            this.cbTableStatus1.Size = new System.Drawing.Size(78, 19);
+            this.cbTableStatus1.TabIndex = 1;
+            this.cbTableStatus1.Text = "Bàn trống";
+            this.cbTableStatus1.UseVisualStyleBackColor = true;
             // this.cbTableStatus1.Click += new System.EventHandler(this.cbTableStatus1_Click);
-            // // 
-            // // lbTableStatus
-            // // 
-            // this.lbTableStatus.AutoSize = true;
-            // this.lbTableStatus.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            // this.lbTableStatus.Location = new System.Drawing.Point(2, 8);
-            // this.lbTableStatus.Name = "lbTableStatus";
-            // this.lbTableStatus.Size = new System.Drawing.Size(83, 19);
-            // this.lbTableStatus.TabIndex = 0;
-            // this.lbTableStatus.Text = "Tình trạng:";
-            // // 
-            // // panel7
-            // // 
-            // this.panel7.Controls.Add(this.btnEditTable);
-            // this.panel7.Controls.Add(this.pnMaxPeopleOnTable);
-            // this.panel7.Controls.Add(this.pnTableID);
-            // this.panel7.Location = new System.Drawing.Point(377, 55);
-            // this.panel7.Name = "panel7";
-            // this.panel7.Size = new System.Drawing.Size(268, 302);
-            // this.panel7.TabIndex = 6;
-            // // 
-            // // btnEditTable
-            // // 
-            // this.btnEditTable.Location = new System.Drawing.Point(181, 176);
-            // this.btnEditTable.Name = "btnEditTable";
-            // this.btnEditTable.Size = new System.Drawing.Size(86, 42);
-            // this.btnEditTable.TabIndex = 2;
-            // this.btnEditTable.Text = "Cập nhật";
-            // this.btnEditTable.UseVisualStyleBackColor = true;
+            // 
+            // lbTableStatus
+            // 
+            this.lbTableStatus.AutoSize = true;
+            this.lbTableStatus.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbTableStatus.Location = new System.Drawing.Point(2, 8);
+            this.lbTableStatus.Name = "lbTableStatus";
+            this.lbTableStatus.Size = new System.Drawing.Size(83, 19);
+            this.lbTableStatus.TabIndex = 0;
+            this.lbTableStatus.Text = "Tình trạng:";
+            // 
+            // panel7
+            // 
+            this.panel7.Controls.Add(this.btnEditTable);
+            this.panel7.Controls.Add(this.pnMaxPeopleOnTable);
+            this.panel7.Controls.Add(this.pnTableID);
+            this.panel7.Location = new System.Drawing.Point(377, 55);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(268, 302);
+            this.panel7.TabIndex = 6;
+            // 
+            // btnEditTable
+            // 
+            this.btnEditTable.Location = new System.Drawing.Point(181, 176);
+            this.btnEditTable.Name = "btnEditTable";
+            this.btnEditTable.Size = new System.Drawing.Size(86, 42);
+            this.btnEditTable.TabIndex = 2;
+            this.btnEditTable.Text = "Cập nhật";
+            this.btnEditTable.UseVisualStyleBackColor = true;
             // this.btnEditTable.Click += new System.EventHandler(this.btnEditTable_Click);
-            // // 
-            // // pnMaxPeopleOnTable
-            // // 
-            // this.pnMaxPeopleOnTable.Controls.Add(this.cmbMaxPeopleOnTable);
-            // this.pnMaxPeopleOnTable.Controls.Add(this.lbMaxPeopleOnTable);
-            // this.pnMaxPeopleOnTable.Location = new System.Drawing.Point(0, 41);
-            // this.pnMaxPeopleOnTable.Name = "pnMaxPeopleOnTable";
-            // this.pnMaxPeopleOnTable.Size = new System.Drawing.Size(267, 35);
-            // this.pnMaxPeopleOnTable.TabIndex = 1;
-            // // 
-            // // cmbMaxPeopleOnTable
-            // // 
-            // this.cmbMaxPeopleOnTable.FormattingEnabled = true;
-            // this.cmbMaxPeopleOnTable.Items.AddRange(new object[] {
-            // 1,
-            // 2,
-            // 3,
-            // 4});
-            // this.cmbMaxPeopleOnTable.Location = new System.Drawing.Point(97, 3);
-            // this.cmbMaxPeopleOnTable.Name = "cmbMaxPeopleOnTable";
-            // this.cmbMaxPeopleOnTable.Size = new System.Drawing.Size(170, 23);
-            // this.cmbMaxPeopleOnTable.TabIndex = 1;
-            // // 
-            // // lbMaxPeopleOnTable
-            // // 
-            // this.lbMaxPeopleOnTable.AutoSize = true;
-            // this.lbMaxPeopleOnTable.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            // this.lbMaxPeopleOnTable.Location = new System.Drawing.Point(2, 8);
-            // this.lbMaxPeopleOnTable.Name = "lbMaxPeopleOnTable";
-            // this.lbMaxPeopleOnTable.Size = new System.Drawing.Size(98, 19);
-            // this.lbMaxPeopleOnTable.TabIndex = 0;
-            // this.lbMaxPeopleOnTable.Text = "Khách tối đa:";
-            // // 
-            // // pnTableID
-            // // 
-            // this.pnTableID.Controls.Add(this.txtTableID);
-            // this.pnTableID.Controls.Add(this.lbTableID);
-            // this.pnTableID.Location = new System.Drawing.Point(0, 0);
-            // this.pnTableID.Name = "pnTableID";
-            // this.pnTableID.Size = new System.Drawing.Size(267, 35);
-            // this.pnTableID.TabIndex = 0;
-            // // 
-            // // txtTableID
-            // // 
-            // this.txtTableID.Location = new System.Drawing.Point(97, 6);
-            // this.txtTableID.Name = "txtTableID";
-            // this.txtTableID.ReadOnly = true;
-            // this.txtTableID.Size = new System.Drawing.Size(170, 23);
-            // this.txtTableID.TabIndex = 1;
-            // // 
-            // // lbTableID
-            // // 
-            // this.lbTableID.AutoSize = true;
-            // this.lbTableID.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            // this.lbTableID.Location = new System.Drawing.Point(2, 8);
-            // this.lbTableID.Name = "lbTableID";
-            // this.lbTableID.Size = new System.Drawing.Size(66, 19);
-            // this.lbTableID.TabIndex = 0;
-            // this.lbTableID.Text = "Mã bàn:";
-            // // 
-            // // panel12
-            // // 
-            // this.panel12.Controls.Add(this.txtSearchTable);
-            // this.panel12.Controls.Add(this.btnSearchTable);
-            // this.panel12.Location = new System.Drawing.Point(377, 3);
-            // this.panel12.Name = "panel12";
-            // this.panel12.Size = new System.Drawing.Size(268, 45);
-            // this.panel12.TabIndex = 5;
-            // // 
-            // // txtSearchTable
-            // // 
-            // this.txtSearchTable.Location = new System.Drawing.Point(1, 15);
-            // this.txtSearchTable.Name = "txtSearchTable";
-            // this.txtSearchTable.Size = new System.Drawing.Size(186, 23);
-            // this.txtSearchTable.TabIndex = 4;
-            // // 
-            // // btnSearchTable
-            // // 
-            // this.btnSearchTable.Location = new System.Drawing.Point(193, 6);
-            // this.btnSearchTable.Name = "btnSearchTable";
-            // this.btnSearchTable.Size = new System.Drawing.Size(75, 35);
-            // this.btnSearchTable.TabIndex = 3;
-            // this.btnSearchTable.Text = "Tìm";
-            // this.btnSearchTable.UseVisualStyleBackColor = true;
+            // 
+            // pnMaxPeopleOnTable
+            // 
+            this.pnMaxPeopleOnTable.Controls.Add(this.cmbMaxPeopleOnTable);
+            this.pnMaxPeopleOnTable.Controls.Add(this.lbMaxPeopleOnTable);
+            this.pnMaxPeopleOnTable.Location = new System.Drawing.Point(0, 41);
+            this.pnMaxPeopleOnTable.Name = "pnMaxPeopleOnTable";
+            this.pnMaxPeopleOnTable.Size = new System.Drawing.Size(267, 35);
+            this.pnMaxPeopleOnTable.TabIndex = 1;
+            // 
+            // cmbMaxPeopleOnTable
+            // 
+            this.cmbMaxPeopleOnTable.FormattingEnabled = true;
+            this.cmbMaxPeopleOnTable.Items.AddRange(new object[] {
+            1,
+            2,
+            3,
+            4});
+            this.cmbMaxPeopleOnTable.Location = new System.Drawing.Point(97, 3);
+            this.cmbMaxPeopleOnTable.Name = "cmbMaxPeopleOnTable";
+            this.cmbMaxPeopleOnTable.Size = new System.Drawing.Size(170, 23);
+            this.cmbMaxPeopleOnTable.TabIndex = 1;
+            // 
+            // lbMaxPeopleOnTable
+            // 
+            this.lbMaxPeopleOnTable.AutoSize = true;
+            this.lbMaxPeopleOnTable.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbMaxPeopleOnTable.Location = new System.Drawing.Point(2, 8);
+            this.lbMaxPeopleOnTable.Name = "lbMaxPeopleOnTable";
+            this.lbMaxPeopleOnTable.Size = new System.Drawing.Size(98, 19);
+            this.lbMaxPeopleOnTable.TabIndex = 0;
+            this.lbMaxPeopleOnTable.Text = "Khách tối đa:";
+            // 
+            // pnTableID
+            // 
+            this.pnTableID.Controls.Add(this.txtTableID);
+            this.pnTableID.Controls.Add(this.lbTableID);
+            this.pnTableID.Location = new System.Drawing.Point(0, 0);
+            this.pnTableID.Name = "pnTableID";
+            this.pnTableID.Size = new System.Drawing.Size(267, 35);
+            this.pnTableID.TabIndex = 0;
+            // 
+            // txtTableID
+            // 
+            this.txtTableID.Location = new System.Drawing.Point(97, 6);
+            this.txtTableID.Name = "txtTableID";
+            this.txtTableID.ReadOnly = true;
+            this.txtTableID.Size = new System.Drawing.Size(170, 23);
+            this.txtTableID.TabIndex = 1;
+            // 
+            // lbTableID
+            // 
+            this.lbTableID.AutoSize = true;
+            this.lbTableID.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbTableID.Location = new System.Drawing.Point(2, 8);
+            this.lbTableID.Name = "lbTableID";
+            this.lbTableID.Size = new System.Drawing.Size(66, 19);
+            this.lbTableID.TabIndex = 0;
+            this.lbTableID.Text = "Mã bàn:";
+            // 
+            // panel12
+            // 
+            this.panel12.Controls.Add(this.txtSearchTable);
+            this.panel12.Controls.Add(this.btnSearchTable);
+            this.panel12.Location = new System.Drawing.Point(377, 3);
+            this.panel12.Name = "panel12";
+            this.panel12.Size = new System.Drawing.Size(268, 45);
+            this.panel12.TabIndex = 5;
+            // 
+            // txtSearchTable
+            // 
+            this.txtSearchTable.Location = new System.Drawing.Point(1, 15);
+            this.txtSearchTable.Name = "txtSearchTable";
+            this.txtSearchTable.Size = new System.Drawing.Size(186, 23);
+            this.txtSearchTable.TabIndex = 4;
+            // 
+            // btnSearchTable
+            // 
+            this.btnSearchTable.Location = new System.Drawing.Point(193, 6);
+            this.btnSearchTable.Name = "btnSearchTable";
+            this.btnSearchTable.Size = new System.Drawing.Size(75, 35);
+            this.btnSearchTable.TabIndex = 3;
+            this.btnSearchTable.Text = "Tìm";
+            this.btnSearchTable.UseVisualStyleBackColor = true;
             // this.btnSearchTable.Click += new System.EventHandler(this.btnSearchTable_Click);
-            // // 
+            // 
             // // tpPromotion
             // // 
             // this.tpPromotion.Controls.Add(this.pnListPromotion);
@@ -1587,9 +1587,9 @@ namespace CleanArchQLNH
             // this.panel4.ResumeLayout(false);
             // this.panel4.PerformLayout();
             // ((System.ComponentModel.ISupportInitialize)(this.dtgvFood)).EndInit();
-            // this.tpTable.ResumeLayout(false);
-            // this.panel8.ResumeLayout(false);
-            // ((System.ComponentModel.ISupportInitialize)(this.dtgvTable)).EndInit();
+            this.tpTable.ResumeLayout(false);
+            this.panel8.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvTable)).EndInit();
             // this.pnTableStatus.ResumeLayout(false);
             // this.pnTableStatus.PerformLayout();
             // this.panel7.ResumeLayout(false);
