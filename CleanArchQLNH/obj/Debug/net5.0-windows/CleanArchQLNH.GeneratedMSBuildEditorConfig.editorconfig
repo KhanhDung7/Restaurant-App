@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = CleanArchQLNH
-build_property.ProjectDir = C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\
+build_property.ProjectDir = c:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\
