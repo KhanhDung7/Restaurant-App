@@ -18,8 +18,9 @@ namespace CleanArchQLNH
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             // Application.Run(new fLogin());
-            Application.Run(new fAdmin());
+            // Application.Run(new fAdmin());
             // Application.Run(new fAccountProfile());
+             Application.Run(new fTableManager());
         }
     }
 }

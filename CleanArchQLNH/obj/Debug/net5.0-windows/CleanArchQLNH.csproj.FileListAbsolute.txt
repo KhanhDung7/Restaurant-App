@@ -380,3 +380,31 @@ C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\obj\Debug\net
 C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.genruntimeconfig.cache
 C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAccountProfile.resources
 C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAccountProfile.resources
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.pdb
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csprojAssemblyReference.cache
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAccountProfile.resources
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAdmin.resources
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fLogin.resources
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fTableManager.resources
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.GenerateResource.cache
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.GeneratedMSBuildEditorConfig.editorconfig
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfoInputs.cache
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfo.cs
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CoreCompileInputs.cache
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.exe
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.deps.json
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.json
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.dev.json
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.pdb
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CopyComplete
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.genruntimeconfig.cache
