@@ -454,24 +454,26 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {}
+    "C:\\Users\\Admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\xampp\\htdocs\\PL\\Restaurant-app\\CleanArchQLNH\\CleanArchQLNH.csproj",
+      "projectUniqueName": "D:\\Admin\\Documents\\Visual Studio 2019\\QLNhaHang_PhanLop\\CleanArchQLNH\\CleanArchQLNH.csproj",
       "projectName": "CleanArchQLNH",
-      "projectPath": "C:\\xampp\\htdocs\\PL\\Restaurant-app\\CleanArchQLNH\\CleanArchQLNH.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\xampp\\htdocs\\PL\\Restaurant-app\\CleanArchQLNH\\obj\\",
+      "projectPath": "D:\\Admin\\Documents\\Visual Studio 2019\\QLNhaHang_PhanLop\\CleanArchQLNH\\CleanArchQLNH.csproj",
+      "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
+      "outputPath": "D:\\Admin\\Documents\\Visual Studio 2019\\QLNhaHang_PhanLop\\CleanArchQLNH\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0-windows"
+        "net5.0-windows7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -513,7 +515,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
       }
     }
   }

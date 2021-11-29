@@ -3,10 +3,6 @@
   <ItemGroup>
     <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
   </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
-  </ItemGroup>
 <!--
   <ItemGroup>
     <ProjectReference Include="..\Application\Applications.csproj">
