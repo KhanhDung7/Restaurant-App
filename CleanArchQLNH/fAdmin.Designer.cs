@@ -214,7 +214,7 @@ namespace CleanArchQLNH
             this.tcAdmin.Controls.Add(this.tpFood);
             this.tcAdmin.Controls.Add(this.tpTable);
             this.tcAdmin.Controls.Add(this.tpPromotion);
-            // this.tcAdmin.Controls.Add(this.tpStaff);
+            this.tcAdmin.Controls.Add(this.tpStaff);
             this.tcAdmin.Controls.Add(this.tpOrderTable);
             this.tcAdmin.Location = new System.Drawing.Point(0, 0);
             this.tcAdmin.Name = "tcAdmin";
@@ -1024,321 +1024,321 @@ namespace CleanArchQLNH
             this.btnSearchPromotion.UseVisualStyleBackColor = true;
             // this.btnSearchPromotion.Click += new System.EventHandler(this.btnSearchPromotion_Click);
             // 
-            // // tpStaff
-            // // 
-            // this.tpStaff.Controls.Add(this.pnListStaff);
-            // this.tpStaff.Controls.Add(this.panel11);
-            // this.tpStaff.Location = new System.Drawing.Point(4, 24);
-            // this.tpStaff.Name = "tpStaff";
-            // this.tpStaff.Padding = new System.Windows.Forms.Padding(3);
-            // this.tpStaff.Size = new System.Drawing.Size(648, 361);
-            // this.tpStaff.TabIndex = 4;
-            // this.tpStaff.Text = "Nhân viên";
-            // this.tpStaff.UseVisualStyleBackColor = true;
-            // // 
-            // // pnListStaff
-            // // 
-            // this.pnListStaff.Controls.Add(this.dtgvStaff);
-            // this.pnListStaff.Location = new System.Drawing.Point(4, 208);
-            // this.pnListStaff.Name = "pnListStaff";
-            // this.pnListStaff.Size = new System.Drawing.Size(639, 150);
-            // this.pnListStaff.TabIndex = 12;
-            // // 
-            // // dtgvStaff
-            // // 
-            // this.dtgvStaff.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            // this.dtgvStaff.Location = new System.Drawing.Point(0, 0);
-            // this.dtgvStaff.Name = "dtgvStaff";
-            // this.dtgvStaff.ReadOnly = true;
-            // this.dtgvStaff.RowTemplate.Height = 25;
-            // this.dtgvStaff.Size = new System.Drawing.Size(639, 150);
-            // this.dtgvStaff.TabIndex = 0;
-            // // 
-            // // panel11
-            // // 
-            // this.panel11.Controls.Add(this.cmbStaffIdentity);
-            // this.panel11.Controls.Add(this.txtSearchStaff);
-            // this.panel11.Controls.Add(this.btnSearchStaff);
-            // this.panel11.Controls.Add(this.lbStaffContactPhoneNumber);
-            // this.panel11.Controls.Add(this.lbStaffContactName);
-            // this.panel11.Controls.Add(this.lbStaffMail);
-            // this.panel11.Controls.Add(this.lbStaffIdentity);
-            // this.panel11.Controls.Add(this.lbStaffAddress);
-            // this.panel11.Controls.Add(this.lbStaffPassWord);
-            // this.panel11.Controls.Add(this.lbStaffPhoneNumber);
-            // this.panel11.Controls.Add(this.lbStaffPosition);
-            // this.panel11.Controls.Add(this.lbStaffDateOfBirth);
-            // this.panel11.Controls.Add(this.txtStaffName);
-            // this.panel11.Controls.Add(this.mtxtStaffDateOfBirth);
-            // this.panel11.Controls.Add(this.txtStaffPhoneNumber);
-            // this.panel11.Controls.Add(this.txtStaffAddress);
-            // this.panel11.Controls.Add(this.txtStaffIdentity);
-            // this.panel11.Controls.Add(this.txtStaffMail);
-            // this.panel11.Controls.Add(this.txtStaffPassWord);
-            // this.panel11.Controls.Add(this.txtStaffContactName);
-            // this.panel11.Controls.Add(this.txtStaffContactPhoneNumber);
-            // this.panel11.Controls.Add(this.lbStaffName);
-            // this.panel11.Controls.Add(this.lbStaffID);
-            // this.panel11.Controls.Add(this.txtStaffID);
-            // this.panel11.Controls.Add(this.btnDeleteStaff);
-            // this.panel11.Controls.Add(this.btnAddStaff);
-            // this.panel11.Controls.Add(this.btnEditStaff);
-            // this.panel11.Location = new System.Drawing.Point(3, 3);
-            // this.panel11.Name = "panel11";
-            // this.panel11.Size = new System.Drawing.Size(642, 198);
-            // this.panel11.TabIndex = 11;
-            // // 
-            // // cmbStaffIdentity
-            // // 
-            // this.cmbStaffIdentity.FormattingEnabled = true;
-            // //this.cmbStaffIdentity.Items.AddRange(new object[] {
-            // //"1",
-            // //"2"
-            // //});
-            // this.cmbStaffIdentity.SelectedIndex = -1;
+            // tpStaff
+            // 
+            this.tpStaff.Controls.Add(this.pnListStaff);
+            this.tpStaff.Controls.Add(this.panel11);
+            this.tpStaff.Location = new System.Drawing.Point(4, 24);
+            this.tpStaff.Name = "tpStaff";
+            this.tpStaff.Padding = new System.Windows.Forms.Padding(3);
+            this.tpStaff.Size = new System.Drawing.Size(648, 361);
+            this.tpStaff.TabIndex = 4;
+            this.tpStaff.Text = "Nhân viên";
+            this.tpStaff.UseVisualStyleBackColor = true;
+            // 
+            // pnListStaff
+            // 
+            this.pnListStaff.Controls.Add(this.dtgvStaff);
+            this.pnListStaff.Location = new System.Drawing.Point(4, 208);
+            this.pnListStaff.Name = "pnListStaff";
+            this.pnListStaff.Size = new System.Drawing.Size(639, 150);
+            this.pnListStaff.TabIndex = 12;
+            // 
+            // dtgvStaff
+            // 
+            this.dtgvStaff.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvStaff.Location = new System.Drawing.Point(0, 0);
+            this.dtgvStaff.Name = "dtgvStaff";
+            this.dtgvStaff.ReadOnly = true;
+            this.dtgvStaff.RowTemplate.Height = 25;
+            this.dtgvStaff.Size = new System.Drawing.Size(639, 150);
+            this.dtgvStaff.TabIndex = 0;
+            // 
+            // panel11
+            // 
+            this.panel11.Controls.Add(this.cmbStaffIdentity);
+            this.panel11.Controls.Add(this.txtSearchStaff);
+            this.panel11.Controls.Add(this.btnSearchStaff);
+            this.panel11.Controls.Add(this.lbStaffContactPhoneNumber);
+            this.panel11.Controls.Add(this.lbStaffContactName);
+            this.panel11.Controls.Add(this.lbStaffMail);
+            this.panel11.Controls.Add(this.lbStaffIdentity);
+            this.panel11.Controls.Add(this.lbStaffAddress);
+            this.panel11.Controls.Add(this.lbStaffPassWord);
+            this.panel11.Controls.Add(this.lbStaffPhoneNumber);
+            this.panel11.Controls.Add(this.lbStaffPosition);
+            this.panel11.Controls.Add(this.lbStaffDateOfBirth);
+            this.panel11.Controls.Add(this.txtStaffName);
+            this.panel11.Controls.Add(this.mtxtStaffDateOfBirth);
+            this.panel11.Controls.Add(this.txtStaffPhoneNumber);
+            this.panel11.Controls.Add(this.txtStaffAddress);
+            this.panel11.Controls.Add(this.txtStaffIdentity);
+            this.panel11.Controls.Add(this.txtStaffMail);
+            this.panel11.Controls.Add(this.txtStaffPassWord);
+            this.panel11.Controls.Add(this.txtStaffContactName);
+            this.panel11.Controls.Add(this.txtStaffContactPhoneNumber);
+            this.panel11.Controls.Add(this.lbStaffName);
+            this.panel11.Controls.Add(this.lbStaffID);
+            this.panel11.Controls.Add(this.txtStaffID);
+            this.panel11.Controls.Add(this.btnDeleteStaff);
+            this.panel11.Controls.Add(this.btnAddStaff);
+            this.panel11.Controls.Add(this.btnEditStaff);
+            this.panel11.Location = new System.Drawing.Point(3, 3);
+            this.panel11.Name = "panel11";
+            this.panel11.Size = new System.Drawing.Size(642, 198);
+            this.panel11.TabIndex = 11;
+            // 
+            // cmbStaffIdentity
+            // 
+            this.cmbStaffIdentity.FormattingEnabled = true;
+            //this.cmbStaffIdentity.Items.AddRange(new object[] {
+            //"1",
+            //"2"
+            //});
+            this.cmbStaffIdentity.SelectedIndex = -1;
 
-            // this.cmbStaffIdentity.Location = new System.Drawing.Point(81, 121);
-            // this.cmbStaffIdentity.Name = "cmbStaffIdentity";
-            // this.cmbStaffIdentity.Size = new System.Drawing.Size(100, 23);
-            // this.cmbStaffIdentity.TabIndex = 29;
-            // // 
-            // // txtSearchStaff
-            // // 
-            // this.txtSearchStaff.Location = new System.Drawing.Point(401, 170);
-            // this.txtSearchStaff.Name = "txtSearchStaff";
-            // this.txtSearchStaff.Size = new System.Drawing.Size(158, 23);
-            // this.txtSearchStaff.TabIndex = 28;
-            // // 
-            // // btnSearchStaff
-            // // 
-            // this.btnSearchStaff.Location = new System.Drawing.Point(565, 161);
-            // this.btnSearchStaff.Name = "btnSearchStaff";
-            // this.btnSearchStaff.Size = new System.Drawing.Size(75, 35);
-            // this.btnSearchStaff.TabIndex = 27;
-            // this.btnSearchStaff.Text = "Tìm kiếm";
-            // this.btnSearchStaff.UseVisualStyleBackColor = true;
+            this.cmbStaffIdentity.Location = new System.Drawing.Point(81, 121);
+            this.cmbStaffIdentity.Name = "cmbStaffIdentity";
+            this.cmbStaffIdentity.Size = new System.Drawing.Size(100, 23);
+            this.cmbStaffIdentity.TabIndex = 29;
+            // 
+            // txtSearchStaff
+            // 
+            this.txtSearchStaff.Location = new System.Drawing.Point(401, 170);
+            this.txtSearchStaff.Name = "txtSearchStaff";
+            this.txtSearchStaff.Size = new System.Drawing.Size(158, 23);
+            this.txtSearchStaff.TabIndex = 28;
+            // 
+            // btnSearchStaff
+            // 
+            this.btnSearchStaff.Location = new System.Drawing.Point(565, 161);
+            this.btnSearchStaff.Name = "btnSearchStaff";
+            this.btnSearchStaff.Size = new System.Drawing.Size(75, 35);
+            this.btnSearchStaff.TabIndex = 27;
+            this.btnSearchStaff.Text = "Tìm kiếm";
+            this.btnSearchStaff.UseVisualStyleBackColor = true;
             // this.btnSearchStaff.Click += new System.EventHandler(this.btnSearchStaff_Click);
-            // // 
-            // // lbStaffContactPhoneNumber
-            // // 
-            // this.lbStaffContactPhoneNumber.AutoSize = true;
-            // this.lbStaffContactPhoneNumber.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            // this.lbStaffContactPhoneNumber.Location = new System.Drawing.Point(401, 81);
-            // this.lbStaffContactPhoneNumber.Name = "lbStaffContactPhoneNumber";
-            // this.lbStaffContactPhoneNumber.Size = new System.Drawing.Size(109, 17);
-            // this.lbStaffContactPhoneNumber.TabIndex = 23;
-            // this.lbStaffContactPhoneNumber.Text = "SĐT người LH:";
-            // // 
-            // // lbStaffContactName
-            // // 
-            // this.lbStaffContactName.AutoSize = true;
-            // this.lbStaffContactName.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            // this.lbStaffContactName.Location = new System.Drawing.Point(401, 41);
-            // this.lbStaffContactName.Name = "lbStaffContactName";
-            // this.lbStaffContactName.Size = new System.Drawing.Size(106, 17);
-            // this.lbStaffContactName.TabIndex = 21;
-            // this.lbStaffContactName.Text = "Tên người LH:";
-            // // 
-            // // lbStaffMail
-            // // 
-            // this.lbStaffMail.AutoSize = true;
-            // this.lbStaffMail.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            // this.lbStaffMail.Location = new System.Drawing.Point(401, 1);
-            // this.lbStaffMail.Name = "lbStaffMail";
-            // this.lbStaffMail.Size = new System.Drawing.Size(43, 17);
-            // this.lbStaffMail.TabIndex = 19;
-            // this.lbStaffMail.Text = "Mail:";
-            // // 
-            // // lbStaffIdentity
-            // // 
-            // this.lbStaffIdentity.AutoSize = true;
-            // this.lbStaffIdentity.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            // this.lbStaffIdentity.Location = new System.Drawing.Point(201, 121);
-            // this.lbStaffIdentity.Name = "lbStaffIdentity";
-            // this.lbStaffIdentity.Size = new System.Drawing.Size(61, 17);
-            // this.lbStaffIdentity.TabIndex = 17;
-            // this.lbStaffIdentity.Text = "CMND:";
-            // // 
-            // // lbStaffAddress
-            // // 
-            // this.lbStaffAddress.AutoSize = true;
-            // this.lbStaffAddress.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            // this.lbStaffAddress.Location = new System.Drawing.Point(201, 81);
-            // this.lbStaffAddress.Name = "lbStaffAddress";
-            // this.lbStaffAddress.Size = new System.Drawing.Size(58, 17);
-            // this.lbStaffAddress.TabIndex = 15;
-            // this.lbStaffAddress.Text = "Địa chỉ:";
-            // // 
-            // // lbStaffPassWord
-            // // 
-            // this.lbStaffPassWord.AutoSize = true;
-            // this.lbStaffPassWord.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            // this.lbStaffPassWord.Location = new System.Drawing.Point(201, 41);
-            // this.lbStaffPassWord.Name = "lbStaffPassWord";
-            // this.lbStaffPassWord.Size = new System.Drawing.Size(76, 17);
-            // this.lbStaffPassWord.TabIndex = 13;
-            // this.lbStaffPassWord.Text = "Mật khẩu:";
-            // // 
-            // // lbStaffPhoneNumber
-            // // 
-            // this.lbStaffPhoneNumber.AutoSize = true;
-            // this.lbStaffPhoneNumber.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            // this.lbStaffPhoneNumber.Location = new System.Drawing.Point(201, 1);
-            // this.lbStaffPhoneNumber.Name = "lbStaffPhoneNumber";
-            // this.lbStaffPhoneNumber.Size = new System.Drawing.Size(41, 17);
-            // this.lbStaffPhoneNumber.TabIndex = 11;
-            // this.lbStaffPhoneNumber.Text = "SĐT:";
-            // // 
-            // // lbStaffPosition
-            // // 
-            // this.lbStaffPosition.AutoSize = true;
-            // this.lbStaffPosition.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            // this.lbStaffPosition.Location = new System.Drawing.Point(1, 121);
-            // this.lbStaffPosition.Name = "lbStaffPosition";
-            // this.lbStaffPosition.Size = new System.Drawing.Size(68, 17);
-            // this.lbStaffPosition.TabIndex = 9;
-            // this.lbStaffPosition.Text = "Chức vụ:";
-            // // 
-            // // lbStaffDateOfBirth
-            // // 
-            // this.lbStaffDateOfBirth.AutoSize = true;
-            // this.lbStaffDateOfBirth.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            // this.lbStaffDateOfBirth.Location = new System.Drawing.Point(1, 81);
-            // this.lbStaffDateOfBirth.Name = "lbStaffDateOfBirth";
-            // this.lbStaffDateOfBirth.Size = new System.Drawing.Size(77, 17);
-            // this.lbStaffDateOfBirth.TabIndex = 7;
-            // this.lbStaffDateOfBirth.Text = "Ngày sinh:";
-            // // 
-            // // txtStaffName
-            // // 
-            // this.txtStaffName.Location = new System.Drawing.Point(81, 35);
-            // this.txtStaffName.Name = "txtStaffName";
-            // this.txtStaffName.Size = new System.Drawing.Size(100, 23);
-            // this.txtStaffName.TabIndex = 6;
+            // 
+            // lbStaffContactPhoneNumber
+            // 
+            this.lbStaffContactPhoneNumber.AutoSize = true;
+            this.lbStaffContactPhoneNumber.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbStaffContactPhoneNumber.Location = new System.Drawing.Point(401, 81);
+            this.lbStaffContactPhoneNumber.Name = "lbStaffContactPhoneNumber";
+            this.lbStaffContactPhoneNumber.Size = new System.Drawing.Size(109, 17);
+            this.lbStaffContactPhoneNumber.TabIndex = 23;
+            this.lbStaffContactPhoneNumber.Text = "SĐT người LH:";
+            // 
+            // lbStaffContactName
+            // 
+            this.lbStaffContactName.AutoSize = true;
+            this.lbStaffContactName.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbStaffContactName.Location = new System.Drawing.Point(401, 41);
+            this.lbStaffContactName.Name = "lbStaffContactName";
+            this.lbStaffContactName.Size = new System.Drawing.Size(106, 17);
+            this.lbStaffContactName.TabIndex = 21;
+            this.lbStaffContactName.Text = "Tên người LH:";
+            // 
+            // lbStaffMail
+            // 
+            this.lbStaffMail.AutoSize = true;
+            this.lbStaffMail.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbStaffMail.Location = new System.Drawing.Point(401, 1);
+            this.lbStaffMail.Name = "lbStaffMail";
+            this.lbStaffMail.Size = new System.Drawing.Size(43, 17);
+            this.lbStaffMail.TabIndex = 19;
+            this.lbStaffMail.Text = "Mail:";
+            // 
+            // lbStaffIdentity
+            // 
+            this.lbStaffIdentity.AutoSize = true;
+            this.lbStaffIdentity.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbStaffIdentity.Location = new System.Drawing.Point(201, 121);
+            this.lbStaffIdentity.Name = "lbStaffIdentity";
+            this.lbStaffIdentity.Size = new System.Drawing.Size(61, 17);
+            this.lbStaffIdentity.TabIndex = 17;
+            this.lbStaffIdentity.Text = "CMND:";
+            // 
+            // lbStaffAddress
+            // 
+            this.lbStaffAddress.AutoSize = true;
+            this.lbStaffAddress.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbStaffAddress.Location = new System.Drawing.Point(201, 81);
+            this.lbStaffAddress.Name = "lbStaffAddress";
+            this.lbStaffAddress.Size = new System.Drawing.Size(58, 17);
+            this.lbStaffAddress.TabIndex = 15;
+            this.lbStaffAddress.Text = "Địa chỉ:";
+            // 
+            // lbStaffPassWord
+            // 
+            this.lbStaffPassWord.AutoSize = true;
+            this.lbStaffPassWord.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbStaffPassWord.Location = new System.Drawing.Point(201, 41);
+            this.lbStaffPassWord.Name = "lbStaffPassWord";
+            this.lbStaffPassWord.Size = new System.Drawing.Size(76, 17);
+            this.lbStaffPassWord.TabIndex = 13;
+            this.lbStaffPassWord.Text = "Mật khẩu:";
+            // 
+            // lbStaffPhoneNumber
+            // 
+            this.lbStaffPhoneNumber.AutoSize = true;
+            this.lbStaffPhoneNumber.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbStaffPhoneNumber.Location = new System.Drawing.Point(201, 1);
+            this.lbStaffPhoneNumber.Name = "lbStaffPhoneNumber";
+            this.lbStaffPhoneNumber.Size = new System.Drawing.Size(41, 17);
+            this.lbStaffPhoneNumber.TabIndex = 11;
+            this.lbStaffPhoneNumber.Text = "SĐT:";
+            // 
+            // lbStaffPosition
+            // 
+            this.lbStaffPosition.AutoSize = true;
+            this.lbStaffPosition.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbStaffPosition.Location = new System.Drawing.Point(1, 121);
+            this.lbStaffPosition.Name = "lbStaffPosition";
+            this.lbStaffPosition.Size = new System.Drawing.Size(68, 17);
+            this.lbStaffPosition.TabIndex = 9;
+            this.lbStaffPosition.Text = "Chức vụ:";
+            // 
+            // lbStaffDateOfBirth
+            // 
+            this.lbStaffDateOfBirth.AutoSize = true;
+            this.lbStaffDateOfBirth.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbStaffDateOfBirth.Location = new System.Drawing.Point(1, 81);
+            this.lbStaffDateOfBirth.Name = "lbStaffDateOfBirth";
+            this.lbStaffDateOfBirth.Size = new System.Drawing.Size(77, 17);
+            this.lbStaffDateOfBirth.TabIndex = 7;
+            this.lbStaffDateOfBirth.Text = "Ngày sinh:";
+            // 
+            // txtStaffName
+            // 
+            this.txtStaffName.Location = new System.Drawing.Point(81, 35);
+            this.txtStaffName.Name = "txtStaffName";
+            this.txtStaffName.Size = new System.Drawing.Size(100, 23);
+            this.txtStaffName.TabIndex = 6;
             // this.txtStaffName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStaffName_KeyDown);
-            // // 
-            // // mtxtStaffDateOfBirth
-            // // 
-            // this.mtxtStaffDateOfBirth.Location = new System.Drawing.Point(81, 75);
-            // this.mtxtStaffDateOfBirth.Mask = "00/00/0000";
-            // this.mtxtStaffDateOfBirth.Name = "mtxtStaffDateOfBirth";
-            // this.mtxtStaffDateOfBirth.Size = new System.Drawing.Size(100, 23);
-            // this.mtxtStaffDateOfBirth.TabIndex = 8;
-            // this.mtxtStaffDateOfBirth.ValidatingType = typeof(System.DateTime);
+            // 
+            // mtxtStaffDateOfBirth
+            // 
+            this.mtxtStaffDateOfBirth.Location = new System.Drawing.Point(81, 75);
+            this.mtxtStaffDateOfBirth.Mask = "00/00/0000";
+            this.mtxtStaffDateOfBirth.Name = "mtxtStaffDateOfBirth";
+            this.mtxtStaffDateOfBirth.Size = new System.Drawing.Size(100, 23);
+            this.mtxtStaffDateOfBirth.TabIndex = 8;
+            this.mtxtStaffDateOfBirth.ValidatingType = typeof(System.DateTime);
             // this.mtxtStaffDateOfBirth.KeyDown += new System.Windows.Forms.KeyEventHandler(this.mtxtStaffDateOfBirth_KeyDown);
-            // // 
-            // // txtStaffPhoneNumber
-            // // 
-            // this.txtStaffPhoneNumber.Location = new System.Drawing.Point(280, 0);
-            // this.txtStaffPhoneNumber.Name = "txtStaffPhoneNumber";
-            // this.txtStaffPhoneNumber.Size = new System.Drawing.Size(100, 23);
-            // this.txtStaffPhoneNumber.TabIndex = 12;
+            // 
+            // txtStaffPhoneNumber
+            // 
+            this.txtStaffPhoneNumber.Location = new System.Drawing.Point(280, 0);
+            this.txtStaffPhoneNumber.Name = "txtStaffPhoneNumber";
+            this.txtStaffPhoneNumber.Size = new System.Drawing.Size(100, 23);
+            this.txtStaffPhoneNumber.TabIndex = 12;
             // this.txtStaffPhoneNumber.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStaffPhoneNumber_KeyDown);
-            // // 
-            // // txtStaffAddress
-            // // 
-            // this.txtStaffAddress.Location = new System.Drawing.Point(280, 75);
-            // this.txtStaffAddress.Name = "txtStaffAddress";
-            // this.txtStaffAddress.Size = new System.Drawing.Size(100, 23);
-            // this.txtStaffAddress.TabIndex = 16;
+            // 
+            // txtStaffAddress
+            // 
+            this.txtStaffAddress.Location = new System.Drawing.Point(280, 75);
+            this.txtStaffAddress.Name = "txtStaffAddress";
+            this.txtStaffAddress.Size = new System.Drawing.Size(100, 23);
+            this.txtStaffAddress.TabIndex = 16;
             // this.txtStaffAddress.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStaffAddress_KeyDown);
-            // // 
-            // // txtStaffIdentity
-            // // 
-            // this.txtStaffIdentity.Location = new System.Drawing.Point(280, 115);
-            // this.txtStaffIdentity.Name = "txtStaffIdentity";
-            // this.txtStaffIdentity.Size = new System.Drawing.Size(100, 23);
-            // this.txtStaffIdentity.TabIndex = 18;
+            // 
+            // txtStaffIdentity
+            // 
+            this.txtStaffIdentity.Location = new System.Drawing.Point(280, 115);
+            this.txtStaffIdentity.Name = "txtStaffIdentity";
+            this.txtStaffIdentity.Size = new System.Drawing.Size(100, 23);
+            this.txtStaffIdentity.TabIndex = 18;
             // this.txtStaffIdentity.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStaffIdentity_KeyDown);
-            // // 
-            // // txtStaffMail
-            // // 
-            // this.txtStaffMail.Location = new System.Drawing.Point(510, 0);
-            // this.txtStaffMail.Name = "txtStaffMail";
-            // this.txtStaffMail.Size = new System.Drawing.Size(110, 23);
-            // this.txtStaffMail.TabIndex = 20;
+            // 
+            // txtStaffMail
+            // 
+            this.txtStaffMail.Location = new System.Drawing.Point(510, 0);
+            this.txtStaffMail.Name = "txtStaffMail";
+            this.txtStaffMail.Size = new System.Drawing.Size(110, 23);
+            this.txtStaffMail.TabIndex = 20;
             // this.txtStaffMail.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStaffMail_KeyDown);
-            // // 
-            // // txtStaffPassWord
-            // // 
-            // this.txtStaffPassWord.Location = new System.Drawing.Point(280, 35);
-            // this.txtStaffPassWord.Name = "txtStaffPassWord";
-            // this.txtStaffPassWord.Size = new System.Drawing.Size(100, 23);
-            // this.txtStaffPassWord.TabIndex = 14;
+            // 
+            // txtStaffPassWord
+            // 
+            this.txtStaffPassWord.Location = new System.Drawing.Point(280, 35);
+            this.txtStaffPassWord.Name = "txtStaffPassWord";
+            this.txtStaffPassWord.Size = new System.Drawing.Size(100, 23);
+            this.txtStaffPassWord.TabIndex = 14;
             // this.txtStaffPassWord.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStaffPassWord_KeyDown);
-            // // 
-            // // txtStaffContactName
-            // // 
-            // this.txtStaffContactName.Location = new System.Drawing.Point(510, 35);
-            // this.txtStaffContactName.Name = "txtStaffContactName";
-            // this.txtStaffContactName.Size = new System.Drawing.Size(110, 23);
-            // this.txtStaffContactName.TabIndex = 22;
+            // 
+            // txtStaffContactName
+            // 
+            this.txtStaffContactName.Location = new System.Drawing.Point(510, 35);
+            this.txtStaffContactName.Name = "txtStaffContactName";
+            this.txtStaffContactName.Size = new System.Drawing.Size(110, 23);
+            this.txtStaffContactName.TabIndex = 22;
             // this.txtStaffContactName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStaffContactName_KeyDown);
-            // // 
-            // // txtStaffContactPhoneNumber
-            // // 
-            // this.txtStaffContactPhoneNumber.Location = new System.Drawing.Point(510, 75);
-            // this.txtStaffContactPhoneNumber.Name = "txtStaffContactPhoneNumber";
-            // this.txtStaffContactPhoneNumber.Size = new System.Drawing.Size(110, 23);
-            // this.txtStaffContactPhoneNumber.TabIndex = 24;
+            // 
+            // txtStaffContactPhoneNumber
+            // 
+            this.txtStaffContactPhoneNumber.Location = new System.Drawing.Point(510, 75);
+            this.txtStaffContactPhoneNumber.Name = "txtStaffContactPhoneNumber";
+            this.txtStaffContactPhoneNumber.Size = new System.Drawing.Size(110, 23);
+            this.txtStaffContactPhoneNumber.TabIndex = 24;
             // this.txtStaffContactPhoneNumber.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStaffContactPhoneNumber_KeyDown);
-            // // 
-            // // lbStaffName
-            // // 
-            // this.lbStaffName.AutoSize = true;
-            // this.lbStaffName.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            // this.lbStaffName.Location = new System.Drawing.Point(1, 41);
-            // this.lbStaffName.Name = "lbStaffName";
-            // this.lbStaffName.Size = new System.Drawing.Size(63, 17);
-            // this.lbStaffName.TabIndex = 5;
-            // this.lbStaffName.Text = "Tên NV:";
-            // // 
-            // // lbStaffID
-            // // 
-            // this.lbStaffID.AutoSize = true;
-            // this.lbStaffID.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            // this.lbStaffID.Location = new System.Drawing.Point(1, 1);
-            // this.lbStaffID.Name = "lbStaffID";
-            // this.lbStaffID.Size = new System.Drawing.Size(59, 17);
-            // this.lbStaffID.TabIndex = 4;
-            // this.lbStaffID.Text = "Mã NV:";
-            // // 
-            // // txtStaffID
-            // // 
-            // this.txtStaffID.Location = new System.Drawing.Point(81, 0);
-            // this.txtStaffID.Name = "txtStaffID";
-            // this.txtStaffID.ReadOnly = true;
-            // this.txtStaffID.Size = new System.Drawing.Size(100, 23);
-            // this.txtStaffID.TabIndex = 3;
-            // // 
-            // // btnDeleteStaff
-            // // 
-            // this.btnDeleteStaff.Location = new System.Drawing.Point(200, 161);
-            // this.btnDeleteStaff.Name = "btnDeleteStaff";
-            // this.btnDeleteStaff.Size = new System.Drawing.Size(75, 35);
-            // this.btnDeleteStaff.TabIndex = 2;
-            // this.btnDeleteStaff.Text = "Xóa";
-            // this.btnDeleteStaff.UseVisualStyleBackColor = true;
+            // 
+            // lbStaffName
+            // 
+            this.lbStaffName.AutoSize = true;
+            this.lbStaffName.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbStaffName.Location = new System.Drawing.Point(1, 41);
+            this.lbStaffName.Name = "lbStaffName";
+            this.lbStaffName.Size = new System.Drawing.Size(63, 17);
+            this.lbStaffName.TabIndex = 5;
+            this.lbStaffName.Text = "Tên NV:";
+            // 
+            // lbStaffID
+            // 
+            this.lbStaffID.AutoSize = true;
+            this.lbStaffID.Font = new System.Drawing.Font("Times New Roman", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbStaffID.Location = new System.Drawing.Point(1, 1);
+            this.lbStaffID.Name = "lbStaffID";
+            this.lbStaffID.Size = new System.Drawing.Size(59, 17);
+            this.lbStaffID.TabIndex = 4;
+            this.lbStaffID.Text = "Mã NV:";
+            // 
+            // txtStaffID
+            // 
+            this.txtStaffID.Location = new System.Drawing.Point(81, 0);
+            this.txtStaffID.Name = "txtStaffID";
+            this.txtStaffID.ReadOnly = true;
+            this.txtStaffID.Size = new System.Drawing.Size(100, 23);
+            this.txtStaffID.TabIndex = 3;
+            // 
+            // btnDeleteStaff
+            // 
+            this.btnDeleteStaff.Location = new System.Drawing.Point(200, 161);
+            this.btnDeleteStaff.Name = "btnDeleteStaff";
+            this.btnDeleteStaff.Size = new System.Drawing.Size(75, 35);
+            this.btnDeleteStaff.TabIndex = 2;
+            this.btnDeleteStaff.Text = "Xóa";
+            this.btnDeleteStaff.UseVisualStyleBackColor = true;
             // this.btnDeleteStaff.Click += new System.EventHandler(this.btnDeleteStaff_Click);
-            // // 
-            // // btnAddStaff
-            // // 
-            // this.btnAddStaff.Location = new System.Drawing.Point(1, 161);
-            // this.btnAddStaff.Name = "btnAddStaff";
-            // this.btnAddStaff.Size = new System.Drawing.Size(75, 35);
-            // this.btnAddStaff.TabIndex = 0;
-            // this.btnAddStaff.Text = "Thêm";
-            // this.btnAddStaff.UseVisualStyleBackColor = true;
+            // 
+            // btnAddStaff
+            // 
+            this.btnAddStaff.Location = new System.Drawing.Point(1, 161);
+            this.btnAddStaff.Name = "btnAddStaff";
+            this.btnAddStaff.Size = new System.Drawing.Size(75, 35);
+            this.btnAddStaff.TabIndex = 0;
+            this.btnAddStaff.Text = "Thêm";
+            this.btnAddStaff.UseVisualStyleBackColor = true;
             // this.btnAddStaff.Click += new System.EventHandler(this.btnAddStaff_Click);
-            // // 
-            // // btnEditStaff
-            // // 
-            // this.btnEditStaff.Location = new System.Drawing.Point(100, 161);
-            // this.btnEditStaff.Name = "btnEditStaff";
-            // this.btnEditStaff.Size = new System.Drawing.Size(75, 35);
-            // this.btnEditStaff.TabIndex = 1;
-            // this.btnEditStaff.Text = "Sửa";
-            // this.btnEditStaff.UseVisualStyleBackColor = true;
+            // 
+            // btnEditStaff
+            // 
+            this.btnEditStaff.Location = new System.Drawing.Point(100, 161);
+            this.btnEditStaff.Name = "btnEditStaff";
+            this.btnEditStaff.Size = new System.Drawing.Size(75, 35);
+            this.btnEditStaff.TabIndex = 1;
+            this.btnEditStaff.Text = "Sửa";
+            this.btnEditStaff.UseVisualStyleBackColor = true;
             // this.btnEditStaff.Click += new System.EventHandler(this.btnEditStaff_Click);
             // 
             // tpOrderTable
@@ -1614,11 +1614,11 @@ namespace CleanArchQLNH
             this.pnPromotionName.PerformLayout();
             this.pnPromotionID.ResumeLayout(false);
             this.pnPromotionID.PerformLayout();
-            // this.panel14.ResumeLayout(false);
-            // this.panel14.PerformLayout();
-            // this.tpStaff.ResumeLayout(false);
-            // this.pnListStaff.ResumeLayout(false);
-            // ((System.ComponentModel.ISupportInitialize)(this.dtgvStaff)).EndInit();
+            this.panel14.ResumeLayout(false);
+            this.panel14.PerformLayout();
+            this.tpStaff.ResumeLayout(false);
+            this.pnListStaff.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvStaff)).EndInit();
             this.panel11.ResumeLayout(false);
             this.panel11.PerformLayout();
             this.tpOrderTable.ResumeLayout(false);
