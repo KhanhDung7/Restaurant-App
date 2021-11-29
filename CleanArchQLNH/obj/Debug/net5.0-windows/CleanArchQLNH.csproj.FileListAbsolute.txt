@@ -408,3 +408,4 @@ D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\
 D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CopyComplete
 D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.genruntimeconfig.cache
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fTableManager.resources
