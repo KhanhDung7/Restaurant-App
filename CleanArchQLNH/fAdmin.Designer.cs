@@ -211,7 +211,7 @@ namespace CleanArchQLNH
             // tcAdmin
             // 
             this.tcAdmin.Controls.Add(this.tpBill);
-            // this.tcAdmin.Controls.Add(this.tpFood);
+            this.tcAdmin.Controls.Add(this.tpFood);
             this.tcAdmin.Controls.Add(this.tpTable);
             this.tcAdmin.Controls.Add(this.tpPromotion);
             // this.tcAdmin.Controls.Add(this.tpStaff);
@@ -392,197 +392,197 @@ namespace CleanArchQLNH
             this.cmbYearsInViewBill.Name = "cmbYearsInViewBill";
             this.cmbYearsInViewBill.Size = new System.Drawing.Size(90, 25);
             this.cmbYearsInViewBill.TabIndex = 2;
-            //
+            
 
             // // 
             // // tpFood
             // // 
-            // this.tpFood.Controls.Add(this.dtgvFood);
-            // this.tpFood.Controls.Add(this.panel2);
-            // this.tpFood.Controls.Add(this.panel5);
-            // this.tpFood.Controls.Add(this.panel4);
-            // this.tpFood.Controls.Add(this.panel3);
-            // this.tpFood.Location = new System.Drawing.Point(4, 24);
-            // this.tpFood.Name = "tpFood";
-            // this.tpFood.Padding = new System.Windows.Forms.Padding(3);
-            // this.tpFood.Size = new System.Drawing.Size(648, 361);
-            // this.tpFood.TabIndex = 1;
-            // this.tpFood.Text = "Món ăn";
-            // this.tpFood.UseVisualStyleBackColor = true;
-            // // 
+             this.tpFood.Controls.Add(this.dtgvFood);
+             this.tpFood.Controls.Add(this.panel2);
+             this.tpFood.Controls.Add(this.panel5);
+             this.tpFood.Controls.Add(this.panel4);
+             this.tpFood.Controls.Add(this.panel3);
+             this.tpFood.Location = new System.Drawing.Point(4, 24);
+             this.tpFood.Name = "tpFood";
+             this.tpFood.Padding = new System.Windows.Forms.Padding(3);
+             this.tpFood.Size = new System.Drawing.Size(648, 361);
+             this.tpFood.TabIndex = 1;
+             this.tpFood.Text = "Món ăn";
+             this.tpFood.UseVisualStyleBackColor = true;
+             // 
             // // panel2
-            // // 
-            // this.panel2.Controls.Add(this.btnDeleteFood);
-            // this.panel2.Controls.Add(this.btnEditFood);
-            // this.panel2.Controls.Add(this.btnAddFood);
-            // this.panel2.Location = new System.Drawing.Point(377, 179);
-            // this.panel2.Name = "panel2";
-            // this.panel2.Size = new System.Drawing.Size(265, 45);
-            // this.panel2.TabIndex = 4;
+             // 
+             this.panel2.Controls.Add(this.btnDeleteFood);
+             this.panel2.Controls.Add(this.btnEditFood);
+             this.panel2.Controls.Add(this.btnAddFood);
+             this.panel2.Location = new System.Drawing.Point(377, 179);
+             this.panel2.Name = "panel2";
+             this.panel2.Size = new System.Drawing.Size(265, 45);
+             this.panel2.TabIndex = 4;
             // // 
             // // btnDeleteFood
             // // 
-            // this.btnDeleteFood.Location = new System.Drawing.Point(190, 5);
-            // this.btnDeleteFood.Name = "btnDeleteFood";
-            // this.btnDeleteFood.Size = new System.Drawing.Size(75, 35);
-            // this.btnDeleteFood.TabIndex = 2;
-            // this.btnDeleteFood.Text = "Xóa";
-            // this.btnDeleteFood.UseVisualStyleBackColor = true;
-            // this.btnDeleteFood.Click += new System.EventHandler(this.btnDeleteFood_Click);
+             this.btnDeleteFood.Location = new System.Drawing.Point(190, 5);
+             this.btnDeleteFood.Name = "btnDeleteFood";
+             this.btnDeleteFood.Size = new System.Drawing.Size(75, 35);
+             this.btnDeleteFood.TabIndex = 2;
+             this.btnDeleteFood.Text = "Xóa";
+             this.btnDeleteFood.UseVisualStyleBackColor = true;
+             //this.btnDeleteFood.Click += new System.EventHandler(this.btnDeleteFood_Click);
             // // 
             // // btnEditFood
             // // 
-            // this.btnEditFood.Location = new System.Drawing.Point(95, 5);
-            // this.btnEditFood.Name = "btnEditFood";
-            // this.btnEditFood.Size = new System.Drawing.Size(75, 35);
-            // this.btnEditFood.TabIndex = 1;
-            // this.btnEditFood.Text = "Sửa";
-            // this.btnEditFood.UseVisualStyleBackColor = true;
+             this.btnEditFood.Location = new System.Drawing.Point(95, 5);
+             this.btnEditFood.Name = "btnEditFood";
+             this.btnEditFood.Size = new System.Drawing.Size(75, 35);
+             this.btnEditFood.TabIndex = 1;
+             this.btnEditFood.Text = "Sửa";
+             this.btnEditFood.UseVisualStyleBackColor = true;
             // this.btnEditFood.Click += new System.EventHandler(this.btnEditFood_Click);
             // // 
             // // btnAddFood
             // // 
-            // this.btnAddFood.Location = new System.Drawing.Point(0, 5);
-            // this.btnAddFood.Name = "btnAddFood";
-            // this.btnAddFood.Size = new System.Drawing.Size(75, 35);
-            // this.btnAddFood.TabIndex = 0;
-            // this.btnAddFood.Text = "Thêm";
-            // this.btnAddFood.UseVisualStyleBackColor = true;
-            // this.btnAddFood.Click += new System.EventHandler(this.btnAddFood_Click);
+             this.btnAddFood.Location = new System.Drawing.Point(0, 5);
+             this.btnAddFood.Name = "btnAddFood";
+             this.btnAddFood.Size = new System.Drawing.Size(75, 35);
+             this.btnAddFood.TabIndex = 0;
+             this.btnAddFood.Text = "Thêm";
+             this.btnAddFood.UseVisualStyleBackColor = true;
+             this.btnAddFood.Click += new System.EventHandler(this.btnAddFood_Click);
             // // 
             // // panel5
             // // 
-            // this.panel5.Controls.Add(this.pnFoodPrice);
-            // this.panel5.Controls.Add(this.pnFoodName);
-            // this.panel5.Controls.Add(this.pnIDFood);
-            // this.panel5.Location = new System.Drawing.Point(377, 56);
-            // this.panel5.Name = "panel5";
-            // this.panel5.Size = new System.Drawing.Size(268, 302);
-            // this.panel5.TabIndex = 3;
+             this.panel5.Controls.Add(this.pnFoodPrice);
+             this.panel5.Controls.Add(this.pnFoodName);
+             this.panel5.Controls.Add(this.pnIDFood);
+             this.panel5.Location = new System.Drawing.Point(377, 56);
+             this.panel5.Name = "panel5";
+             this.panel5.Size = new System.Drawing.Size(268, 302);
+             this.panel5.TabIndex = 3;
             // // 
             // // pnFoodPrice
             // // 
-            // this.pnFoodPrice.Controls.Add(this.txtFoodPrice);
-            // this.pnFoodPrice.Controls.Add(this.lbFoodPrice);
-            // this.pnFoodPrice.Location = new System.Drawing.Point(0, 82);
-            // this.pnFoodPrice.Name = "pnFoodPrice";
-            // this.pnFoodPrice.Size = new System.Drawing.Size(267, 35);
-            // this.pnFoodPrice.TabIndex = 2;
+             this.pnFoodPrice.Controls.Add(this.txtFoodPrice);
+             this.pnFoodPrice.Controls.Add(this.lbFoodPrice);
+             this.pnFoodPrice.Location = new System.Drawing.Point(0, 82);
+             this.pnFoodPrice.Name = "pnFoodPrice";
+             this.pnFoodPrice.Size = new System.Drawing.Size(267, 35);
+             this.pnFoodPrice.TabIndex = 2;
             // // 
             // // txtFoodPrice
             // // 
-            // this.txtFoodPrice.Location = new System.Drawing.Point(92, 6);
-            // this.txtFoodPrice.Name = "txtFoodPrice";
-            // this.txtFoodPrice.Size = new System.Drawing.Size(175, 23);
-            // this.txtFoodPrice.TabIndex = 1;
-            // this.txtFoodPrice.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtFoodPrice_KeyDown);
+             this.txtFoodPrice.Location = new System.Drawing.Point(92, 6);
+             this.txtFoodPrice.Name = "txtFoodPrice";
+             this.txtFoodPrice.Size = new System.Drawing.Size(175, 23);
+             this.txtFoodPrice.TabIndex = 1;
+             this.txtFoodPrice.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtFoodPrice_KeyDown);
             // // 
             // // lbFoodPrice
             // // 
-            // this.lbFoodPrice.AutoSize = true;
-            // this.lbFoodPrice.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            // this.lbFoodPrice.Location = new System.Drawing.Point(2, 8);
-            // this.lbFoodPrice.Name = "lbFoodPrice";
-            // this.lbFoodPrice.Size = new System.Drawing.Size(38, 19);
-            // this.lbFoodPrice.TabIndex = 0;
-            // this.lbFoodPrice.Text = "Giá:";
+             this.lbFoodPrice.AutoSize = true;
+             this.lbFoodPrice.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+             this.lbFoodPrice.Location = new System.Drawing.Point(2, 8);
+             this.lbFoodPrice.Name = "lbFoodPrice";
+             this.lbFoodPrice.Size = new System.Drawing.Size(38, 19);
+             this.lbFoodPrice.TabIndex = 0;
+             this.lbFoodPrice.Text = "Giá:";
             // // 
             // // pnFoodName
             // // 
-            // this.pnFoodName.Controls.Add(this.txtFoodName);
-            // this.pnFoodName.Controls.Add(this.lbFoodName);
-            // this.pnFoodName.Location = new System.Drawing.Point(0, 41);
-            // this.pnFoodName.Name = "pnFoodName";
-            // this.pnFoodName.Size = new System.Drawing.Size(267, 35);
-            // this.pnFoodName.TabIndex = 1;
+             this.pnFoodName.Controls.Add(this.txtFoodName);
+             this.pnFoodName.Controls.Add(this.lbFoodName);
+             this.pnFoodName.Location = new System.Drawing.Point(0, 41);
+             this.pnFoodName.Name = "pnFoodName";
+             this.pnFoodName.Size = new System.Drawing.Size(267, 35);
+             this.pnFoodName.TabIndex = 1;
             // // 
             // // txtFoodName
             // // 
-            // this.txtFoodName.Location = new System.Drawing.Point(92, 6);
-            // this.txtFoodName.Name = "txtFoodName";
-            // this.txtFoodName.Size = new System.Drawing.Size(175, 23);
-            // this.txtFoodName.TabIndex = 1;
-            // this.txtFoodName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtFoodName_KeyDown);
+             this.txtFoodName.Location = new System.Drawing.Point(92, 6);
+             this.txtFoodName.Name = "txtFoodName";
+             this.txtFoodName.Size = new System.Drawing.Size(175, 23);
+             this.txtFoodName.TabIndex = 1;
+             this.txtFoodName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtFoodName_KeyDown);
             // // 
             // // lbFoodName
             // // 
-            // this.lbFoodName.AutoSize = true;
-            // this.lbFoodName.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            // this.lbFoodName.Location = new System.Drawing.Point(2, 8);
-            // this.lbFoodName.Name = "lbFoodName";
-            // this.lbFoodName.Size = new System.Drawing.Size(72, 19);
-            // this.lbFoodName.TabIndex = 0;
-            // this.lbFoodName.Text = "Tên món:";
+             this.lbFoodName.AutoSize = true;
+             this.lbFoodName.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+             this.lbFoodName.Location = new System.Drawing.Point(2, 8);
+             this.lbFoodName.Name = "lbFoodName";
+             this.lbFoodName.Size = new System.Drawing.Size(72, 19);
+             this.lbFoodName.TabIndex = 0;
+             this.lbFoodName.Text = "Tên món:";
             // // 
             // // pnIDFood
             // // 
-            // this.pnIDFood.Controls.Add(this.txtIDFood);
-            // this.pnIDFood.Controls.Add(this.lbIDFood);
-            // this.pnIDFood.Location = new System.Drawing.Point(0, 0);
-            // this.pnIDFood.Name = "pnIDFood";
-            // this.pnIDFood.Size = new System.Drawing.Size(267, 35);
-            // this.pnIDFood.TabIndex = 0;
+             this.pnIDFood.Controls.Add(this.txtIDFood);
+             this.pnIDFood.Controls.Add(this.lbIDFood);
+             this.pnIDFood.Location = new System.Drawing.Point(0, 0);
+             this.pnIDFood.Name = "pnIDFood";
+             this.pnIDFood.Size = new System.Drawing.Size(267, 35);
+             this.pnIDFood.TabIndex = 0;
             // // 
             // // txtIDFood
             // // 
-            // this.txtIDFood.Location = new System.Drawing.Point(92, 6);
-            // this.txtIDFood.Name = "txtIDFood";
-            // this.txtIDFood.ReadOnly = true;
-            // this.txtIDFood.Size = new System.Drawing.Size(175, 23);
-            // this.txtIDFood.TabIndex = 1;
+             this.txtIDFood.Location = new System.Drawing.Point(92, 6);
+             this.txtIDFood.Name = "txtIDFood";
+             this.txtIDFood.ReadOnly = true;
+             this.txtIDFood.Size = new System.Drawing.Size(175, 23);
+             this.txtIDFood.TabIndex = 1;
             // // 
             // // lbIDFood
             // // 
-            // this.lbIDFood.AutoSize = true;
-            // this.lbIDFood.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            // this.lbIDFood.Location = new System.Drawing.Point(2, 8);
-            // this.lbIDFood.Name = "lbIDFood";
-            // this.lbIDFood.Size = new System.Drawing.Size(70, 19);
-            // this.lbIDFood.TabIndex = 0;
-            // this.lbIDFood.Text = "Mã món:";
+             this.lbIDFood.AutoSize = true;
+             this.lbIDFood.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+             this.lbIDFood.Location = new System.Drawing.Point(2, 8);
+             this.lbIDFood.Name = "lbIDFood";
+             this.lbIDFood.Size = new System.Drawing.Size(70, 19);
+             this.lbIDFood.TabIndex = 0;
+             this.lbIDFood.Text = "Mã món:";
             // // 
             // // panel4
             // // 
-            // this.panel4.Controls.Add(this.txtSearchFood);
-            // this.panel4.Controls.Add(this.btnSearchFood);
-            // this.panel4.Location = new System.Drawing.Point(377, 4);
-            // this.panel4.Name = "panel4";
-            // this.panel4.Size = new System.Drawing.Size(268, 45);
-            // this.panel4.TabIndex = 2;
+             this.panel4.Controls.Add(this.txtSearchFood);
+             this.panel4.Controls.Add(this.btnSearchFood);
+             this.panel4.Location = new System.Drawing.Point(377, 4);
+             this.panel4.Name = "panel4";
+             this.panel4.Size = new System.Drawing.Size(268, 45);
+             this.panel4.TabIndex = 2;
             // // 
             // // txtSearchFood
             // // 
-            // this.txtSearchFood.Location = new System.Drawing.Point(1, 15);
-            // this.txtSearchFood.Name = "txtSearchFood";
-            // this.txtSearchFood.Size = new System.Drawing.Size(186, 23);
-            // this.txtSearchFood.TabIndex = 4;
+             this.txtSearchFood.Location = new System.Drawing.Point(1, 15);
+             this.txtSearchFood.Name = "txtSearchFood";
+             this.txtSearchFood.Size = new System.Drawing.Size(186, 23);
+             this.txtSearchFood.TabIndex = 4;
             // // 
             // // btnSearchFood
             // // 
-            // this.btnSearchFood.Location = new System.Drawing.Point(193, 6);
-            // this.btnSearchFood.Name = "btnSearchFood";
-            // this.btnSearchFood.Size = new System.Drawing.Size(75, 35);
-            // this.btnSearchFood.TabIndex = 3;
-            // this.btnSearchFood.Text = "Tìm";
-            // this.btnSearchFood.UseVisualStyleBackColor = true;
+             this.btnSearchFood.Location = new System.Drawing.Point(193, 6);
+             this.btnSearchFood.Name = "btnSearchFood";
+             this.btnSearchFood.Size = new System.Drawing.Size(75, 35);
+             this.btnSearchFood.TabIndex = 3;
+             this.btnSearchFood.Text = "Tìm";
+             this.btnSearchFood.UseVisualStyleBackColor = true;
             // this.btnSearchFood.Click += new System.EventHandler(this.btnSearchFood_Click);
             // // 
             // // panel3
             // // 
-            // this.panel3.Location = new System.Drawing.Point(4, 56);
-            // this.panel3.Name = "panel3";
-            // this.panel3.Size = new System.Drawing.Size(367, 302);
-            // this.panel3.TabIndex = 1;
+             this.panel3.Location = new System.Drawing.Point(4, 56);
+             this.panel3.Name = "panel3";
+             this.panel3.Size = new System.Drawing.Size(367, 302);
+             this.panel3.TabIndex = 1;
             // // 
             // // dtgvFood
             // // 
-            // this.dtgvFood.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            // this.dtgvFood.Location = new System.Drawing.Point(5, 4);
-            // this.dtgvFood.Name = "dtgvFood";
-            // this.dtgvFood.ReadOnly = true;
-            // this.dtgvFood.RowTemplate.Height = 25;
-            // this.dtgvFood.Size = new System.Drawing.Size(367, 354);
-            // this.dtgvFood.TabIndex = 0;
+             this.dtgvFood.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+             this.dtgvFood.Location = new System.Drawing.Point(5, 4);
+             this.dtgvFood.Name = "dtgvFood";
+             this.dtgvFood.ReadOnly = true;
+             this.dtgvFood.RowTemplate.Height = 25;
+             this.dtgvFood.Size = new System.Drawing.Size(367, 354);
+             this.dtgvFood.TabIndex = 0;
             // // 
             // // tpTable
             // // 
@@ -1574,19 +1574,19 @@ namespace CleanArchQLNH
             this.tpBill.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvBill)).EndInit();
-            // this.pnDatetimePicker.ResumeLayout(false);
-            // this.tpFood.ResumeLayout(false);
-            // this.panel2.ResumeLayout(false);
-            // this.panel5.ResumeLayout(false);
-            // this.pnFoodPrice.ResumeLayout(false);
-            // this.pnFoodPrice.PerformLayout();
-            // this.pnFoodName.ResumeLayout(false);
-            // this.pnFoodName.PerformLayout();
-            // this.pnIDFood.ResumeLayout(false);
-            // this.pnIDFood.PerformLayout();
-            // this.panel4.ResumeLayout(false);
-            // this.panel4.PerformLayout();
-            // ((System.ComponentModel.ISupportInitialize)(this.dtgvFood)).EndInit();
+             this.pnDatetimePicker.ResumeLayout(false);
+             this.tpFood.ResumeLayout(false);
+             this.panel2.ResumeLayout(false);
+             this.panel5.ResumeLayout(false);
+             this.pnFoodPrice.ResumeLayout(false);
+             this.pnFoodPrice.PerformLayout();
+             this.pnFoodName.ResumeLayout(false);
+            this.pnFoodName.PerformLayout();
+             this.pnIDFood.ResumeLayout(false);
+            this.pnIDFood.PerformLayout();
+            this.panel4.ResumeLayout(false);
+             this.panel4.PerformLayout();
+             ((System.ComponentModel.ISupportInitialize)(this.dtgvFood)).EndInit();
             this.tpTable.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvTable)).EndInit();

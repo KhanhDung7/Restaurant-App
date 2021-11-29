@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\xampp\\htdocs\\PL\\Restaurant-app\\CleanArchQLNH\\CleanArchQLNH.csproj": {}
+    "C:\\Users\\ChiTran\\Desktop\\HK I\\phanlop\\Restaurant-App\\CleanArchQLNH\\CleanArchQLNH.csproj": {}
   },
   "projects": {
-    "C:\\xampp\\htdocs\\PL\\Restaurant-app\\CleanArchQLNH\\CleanArchQLNH.csproj": {
+    "C:\\Users\\ChiTran\\Desktop\\HK I\\phanlop\\Restaurant-App\\CleanArchQLNH\\CleanArchQLNH.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\xampp\\htdocs\\PL\\Restaurant-app\\CleanArchQLNH\\CleanArchQLNH.csproj",
+        "projectUniqueName": "C:\\Users\\ChiTran\\Desktop\\HK I\\phanlop\\Restaurant-App\\CleanArchQLNH\\CleanArchQLNH.csproj",
         "projectName": "CleanArchQLNH",
-        "projectPath": "C:\\xampp\\htdocs\\PL\\Restaurant-app\\CleanArchQLNH\\CleanArchQLNH.csproj",
-        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-        "outputPath": "C:\\xampp\\htdocs\\PL\\Restaurant-app\\CleanArchQLNH\\obj\\",
+        "projectPath": "C:\\Users\\ChiTran\\Desktop\\HK I\\phanlop\\Restaurant-App\\CleanArchQLNH\\CleanArchQLNH.csproj",
+        "packagesPath": "C:\\Users\\ChiTran\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ChiTran\\Desktop\\HK I\\phanlop\\Restaurant-App\\CleanArchQLNH\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\ChiTran\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0-windows"
@@ -61,7 +61,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
