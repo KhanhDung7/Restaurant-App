@@ -428,7 +428,7 @@ namespace CleanArchQLNH
             this.btnDeleteFood.TabIndex = 2;
             this.btnDeleteFood.Text = "Xóa";
             this.btnDeleteFood.UseVisualStyleBackColor = true;
-            // this.btnDeleteFood.Click += new System.EventHandler(this.btnDeleteFood_Click);
+            this.btnDeleteFood.Click += new System.EventHandler(this.btnDeleteFood_Click);
             // 
             // btnEditFood
             // 
@@ -438,7 +438,7 @@ namespace CleanArchQLNH
             this.btnEditFood.TabIndex = 1;
             this.btnEditFood.Text = "Sửa";
             this.btnEditFood.UseVisualStyleBackColor = true;
-            // this.btnEditFood.Click += new System.EventHandler(this.btnEditFood_Click);
+            this.btnEditFood.Click += new System.EventHandler(this.btnEditFood_Click);
             // 
             // btnAddFood
             // 
@@ -448,7 +448,7 @@ namespace CleanArchQLNH
             this.btnAddFood.TabIndex = 0;
             this.btnAddFood.Text = "Thêm";
             this.btnAddFood.UseVisualStyleBackColor = true;
-            // this.btnAddFood.Click += new System.EventHandler(this.btnAddFood_Click);
+            this.btnAddFood.Click += new System.EventHandler(this.btnAddFood_Click);
             // 
             // panel5
             // 
@@ -475,7 +475,7 @@ namespace CleanArchQLNH
             this.txtFoodPrice.Name = "txtFoodPrice";
             this.txtFoodPrice.Size = new System.Drawing.Size(175, 23);
             this.txtFoodPrice.TabIndex = 1;
-            // this.txtFoodPrice.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtFoodPrice_KeyDown);
+            this.txtFoodPrice.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtFoodPrice_KeyDown);
             // 
             // lbFoodPrice
             // 
@@ -502,7 +502,7 @@ namespace CleanArchQLNH
             this.txtFoodName.Name = "txtFoodName";
             this.txtFoodName.Size = new System.Drawing.Size(175, 23);
             this.txtFoodName.TabIndex = 1;
-            // this.txtFoodName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtFoodName_KeyDown);
+            this.txtFoodName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtFoodName_KeyDown);
             // 
             // lbFoodName
             // 
@@ -565,8 +565,8 @@ namespace CleanArchQLNH
             this.btnSearchFood.TabIndex = 3;
             this.btnSearchFood.Text = "Tìm";
             this.btnSearchFood.UseVisualStyleBackColor = true;
-            // this.btnSearchFood.Click += new System.EventHandler(this.btnSearchFood_Click);
-            // 
+            this.btnSearchFood.Click += new System.EventHandler(this.btnSearchFood_Click);
+            //
             // panel3
             // 
             this.panel3.Location = new System.Drawing.Point(4, 56);
