@@ -146,3 +146,11 @@ D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Usecase\obj\Debug\net5.0\Usecase.csproj.Co
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Usecase\obj\Debug\net5.0\Usecase.dll
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Usecase\obj\Debug\net5.0\ref\Usecase.dll
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Usecase\obj\Debug\net5.0\Usecase.pdb
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\Usecase\obj\Debug\net5.0\Usecase.csprojAssemblyReference.cache
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\Usecase\obj\Debug\net5.0\Usecase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\Usecase\obj\Debug\net5.0\Usecase.AssemblyInfoInputs.cache
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\Usecase\obj\Debug\net5.0\Usecase.AssemblyInfo.cs
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\Usecase\obj\Debug\net5.0\Usecase.csproj.CoreCompileInputs.cache
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\Usecase\obj\Debug\net5.0\Usecase.dll
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\Usecase\obj\Debug\net5.0\ref\Usecase.dll
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\Usecase\obj\Debug\net5.0\Usecase.pdb

@@ -1,28 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Domain\\Domain.csproj": {}
+    "C:\\Users\\ChiTran\\Desktop\\HK I\\phanlop\\Restaurant-App\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Domain\\Domain.csproj": {
+    "C:\\Users\\ChiTran\\Desktop\\HK I\\phanlop\\Restaurant-App\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\ChiTran\\Desktop\\HK I\\phanlop\\Restaurant-App\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\caodev\\.nuget\\packages\\",
-        "outputPath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\ChiTran\\Desktop\\HK I\\phanlop\\Restaurant-App\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\ChiTran\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ChiTran\\Desktop\\HK I\\phanlop\\Restaurant-App\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\caodev\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\ChiTran\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net5.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://nuget.org/api/v2": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0": {
@@ -55,26 +53,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[5.0.0, 5.0.0]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

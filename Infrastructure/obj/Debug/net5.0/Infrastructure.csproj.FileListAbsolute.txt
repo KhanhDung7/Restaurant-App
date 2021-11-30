@@ -198,3 +198,6 @@ D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Infrastructure\obj\Debug\net5.0\Infrastruc
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb

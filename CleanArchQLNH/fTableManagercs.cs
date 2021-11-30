@@ -16,15 +16,15 @@ namespace CleanArchQLNH
 {
     public partial class fTableManager : Form
     {
-       // private NHANVIEN loginAccount;
+        private NHANVIEN loginAccount;
 
-        /*
+        
         public NHANVIEN LoginAccount
         {
             get { return loginAccount; }
             set { loginAccount = value; ChangedAccount(loginAccount.MaChucVu); }
         }
-        */
+        
 
         /*
         public fTableManager(NHANVIEN acc)

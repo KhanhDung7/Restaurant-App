@@ -16,7 +16,7 @@ namespace CleanArchQLNH
 {
     public partial class fAdmin : Form
     {
-        // BindingSource staffList = new BindingSource();
+         BindingSource staffList = new BindingSource();
         // BindingSource orderList = new BindingSource();
         // BindingSource tableList = new BindingSource();
          BindingSource foodList = new BindingSource();
@@ -25,7 +25,7 @@ namespace CleanArchQLNH
         public fAdmin()
         {
             InitializeComponent();
-            // LoadStaff();
+             LoadStaff();
             // LoadChuVu();
             // LoadOrder();
             // LoadTable();
@@ -35,12 +35,12 @@ namespace CleanArchQLNH
         //
         //LoadDatabase
         //
-        // void LoadStaff()
-        // {
-        //     dtgvStaff.DataSource = staffList;
-        //     LoadStaffListF();
-        //     AddStaffBindingF();
-        // }
+         void LoadStaff()
+         {
+             dtgvStaff.DataSource = staffList;
+             LoadStaffListF();
+             AddStaffBindingF();
+         }
 
         // void LoadChuVu()
         // {
@@ -574,45 +574,45 @@ namespace CleanArchQLNH
         // //LoadStaff
         // //
         // #region
-        // void LoadStaffListF()
-        // {
-        //     staffList.DataSource = NhanVienInfras.Instance.LoadStaffList();
-        // }
-        // void AddStaffBindingF()
-        // {
-        //     txtStaffID.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "manv", true, DataSourceUpdateMode.Never));
-        //     txtStaffName.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "hotennv", true, DataSourceUpdateMode.Never));
-        //     txtStaffIdentity.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "cmnd_nv", true, DataSourceUpdateMode.Never));
-        //     txtStaffPhoneNumber.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "sdt_nv", true, DataSourceUpdateMode.Never));
-        //     txtStaffMail.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "mail_nv", true, DataSourceUpdateMode.Never));
-        //     mtxtStaffDateOfBirth.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "ngaysinh", true, DataSourceUpdateMode.Never));
-        //     txtStaffAddress.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "diachi", true, DataSourceUpdateMode.Never));
-        //     txtStaffContactName.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "hoten_nguoilh", true, DataSourceUpdateMode.Never));
-        //     txtStaffContactPhoneNumber.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "sdt_nguoilh", true, DataSourceUpdateMode.Never));
-        //     cmbStaffIdentity.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "machucvu", true, DataSourceUpdateMode.Never));
-        //     txtStaffPassWord.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "matkhau", true, DataSourceUpdateMode.Never));
-        //     dtgvStaff.Columns[0].HeaderText = "Mã nhân viên";
-        //     dtgvStaff.Columns[0].Width = 45;
-        //     dtgvStaff.Columns[1].HeaderText = "Họ tên";
-        //     dtgvStaff.Columns[1].Width = 100;
-        //     dtgvStaff.Columns[2].HeaderText = "CMND";
-        //     dtgvStaff.Columns[2].Width = 70;
-        //     dtgvStaff.Columns[3].HeaderText = "SĐT";
-        //     dtgvStaff.Columns[3].Width = 70;
-        //     dtgvStaff.Columns[4].HeaderText = "Mail";
-        //     dtgvStaff.Columns[4].Width = 100;
-        //     dtgvStaff.Columns[5].HeaderText = "Ngày sinh";
-        //     dtgvStaff.Columns[5].Width = 70;
-        //     dtgvStaff.Columns[6].HeaderText = "Địa chỉ";
-        //     dtgvStaff.Columns[6].Width = 100;
-        //     dtgvStaff.Columns[7].HeaderText = "Họ tên NLH";
-        //     dtgvStaff.Columns[7].Width = 100;
-        //     dtgvStaff.Columns[8].HeaderText = "SĐT NLH";
-        //     dtgvStaff.Columns[8].Width = 70;
-        //     dtgvStaff.Columns[9].HeaderText = "Mã Chức vụ";
-        //     dtgvStaff.Columns[9].Width = 50;
-        //     dtgvStaff.Columns[10].HeaderText = "Mật khẩu";
-        //     dtgvStaff.Columns[10].Width = 50;
+         void LoadStaffListF()
+         {
+             staffList.DataSource = NhanVienInfras.Instance.LoadStaffList();
+         }
+         void AddStaffBindingF()
+         {
+             txtStaffID.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "manv", true, DataSourceUpdateMode.Never));
+             txtStaffName.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "hotennv", true, DataSourceUpdateMode.Never));
+             txtStaffIdentity.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "cmnd_nv", true, DataSourceUpdateMode.Never));
+             txtStaffPhoneNumber.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "sdt_nv", true, DataSourceUpdateMode.Never));
+            txtStaffMail.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "mail_nv", true, DataSourceUpdateMode.Never));
+             mtxtStaffDateOfBirth.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "ngaysinh", true, DataSourceUpdateMode.Never));
+             txtStaffAddress.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "diachi", true, DataSourceUpdateMode.Never));
+             txtStaffContactName.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "hoten_nguoilh", true, DataSourceUpdateMode.Never));
+             txtStaffContactPhoneNumber.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "sdt_nguoilh", true, DataSourceUpdateMode.Never));
+             cmbStaffIdentity.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "machucvu", true, DataSourceUpdateMode.Never));
+             txtStaffPassWord.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "matkhau", true, DataSourceUpdateMode.Never));
+             dtgvStaff.Columns[0].HeaderText = "Mã nhân viên";
+             dtgvStaff.Columns[0].Width = 45;
+             dtgvStaff.Columns[1].HeaderText = "Họ tên";
+            dtgvStaff.Columns[1].Width = 100;
+             dtgvStaff.Columns[2].HeaderText = "CMND";
+             dtgvStaff.Columns[2].Width = 70;
+             dtgvStaff.Columns[3].HeaderText = "SĐT";
+             dtgvStaff.Columns[3].Width = 70;
+             dtgvStaff.Columns[4].HeaderText = "Mail";
+             dtgvStaff.Columns[4].Width = 100;
+             dtgvStaff.Columns[5].HeaderText = "Ngày sinh";
+             dtgvStaff.Columns[5].Width = 70;
+             dtgvStaff.Columns[6].HeaderText = "Địa chỉ";
+             dtgvStaff.Columns[6].Width = 100;
+             dtgvStaff.Columns[7].HeaderText = "Họ tên NLH";
+             dtgvStaff.Columns[7].Width = 100;
+             dtgvStaff.Columns[8].HeaderText = "SĐT NLH";
+             dtgvStaff.Columns[8].Width = 70;
+             dtgvStaff.Columns[9].HeaderText = "Mã Chức vụ";
+             dtgvStaff.Columns[9].Width = 50;
+             dtgvStaff.Columns[10].HeaderText = "Mật khẩu";
+             dtgvStaff.Columns[10].Width = 50;
         // }
         // #endregion
         // //
@@ -853,31 +853,31 @@ namespace CleanArchQLNH
         // //
         // //EventOrder
         // //
-        void cbOrderStatus1_Click(object sender, EventArgs e)
-        {
-            cbOrderStatus1.Checked = true;
-            cbOrderStatus2.Checked = false;
-        }
-        void cbOrderStatus2_Click(object sender, EventArgs e)
-        {
-            cbOrderStatus1.Checked = false;
-            cbOrderStatus2.Checked = true;
-        }
-        private void txtOrderCustomerPhoneNumber_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter) mtxtOrderDate.Focus();
-            if (e.KeyCode == Keys.Down) mtxtOrderDate.Focus();
-        }
-        private void mtxtOrderDate_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter) mtxtOrderTime.Focus();
-            if (e.KeyCode == Keys.Up) txtOrderCustomerPhoneNumber.Focus();
-            if (e.KeyCode == Keys.Down) mtxtOrderTime.Focus();
-        }
-        private void mtxtOrderTime_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Up) mtxtOrderDate.Focus();
-        }
+        //void cbOrderStatus1_Click(object sender, EventArgs e)
+        //{
+        //    cbOrderStatus1.Checked = true;
+        //    cbOrderStatus2.Checked = false;
+        //}
+        //void cbOrderStatus2_Click(object sender, EventArgs e)
+        //{
+        //    cbOrderStatus1.Checked = false;
+        //    cbOrderStatus2.Checked = true;
+        //}
+        //private void txtOrderCustomerPhoneNumber_KeyDown(object sender, KeyEventArgs e)
+        //{
+        //    if (e.KeyCode == Keys.Enter) mtxtOrderDate.Focus();
+        //    if (e.KeyCode == Keys.Down) mtxtOrderDate.Focus();
+        //}
+        //private void mtxtOrderDate_KeyDown(object sender, KeyEventArgs e)
+        //{
+        //    if (e.KeyCode == Keys.Enter) mtxtOrderTime.Focus();
+        //    if (e.KeyCode == Keys.Up) txtOrderCustomerPhoneNumber.Focus();
+        //    if (e.KeyCode == Keys.Down) mtxtOrderTime.Focus();
+        //}
+        //private void mtxtOrderTime_KeyDown(object sender, KeyEventArgs e)
+        //{
+        //    if (e.KeyCode == Keys.Up) mtxtOrderDate.Focus();
+        //}
         //
         //ActionOrder
         //
@@ -929,4 +929,5 @@ namespace CleanArchQLNH
         //     orderList.DataSource = PhieuDatBanInfras.Instance.TimPhieuDatBan(noidung);
         // }
     }
+}
 }

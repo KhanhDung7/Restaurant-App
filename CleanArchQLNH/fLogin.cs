@@ -24,18 +24,18 @@ namespace CleanArchQLNH
         {
             string username = txtUserName.Text;
             string password = txtPassWord.Text;
-            // if (CheckLoginInfras.Instance.Login(username, password) == 1)
-            // {
-            //     NHANVIEN nhanvienLogin = CheckLoginInfras.Instance.GetNhanVienByMaNV(username);
-            //     fTableManager f = new fTableManager(nhanvienLogin);
-            //     this.Hide();
-            //     f.ShowDialog();
-            //     this.Show();
-            // }
-            // else
-            // {
-            //     MessageBox.Show("Sai tên tài khoản hoặc mật khẩu", "Thông báo");
-            // }    
+             if (CheckLoginInfras.Instance.Login(username, password) == 1)
+             {
+                 NHANVIEN nhanvienLogin = CheckLoginInfras.Instance.GetNhanVienByMaNV(username);
+                 fTableManager f = new fTableManager(nhanvienLogin);
+                 this.Hide();
+                 f.ShowDialog();
+                 this.Show();
+             }
+             else
+             {
+                 MessageBox.Show("Sai tên tài khoản hoặc mật khẩu", "Thông báo");
+             }    
         }
 
        

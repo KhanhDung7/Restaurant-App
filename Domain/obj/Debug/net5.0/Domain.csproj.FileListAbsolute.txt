@@ -141,3 +141,15 @@ D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Domain\obj\Debug\net5.0\Domain.csproj.Core
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Domain\obj\Debug\net5.0\Domain.dll
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Domain\obj\Debug\net5.0\ref\Domain.dll
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Domain\obj\Debug\net5.0\Domain.pdb
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\Domain\bin\Debug\net5.0\Domain.deps.json
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\Domain\bin\Debug\net5.0\Domain.dll
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\Domain\bin\Debug\net5.0\ref\Domain.dll
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\Domain\bin\Debug\net5.0\Domain.pdb
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\Domain\obj\Debug\net5.0\Domain.csprojAssemblyReference.cache
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\Domain\obj\Debug\net5.0\Domain.dll
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\Domain\obj\Debug\net5.0\ref\Domain.dll
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\Domain\obj\Debug\net5.0\Domain.pdb
