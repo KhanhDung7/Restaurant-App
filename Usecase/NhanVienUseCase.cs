@@ -81,9 +81,9 @@ namespace Usecase
         {
             List<NHANVIEN> staffList = new List<NHANVIEN>();
             string query = "Select DISTINCT MaNV, HoTenNV, CMND_NV, SDT_NV, Mail_NV, NgaySinh, DiaChi, HoTen_NguoiLH, SDT_NguoiLH, MaCV, MatKhau" +
-                " from NHANVIEN where TinhTrang ='true' AND MaNV LIKE '%" + noidung + "%' OR HoTenNV LIKE '%" + noidung + "%' OR " +
+                " from NHANVIEN where TinhTrang ='true' AND (MaNV LIKE '%" + noidung + "%' OR HoTenNV LIKE '%" + noidung + "%' OR " +
                 "CMND_NV LIKE '%" + noidung + "%' OR Mail_NV LIKE '%" + noidung + "%' OR NgaySinh LIKE '%" + noidung + "%' OR " +
-                "DiaChi LIKE '%" + noidung + "%' OR HoTen_NguoiLH LIKE '%" + noidung + "%' OR SDT_NguoiLH LIKE '%" + noidung + "%' OR MaCV LIKE '%" + noidung + "%'";
+                "DiaChi LIKE '%" + noidung + "%' OR HoTen_NguoiLH LIKE '%" + noidung + "%' OR SDT_NguoiLH LIKE '%" + noidung + "%' OR MaCV LIKE '%" + noidung + "%')";
             DataTable data = provider.ExecuteQuery(query);
             foreach (DataRow item in data.Rows)
             {

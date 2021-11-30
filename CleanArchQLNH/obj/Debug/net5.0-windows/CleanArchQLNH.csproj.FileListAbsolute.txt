@@ -420,7 +420,6 @@ D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\Cle
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfoInputs.cache
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfo.cs
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CoreCompileInputs.cache
-D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.AssemblyReference.cache
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.exe
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.deps.json
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.json
@@ -441,6 +440,8 @@ D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\Use
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\Infrastructure.pdb
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\Domain.pdb
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\Usecase.pdb
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.AssemblyReference.cache
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CopyComplete
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.dll
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\ref\CleanArchQLNH.dll
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.pdb

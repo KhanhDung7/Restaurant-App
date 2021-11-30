@@ -9,8 +9,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-// using Domain.Entities;
-// using Infrastructure.Persistence;
 
 namespace CleanArchQLNH
 {
@@ -26,7 +24,7 @@ namespace CleanArchQLNH
         {
             InitializeComponent();
              LoadStaff();
-            // LoadChuVu();
+             LoadChuVu();
             // LoadOrder();
             // LoadTable();
              LoadFood();
@@ -42,12 +40,12 @@ namespace CleanArchQLNH
              AddStaffBindingF();
          }
 
-        // void LoadChuVu()
-        // {
-        //     cmbStaffIdentity.DataSource = ChucVuInfras.Instance.LoadDSChucVu();
-        //     cmbStaffIdentity.DisplayMember = "TenCV";
-        //     cmbStaffIdentity.ValueMember = "MaCV";
-        // }
+        void LoadChuVu()
+        {
+            cmbStaffIdentity.DataSource = ChucVuInfras.Instance.LoadDSChucVu();
+            cmbStaffIdentity.DisplayMember = "TenCV";
+            cmbStaffIdentity.ValueMember = "MaCV";
+        }
         // void LoadOrder()
         // {
         //     dtgvOrderTable.DataSource = orderList;
