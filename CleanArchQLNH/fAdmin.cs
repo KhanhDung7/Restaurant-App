@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Domain.Entities;
+using Infrastructure.Persistence;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -17,7 +19,7 @@ namespace CleanArchQLNH
         // BindingSource staffList = new BindingSource();
         // BindingSource orderList = new BindingSource();
         // BindingSource tableList = new BindingSource();
-        // BindingSource foodList = new BindingSource();
+         BindingSource foodList = new BindingSource();
         // BindingSource promotionList = new BindingSource();
         // //BindingSource positionList = new BindingSource();
         public fAdmin()
@@ -27,7 +29,7 @@ namespace CleanArchQLNH
             // LoadChuVu();
             // LoadOrder();
             // LoadTable();
-            // LoadFood();
+             LoadFood();
             // LoadPromotion();
         }
         //
@@ -58,12 +60,12 @@ namespace CleanArchQLNH
         //     LoadTableListF();
         //     AddTableBindingF();
         // }
-        // void LoadFood()
-        // {
-        //     dtgvFood.DataSource = foodList;
-        //     LoadFoodListF();
-        //     AddFoodBindingF();
-        // }
+        void LoadFood()
+        {
+            dtgvFood.DataSource = foodList;
+            LoadFoodListF();
+            AddFoodBindingF();
+        }
         // void LoadPromotion()
         // {
         //     dtgvPromotion.DataSource = promotionList;
@@ -86,7 +88,7 @@ namespace CleanArchQLNH
         //             ngay = "0" + ngay;
         //         }
         //     }
-            
+
         //     if(thang.Replace(" ", "") != "")
         //     {
         //         if (Int32.Parse(thang.ToString().Replace(" ", "")) < 10)
@@ -169,154 +171,154 @@ namespace CleanArchQLNH
         //         dtgvBill.Columns[6].HeaderText = "Tổng lương nhân viên";
         //         dtgvBill.Columns[6].Width = 70;
         //     }
-            
-        // }
-        // //
-        // //Food
-        // //
-        // void LoadFoodListF()
-        // {
-        //     foodList.DataSource = MonAnInfras.Instance.LoadFoodList();
-        // }
-        // void AddFoodBindingF()
-        // {
-        //     txtIDFood.DataBindings.Add(new Binding("Text", dtgvFood.DataSource, "mam", true, DataSourceUpdateMode.Never));
-        //     txtFoodName.DataBindings.Add(new Binding("Text", dtgvFood.DataSource, "tenm", true, DataSourceUpdateMode.Never));
-        //     txtFoodPrice.DataBindings.Add(new Binding("Text", dtgvFood.DataSource, "gia", true, DataSourceUpdateMode.Never));
-        //     dtgvFood.Columns[0].HeaderText = "Mã món ăn";
-        //     dtgvFood.Columns[0].Width = 100;
-        //     dtgvFood.Columns[1].HeaderText = "Tên món ăn";
-        //     dtgvFood.Columns[1].Width = 150;
-        //     dtgvFood.Columns[2].HeaderText = "Giá";
-        //     dtgvFood.Columns[2].Width = 100;
-        //     dtgvFood.Columns[3].Visible = false;
-        // }
-        // //
-        // //EventFood
-        // //
-        // private void txtFoodName_KeyDown(object sender, KeyEventArgs e)
-        // {
-        //     if (e.KeyCode == Keys.Enter) txtFoodPrice.Focus();
-        //     if (e.KeyCode == Keys.Down) txtFoodPrice.Focus();
-        // }
-        // private void txtFoodPrice_KeyDown(object sender, KeyEventArgs e)
-        // {
-        //     if (e.KeyCode == Keys.Up) txtFoodName.Focus();
-        // }
-        // //
-        // //ActionFood
-        // //
-        // private void btnAddFood_Click(object sender, EventArgs e)
-        // {
 
-        //     List<MONAN> dsmonan = MonAnInfras.Instance.LoadFoodList();
-        //     string mam = txtIDFood.Text;
-        //     string tenm = txtFoodName.Text;
-        //     decimal gia;
-        //     int n = 0;
-        //     int flag = 0;
-        //     foreach (MONAN monan in dsmonan)
-        //     {
-        //         if (monan.TenM == tenm)
-        //         {
-        //             flag = 1;
-        //         }
-        //     }
-        //     if (this.txtFoodName.Text.ToString().Replace(" ", "") != "")
-        //     {
-        //         if (flag == 1)
-        //         {
-        //             MessageBox.Show("Món ăn này đã tồn tại", "Thông báo");
-        //         }
-        //         else
-        //         {
-        //             if (this.txtFoodPrice.Text.ToString().Replace(" ", "") != "")
-        //             {
-        //                 if (int.TryParse(this.txtFoodPrice.Text, out n))
-        //                 {
-        //                     gia = decimal.Parse(txtFoodPrice.Text);
-        //                     if (MonAnInfras.Instance.ThemMonAn(mam, tenm, gia) == 1)
-        //                     {
-        //                         MessageBox.Show("Thêm món ăn thành công");
-        //                         LoadFoodListF();
-        //                     }
-        //                     else
-        //                     {
-        //                         MessageBox.Show("Thêm món ăn thất bại");
-        //                     }
-        //                 }
-        //                 else
-        //                 {
-        //                     MessageBox.Show("Giá của món ăn phải là số", "Thông báo");
-        //                 }
-        //             }
-        //             else MessageBox.Show("Giá của món ăn phải là số", "Thông báo");
-        //         }
-        //     }
-        //     else MessageBox.Show("Tên món ăn không được để trống", "Thông báo");
-        // }
-        // private void btnEditFood_Click(object sender, EventArgs e)
-        // {
-        //     List<MONAN> dsmonan = MonAnInfras.Instance.LoadFoodList();
-        //     string mam = txtIDFood.Text;
-        //     string tenm = txtFoodName.Text;
-        //     decimal gia;
-        //     int n = 0;
-        //     foreach(MONAN monan in dsmonan)
-        //     {
-        //         if (monan.MaM == mam)
-        //         {
-        //             if(monan.TenM != tenm)
-        //             {
-        //                 MessageBox.Show("Tên món ăn không được thay đổi", "Thông báo");
-        //             }
-        //             else
-        //             {
-        //                 if (this.txtFoodPrice.Text.ToString().Replace(" ", "") != "")
-        //                 {
-        //                     if (int.TryParse(this.txtFoodPrice.Text, out n))
-        //                     {
-        //                         gia = decimal.Parse(txtFoodPrice.Text);
-        //                         if (MonAnInfras.Instance.SuaMonAn(mam, tenm, gia) == 1)
-        //                         {
-        //                             MessageBox.Show("Sửa món ăn thành công");
-        //                             LoadFoodListF();
-        //                         }
-        //                         else
-        //                         {
-        //                             MessageBox.Show("Sửa món ăn thất bại");
-        //                         }
-        //                     }
-        //                     else
-        //                     {
-        //                         MessageBox.Show("Giá của món ăn phải là số", "Thông báo");
-        //                     }
-        //                 }
-        //                 else MessageBox.Show("Giá của món ăn phải là số", "Thông báo");
-        //             }
-        //         }
-        //     }
-        // }
-        // private void btnDeleteFood_Click(object sender, EventArgs e)
-        // {
-        //     string mam = txtIDFood.Text;
-        //     if (MonAnInfras.Instance.XoaMonAn(mam) == 1)
-        //     {
-        //         MessageBox.Show("Xóa món ăn thành công", "Thông báo");
-        //         LoadFoodListF();
-        //     }
-        //     else
-        //     {
-        //         MessageBox.Show("Xóa thất bại", "Thông báo");
-        //     }
-        // }
-        // private void btnSearchFood_Click(object sender, EventArgs e)
-        // {
-        //     string noidung = txtSearchFood.Text;
-        //     dtgvFood.DataSource = foodList;
-        //     foodList.DataSource = MonAnInfras.Instance.TimMonAn(noidung);
         // }
         // //
+        //Food
+        //
+        void LoadFoodListF()
+        {
+            foodList.DataSource = MonAnInfras.Instance.LoadFoodList();
+        }
+        void AddFoodBindingF()
+        {
+            txtIDFood.DataBindings.Add(new Binding("Text", dtgvFood.DataSource, "mam", true, DataSourceUpdateMode.Never));
+            txtFoodName.DataBindings.Add(new Binding("Text", dtgvFood.DataSource, "tenm", true, DataSourceUpdateMode.Never));
+            txtFoodPrice.DataBindings.Add(new Binding("Text", dtgvFood.DataSource, "gia", true, DataSourceUpdateMode.Never));
+            dtgvFood.Columns[0].HeaderText = "Mã món ăn";
+            dtgvFood.Columns[0].Width = 100;
+            dtgvFood.Columns[1].HeaderText = "Tên món ăn";
+            dtgvFood.Columns[1].Width = 150;
+            dtgvFood.Columns[2].HeaderText = "Giá";
+            dtgvFood.Columns[2].Width = 100;
+            dtgvFood.Columns[3].Visible = false;
+        }
+        //
+        //EventFood
+        //
+        private void txtFoodName_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) txtFoodPrice.Focus();
+            if (e.KeyCode == Keys.Down) txtFoodPrice.Focus();
+        }
+        private void txtFoodPrice_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Up) txtFoodName.Focus();
+        }
+        //
+        //ActionFood
+        //
+        private void btnAddFood_Click(object sender, EventArgs e)
+        {
+
+            List<MONAN> dsmonan = MonAnInfras.Instance.LoadFoodList();
+            string mam = txtIDFood.Text;
+            string tenm = txtFoodName.Text;
+            decimal gia;
+            int n = 0;
+            int flag = 0;
+            foreach (MONAN monan in dsmonan)
+            {
+                if (monan.TenM == tenm)
+                {
+                    flag = 1;
+                }
+            }
+            if (this.txtFoodName.Text.ToString().Replace(" ", "") != "")
+            {
+                if (flag == 1)
+                {
+                    MessageBox.Show("Món ăn này đã tồn tại", "Thông báo");
+                }
+                else
+                {
+                    if (this.txtFoodPrice.Text.ToString().Replace(" ", "") != "")
+                    {
+                        if (int.TryParse(this.txtFoodPrice.Text, out n))
+                        {
+                            gia = decimal.Parse(txtFoodPrice.Text);
+                            if (MonAnInfras.Instance.ThemMonAn(mam, tenm, gia) == 1)
+                            {
+                                MessageBox.Show("Thêm món ăn thành công");
+                                LoadFoodListF();
+                            }
+                            else
+                            {
+                                MessageBox.Show("Thêm món ăn thất bại");
+                            }
+                        }
+                        else
+                        {
+                            MessageBox.Show("Giá của món ăn phải là số", "Thông báo");
+                        }
+                    }
+                    else MessageBox.Show("Giá của món ăn phải là số", "Thông báo");
+                }
+            }
+            else MessageBox.Show("Tên món ăn không được để trống", "Thông báo");
+        }
+        private void btnEditFood_Click(object sender, EventArgs e)
+        {
+            List<MONAN> dsmonan = MonAnInfras.Instance.LoadFoodList();
+            string mam = txtIDFood.Text;
+            string tenm = txtFoodName.Text;
+            decimal gia;
+            int n = 0;
+            foreach (MONAN monan in dsmonan)
+            {
+                if (monan.MaM == mam)
+                {
+                    if (monan.TenM != tenm)
+                    {
+                        MessageBox.Show("Tên món ăn không được thay đổi", "Thông báo");
+                    }
+                    else
+                    {
+                        if (this.txtFoodPrice.Text.ToString().Replace(" ", "") != "")
+                        {
+                            if (int.TryParse(this.txtFoodPrice.Text, out n))
+                            {
+                                gia = decimal.Parse(txtFoodPrice.Text);
+                                if (MonAnInfras.Instance.SuaMonAn(mam, tenm, gia) == 1)
+                                {
+                                    MessageBox.Show("Sửa món ăn thành công");
+                                    LoadFoodListF();
+                                }
+                                else
+                                {
+                                    MessageBox.Show("Sửa món ăn thất bại");
+                                }
+                            }
+                            else
+                            {
+                                MessageBox.Show("Giá của món ăn phải là số", "Thông báo");
+                            }
+                        }
+                        else MessageBox.Show("Giá của món ăn phải là số", "Thông báo");
+                    }
+                }
+            }
+        }
+        private void btnDeleteFood_Click(object sender, EventArgs e)
+        {
+            string mam = txtIDFood.Text;
+            if (MonAnInfras.Instance.XoaMonAn(mam) == 1)
+            {
+                MessageBox.Show("Xóa món ăn thành công", "Thông báo");
+                LoadFoodListF();
+            }
+            else
+            {
+                MessageBox.Show("Xóa thất bại", "Thông báo");
+            }
+        }
+        private void btnSearchFood_Click(object sender, EventArgs e)
+        {
+            string noidung = txtSearchFood.Text;
+            dtgvFood.DataSource = foodList;
+            foodList.DataSource = MonAnInfras.Instance.TimMonAn(noidung);
+        }
+        //
         // //Table
         // //
         // private void cbTableStatus1_Click(object sender, EventArgs e)
