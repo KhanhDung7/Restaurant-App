@@ -1091,10 +1091,10 @@ namespace CleanArchQLNH
             // cmbStaffIdentity
             // 
             this.cmbStaffIdentity.FormattingEnabled = true;
-            //this.cmbStaffIdentity.Items.AddRange(new object[] {
-            //"1",
-            //"2"
-            //});
+            this.cmbStaffIdentity.Items.AddRange(new object[] {
+            "1",
+            "2",
+            });
             this.cmbStaffIdentity.SelectedIndex = -1;
 
             this.cmbStaffIdentity.Location = new System.Drawing.Point(81, 121);
@@ -1117,7 +1117,7 @@ namespace CleanArchQLNH
             this.btnSearchStaff.TabIndex = 27;
             this.btnSearchStaff.Text = "Tìm kiếm";
             this.btnSearchStaff.UseVisualStyleBackColor = true;
-            // this.btnSearchStaff.Click += new System.EventHandler(this.btnSearchStaff_Click);
+            this.btnSearchStaff.Click += new System.EventHandler(this.btnSearchStaff_Click);
             // 
             // lbStaffContactPhoneNumber
             // 
@@ -1215,7 +1215,7 @@ namespace CleanArchQLNH
             this.txtStaffName.Name = "txtStaffName";
             this.txtStaffName.Size = new System.Drawing.Size(100, 23);
             this.txtStaffName.TabIndex = 6;
-            // this.txtStaffName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStaffName_KeyDown);
+            this.txtStaffName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStaffName_KeyDown);
             // 
             // mtxtStaffDateOfBirth
             // 
@@ -1225,7 +1225,7 @@ namespace CleanArchQLNH
             this.mtxtStaffDateOfBirth.Size = new System.Drawing.Size(100, 23);
             this.mtxtStaffDateOfBirth.TabIndex = 8;
             this.mtxtStaffDateOfBirth.ValidatingType = typeof(System.DateTime);
-            // this.mtxtStaffDateOfBirth.KeyDown += new System.Windows.Forms.KeyEventHandler(this.mtxtStaffDateOfBirth_KeyDown);
+            this.mtxtStaffDateOfBirth.KeyDown += new System.Windows.Forms.KeyEventHandler(this.mtxtStaffDateOfBirth_KeyDown);
             // 
             // txtStaffPhoneNumber
             // 
@@ -1233,7 +1233,7 @@ namespace CleanArchQLNH
             this.txtStaffPhoneNumber.Name = "txtStaffPhoneNumber";
             this.txtStaffPhoneNumber.Size = new System.Drawing.Size(100, 23);
             this.txtStaffPhoneNumber.TabIndex = 12;
-            // this.txtStaffPhoneNumber.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStaffPhoneNumber_KeyDown);
+            this.txtStaffPhoneNumber.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStaffPhoneNumber_KeyDown);
             // 
             // txtStaffAddress
             // 
@@ -1241,7 +1241,7 @@ namespace CleanArchQLNH
             this.txtStaffAddress.Name = "txtStaffAddress";
             this.txtStaffAddress.Size = new System.Drawing.Size(100, 23);
             this.txtStaffAddress.TabIndex = 16;
-            // this.txtStaffAddress.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStaffAddress_KeyDown);
+            this.txtStaffAddress.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStaffAddress_KeyDown);
             // 
             // txtStaffIdentity
             // 
@@ -1249,7 +1249,7 @@ namespace CleanArchQLNH
             this.txtStaffIdentity.Name = "txtStaffIdentity";
             this.txtStaffIdentity.Size = new System.Drawing.Size(100, 23);
             this.txtStaffIdentity.TabIndex = 18;
-            // this.txtStaffIdentity.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStaffIdentity_KeyDown);
+            this.txtStaffIdentity.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStaffIdentity_KeyDown);
             // 
             // txtStaffMail
             // 
@@ -1257,7 +1257,7 @@ namespace CleanArchQLNH
             this.txtStaffMail.Name = "txtStaffMail";
             this.txtStaffMail.Size = new System.Drawing.Size(110, 23);
             this.txtStaffMail.TabIndex = 20;
-            // this.txtStaffMail.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStaffMail_KeyDown);
+            this.txtStaffMail.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStaffMail_KeyDown);
             // 
             // txtStaffPassWord
             // 
@@ -1265,7 +1265,7 @@ namespace CleanArchQLNH
             this.txtStaffPassWord.Name = "txtStaffPassWord";
             this.txtStaffPassWord.Size = new System.Drawing.Size(100, 23);
             this.txtStaffPassWord.TabIndex = 14;
-            // this.txtStaffPassWord.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStaffPassWord_KeyDown);
+            this.txtStaffPassWord.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStaffPassWord_KeyDown);
             // 
             // txtStaffContactName
             // 
@@ -1273,7 +1273,7 @@ namespace CleanArchQLNH
             this.txtStaffContactName.Name = "txtStaffContactName";
             this.txtStaffContactName.Size = new System.Drawing.Size(110, 23);
             this.txtStaffContactName.TabIndex = 22;
-            // this.txtStaffContactName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStaffContactName_KeyDown);
+            this.txtStaffContactName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStaffContactName_KeyDown);
             // 
             // txtStaffContactPhoneNumber
             // 
@@ -1281,7 +1281,7 @@ namespace CleanArchQLNH
             this.txtStaffContactPhoneNumber.Name = "txtStaffContactPhoneNumber";
             this.txtStaffContactPhoneNumber.Size = new System.Drawing.Size(110, 23);
             this.txtStaffContactPhoneNumber.TabIndex = 24;
-            // this.txtStaffContactPhoneNumber.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStaffContactPhoneNumber_KeyDown);
+            this.txtStaffContactPhoneNumber.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStaffContactPhoneNumber_KeyDown);
             // 
             // lbStaffName
             // 
@@ -1319,7 +1319,7 @@ namespace CleanArchQLNH
             this.btnDeleteStaff.TabIndex = 2;
             this.btnDeleteStaff.Text = "Xóa";
             this.btnDeleteStaff.UseVisualStyleBackColor = true;
-            // this.btnDeleteStaff.Click += new System.EventHandler(this.btnDeleteStaff_Click);
+            this.btnDeleteStaff.Click += new System.EventHandler(this.btnDeleteStaff_Click);
             // 
             // btnAddStaff
             // 
@@ -1329,7 +1329,7 @@ namespace CleanArchQLNH
             this.btnAddStaff.TabIndex = 0;
             this.btnAddStaff.Text = "Thêm";
             this.btnAddStaff.UseVisualStyleBackColor = true;
-            // this.btnAddStaff.Click += new System.EventHandler(this.btnAddStaff_Click);
+            this.btnAddStaff.Click += new System.EventHandler(this.btnAddStaff_Click);
             // 
             // btnEditStaff
             // 
@@ -1339,7 +1339,7 @@ namespace CleanArchQLNH
             this.btnEditStaff.TabIndex = 1;
             this.btnEditStaff.Text = "Sửa";
             this.btnEditStaff.UseVisualStyleBackColor = true;
-            // this.btnEditStaff.Click += new System.EventHandler(this.btnEditStaff_Click);
+            this.btnEditStaff.Click += new System.EventHandler(this.btnEditStaff_Click);
             // 
             // tpOrderTable
             // 
@@ -1590,15 +1590,15 @@ namespace CleanArchQLNH
             this.tpTable.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvTable)).EndInit();
-            // this.pnTableStatus.ResumeLayout(false);
-            // this.pnTableStatus.PerformLayout();
-            // this.panel7.ResumeLayout(false);
-            // this.pnMaxPeopleOnTable.ResumeLayout(false);
-            // this.pnMaxPeopleOnTable.PerformLayout();
-            // this.pnTableID.ResumeLayout(false);
-            // this.pnTableID.PerformLayout();
-            // this.panel12.ResumeLayout(false);
-            // this.panel12.PerformLayout();
+             this.pnTableStatus.ResumeLayout(false);
+             this.pnTableStatus.PerformLayout();
+             this.panel7.ResumeLayout(false);
+             this.pnMaxPeopleOnTable.ResumeLayout(false);
+             this.pnMaxPeopleOnTable.PerformLayout();
+             this.pnTableID.ResumeLayout(false);
+             this.pnTableID.PerformLayout();
+             this.panel12.ResumeLayout(false);
+            this.panel12.PerformLayout();
             this.tpPromotion.ResumeLayout(false);
             this.pnListPromotion.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvPromotion)).EndInit();

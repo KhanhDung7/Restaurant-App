@@ -15,24 +15,24 @@ namespace CleanArchQLNH
 {
     public partial class fAccountProfile : Form
     {
-        //private NHANVIEN loginAccount;
+        private NHANVIEN loginAccount;
 
-        //public NHANVIEN LoginAccount
-        //{
-         //   get { return loginAccount; }
-         //   set { loginAccount = value; ChangedAccount(loginAccount); }
-        //}
-       // public fAccountProfile(NHANVIEN acc)
-        //{
-          //  InitializeComponent();
+        public NHANVIEN LoginAccount
+        {
+            get { return loginAccount; }
+            set { loginAccount = value; ChangedAccount(loginAccount); }
+        }
+        public fAccountProfile(NHANVIEN acc)
+        {
+           InitializeComponent();
 
-          //  LoginAccount = acc;
-        //}
+            LoginAccount = acc;
+        }
             public fAccountProfile()
         {
            InitializeComponent();
 
-        //    LoginAccount = acc;
+            LoginAccount = acc;
         }
 
         private void txtPassWord_KeyDown(object sender, KeyEventArgs e)
@@ -63,16 +63,16 @@ namespace CleanArchQLNH
             if (e.KeyCode == Keys.Enter) btnEdit.Focus();
             if (e.KeyCode == Keys.Up) txtAddress.Focus();
         }
-        //void ChangedAccount(NHANVIEN acc)
-        //{
-         //   txtUserName.Text = LoginAccount.MaNV;
-         //   txtPassWord.Text = LoginAccount.MatKhau;
-          //  txtFullName.Text = LoginAccount.HoTenNV;
-         //   txtPosition.Text = LoginAccount.MaChucVu.ToString();
-          //  txtPhoneNumber.Text = LoginAccount.SDT_NV;
-          //  txtAddress.Text = LoginAccount.DiaChi;
-          //  txtIdentity.Text = LoginAccount.CMND_NV;
-        //}
+        void ChangedAccount(NHANVIEN acc)
+        {
+            txtUserName.Text = LoginAccount.MaNV;
+            txtPassWord.Text = LoginAccount.MatKhau;
+            txtFullName.Text = LoginAccount.HoTenNV;
+            txtPosition.Text = LoginAccount.MaChucVu.ToString();
+            txtPhoneNumber.Text = LoginAccount.SDT_NV;
+            txtAddress.Text = LoginAccount.DiaChi;
+            txtIdentity.Text = LoginAccount.CMND_NV;
+        }
 
         void UpdateAccount()
         {
@@ -97,14 +97,14 @@ namespace CleanArchQLNH
                             if (this.txtPhoneNumber.Text.Replace(" ", "").Length == 10)
                             {
                                 sdtnv = txtPhoneNumber.Text;
-    //                            UpdateAccountProfileInfras.Instance.UpdateAccountProfile(manv, hotennv, cmnd, sdtnv, diachi, chucvu, matkhau);
-    //                            if (UpdateAccountProfileInfras.Instance.UpdateAccountProfile(manv, hotennv, cmnd, sdtnv, diachi, chucvu, matkhau) == 1)
+                                UpdateAccountProfileInfras.Instance.UpdateAccountProfile(manv, hotennv, cmnd, sdtnv, diachi, chucvu, matkhau);
+                                if (UpdateAccountProfileInfras.Instance.UpdateAccountProfile(manv, hotennv, cmnd, sdtnv, diachi, chucvu, matkhau) == 1)
                                 {
                                     MessageBox.Show("Cập nhật thông tin thành công", "Thông báo");
                                 }
                                 if (eventUpdateAccount != null)
                                 {
-    //                                eventUpdateAccount(this, new AccountEvent(CheckLoginInfras.Instance.GetNhanVienByMaNV(manv)));
+                                    eventUpdateAccount(this, new AccountEvent(CheckLoginInfras.Instance.GetNhanVienByMaNV(manv)));
                                 }
                                 else MessageBox.Show("Cập nhật thông tin thất bại", "Thông báo");
                             }
@@ -138,16 +138,16 @@ namespace CleanArchQLNH
     }
     public class AccountEvent : EventArgs
     {
-       // private NHANVIEN acc;
-        //public NHANVIEN Acc
-       // {
-        //    get { return acc; }
-        //    set { acc = value; }
-       // }
-        //public AccountEvent(NHANVIEN acc)
-        //{
-         //   this.Acc = acc;
-       // }
+        private NHANVIEN acc;
+        public NHANVIEN Acc
+        {
+            get { return acc; }
+            set { acc = value; }
+        }
+        public AccountEvent(NHANVIEN acc)
+        {
+            this.Acc = acc;
+        }
     }
 
 }

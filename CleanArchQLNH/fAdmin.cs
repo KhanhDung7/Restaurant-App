@@ -16,7 +16,7 @@ namespace CleanArchQLNH
 {
     public partial class fAdmin : Form
     {
-        // BindingSource staffList = new BindingSource();
+         BindingSource staffList = new BindingSource();
         // BindingSource orderList = new BindingSource();
         // BindingSource tableList = new BindingSource();
          BindingSource foodList = new BindingSource();
@@ -25,7 +25,7 @@ namespace CleanArchQLNH
         public fAdmin()
         {
             InitializeComponent();
-            // LoadStaff();
+             LoadStaff();
             // LoadChuVu();
             // LoadOrder();
             // LoadTable();
@@ -35,12 +35,12 @@ namespace CleanArchQLNH
         //
         //LoadDatabase
         //
-        // void LoadStaff()
-        // {
-        //     dtgvStaff.DataSource = staffList;
-        //     LoadStaffListF();
-        //     AddStaffBindingF();
-        // }
+         void LoadStaff()
+         {
+             dtgvStaff.DataSource = staffList;
+             LoadStaffListF();
+             AddStaffBindingF();
+         }
 
         // void LoadChuVu()
         // {
@@ -574,246 +574,246 @@ namespace CleanArchQLNH
         // //LoadStaff
         // //
         // #region
-        // void LoadStaffListF()
-        // {
-        //     staffList.DataSource = NhanVienInfras.Instance.LoadStaffList();
-        // }
-        // void AddStaffBindingF()
-        // {
-        //     txtStaffID.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "manv", true, DataSourceUpdateMode.Never));
-        //     txtStaffName.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "hotennv", true, DataSourceUpdateMode.Never));
-        //     txtStaffIdentity.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "cmnd_nv", true, DataSourceUpdateMode.Never));
-        //     txtStaffPhoneNumber.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "sdt_nv", true, DataSourceUpdateMode.Never));
-        //     txtStaffMail.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "mail_nv", true, DataSourceUpdateMode.Never));
-        //     mtxtStaffDateOfBirth.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "ngaysinh", true, DataSourceUpdateMode.Never));
-        //     txtStaffAddress.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "diachi", true, DataSourceUpdateMode.Never));
-        //     txtStaffContactName.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "hoten_nguoilh", true, DataSourceUpdateMode.Never));
-        //     txtStaffContactPhoneNumber.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "sdt_nguoilh", true, DataSourceUpdateMode.Never));
-        //     cmbStaffIdentity.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "machucvu", true, DataSourceUpdateMode.Never));
-        //     txtStaffPassWord.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "matkhau", true, DataSourceUpdateMode.Never));
-        //     dtgvStaff.Columns[0].HeaderText = "Mã nhân viên";
-        //     dtgvStaff.Columns[0].Width = 45;
-        //     dtgvStaff.Columns[1].HeaderText = "Họ tên";
-        //     dtgvStaff.Columns[1].Width = 100;
-        //     dtgvStaff.Columns[2].HeaderText = "CMND";
-        //     dtgvStaff.Columns[2].Width = 70;
-        //     dtgvStaff.Columns[3].HeaderText = "SĐT";
-        //     dtgvStaff.Columns[3].Width = 70;
-        //     dtgvStaff.Columns[4].HeaderText = "Mail";
-        //     dtgvStaff.Columns[4].Width = 100;
-        //     dtgvStaff.Columns[5].HeaderText = "Ngày sinh";
-        //     dtgvStaff.Columns[5].Width = 70;
-        //     dtgvStaff.Columns[6].HeaderText = "Địa chỉ";
-        //     dtgvStaff.Columns[6].Width = 100;
-        //     dtgvStaff.Columns[7].HeaderText = "Họ tên NLH";
-        //     dtgvStaff.Columns[7].Width = 100;
-        //     dtgvStaff.Columns[8].HeaderText = "SĐT NLH";
-        //     dtgvStaff.Columns[8].Width = 70;
-        //     dtgvStaff.Columns[9].HeaderText = "Mã Chức vụ";
-        //     dtgvStaff.Columns[9].Width = 50;
-        //     dtgvStaff.Columns[10].HeaderText = "Mật khẩu";
-        //     dtgvStaff.Columns[10].Width = 50;
-        // }
+         void LoadStaffListF()
+         {
+             staffList.DataSource = NhanVienInfras.Instance.LoadStaffList();
+         }
+         void AddStaffBindingF()
+         {
+             txtStaffID.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "manv", true, DataSourceUpdateMode.Never));
+             txtStaffName.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "hotennv", true, DataSourceUpdateMode.Never));
+             txtStaffIdentity.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "cmnd_nv", true, DataSourceUpdateMode.Never));
+             txtStaffPhoneNumber.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "sdt_nv", true, DataSourceUpdateMode.Never));
+             txtStaffMail.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "mail_nv", true, DataSourceUpdateMode.Never));
+             mtxtStaffDateOfBirth.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "ngaysinh", true, DataSourceUpdateMode.Never));
+             txtStaffAddress.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "diachi", true, DataSourceUpdateMode.Never));
+             txtStaffContactName.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "hoten_nguoilh", true, DataSourceUpdateMode.Never));
+             txtStaffContactPhoneNumber.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "sdt_nguoilh", true, DataSourceUpdateMode.Never));
+             cmbStaffIdentity.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "machucvu", true, DataSourceUpdateMode.Never));
+             txtStaffPassWord.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "matkhau", true, DataSourceUpdateMode.Never));
+             dtgvStaff.Columns[0].HeaderText = "Mã nhân viên";
+             dtgvStaff.Columns[0].Width = 45;
+             dtgvStaff.Columns[1].HeaderText = "Họ tên";
+             dtgvStaff.Columns[1].Width = 100;
+             dtgvStaff.Columns[2].HeaderText = "CMND";
+             dtgvStaff.Columns[2].Width = 70;
+             dtgvStaff.Columns[3].HeaderText = "SĐT";
+             dtgvStaff.Columns[3].Width = 70;
+             dtgvStaff.Columns[4].HeaderText = "Mail";
+             dtgvStaff.Columns[4].Width = 100;
+             dtgvStaff.Columns[5].HeaderText = "Ngày sinh";
+             dtgvStaff.Columns[5].Width = 70;
+             dtgvStaff.Columns[6].HeaderText = "Địa chỉ";
+             dtgvStaff.Columns[6].Width = 100;
+             dtgvStaff.Columns[7].HeaderText = "Họ tên NLH";
+             dtgvStaff.Columns[7].Width = 100;
+             dtgvStaff.Columns[8].HeaderText = "SĐT NLH";
+             dtgvStaff.Columns[8].Width = 70;
+             dtgvStaff.Columns[9].HeaderText = "Mã Chức vụ";
+             dtgvStaff.Columns[9].Width = 50;
+             dtgvStaff.Columns[10].HeaderText = "Mật khẩu";
+             dtgvStaff.Columns[10].Width = 50;
+        }//m bo luôn ngoặc của method trước nên nó bị sai,  okr rồi kiểm tra lại nha
         // #endregion
         // //
         // //EventStaff
         // //
-        // private void txtStaffName_KeyDown(object sender, KeyEventArgs e)
-        // {
-        //     if (e.KeyCode == Keys.Enter) mtxtStaffDateOfBirth.Focus();
-        //     if (e.KeyCode == Keys.Down) mtxtStaffDateOfBirth.Focus();
-        // }
-        // private void mtxtStaffDateOfBirth_KeyDown(object sender, KeyEventArgs e)
-        // {
-        //     if (e.KeyCode == Keys.Enter) txtStaffPhoneNumber.Focus();
-        //     if (e.KeyCode == Keys.Up) txtStaffName.Focus();
-        //     if (e.KeyCode == Keys.Down) txtStaffPhoneNumber.Focus();
-        // }
-        // private void txtStaffPhoneNumber_KeyDown(object sender, KeyEventArgs e)
-        // {
-        //     if (e.KeyCode == Keys.Enter) txtStaffPassWord.Focus();
-        //     if (e.KeyCode == Keys.Up) mtxtStaffDateOfBirth.Focus();
-        //     if (e.KeyCode == Keys.Down) txtStaffPassWord.Focus();
-        // }
-        // private void txtStaffPassWord_KeyDown(object sender, KeyEventArgs e)
-        // {
-        //     if (e.KeyCode == Keys.Enter) txtStaffAddress.Focus();
-        //     if (e.KeyCode == Keys.Up) txtStaffPhoneNumber.Focus();
-        //     if (e.KeyCode == Keys.Down) txtStaffAddress.Focus();
-        // }
-        // private void txtStaffAddress_KeyDown(object sender, KeyEventArgs e)
-        // {
-        //     if (e.KeyCode == Keys.Enter) txtStaffIdentity.Focus();
-        //     if (e.KeyCode == Keys.Up) txtStaffPassWord.Focus();
-        //     if (e.KeyCode == Keys.Down) txtStaffIdentity.Focus();
-        // }
-        // private void txtStaffIdentity_KeyDown(object sender, KeyEventArgs e)
-        // {
-        //     if (e.KeyCode == Keys.Enter) txtStaffMail.Focus();
-        //     if (e.KeyCode == Keys.Up) txtStaffAddress.Focus();
-        //     if (e.KeyCode == Keys.Down) txtStaffMail.Focus();
-        // }
-        // private void txtStaffMail_KeyDown(object sender, KeyEventArgs e)
-        // {
-        //     if (e.KeyCode == Keys.Enter) txtStaffContactName.Focus();
-        //     if (e.KeyCode == Keys.Up) txtStaffIdentity.Focus();
-        //     if (e.KeyCode == Keys.Down) txtStaffContactName.Focus();
-        // }
-        // private void txtStaffContactName_KeyDown(object sender, KeyEventArgs e)
-        // {
-        //     if (e.KeyCode == Keys.Enter) txtStaffContactPhoneNumber.Focus();
-        //     if (e.KeyCode == Keys.Up) txtStaffMail.Focus();
-        //     if (e.KeyCode == Keys.Down) txtStaffContactPhoneNumber.Focus();
-        // }
-        // private void txtStaffContactPhoneNumber_KeyDown(object sender, KeyEventArgs e)
-        // {
-        //     if (e.KeyCode == Keys.Up) txtStaffContactName.Focus();
-        // }
+         private void txtStaffName_KeyDown(object sender, KeyEventArgs e)
+         {
+             if (e.KeyCode == Keys.Enter) mtxtStaffDateOfBirth.Focus();
+             if (e.KeyCode == Keys.Down) mtxtStaffDateOfBirth.Focus();
+         }
+         private void mtxtStaffDateOfBirth_KeyDown(object sender, KeyEventArgs e)
+         {
+             if (e.KeyCode == Keys.Enter) txtStaffPhoneNumber.Focus();
+             if (e.KeyCode == Keys.Up) txtStaffName.Focus();
+             if (e.KeyCode == Keys.Down) txtStaffPhoneNumber.Focus();
+         }
+         private void txtStaffPhoneNumber_KeyDown(object sender, KeyEventArgs e)
+         {
+             if (e.KeyCode == Keys.Enter) txtStaffPassWord.Focus();
+             if (e.KeyCode == Keys.Up) mtxtStaffDateOfBirth.Focus();
+             if (e.KeyCode == Keys.Down) txtStaffPassWord.Focus();
+         }
+         private void txtStaffPassWord_KeyDown(object sender, KeyEventArgs e)
+         {
+             if (e.KeyCode == Keys.Enter) txtStaffAddress.Focus();
+             if (e.KeyCode == Keys.Up) txtStaffPhoneNumber.Focus();
+             if (e.KeyCode == Keys.Down) txtStaffAddress.Focus();
+         }
+         private void txtStaffAddress_KeyDown(object sender, KeyEventArgs e)
+         {
+             if (e.KeyCode == Keys.Enter) txtStaffIdentity.Focus();
+            if (e.KeyCode == Keys.Up) txtStaffPassWord.Focus();
+             if (e.KeyCode == Keys.Down) txtStaffIdentity.Focus();
+         }
+         private void txtStaffIdentity_KeyDown(object sender, KeyEventArgs e)
+         {
+             if (e.KeyCode == Keys.Enter) txtStaffMail.Focus();
+             if (e.KeyCode == Keys.Up) txtStaffAddress.Focus();
+             if (e.KeyCode == Keys.Down) txtStaffMail.Focus();
+         }
+         private void txtStaffMail_KeyDown(object sender, KeyEventArgs e)
+         {
+             if (e.KeyCode == Keys.Enter) txtStaffContactName.Focus();
+             if (e.KeyCode == Keys.Up) txtStaffIdentity.Focus();
+             if (e.KeyCode == Keys.Down) txtStaffContactName.Focus();
+         }
+         private void txtStaffContactName_KeyDown(object sender, KeyEventArgs e)
+        {
+             if (e.KeyCode == Keys.Enter) txtStaffContactPhoneNumber.Focus();
+             if (e.KeyCode == Keys.Up) txtStaffMail.Focus();
+             if (e.KeyCode == Keys.Down) txtStaffContactPhoneNumber.Focus();
+         }
+         private void txtStaffContactPhoneNumber_KeyDown(object sender, KeyEventArgs e)
+         {
+             if (e.KeyCode == Keys.Up) txtStaffContactName.Focus();
+         }
         // //
         // //Action Staff
         // //
-        // private void btnAddStaff_Click(object sender, EventArgs e)
-        // {
-        //     string manv = txtStaffID.Text;
-        //     string hotennv = txtStaffName.Text;
-        //     string ngaysinh = mtxtStaffDateOfBirth.Text;
-        //     string diachi = txtStaffAddress.Text;
-        //     string hoten_nguoilienhe = txtStaffContactName.Text;
-        //     int machucvu = int.Parse(cmbStaffIdentity.SelectedValue.ToString());
-        //     string matkhau = txtStaffPassWord.Text;
-        //     int n = 0;
-        //     string formatMail = "@gmail.com";
-        //     if (this.txtStaffName.Text.Length != 0 && this.mtxtStaffDateOfBirth.Text.Length != 0 && this.txtStaffAddress.Text.Length != 0
-        //         && this.txtStaffContactName.Text.Length != 0 && this.txtStaffPassWord.Text.Length != 0)
-        //     {
-        //         if (this.txtStaffMail.Text.Contains(formatMail))
-        //         {
-        //             string mail = txtStaffMail.Text;
-        //             if (int.TryParse(this.txtStaffIdentity.Text, out n))
-        //             {
-        //                 if (this.txtStaffIdentity.Text.Length == 9)
-        //                 {
-        //                     string cmnd = txtStaffIdentity.Text;
-        //                     n = 0;
-        //                     if (int.TryParse(this.txtStaffPhoneNumber.Text, out n))
-        //                     {
-        //                         if (this.txtStaffPhoneNumber.Text.Length == 10)
-        //                         {
-        //                             string sdtnv = txtStaffPhoneNumber.Text;
-        //                             n = 0;
-        //                             if (int.TryParse(this.txtStaffContactPhoneNumber.Text, out n))
-        //                             {
-        //                                 if (this.txtStaffContactPhoneNumber.Text.Length == 10)
-        //                                 {
-        //                                     string sdt_nguoilienhe = txtStaffContactPhoneNumber.Text;
-        //                                     if (NhanVienInfras.Instance.ThemNhanVien(manv, hotennv, cmnd, sdtnv, mail, ngaysinh, diachi, hoten_nguoilienhe, sdt_nguoilienhe, machucvu, matkhau) == 1)
-        //                                     {
-        //                                         MessageBox.Show("Thêm nhân viên thành công", "Thông báo");
-        //                                         LoadStaffListF();
-        //                                     }
-        //                                     else
-        //                                     {
-        //                                         MessageBox.Show("Thêm thất bại", "Thông báo");
-        //                                     }
-        //                                 }
-        //                                 else MessageBox.Show("Số điện thoại phải có đúng 10 ký tự", "Thông báo");
-        //                             }
-        //                             else MessageBox.Show("Số điện thoại chỉ được chứa ký tự số", "Thông báo");
-        //                         }
-        //                         else MessageBox.Show("Số điện thoại phải có đúng 10 ký tự", "Thông báo");
-        //                     }
-        //                     else MessageBox.Show("Số điện thoại chỉ được chứa ký tự số", "Thông báo");
-        //                 }
-        //                 else MessageBox.Show("Chứng minh nhân dân phải có đúng 9 ký tự", "Thông báo");
-        //             }
-        //             else MessageBox.Show("Chứng minh nhân dân chỉ được chứa ký tự số", "Thông báo");
-        //         }
-        //         else MessageBox.Show("Mail phải theo định dạng 'example@gmail.com'", "Thông báo");
-        //     }
-        //     else MessageBox.Show("Không được để trống bất kỳ trường nào", "Thông báo");
-        // }
-        // private void btnEditStaff_Click(object sender, EventArgs e)
-        // {
-        //     string manv = txtStaffID.Text;
-        //     string hotennv = txtStaffName.Text;
-        //     string ngaysinh = mtxtStaffDateOfBirth.Text;
-        //     string diachi = txtStaffAddress.Text;
-        //     string hoten_nguoilienhe = txtStaffContactName.Text;
-        //     int machucvu = int.Parse(cmbStaffIdentity.SelectedValue.ToString());
-        //     string matkhau = txtStaffPassWord.Text;
-        //     int n = 0;
+         private void btnAddStaff_Click(object sender, EventArgs e)
+         {
+             string manv = txtStaffID.Text;
+             string hotennv = txtStaffName.Text;
+             string ngaysinh = mtxtStaffDateOfBirth.Text;
+             string diachi = txtStaffAddress.Text;
+             string hoten_nguoilienhe = txtStaffContactName.Text;
+             int machucvu = int.Parse(cmbStaffIdentity.SelectedValue.ToString());
+             string matkhau = txtStaffPassWord.Text;
+             int n = 0;
+             string formatMail = "@gmail.com";
+             if (this.txtStaffName.Text.Length != 0 && this.mtxtStaffDateOfBirth.Text.Length != 0 && this.txtStaffAddress.Text.Length != 0
+                 && this.txtStaffContactName.Text.Length != 0 && this.txtStaffPassWord.Text.Length != 0)
+             {
+                 if (this.txtStaffMail.Text.Contains(formatMail))
+                {
+                     string mail = txtStaffMail.Text;
+                     if (int.TryParse(this.txtStaffIdentity.Text, out n))
+                     {
+                         if (this.txtStaffIdentity.Text.Length == 9)
+                         {
+                             string cmnd = txtStaffIdentity.Text;
+                        n = 0;
+                             if (int.TryParse(this.txtStaffPhoneNumber.Text, out n))
+                             {
+                                 if (this.txtStaffPhoneNumber.Text.Length == 10)
+                                 {
+                                     string sdtnv = txtStaffPhoneNumber.Text;
+                                     n = 0;
+                                     if (int.TryParse(this.txtStaffContactPhoneNumber.Text, out n))
+                                     {
+                                         if (this.txtStaffContactPhoneNumber.Text.Length == 10)
+                                         {
+                                             string sdt_nguoilienhe = txtStaffContactPhoneNumber.Text;
+                                             if (NhanVienInfras.Instance.ThemNhanVien(manv, hotennv, cmnd, sdtnv, mail, ngaysinh, diachi, hoten_nguoilienhe, sdt_nguoilienhe, machucvu, matkhau) == 1)
+                                             {
+                                                 MessageBox.Show("Thêm nhân viên thành công", "Thông báo");
+                                                 LoadStaffListF();
+                                             }
+                                             else
+                                             {
+                                                 MessageBox.Show("Thêm thất bại", "Thông báo");
+                                             }
+                                         }
+                                         else MessageBox.Show("Số điện thoại phải có đúng 10 ký tự", "Thông báo");
+                                     }
+                                     else MessageBox.Show("Số điện thoại chỉ được chứa ký tự số", "Thông báo");
+                                 }
+                                 else MessageBox.Show("Số điện thoại phải có đúng 10 ký tự", "Thông báo");
+                             }
+                             else MessageBox.Show("Số điện thoại chỉ được chứa ký tự số", "Thông báo");
+                         }
+                         else MessageBox.Show("Chứng minh nhân dân phải có đúng 9 ký tự", "Thông báo");
+                     }
+                     else MessageBox.Show("Chứng minh nhân dân chỉ được chứa ký tự số", "Thông báo");
+                 }
+                 else MessageBox.Show("Mail phải theo định dạng 'example@gmail.com'", "Thông báo");
+             }
+             else MessageBox.Show("Không được để trống bất kỳ trường nào", "Thông báo");
+         }
+         private void btnEditStaff_Click(object sender, EventArgs e)
+         {
+             string manv = txtStaffID.Text;
+             string hotennv = txtStaffName.Text;
+             string ngaysinh = mtxtStaffDateOfBirth.Text;
+             string diachi = txtStaffAddress.Text;
+             string hoten_nguoilienhe = txtStaffContactName.Text;
+             int machucvu = int.Parse(cmbStaffIdentity.SelectedValue.ToString());
+             string matkhau = txtStaffPassWord.Text;
+             int n = 0;
             
-        //     string formatMail = "@gmail.com";
-        //     if (this.txtStaffName.Text.Length != 0 && this.mtxtStaffDateOfBirth.Text.Length != 0 && this.txtStaffAddress.Text.Length != 0
-        //         && this.txtStaffContactName.Text.Length != 0 && this.txtStaffPassWord.Text.Length != 0)
-        //     {
-        //         if (this.txtStaffMail.Text.Contains(formatMail))
-        //         {
-        //             string mail = txtStaffMail.Text;
-        //             if (int.TryParse(this.txtStaffIdentity.Text, out n))
-        //             {
-        //                 if (this.txtStaffIdentity.Text.Length == 9)
-        //                 {
-        //                     string cmnd = txtStaffIdentity.Text;
-        //                     n = 0;
-        //                     if (int.TryParse(this.txtStaffPhoneNumber.Text, out n))
-        //                     {
-        //                         if (this.txtStaffPhoneNumber.Text.Length == 10)
-        //                         {
-        //                             string sdtnv = txtStaffPhoneNumber.Text;
-        //                             n = 0;
-        //                             if (int.TryParse(this.txtStaffContactPhoneNumber.Text, out n))
-        //                             {
-        //                                 if (this.txtStaffContactPhoneNumber.Text.Length == 10)
-        //                                 {
-        //                                     string sdt_nguoilienhe = txtStaffContactPhoneNumber.Text;
-        //                                     n = 0;
-        //                                     if (NhanVienInfras.Instance.SuaNhanVien(manv, hotennv, cmnd, sdtnv, mail, ngaysinh, diachi, hoten_nguoilienhe, sdt_nguoilienhe, machucvu, matkhau) == 1)
-        //                                     {
-        //                                         MessageBox.Show("Sửa nhân viên thành công", "Thông báo");
-        //                                         LoadStaffListF();
-        //                                     }
-        //                                     else
-        //                                     {
-        //                                         MessageBox.Show("Sửa thất bại", "Thông báo");
-        //                                     }
-        //                                 }
-        //                                 else MessageBox.Show("Số điện thoại phải có đúng 10 ký tự", "Thông báo");
-        //                             }
-        //                             else MessageBox.Show("Số điện thoại chỉ được chứa ký tự số", "Thông báo");
-        //                         }
-        //                         else MessageBox.Show("Số điện thoại phải có đúng 10 ký tự", "Thông báo");
-        //                     }
-        //                     else MessageBox.Show("Số điện thoại chỉ được chứa ký tự số", "Thông báo");
-        //                 }
-        //                 else MessageBox.Show("Chứng minh nhân dân phải có đúng 9 ký tự", "Thông báo");
-        //             }
-        //             else MessageBox.Show("Chứng minh nhân dân chỉ được chứa ký tự số", "Thông báo");
-        //         }
-        //         else MessageBox.Show("Mail phải theo định dạng 'example@gmail.com'", "Thông báo");
-        //     }
-        //     else MessageBox.Show("Không được để trống bất kỳ trường nào", "Thông báo");
-        // }
-        // private void btnDeleteStaff_Click(object sender, EventArgs e)
-        // {
-        //     string manv = txtStaffID.Text;
+             string formatMail = "@gmail.com";
+             if (this.txtStaffName.Text.Length != 0 && this.mtxtStaffDateOfBirth.Text.Length != 0 && this.txtStaffAddress.Text.Length != 0
+                 && this.txtStaffContactName.Text.Length != 0 && this.txtStaffPassWord.Text.Length != 0)
+             {
+                 if (this.txtStaffMail.Text.Contains(formatMail))
+                 {
+                     string mail = txtStaffMail.Text;
+                     if (int.TryParse(this.txtStaffIdentity.Text, out n))
+                     {
+                         if (this.txtStaffIdentity.Text.Length == 9)
+                         {
+                             string cmnd = txtStaffIdentity.Text;
+                             n = 0;
+                             if (int.TryParse(this.txtStaffPhoneNumber.Text, out n))
+                            {
+                                 if (this.txtStaffPhoneNumber.Text.Length == 10)
+                                 {
+                                     string sdtnv = txtStaffPhoneNumber.Text;
+                                     n = 0;
+                                    if (int.TryParse(this.txtStaffContactPhoneNumber.Text, out n))
+                                    {
+                                         if (this.txtStaffContactPhoneNumber.Text.Length == 10)
+                                         {
+                                             string sdt_nguoilienhe = txtStaffContactPhoneNumber.Text;
+                                             n = 0;
+                                             if (NhanVienInfras.Instance.SuaNhanVien(manv, hotennv, cmnd, sdtnv, mail, ngaysinh, diachi, hoten_nguoilienhe, sdt_nguoilienhe, machucvu, matkhau) == 1)
+                                             {
+                                                 MessageBox.Show("Sửa nhân viên thành công", "Thông báo");
+                                                 LoadStaffListF();
+                                             }
+                                             else
+                                             {
+                                                 MessageBox.Show("Sửa thất bại", "Thông báo");
+                                             }
+                                         }
+                                         else MessageBox.Show("Số điện thoại phải có đúng 10 ký tự", "Thông báo");
+                                     }
+                                     else MessageBox.Show("Số điện thoại chỉ được chứa ký tự số", "Thông báo");
+                                 }
+                                 else MessageBox.Show("Số điện thoại phải có đúng 10 ký tự", "Thông báo");
+                             }
+                             else MessageBox.Show("Số điện thoại chỉ được chứa ký tự số", "Thông báo");
+                         }
+                         else MessageBox.Show("Chứng minh nhân dân phải có đúng 9 ký tự", "Thông báo");
+                     }
+                     else MessageBox.Show("Chứng minh nhân dân chỉ được chứa ký tự số", "Thông báo");
+                 }
+                 else MessageBox.Show("Mail phải theo định dạng 'example@gmail.com'", "Thông báo");
+                }
+             else MessageBox.Show("Không được để trống bất kỳ trường nào", "Thông báo");
+         }
+         private void btnDeleteStaff_Click(object sender, EventArgs e)
+         {
+             string manv = txtStaffID.Text;
 
-        //     if (NhanVienInfras.Instance.XoaNhanVien(manv) == 1)
-        //     {
-        //         MessageBox.Show("Xóa nhân viên thành công", "Thông báo");
-        //         LoadStaffListF();
-        //     }
-        //     else
-        //     {
-        //         MessageBox.Show("Xóa thất bại", "Thông báo");
-        //     }
-        // }
-        // private void btnSearchStaff_Click(object sender, EventArgs e)
-        // {
-        //     string noidung = txtSearchStaff.Text;
-        //     dtgvStaff.DataSource = staffList;
-        //     staffList.DataSource = NhanVienInfras.Instance.TimNhanVien(noidung);
-        // }
+             if (NhanVienInfras.Instance.XoaNhanVien(manv) == 1)
+             {
+                 MessageBox.Show("Xóa nhân viên thành công", "Thông báo");
+                 LoadStaffListF();
+             }
+             else
+             {
+                 MessageBox.Show("Xóa thất bại", "Thông báo");
+             }
+         }
+         private void btnSearchStaff_Click(object sender, EventArgs e)
+         {
+             string noidung = txtSearchStaff.Text;
+             dtgvStaff.DataSource = staffList;
+             staffList.DataSource = NhanVienInfras.Instance.TimNhanVien(noidung);
+         }
 
         // //
         // //
@@ -853,31 +853,31 @@ namespace CleanArchQLNH
         // //
         // //EventOrder
         // //
-        void cbOrderStatus1_Click(object sender, EventArgs e)
-        {
-            cbOrderStatus1.Checked = true;
-            cbOrderStatus2.Checked = false;
-        }
-        void cbOrderStatus2_Click(object sender, EventArgs e)
-        {
-            cbOrderStatus1.Checked = false;
-            cbOrderStatus2.Checked = true;
-        }
-        private void txtOrderCustomerPhoneNumber_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter) mtxtOrderDate.Focus();
-            if (e.KeyCode == Keys.Down) mtxtOrderDate.Focus();
-        }
-        private void mtxtOrderDate_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter) mtxtOrderTime.Focus();
-            if (e.KeyCode == Keys.Up) txtOrderCustomerPhoneNumber.Focus();
-            if (e.KeyCode == Keys.Down) mtxtOrderTime.Focus();
-        }
-        private void mtxtOrderTime_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Up) mtxtOrderDate.Focus();
-        }
+        // void cbOrderStatus1_Click(object sender, EventArgs e)
+        // {
+        //     cbOrderStatus1.Checked = true;
+        //     cbOrderStatus2.Checked = false;
+        // }
+        // void cbOrderStatus2_Click(object sender, EventArgs e)
+        // {
+        //     cbOrderStatus1.Checked = false;
+        //     cbOrderStatus2.Checked = true;
+        // }
+        // private void txtOrderCustomerPhoneNumber_KeyDown(object sender, KeyEventArgs e)
+        // {
+        //     if (e.KeyCode == Keys.Enter) mtxtOrderDate.Focus();
+        //     if (e.KeyCode == Keys.Down) mtxtOrderDate.Focus();
+        // }
+        // private void mtxtOrderDate_KeyDown(object sender, KeyEventArgs e)
+        // {
+        //     if (e.KeyCode == Keys.Enter) mtxtOrderTime.Focus();
+        //     if (e.KeyCode == Keys.Up) txtOrderCustomerPhoneNumber.Focus();
+        //     if (e.KeyCode == Keys.Down) mtxtOrderTime.Focus();
+        // }
+        // private void mtxtOrderTime_KeyDown(object sender, KeyEventArgs e)
+        // {
+        //     if (e.KeyCode == Keys.Up) mtxtOrderDate.Focus();
+        // }
         //
         //ActionOrder
         //
