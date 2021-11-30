@@ -7,9 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-//using Domain.Entities;
-//using Infrastructure.Persistence;
-//using Usecase;
+using Domain.Entities;
+using Infrastructure.Persistence;
+using Usecase;
 
 namespace CleanArchQLNH
 {
@@ -32,7 +32,7 @@ namespace CleanArchQLNH
         {
            InitializeComponent();
 
-            LoginAccount = acc;
+            LoginAccount = loginAccount;
         }
 
         private void txtPassWord_KeyDown(object sender, KeyEventArgs e)

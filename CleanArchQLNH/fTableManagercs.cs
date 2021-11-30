@@ -1,3 +1,4 @@
+using Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -40,10 +41,10 @@ namespace CleanArchQLNH
             InitializeComponent();
             LoadData();
             LoadTable();
-            this.LoginAccount = acc;
+            this.LoginAccount = loginAccount;
         }
 
-        /*
+
         #region Methods
 
         //Nếu chức vụ bằng 1 thì hiện Form Admin
@@ -56,7 +57,7 @@ namespace CleanArchQLNH
 
         #endregion
 
-        */
+
         private void AdminMenuItem_Click(object sender, EventArgs e)
         {
             fAdmin f = new fAdmin();

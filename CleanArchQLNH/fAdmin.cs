@@ -853,31 +853,31 @@ namespace CleanArchQLNH
         // //
         // //EventOrder
         // //
-        // void cbOrderStatus1_Click(object sender, EventArgs e)
-        // {
-        //     cbOrderStatus1.Checked = true;
-        //     cbOrderStatus2.Checked = false;
-        // }
-        // void cbOrderStatus2_Click(object sender, EventArgs e)
-        // {
-        //     cbOrderStatus1.Checked = false;
-        //     cbOrderStatus2.Checked = true;
-        // }
-        // private void txtOrderCustomerPhoneNumber_KeyDown(object sender, KeyEventArgs e)
-        // {
-        //     if (e.KeyCode == Keys.Enter) mtxtOrderDate.Focus();
-        //     if (e.KeyCode == Keys.Down) mtxtOrderDate.Focus();
-        // }
-        // private void mtxtOrderDate_KeyDown(object sender, KeyEventArgs e)
-        // {
-        //     if (e.KeyCode == Keys.Enter) mtxtOrderTime.Focus();
-        //     if (e.KeyCode == Keys.Up) txtOrderCustomerPhoneNumber.Focus();
-        //     if (e.KeyCode == Keys.Down) mtxtOrderTime.Focus();
-        // }
-        // private void mtxtOrderTime_KeyDown(object sender, KeyEventArgs e)
-        // {
-        //     if (e.KeyCode == Keys.Up) mtxtOrderDate.Focus();
-        // }
+        void cbOrderStatus1_Click(object sender, EventArgs e)
+        {
+            cbOrderStatus1.Checked = true;
+            cbOrderStatus2.Checked = false;
+        }
+        void cbOrderStatus2_Click(object sender, EventArgs e)
+        {
+            cbOrderStatus1.Checked = false;
+            cbOrderStatus2.Checked = true;
+        }
+        private void txtOrderCustomerPhoneNumber_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) mtxtOrderDate.Focus();
+            if (e.KeyCode == Keys.Down) mtxtOrderDate.Focus();
+        }
+        private void mtxtOrderDate_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) mtxtOrderTime.Focus();
+            if (e.KeyCode == Keys.Up) txtOrderCustomerPhoneNumber.Focus();
+            if (e.KeyCode == Keys.Down) mtxtOrderTime.Focus();
+        }
+        private void mtxtOrderTime_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Up) mtxtOrderDate.Focus();
+        }
         //
         //ActionOrder
         //
