@@ -1,3 +1,4 @@
+using Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -16,17 +17,17 @@ namespace CleanArchQLNH
 {
     public partial class fTableManager : Form
     {
-       // private NHANVIEN loginAccount;
+        private NHANVIEN loginAccount;
 
-        /*
+        
         public NHANVIEN LoginAccount
         {
             get { return loginAccount; }
             set { loginAccount = value; ChangedAccount(loginAccount.MaChucVu); }
         }
-        */
+        
 
-        /*
+        
         public fTableManager(NHANVIEN acc)
         {
             InitializeComponent();
@@ -34,16 +35,16 @@ namespace CleanArchQLNH
             LoadTable();
             this.LoginAccount = acc;
         }
-        */
+        
         public fTableManager()
         {
             InitializeComponent();
             LoadData();
             LoadTable();
-            //this.LoginAccount = acc;
+            this.LoginAccount = loginAccount;
         }
 
-        /*
+
         #region Methods
 
         //Nếu chức vụ bằng 1 thì hiện Form Admin
@@ -56,7 +57,7 @@ namespace CleanArchQLNH
 
         #endregion
 
-        */
+
         private void AdminMenuItem_Click(object sender, EventArgs e)
         {
             fAdmin f = new fAdmin();
@@ -65,14 +66,14 @@ namespace CleanArchQLNH
 
         private void AccInfoMenuDrop_Click(object sender, EventArgs e)
         {
-            //fAccountProfile f = new fAccountProfile(LoginAccount);
-           // f.EventUpdateAccount += F_EventUpdateAccount; ;
-           // f.ShowDialog();
+            fAccountProfile f = new fAccountProfile(LoginAccount);
+            f.EventUpdateAccount += F_EventUpdateAccount; ;
+            f.ShowDialog();
         }
 
         private void F_EventUpdateAccount(object sender, AccountEvent e)
         {
-           // ManageAccMenuItem.Text = "Quản lý tài khoản (" + e.Acc.HoTenNV + ")";
+            ManageAccMenuItem.Text = "Quản lý tài khoản (" + e.Acc.HoTenNV + ")";
         }
 
         private void LogoutMenuDrop_Click(object sender, EventArgs e)
