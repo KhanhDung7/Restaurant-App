@@ -824,7 +824,7 @@ namespace CleanArchQLNH
             this.btnDeletePromotion.TabIndex = 2;
             this.btnDeletePromotion.Text = "Xóa";
             this.btnDeletePromotion.UseVisualStyleBackColor = true;
-            // this.btnDeletePromotion.Click += new System.EventHandler(this.btnDeletePromotion_Click);
+             this.btnDeletePromotion.Click += new System.EventHandler(this.btnDeletePromotion_Click);
             // 
             // btnEditPromotion
             // 
@@ -834,7 +834,7 @@ namespace CleanArchQLNH
             this.btnEditPromotion.TabIndex = 1;
             this.btnEditPromotion.Text = "Sửa";
             this.btnEditPromotion.UseVisualStyleBackColor = true;
-            // this.btnEditPromotion.Click += new System.EventHandler(this.btnEditPromotion_Click);
+             this.btnEditPromotion.Click += new System.EventHandler(this.btnEditPromotion_Click);
             // 
             // btnAddPromotion
             // 
@@ -844,7 +844,7 @@ namespace CleanArchQLNH
             this.btnAddPromotion.TabIndex = 0;
             this.btnAddPromotion.Text = "Thêm";
             this.btnAddPromotion.UseVisualStyleBackColor = true;
-            // this.btnAddPromotion.Click += new System.EventHandler(this.btnAddPromotion_Click);
+             this.btnAddPromotion.Click += new System.EventHandler(this.btnAddPromotion_Click);
             // 
             // panel10
             // 
@@ -1022,7 +1022,7 @@ namespace CleanArchQLNH
             this.btnSearchPromotion.TabIndex = 3;
             this.btnSearchPromotion.Text = "Tìm";
             this.btnSearchPromotion.UseVisualStyleBackColor = true;
-            // this.btnSearchPromotion.Click += new System.EventHandler(this.btnSearchPromotion_Click);
+             this.btnSearchPromotion.Click += new System.EventHandler(this.btnSearchPromotion_Click);
             // 
             // tpStaff
             // 

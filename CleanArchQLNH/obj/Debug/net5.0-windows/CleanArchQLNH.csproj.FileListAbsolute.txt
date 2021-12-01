@@ -410,16 +410,6 @@ D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\
 D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.genruntimeconfig.cache
 C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fTableManager.resources
 C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fInHoaDon.resources
-D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAccountProfile.resources
-D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAdmin.resources
-D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fInHoaDon.resources
-D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fLogin.resources
-D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fTableManager.resources
-D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.GenerateResource.cache
-D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.GeneratedMSBuildEditorConfig.editorconfig
-D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfoInputs.cache
-D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfo.cs
-D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CoreCompileInputs.cache
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.exe
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.deps.json
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.json
@@ -441,6 +431,16 @@ D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\Inf
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\Domain.pdb
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\Usecase.pdb
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.AssemblyReference.cache
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAccountProfile.resources
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAdmin.resources
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fInHoaDon.resources
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fLogin.resources
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fTableManager.resources
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.GenerateResource.cache
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.GeneratedMSBuildEditorConfig.editorconfig
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfoInputs.cache
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfo.cs
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CoreCompileInputs.cache
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CopyComplete
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.dll
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\ref\CleanArchQLNH.dll
