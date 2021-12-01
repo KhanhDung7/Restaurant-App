@@ -16,8 +16,8 @@ namespace CleanArchQLNH
     {
          BindingSource staffList = new BindingSource();
         // BindingSource orderList = new BindingSource();
-        // BindingSource tableList = new BindingSource();
-         BindingSource foodList = new BindingSource();
+        BindingSource tableList = new BindingSource();
+        BindingSource foodList = new BindingSource();
         BindingSource promotionList = new BindingSource();
         // //BindingSource positionList = new BindingSource();
         public fAdmin()
@@ -26,8 +26,8 @@ namespace CleanArchQLNH
              LoadStaff();
              LoadChuVu();
             // LoadOrder();
-            // LoadTable();
-             LoadFood();
+            LoadTable();
+            LoadFood();
             LoadPromotion();
         }
         //
@@ -52,12 +52,12 @@ namespace CleanArchQLNH
         //     LoadOrderListF();
         //     AddOrderBindingF();
         // }
-        // void LoadTable()
-        // {
-        //     dtgvTable.DataSource = tableList;
-        //     LoadTableListF();
-        //     AddTableBindingF();
-        // }
+        void LoadTable()
+        {
+            dtgvTable.DataSource = tableList;
+            LoadTableListF();
+            AddTableBindingF();
+        }
         void LoadFood()
         {
             dtgvFood.DataSource = foodList;
@@ -317,111 +317,112 @@ namespace CleanArchQLNH
             foodList.DataSource = MonAnInfras.Instance.TimMonAn(noidung);
         }
         //
-        // //Table
-        // //
-        // private void cbTableStatus1_Click(object sender, EventArgs e)
-        // {
-        //     cbTableStatus1.Checked = true;
-        //     cbTableStatus2.Checked = false;
-        //     cbTableStatus3.Checked = false;
-        // }
-        // private void cbTableStatus2_Click(object sender, EventArgs e)
-        // {
-        //     cbTableStatus1.Checked = false;
-        //     cbTableStatus2.Checked = true;
-        //     cbTableStatus3.Checked = false;
-        // }
-        // private void cbTableStatus3_Click(object sender, EventArgs e)
-        // {
-        //     cbTableStatus1.Checked = false;
-        //     cbTableStatus2.Checked = false;
-        //     cbTableStatus3.Checked = true;
-        // }
-        // void LoadTableListF()
-        // {
-        //     tableList.DataSource = BanAnInfras.Instance.LoadTableListI();
-        // }
-        // void AddTableBindingF()
-        // {
-        //     txtTableID.DataBindings.Add(new Binding("Text", dtgvTable.DataSource, "mab", true, DataSourceUpdateMode.Never));
-        //     cmbMaxPeopleOnTable.DataBindings.Add(new Binding("Text", dtgvTable.DataSource, "sokhach_toida", true, DataSourceUpdateMode.Never));
-        //     dtgvTable.SelectionChanged += new EventHandler(this.dtgvTable_SelectionChanged);
-        //     dtgvTable.Columns[0].HeaderText = "Mã bàn";
-        //     dtgvTable.Columns[0].Width = 200;
-        //     dtgvTable.Columns[1].HeaderText = "Số khách tối đa";
-        //     dtgvTable.Columns[1].Width = 200;
-        //     dtgvTable.Columns[2].Visible = false;
-        // }
-        // //
-        // //EventTable
-        // //
-        // private void dtgvTable_SelectionChanged(object sender, EventArgs e)
-        // {
-        //     int viTri = dtgvTable.CurrentCell.RowIndex;
-        //     int tinhTrang = int.Parse(dtgvTable.Rows[viTri].Cells[2].Value.ToString());
-        //     switch (tinhTrang)
-        //     {
-        //         case 1:
-        //             {
-        //                 cbTableStatus1.Checked = true;
-        //                 cbTableStatus2.Checked = false;
-        //                 cbTableStatus3.Checked = false;
+        //Table
+        //
+        private void cbTableStatus1_Click(object sender, EventArgs e)
+        {
+            cbTableStatus1.Checked = true;
+            cbTableStatus2.Checked = false;
+            cbTableStatus3.Checked = false;
+        }
+        private void cbTableStatus2_Click(object sender, EventArgs e)
+        {
+            cbTableStatus1.Checked = false;
+            cbTableStatus2.Checked = true;
+            cbTableStatus3.Checked = false;
+        }
+        private void cbTableStatus3_Click(object sender, EventArgs e)
+        {
+            cbTableStatus1.Checked = false;
+            cbTableStatus2.Checked = false;
+            cbTableStatus3.Checked = true;
+        }
+        void LoadTableListF()
+        {
+            tableList.DataSource = BanAnInfras.Instance.LoadTableListI();
+        }
+        void AddTableBindingF()
+        {
+            txtTableID.DataBindings.Add(new Binding("Text", dtgvTable.DataSource, "mab", true, DataSourceUpdateMode.Never));
+            cmbMaxPeopleOnTable.DataBindings.Add(new Binding("Text", dtgvTable.DataSource, "sokhach_toida", true, DataSourceUpdateMode.Never));
+            dtgvTable.SelectionChanged += new EventHandler(this.dtgvTable_SelectionChanged);
+            dtgvTable.Columns[0].HeaderText = "Mã bàn";
+            dtgvTable.Columns[0].Width = 200;
+            dtgvTable.Columns[1].HeaderText = "Số khách tối đa";
+            dtgvTable.Columns[1].Width = 200;
+            dtgvTable.Columns[2].Visible = false;
+        }
+        //
+        //EventTable
+        //
+        private void dtgvTable_SelectionChanged(object sender, EventArgs e)
+        {
+            int viTri = dtgvTable.CurrentCell.RowIndex;
+            int tinhTrang = int.Parse(dtgvTable.Rows[viTri].Cells[2].Value.ToString());
+            switch (tinhTrang)
+            {
+                case 1:
+                    {
+                        cbTableStatus1.Checked = true;
+                        cbTableStatus2.Checked = false;
+                        cbTableStatus3.Checked = false;
 
-        //                 break;
-        //             }
-        //         case 2:
-        //             {
-        //                 cbTableStatus1.Checked = false;
-        //                 cbTableStatus2.Checked = true;
-        //                 cbTableStatus3.Checked = false;
-        //                 break;
-        //             }
-        //         case 3:
-        //             {
-        //                 cbTableStatus1.Checked = false;
-        //                 cbTableStatus2.Checked = false;
-        //                 cbTableStatus3.Checked = true;
-        //                 break;
-        //             }
-        //     }
-        // }
-        // //
-        // //ActionTable
-        // //
-        // private void btnEditTable_Click(object sender, EventArgs e)
-        // {
-        //     string mab = txtTableID.Text;
-        //     int tinhTrang;
-        //     if (cbTableStatus1.Checked) tinhTrang = 1;
-        //     else if (cbTableStatus2.Checked) tinhTrang = 2;
-        //     else tinhTrang = 3;
-        //     int n = 0;
-        //     if (this.cmbMaxPeopleOnTable.Text.ToString().Replace(" ", "") != "")
-        //     {
-        //         if (int.TryParse(this.cmbMaxPeopleOnTable.Text, out n)) {
-        //             string sokhach_toida = cmbMaxPeopleOnTable.Text;
+                        break;
+                    }
+                case 2:
+                    {
+                        cbTableStatus1.Checked = false;
+                        cbTableStatus2.Checked = true;
+                        cbTableStatus3.Checked = false;
+                        break;
+                    }
+                case 3:
+                    {
+                        cbTableStatus1.Checked = false;
+                        cbTableStatus2.Checked = false;
+                        cbTableStatus3.Checked = true;
+                        break;
+                    }
+            }
+        }
+        //
+        //ActionTable
+        //
+        private void btnEditTable_Click(object sender, EventArgs e)
+        {
+            string mab = txtTableID.Text;
+            int tinhTrang;
+            if (cbTableStatus1.Checked) tinhTrang = 1;
+            else if (cbTableStatus2.Checked) tinhTrang = 2;
+            else tinhTrang = 3;
+            int n = 0;
+            if (this.cmbMaxPeopleOnTable.Text.ToString().Replace(" ", "") != "")
+            {
+                if (int.TryParse(this.cmbMaxPeopleOnTable.Text, out n))
+                {
+                    string sokhach_toida = cmbMaxPeopleOnTable.Text;
 
-        //             if (BanAnInfras.Instance.SuaBanAn(int.Parse(mab), int.Parse(sokhach_toida), tinhTrang) == 1)
-        //             {
-        //                 MessageBox.Show("Cập nhật bàn ăn thành công", "Thông báo");
-        //                 LoadTableListF();
-        //             }
-        //             else
-        //             {
-        //                 MessageBox.Show("Cập nhật thất bại", "Thông báo");
-        //             }
-        //         }
-        //         else MessageBox.Show("Số khách phải là ký tự số", "Thông báo");
-        //     }
-        //     else MessageBox.Show("Hãy nhập trường còn trống", "Thông báo");
-        // }
-        // private void btnSearchTable_Click(object sender, EventArgs e)
-        // {
-        //     string noidung = txtSearchTable.Text;
-        //     dtgvTable.DataSource = tableList;
-        //     tableList.DataSource = BanAnInfras.Instance.TimBanAn(noidung);
-        // }
-        // //
+                    if (BanAnInfras.Instance.SuaBanAn(int.Parse(mab), int.Parse(sokhach_toida), tinhTrang) == 1)
+                    {
+                        MessageBox.Show("Cập nhật bàn ăn thành công", "Thông báo");
+                        LoadTableListF();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Cập nhật thất bại", "Thông báo");
+                    }
+                }
+                else MessageBox.Show("Số khách phải là ký tự số", "Thông báo");
+            }
+            else MessageBox.Show("Hãy nhập trường còn trống", "Thông báo");
+        }
+        private void btnSearchTable_Click(object sender, EventArgs e)
+        {
+            string noidung = txtSearchTable.Text;
+            dtgvTable.DataSource = tableList;
+            tableList.DataSource = BanAnInfras.Instance.TimBanAn(noidung);
+        }
+        //
         // //LoadPromotion
         // //
         void LoadPromotionListF()

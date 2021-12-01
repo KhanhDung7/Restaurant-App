@@ -636,7 +636,7 @@ namespace CleanArchQLNH
             this.cbTableStatus3.TabIndex = 3;
             this.cbTableStatus3.Text = "Bàn đã được đặt";
             this.cbTableStatus3.UseVisualStyleBackColor = true;
-            // this.cbTableStatus3.Click += new System.EventHandler(this.cbTableStatus3_Click);
+            this.cbTableStatus3.Click += new System.EventHandler(this.cbTableStatus3_Click);
             // 
             // cbTableStatus2
             // 
@@ -647,7 +647,7 @@ namespace CleanArchQLNH
             this.cbTableStatus2.TabIndex = 2;
             this.cbTableStatus2.Text = "Bàn đã có người";
             this.cbTableStatus2.UseVisualStyleBackColor = true;
-            // this.cbTableStatus2.Click += new System.EventHandler(this.cbTableStatus2_Click);
+            this.cbTableStatus2.Click += new System.EventHandler(this.cbTableStatus2_Click);
             // 
             // cbTableStatus1
             // 
@@ -658,7 +658,7 @@ namespace CleanArchQLNH
             this.cbTableStatus1.TabIndex = 1;
             this.cbTableStatus1.Text = "Bàn trống";
             this.cbTableStatus1.UseVisualStyleBackColor = true;
-            // this.cbTableStatus1.Click += new System.EventHandler(this.cbTableStatus1_Click);
+            this.cbTableStatus1.Click += new System.EventHandler(this.cbTableStatus1_Click);
             // 
             // lbTableStatus
             // 
@@ -688,7 +688,7 @@ namespace CleanArchQLNH
             this.btnEditTable.TabIndex = 2;
             this.btnEditTable.Text = "Cập nhật";
             this.btnEditTable.UseVisualStyleBackColor = true;
-            // this.btnEditTable.Click += new System.EventHandler(this.btnEditTable_Click);
+            this.btnEditTable.Click += new System.EventHandler(this.btnEditTable_Click);
             // 
             // pnMaxPeopleOnTable
             // 
@@ -773,7 +773,7 @@ namespace CleanArchQLNH
             this.btnSearchTable.TabIndex = 3;
             this.btnSearchTable.Text = "Tìm";
             this.btnSearchTable.UseVisualStyleBackColor = true;
-            // this.btnSearchTable.Click += new System.EventHandler(this.btnSearchTable_Click);
+            this.btnSearchTable.Click += new System.EventHandler(this.btnSearchTable_Click);
             
             // tpPromotion
             // 

@@ -141,3 +141,4 @@ D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Domain\obj\Debug\net5.0\Domain.csproj.Core
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Domain\obj\Debug\net5.0\Domain.dll
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Domain\obj\Debug\net5.0\ref\Domain.dll
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Domain\obj\Debug\net5.0\Domain.pdb
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache
