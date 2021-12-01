@@ -275,7 +275,7 @@ namespace CleanArchQLNH
             this.btnViewBill.TabIndex = 2;
             this.btnViewBill.Text = "Thống kê";
             this.btnViewBill.UseVisualStyleBackColor = true;
-            // this.btnViewBill.Click += new System.EventHandler(this.btnViewBill_Click);
+            this.btnViewBill.Click += new System.EventHandler(this.btnViewBill_Click);
             // lbDays
             // 
             this.lbDays.AutoSize = true;
