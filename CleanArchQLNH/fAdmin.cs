@@ -83,7 +83,7 @@ namespace CleanArchQLNH
             {
                 if (Int32.Parse(ngay.ToString().Replace(" ", "")) < 10)
                 {
-                    ngay = "0" + ngay;
+                    ngay = ngay;
                 }
             }
 
@@ -91,7 +91,7 @@ namespace CleanArchQLNH
             {
                 if (Int32.Parse(thang.ToString().Replace(" ", "")) < 10)
                 {
-                    thang = "0" + thang;
+                    thang = thang;
                 }
             }
 
