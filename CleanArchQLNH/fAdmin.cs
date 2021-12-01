@@ -15,7 +15,7 @@ namespace CleanArchQLNH
     public partial class fAdmin : Form
     {
         // BindingSource staffList = new BindingSource();
-        // BindingSource orderList = new BindingSource();
+         BindingSource orderList = new BindingSource();
         // BindingSource tableList = new BindingSource();
         // BindingSource foodList = new BindingSource();
         // BindingSource promotionList = new BindingSource();
@@ -25,7 +25,7 @@ namespace CleanArchQLNH
             InitializeComponent();
             // LoadStaff();
             // LoadChuVu();
-            // LoadOrder();
+             LoadOrder();
             // LoadTable();
             // LoadFood();
             // LoadPromotion();
@@ -46,12 +46,12 @@ namespace CleanArchQLNH
         //     cmbStaffIdentity.DisplayMember = "TenCV";
         //     cmbStaffIdentity.ValueMember = "MaCV";
         // }
-        // void LoadOrder()
-        // {
-        //     dtgvOrderTable.DataSource = orderList;
-        //     LoadOrderListF();
-        //     AddOrderBindingF();
-        // }
+         void LoadOrder()
+         {
+             dtgvOrderTable.DataSource = orderList;
+             LoadOrderListF();
+             AddOrderBindingF();
+         }
         // void LoadTable()
         // {
         //     dtgvTable.DataSource = tableList;
@@ -818,36 +818,36 @@ namespace CleanArchQLNH
         // //
         // //LoadOrder
         // //
-        // void LoadOrderListF()
-        // {
-        //     orderList.DataSource = PhieuDatBanInfras.Instance.LoadOrderListI();
-        //     BindingSource orderTable = new BindingSource();
-        //     orderTable.DataSource = BanAnInfras.Instance.LoadTableListI();
-        //     cmbOrderTable.DataSource = orderTable.DataSource;
-        //     cmbOrderTable.DisplayMember = "MaB";
-        // }
-        // void AddOrderBindingF()
-        // {
-        //     txtOrderID.DataBindings.Add(new Binding("Text", dtgvOrderTable.DataSource, "mapdb", true, DataSourceUpdateMode.Never));
-        //     cmbOrderTable.DataBindings.Add(new Binding("Text", dtgvOrderTable.DataSource, "mab", true, DataSourceUpdateMode.Never));
-        //     txtOrderCustomer.DataBindings.Add(new Binding("Text", dtgvOrderTable.DataSource, "makh", true, DataSourceUpdateMode.Never));
-        //     txtOrderCustomerPhoneNumber.DataBindings.Add(new Binding("Text", dtgvOrderTable.DataSource, "SDT_KH", true, DataSourceUpdateMode.Never));
-        //     mtxtOrderDate.DataBindings.Add(new Binding("Text", dtgvOrderTable.DataSource, "ngaydat", true, DataSourceUpdateMode.Never));
-        //     mtxtOrderTime.DataBindings.Add(new Binding("Text", dtgvOrderTable.DataSource, "giodat", true, DataSourceUpdateMode.Never));
-        //     cbOrderStatus1.Checked = true;
-        //     dtgvOrderTable.Columns[0].HeaderText = "Mã phiếu đặt bàn";
-        //     dtgvOrderTable.Columns[0].Width = 65;
-        //     dtgvOrderTable.Columns[1].HeaderText = "Mã bàn";
-        //     dtgvOrderTable.Columns[1].Width = 40;
-        //     dtgvOrderTable.Columns[2].HeaderText = "Mã khách hàng";
-        //     dtgvOrderTable.Columns[2].Width = 45;
-        //     dtgvOrderTable.Columns[3].HeaderText = "SĐT khách hàng";
-        //     dtgvOrderTable.Columns[3].Width = 70;
-        //     dtgvOrderTable.Columns[4].HeaderText = "Ngày đặt";
-        //     dtgvOrderTable.Columns[4].Width = 70;
-        //     dtgvOrderTable.Columns[5].HeaderText = "Giờ đặt";
-        //     dtgvOrderTable.Columns[5].Width = 70;
-        // }
+         void LoadOrderListF()
+         {
+             orderList.DataSource = PhieuDatBanInfras.Instance.LoadOrderListI();
+        
+        
+             cmbOrderTable.DataSource = orderTable.DataSource;
+             cmbOrderTable.DisplayMember = "MaB";
+         }
+         void AddOrderBindingF()
+         {
+             txtOrderID.DataBindings.Add(new Binding("Text", dtgvOrderTable.DataSource, "mapdb", true, DataSourceUpdateMode.Never));
+             cmbOrderTable.DataBindings.Add(new Binding("Text", dtgvOrderTable.DataSource, "mab", true, DataSourceUpdateMode.Never));
+             txtOrderCustomer.DataBindings.Add(new Binding("Text", dtgvOrderTable.DataSource, "makh", true, DataSourceUpdateMode.Never));
+             txtOrderCustomerPhoneNumber.DataBindings.Add(new Binding("Text", dtgvOrderTable.DataSource, "SDT_KH", true, DataSourceUpdateMode.Never));
+             mtxtOrderDate.DataBindings.Add(new Binding("Text", dtgvOrderTable.DataSource, "ngaydat", true, DataSourceUpdateMode.Never));
+             mtxtOrderTime.DataBindings.Add(new Binding("Text", dtgvOrderTable.DataSource, "giodat", true, DataSourceUpdateMode.Never));
+             cbOrderStatus1.Checked = true;
+             dtgvOrderTable.Columns[0].HeaderText = "Mã phiếu đặt bàn";
+             dtgvOrderTable.Columns[0].Width = 65;
+             dtgvOrderTable.Columns[1].HeaderText = "Mã bàn";
+        
+             dtgvOrderTable.Columns[2].HeaderText = "Mã khách hàng";
+             dtgvOrderTable.Columns[2].Width = 45;
+             dtgvOrderTable.Columns[3].HeaderText = "SĐT khách hàng";
+             dtgvOrderTable.Columns[3].Width = 70;
+             dtgvOrderTable.Columns[4].HeaderText = "Ngày đặt";
+             dtgvOrderTable.Columns[4].Width = 70;
+             dtgvOrderTable.Columns[5].HeaderText = "Giờ đặt";
+             dtgvOrderTable.Columns[5].Width = 70;
+         }
         // //
         // //EventOrder
         // //
@@ -879,52 +879,52 @@ namespace CleanArchQLNH
         //
         //ActionOrder
         //
-        // private void btnEditOrder_Click(object sender, EventArgs e)
-        // {
-        //     string mapdb = txtOrderID.Text;
-        //     string mab = cmbOrderTable.Text;
-        //     string makh = txtOrderCustomer.Text;
-        //     string sdt;
-        //     string ngaydat = mtxtOrderDate.Text;
-        //     string giodat = mtxtOrderTime.Text;
-        //     string tinhtrang;
-        //     if (cbOrderStatus1.Checked) tinhtrang = "false";
-        //     else tinhtrang = "true";
-        //     int n = 0;
-        //     if (int.TryParse(txtOrderCustomerPhoneNumber.Text, out n))
-        //     {
-        //         sdt = txtOrderCustomerPhoneNumber.Text;
-        //         if (PhieuDatBanInfras.Instance.SuaPhieuDatBan(mapdb, mab, makh, sdt, ngaydat, giodat, tinhtrang) == 1)
-        //         {
-        //             MessageBox.Show("Sửa phiếu đặt bàn thành công", "Thông báo");
-        //             LoadOrderListF();
-        //             PhieuDatBanInfras.Instance.LoadOrderListI();
-        //         }
-        //         else
-        //         {
-        //             MessageBox.Show("Sửa thất bại", "Thông báo");
-        //         }
-        //     }
-        //     else MessageBox.Show("Số điện thoại chỉ được chứa ký tự số", "Thông báo");
-        // }
-        // private void btnDeleteOrder_Click(object sender, EventArgs e)
-        // {
-        //     string mapdb = txtOrderID.Text;
-        //     if (PhieuDatBanInfras.Instance.XoaPhieuDatBan(mapdb) == 1)
-        //     {
-        //         MessageBox.Show("Xóa phiếu đặt bàn thành công", "Thông báo");
-        //         LoadOrderListF();
-        //     }
-        //     else
-        //     {
-        //         MessageBox.Show("Xóa thất bại", "Thông báo");
-        //     }
-        // }
-        // private void btnSearchOrder_Click(object sender, EventArgs e)
-        // {
-        //     string noidung = txtSearchOrder.Text;
-        //     dtgvOrderTable.DataSource = orderList;
-        //     orderList.DataSource = PhieuDatBanInfras.Instance.TimPhieuDatBan(noidung);
-        // }
+         private void btnEditOrder_Click(object sender, EventArgs e)
+         {
+             string mapdb = txtOrderID.Text;
+             string mab = cmbOrderTable.Text;
+             string makh = txtOrderCustomer.Text;
+             string sdt;
+             string ngaydat = mtxtOrderDate.Text;
+             string giodat = mtxtOrderTime.Text;
+             string tinhtrang;
+             if (cbOrderStatus1.Checked) tinhtrang = "false";
+             else tinhtrang = "true";
+             int n = 0;
+             if (int.TryParse(txtOrderCustomerPhoneNumber.Text, out n))
+             {
+                 sdt = txtOrderCustomerPhoneNumber.Text;
+                 if (PhieuDatBanInfras.Instance.SuaPhieuDatBan(mapdb, mab, makh, sdt, ngaydat, giodat, tinhtrang) == 1)
+                 {
+                     MessageBox.Show("Sửa phiếu đặt bàn thành công", "Thông báo");
+                     LoadOrderListF();
+                     PhieuDatBanInfras.Instance.LoadOrderListI();
+                 }
+                 else
+                 {
+                     MessageBox.Show("Sửa thất bại", "Thông báo");
+                 }
+             }
+             else MessageBox.Show("Số điện thoại chỉ được chứa ký tự số", "Thông báo");
+         }
+         private void btnDeleteOrder_Click(object sender, EventArgs e)
+         {
+             string mapdb = txtOrderID.Text;
+             if (PhieuDatBanInfras.Instance.XoaPhieuDatBan(mapdb) == 1)
+             {
+                 MessageBox.Show("Xóa phiếu đặt bàn thành công", "Thông báo");
+                 LoadOrderListF();
+             }
+             else
+             {
+                 MessageBox.Show("Xóa thất bại", "Thông báo");
+             }
+         }
+         private void btnSearchOrder_Click(object sender, EventArgs e)
+         {
+             string noidung = txtSearchOrder.Text;
+             dtgvOrderTable.DataSource = orderList;
+             orderList.DataSource = PhieuDatBanInfras.Instance.TimPhieuDatBan(noidung);
+         }
     }
 }

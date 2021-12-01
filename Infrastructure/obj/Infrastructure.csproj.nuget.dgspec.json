@@ -1,76 +1,9 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Admin\\Documents\\Visual Studio 2019\\QLNhaHang_PhanLop\\CleanArchQLNH\\CleanArchQLNH.csproj": {}
+    "D:\\Admin\\Documents\\Visual Studio 2019\\QLNhaHang_PhanLop\\Infrastructure\\Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Admin\\Documents\\Visual Studio 2019\\QLNhaHang_PhanLop\\CleanArchQLNH\\CleanArchQLNH.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Admin\\Documents\\Visual Studio 2019\\QLNhaHang_PhanLop\\CleanArchQLNH\\CleanArchQLNH.csproj",
-        "projectName": "CleanArchQLNH",
-        "projectPath": "D:\\Admin\\Documents\\Visual Studio 2019\\QLNhaHang_PhanLop\\CleanArchQLNH\\CleanArchQLNH.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Admin\\Documents\\Visual Studio 2019\\QLNhaHang_PhanLop\\CleanArchQLNH\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net5.0-windows7.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net5.0-windows7.0": {
-            "targetAlias": "net5.0-windows",
-            "projectReferences": {
-              "D:\\Admin\\Documents\\Visual Studio 2019\\QLNhaHang_PhanLop\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\Admin\\Documents\\Visual Studio 2019\\QLNhaHang_PhanLop\\Infrastructure\\Infrastructure.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net5.0-windows7.0": {
-          "targetAlias": "net5.0-windows",
-          "dependencies": {
-            "System.Data.SqlClient": {
-              "target": "Package",
-              "version": "[4.8.2, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            },
-            "Microsoft.WindowsDesktop.App.WindowsForms": {
-              "privateAssets": "none"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "D:\\Admin\\Documents\\Visual Studio 2019\\QLNhaHang_PhanLop\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
