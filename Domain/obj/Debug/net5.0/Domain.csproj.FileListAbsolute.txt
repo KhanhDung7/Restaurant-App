@@ -142,3 +142,15 @@ D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Domain\obj\Debug\net5.0\Domain.dll
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Domain\obj\Debug\net5.0\ref\Domain.dll
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Domain\obj\Debug\net5.0\Domain.pdb
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Domain\obj\Debug\net5.0\Domain.csproj.AssemblyReference.cache
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Domain\bin\Debug\net5.0\Domain.deps.json
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Domain\bin\Debug\net5.0\Domain.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Domain\bin\Debug\net5.0\ref\Domain.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Domain\bin\Debug\net5.0\Domain.pdb
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Domain\obj\Debug\net5.0\Domain.csprojAssemblyReference.cache
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Domain\obj\Debug\net5.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Domain\obj\Debug\net5.0\Domain.AssemblyInfoInputs.cache
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Domain\obj\Debug\net5.0\Domain.AssemblyInfo.cs
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Domain\obj\Debug\net5.0\Domain.csproj.CoreCompileInputs.cache
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Domain\obj\Debug\net5.0\Domain.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Domain\obj\Debug\net5.0\ref\Domain.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Domain\obj\Debug\net5.0\Domain.pdb
