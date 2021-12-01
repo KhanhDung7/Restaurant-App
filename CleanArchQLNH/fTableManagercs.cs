@@ -9,9 +9,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-//using Domain.Entities;
-//using Infrastructure.Persistence;
-//using Usecase;
+using Domain.Entities;
+using Infrastructure.Persistence;
+using Usecase;
 
 namespace CleanArchQLNH
 {
@@ -102,7 +102,7 @@ namespace CleanArchQLNH
 
         void LoadData()
         {
-            /*
+
             //Table
             BindingSource table = new BindingSource();
             table.DataSource = BanAnInfras.Instance.LoadTableList();
@@ -129,11 +129,11 @@ namespace CleanArchQLNH
             cbFood.DataSource = food.DataSource;
             cbFood.DisplayMember = "TenM";
             cbFood.ValueMember = "MaM";
-            */
+
         }
         private void LoadTable()
         {
-            /*
+
             if (this.ChooseFloorComboBox.SelectedIndex == 0)
             {
                 this.flpnTable.Visible = true;
@@ -930,196 +930,196 @@ namespace CleanArchQLNH
                     }
                 }
             }
-            */
+
         }
 
         private void BtnBan28_Click(object sender, EventArgs e)
         {
-            //int tableID = ((sender as Button).Tag as BANAN).MaB;
-           // this.lvBill.Tag = (sender as Button).Tag;
-           // ShowBill(tableID);
+            int tableID = ((sender as Button).Tag as BANAN).MaB;
+            this.lvBill.Tag = (sender as Button).Tag;
+            ShowBill(tableID);
         }
         private void BtnBan27_Click(object sender, EventArgs e)
         {
-           // int tableID = ((sender as Button).Tag as BANAN).MaB;
-          //  this.lvBill.Tag = (sender as Button).Tag;
-          //  ShowBill(tableID);
+            int tableID = ((sender as Button).Tag as BANAN).MaB;
+            this.lvBill.Tag = (sender as Button).Tag;
+            ShowBill(tableID);
         }
         private void BtnBan26_Click(object sender, EventArgs e)
         {
-           // int tableID = ((sender as Button).Tag as BANAN).MaB;
-          //  this.lvBill.Tag = (sender as Button).Tag;
-          //  ShowBill(tableID);
+            int tableID = ((sender as Button).Tag as BANAN).MaB;
+            this.lvBill.Tag = (sender as Button).Tag;
+            ShowBill(tableID);
         }
         private void BtnBan25_Click(object sender, EventArgs e)
         {
-           // int tableID = ((sender as Button).Tag as BANAN).MaB;
-          //  this.lvBill.Tag = (sender as Button).Tag;
-           // ShowBill(tableID);
+            int tableID = ((sender as Button).Tag as BANAN).MaB;
+            this.lvBill.Tag = (sender as Button).Tag;
+            ShowBill(tableID);
         }
         private void BtnBan24_Click(object sender, EventArgs e)
         {
-           // int tableID = ((sender as Button).Tag as BANAN).MaB;
-          //  this.lvBill.Tag = (sender as Button).Tag;
-         //  ShowBill(tableID);
+            int tableID = ((sender as Button).Tag as BANAN).MaB;
+            this.lvBill.Tag = (sender as Button).Tag;
+            ShowBill(tableID);
         }
         private void BtnBan23_Click(object sender, EventArgs e)
         {
-         //   int tableID = ((sender as Button).Tag as BANAN).MaB;
-          //  this.lvBill.Tag = (sender as Button).Tag;
-          //  ShowBill(tableID);
+            int tableID = ((sender as Button).Tag as BANAN).MaB;
+            this.lvBill.Tag = (sender as Button).Tag;
+            ShowBill(tableID);
         }
         private void BtnBan22_Click(object sender, EventArgs e)
         {
-         //   int tableID = ((sender as Button).Tag as BANAN).MaB;
-          //  this.lvBill.Tag = (sender as Button).Tag;
-          //  ShowBill(tableID);
+            int tableID = ((sender as Button).Tag as BANAN).MaB;
+            this.lvBill.Tag = (sender as Button).Tag;
+            ShowBill(tableID);
         }
         private void BtnBan21_Click(object sender, EventArgs e)
         {
-          //  int tableID = ((sender as Button).Tag as BANAN).MaB;
-          //  this.lvBill.Tag = (sender as Button).Tag;
-          //  ShowBill(tableID);
+            int tableID = ((sender as Button).Tag as BANAN).MaB;
+            this.lvBill.Tag = (sender as Button).Tag;
+            ShowBill(tableID);
         }
         private void BtnBan20_Click(object sender, EventArgs e)
         {
-          //  int tableID = ((sender as Button).Tag as BANAN).MaB;
-          //  this.lvBill.Tag = (sender as Button).Tag;
-          //  ShowBill(tableID);
+            int tableID = ((sender as Button).Tag as BANAN).MaB;
+            this.lvBill.Tag = (sender as Button).Tag;
+            ShowBill(tableID);
         }
         private void BtnBan19_Click(object sender, EventArgs e)
         {
-         //   int tableID = ((sender as Button).Tag as BANAN).MaB;
-         //   this.lvBill.Tag = (sender as Button).Tag;
-         //   ShowBill(tableID);
+            int tableID = ((sender as Button).Tag as BANAN).MaB;
+            this.lvBill.Tag = (sender as Button).Tag;
+            ShowBill(tableID);
         }
         private void BtnBan18_Click(object sender, EventArgs e)
         {
-         //   int tableID = ((sender as Button).Tag as BANAN).MaB;
-          //  this.lvBill.Tag = (sender as Button).Tag;
-         //   ShowBill(tableID);
+            int tableID = ((sender as Button).Tag as BANAN).MaB;
+            this.lvBill.Tag = (sender as Button).Tag;
+            ShowBill(tableID);
         }
         private void BtnBan17_Click(object sender, EventArgs e)
         {
-          //  int tableID = ((sender as Button).Tag as BANAN).MaB;
-          //  this.lvBill.Tag = (sender as Button).Tag;
-          //  ShowBill(tableID);
+            int tableID = ((sender as Button).Tag as BANAN).MaB;
+            this.lvBill.Tag = (sender as Button).Tag;
+            ShowBill(tableID);
         }
         private void BtnBan16_Click(object sender, EventArgs e)
         {
-         //   int tableID = ((sender as Button).Tag as BANAN).MaB;
-         //   this.lvBill.Tag = (sender as Button).Tag;
-         //   ShowBill(tableID);
+            int tableID = ((sender as Button).Tag as BANAN).MaB;
+            this.lvBill.Tag = (sender as Button).Tag;
+            ShowBill(tableID);
         }
 
         private void BtnBan15_Click(object sender, EventArgs e)
         {
-          //  int tableID = ((sender as Button).Tag as BANAN).MaB;
-          //  this.lvBill.Tag = (sender as Button).Tag;
-          //  ShowBill(tableID);
+            int tableID = ((sender as Button).Tag as BANAN).MaB;
+            this.lvBill.Tag = (sender as Button).Tag;
+            ShowBill(tableID);
         }
 
         private void BtnBan14_Click(object sender, EventArgs e)
         {
-          //  int tableID = ((sender as Button).Tag as BANAN).MaB;
-          //  this.lvBill.Tag = (sender as Button).Tag;
-          //  ShowBill(tableID);
+            int tableID = ((sender as Button).Tag as BANAN).MaB;
+            this.lvBill.Tag = (sender as Button).Tag;
+            ShowBill(tableID);
         }
 
         private void BtnBan13_Click(object sender, EventArgs e)
         {
-         //   int tableID = ((sender as Button).Tag as BANAN).MaB;
-         //   this.lvBill.Tag = (sender as Button).Tag;
-         //   ShowBill(tableID);
+            int tableID = ((sender as Button).Tag as BANAN).MaB;
+            this.lvBill.Tag = (sender as Button).Tag;
+            ShowBill(tableID);
         }
 
         private void BtnBan12_Click(object sender, EventArgs e)
         {
-         //   int tableID = ((sender as Button).Tag as BANAN).MaB;
-         //   this.lvBill.Tag = (sender as Button).Tag;
-         //   ShowBill(tableID);
+            int tableID = ((sender as Button).Tag as BANAN).MaB;
+            this.lvBill.Tag = (sender as Button).Tag;
+            ShowBill(tableID);
         }
 
         private void BtnBan11_Click(object sender, EventArgs e)
         {
-         //   int tableID = ((sender as Button).Tag as BANAN).MaB;
-        //    this.lvBill.Tag = (sender as Button).Tag;
-          //  ShowBill(tableID);
+            int tableID = ((sender as Button).Tag as BANAN).MaB;
+            this.lvBill.Tag = (sender as Button).Tag;
+            ShowBill(tableID);
         }
 
         private void BtnBan10_Click(object sender, EventArgs e)
         {
-          //  int tableID = ((sender as Button).Tag as BANAN).MaB;
-          //  this.lvBill.Tag = (sender as Button).Tag;
-          //  ShowBill(tableID);
+            int tableID = ((sender as Button).Tag as BANAN).MaB;
+            this.lvBill.Tag = (sender as Button).Tag;
+            ShowBill(tableID);
         }
 
         private void BtnBan9_Click(object sender, EventArgs e)
         {
-          //  int tableID = ((sender as Button).Tag as BANAN).MaB;
-         //   this.lvBill.Tag = (sender as Button).Tag;
-          //  ShowBill(tableID);
+            int tableID = ((sender as Button).Tag as BANAN).MaB;
+            this.lvBill.Tag = (sender as Button).Tag;
+            ShowBill(tableID);
         }
 
         private void BtnBan8_Click(object sender, EventArgs e)
         {
-         //   int tableID = ((sender as Button).Tag as BANAN).MaB;
-         //   this.lvBill.Tag = (sender as Button).Tag;
-         //   ShowBill(tableID);
+            int tableID = ((sender as Button).Tag as BANAN).MaB;
+            this.lvBill.Tag = (sender as Button).Tag;
+            ShowBill(tableID);
         }
 
         private void BtnBan7_Click(object sender, EventArgs e)
         {
-          //  int tableID = ((sender as Button).Tag as BANAN).MaB;
-         //   this.lvBill.Tag = (sender as Button).Tag;
-          //  ShowBill(tableID);
+            int tableID = ((sender as Button).Tag as BANAN).MaB;
+            this.lvBill.Tag = (sender as Button).Tag;
+            ShowBill(tableID);
         }
 
         private void BtnBan6_Click(object sender, EventArgs e)
         {
-          //  int tableID = ((sender as Button).Tag as BANAN).MaB;
-         //   this.lvBill.Tag = (sender as Button).Tag;
-         //   ShowBill(tableID);
+            int tableID = ((sender as Button).Tag as BANAN).MaB;
+            this.lvBill.Tag = (sender as Button).Tag;
+            ShowBill(tableID);
         }
 
         private void BtnBan5_Click(object sender, EventArgs e)
         {
-         //   int tableID = ((sender as Button).Tag as BANAN).MaB;
-         //  this.lvBill.Tag = (sender as Button).Tag;
-          //  ShowBill(tableID);
+            int tableID = ((sender as Button).Tag as BANAN).MaB;
+            this.lvBill.Tag = (sender as Button).Tag;
+            ShowBill(tableID);
         }
 
         private void BtnBan4_Click(object sender, EventArgs e)
         {
-         //   int tableID = ((sender as Button).Tag as BANAN).MaB;
-          //  this.lvBill.Tag = (sender as Button).Tag;
-          //  ShowBill(tableID);
+            int tableID = ((sender as Button).Tag as BANAN).MaB;
+            this.lvBill.Tag = (sender as Button).Tag;
+            ShowBill(tableID);
         }
 
         private void BtnBan3_Click(object sender, EventArgs e)
         {
-        //    int tableID = ((sender as Button).Tag as BANAN).MaB;
-         //   this.lvBill.Tag = (sender as Button).Tag;
-          // ShowBill(tableID);
+            int tableID = ((sender as Button).Tag as BANAN).MaB;
+            this.lvBill.Tag = (sender as Button).Tag;
+            ShowBill(tableID);
         }
 
         private void BtnBan2_Click(object sender, EventArgs e)
         {
-          //  int tableID = ((sender as Button).Tag as BANAN).MaB;
-         //   this.lvBill.Tag = (sender as Button).Tag;
-         //   ShowBill(tableID);
+            int tableID = ((sender as Button).Tag as BANAN).MaB;
+            this.lvBill.Tag = (sender as Button).Tag;
+            ShowBill(tableID);
         }
 
         private void BtnBan1_Click(object sender, EventArgs e)
         {
-          //  int tableID = ((sender as Button).Tag as BANAN).MaB;
-          //  this.lvBill.Tag = (sender as Button).Tag;
-          //  ShowBill(tableID);
+            int tableID = ((sender as Button).Tag as BANAN).MaB;
+            this.lvBill.Tag = (sender as Button).Tag;
+            ShowBill(tableID);
         }
 
         void ShowBill(int id)
         {
-            /*
+
             lvBill.Items.Clear();
             CultureInfo culture = new CultureInfo("vi-VN");
             List<MENU> listCTHD = MenuInfras.Instance.GetListMenuByTable(id);
@@ -1134,13 +1134,13 @@ namespace CleanArchQLNH
                 lvBill.Items.Add(lsvItem);
             }
             txtTotalPrice.Text = totalPrice.ToString("c", culture);
-            */
+
         }
 
 
         private void btnAddFood_Click(object sender, EventArgs e)
         {
-            /*
+
             BANAN banan = lvBill.Tag as BANAN;
 
             string manv = this.loginAccount.MaNV;
@@ -1225,12 +1225,12 @@ namespace CleanArchQLNH
                 }
 
             }
-            */
+
         }
 
         private void btnAddSoKhach_Click(object sender, EventArgs e)
         {
-            /*
+
             BANAN banan = lvBill.Tag as BANAN;
             string manv = this.loginAccount.MaNV;
             int mab = banan.MaB;
@@ -1258,7 +1258,7 @@ namespace CleanArchQLNH
             LoadData();
             LoadTable();
             ShowBill(banan.MaB);
-            */
+
         }
 
 
@@ -1270,7 +1270,7 @@ namespace CleanArchQLNH
 
         private void btnSwitchTable_Click(object sender, EventArgs e)
         {
-            /*
+
             BANAN banan = lvBill.Tag as BANAN;
             int maBanMoi = Convert.ToInt32(this.cbSwitchTable.SelectedValue.ToString());
             string maHD = HoaDonInfras.Instance.GetUncheckBillIdByTableId(banan.MaB);
@@ -1294,12 +1294,12 @@ namespace CleanArchQLNH
                 LoadData();
                 LoadTable();
             }
-            */
+
         }
 
         private void btnGopBan_Click(object sender, EventArgs e)
         {
-            /*
+
             BANAN banan = lvBill.Tag as BANAN;
             string maHD = HoaDonInfras.Instance.GetUncheckBillIdByTableId(banan.MaB);
 
@@ -1308,7 +1308,7 @@ namespace CleanArchQLNH
 
             if (maHD != "-1")
             {
-                // List<MENU> listCTHD = MenuInfras.Instance.GetListMenuByTable(banan.MaB);
+                 List<MENU> listCTHD = MenuInfras.Instance.GetListMenuByTable(banan.MaB);
 
                 if (maHDBanGop != "-1")
                 {
@@ -1338,11 +1338,11 @@ namespace CleanArchQLNH
                         LoadTable();
                     }
                 }
-            
+
             }
             else
             {
-            
+
                 if (maHDBanGop != "-1")
                 {
                     if (banan.MaB == maBanGop)
@@ -1394,12 +1394,12 @@ namespace CleanArchQLNH
                     }
                 }
             }
-            */
+
         }
 
         private void btnCheckOut_Click(object sender, EventArgs e)
         {
-            /*
+
             BANAN banan = lvBill.Tag as BANAN;
             string maHD = HoaDonInfras.Instance.GetUncheckBillIdByTableId(banan.MaB);
 
@@ -1439,12 +1439,12 @@ namespace CleanArchQLNH
                     }
                 }
             }
-            */
+
         }
 
         private void bnProvisional_Click(object sender, EventArgs e)
         {
-            /*
+
             BANAN banan = lvBill.Tag as BANAN;
             string maHD = HoaDonInfras.Instance.GetUncheckBillIdByTableId(banan.MaB);
 
@@ -1457,7 +1457,7 @@ namespace CleanArchQLNH
             f.LoadKM = this.cbDisscount.SelectedValue.ToString();
             f.ShowDialog();
             this.Show();
-            */
+
         }
     }
 }

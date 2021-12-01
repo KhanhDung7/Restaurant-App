@@ -445,3 +445,4 @@ D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\Cle
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\ref\CleanArchQLNH.dll
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.pdb
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.genruntimeconfig.cache
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CopyComplete
