@@ -18,7 +18,7 @@ namespace CleanArchQLNH
         // BindingSource orderList = new BindingSource();
         // BindingSource tableList = new BindingSource();
          BindingSource foodList = new BindingSource();
-        // BindingSource promotionList = new BindingSource();
+        BindingSource promotionList = new BindingSource();
         // //BindingSource positionList = new BindingSource();
         public fAdmin()
         {
@@ -28,7 +28,7 @@ namespace CleanArchQLNH
             // LoadOrder();
             // LoadTable();
              LoadFood();
-            // LoadPromotion();
+            LoadPromotion();
         }
         //
         //LoadDatabase
@@ -64,12 +64,12 @@ namespace CleanArchQLNH
             LoadFoodListF();
             AddFoodBindingF();
         }
-        // void LoadPromotion()
-        // {
-        //     dtgvPromotion.DataSource = promotionList;
-        //     LoadPromotionListF();
-        //     AddPromotionBindingF();
-        // }
+        void LoadPromotion()
+        {
+            dtgvPromotion.DataSource = promotionList;
+            LoadPromotionListF();
+            AddPromotionBindingF();
+        }
         //
         //Bill
         //
@@ -424,28 +424,28 @@ namespace CleanArchQLNH
         // //
         // //LoadPromotion
         // //
-        // void LoadPromotionListF()
-        // {
-        //     promotionList.DataSource = KhuyenMaiInfras.Instance.LoadPromotionList();
-        // }
-        // void AddPromotionBindingF()
-        // {
-        //     txtPromotionID.DataBindings.Add(new Binding("Text", dtgvPromotion.DataSource, "makm", true, DataSourceUpdateMode.Never));
-        //     txtPromotionName.DataBindings.Add(new Binding("Text", dtgvPromotion.DataSource, "tenkm", true, DataSourceUpdateMode.Never));
-        //     mtxtPromotionFromDate.DataBindings.Add(new Binding("Text", dtgvPromotion.DataSource, "ngaybd", true, DataSourceUpdateMode.Never));
-        //     mtxtPromotionToDate.DataBindings.Add(new Binding("Text", dtgvPromotion.DataSource, "ngaykt", true, DataSourceUpdateMode.Never));
-        //     txtPromotionPercent.DataBindings.Add(new Binding("Text", dtgvPromotion.DataSource, "phantramkm", true, DataSourceUpdateMode.Never));
-        //     dtgvPromotion.Columns[0].HeaderText = "Mã khuyến mãi";
-        //     dtgvPromotion.Columns[0].Width = 50;
-        //     dtgvPromotion.Columns[1].HeaderText = "Tên khuyến mãi";
-        //     dtgvPromotion.Columns[1].Width = 100;
-        //     dtgvPromotion.Columns[2].HeaderText = "Ngày BĐ";
-        //     dtgvPromotion.Columns[2].Width = 70;
-        //     dtgvPromotion.Columns[3].HeaderText = "Ngày KT";
-        //     dtgvPromotion.Columns[3].Width = 70;
-        //     dtgvPromotion.Columns[4].HeaderText = "Phần trăm KM";
-        //     dtgvPromotion.Columns[4].Width = 50;
-        // }
+        void LoadPromotionListF()
+        {
+            promotionList.DataSource = KhuyenMaiInfras.Instance.LoadPromotionList();
+        }
+        void AddPromotionBindingF()
+        {
+            txtPromotionID.DataBindings.Add(new Binding("Text", dtgvPromotion.DataSource, "makm", true, DataSourceUpdateMode.Never));
+            txtPromotionName.DataBindings.Add(new Binding("Text", dtgvPromotion.DataSource, "tenkm", true, DataSourceUpdateMode.Never));
+            mtxtPromotionFromDate.DataBindings.Add(new Binding("Text", dtgvPromotion.DataSource, "ngaybd", true, DataSourceUpdateMode.Never));
+            mtxtPromotionToDate.DataBindings.Add(new Binding("Text", dtgvPromotion.DataSource, "ngaykt", true, DataSourceUpdateMode.Never));
+            txtPromotionPercent.DataBindings.Add(new Binding("Text", dtgvPromotion.DataSource, "phantramkm", true, DataSourceUpdateMode.Never));
+            dtgvPromotion.Columns[0].HeaderText = "Mã khuyến mãi";
+            dtgvPromotion.Columns[0].Width = 50;
+            dtgvPromotion.Columns[1].HeaderText = "Tên khuyến mãi";
+            dtgvPromotion.Columns[1].Width = 100;
+            dtgvPromotion.Columns[2].HeaderText = "Ngày BĐ";
+            dtgvPromotion.Columns[2].Width = 70;
+            dtgvPromotion.Columns[3].HeaderText = "Ngày KT";
+            dtgvPromotion.Columns[3].Width = 70;
+            dtgvPromotion.Columns[4].HeaderText = "Phần trăm KM";
+            dtgvPromotion.Columns[4].Width = 50;
+        }
         //
         //EventPromotion
         //
@@ -477,102 +477,102 @@ namespace CleanArchQLNH
             if (e.KeyCode == Keys.Left) mtxtPromotionToDate.Focus();
         }
         //
-        // //ActionPromotion
-        // //
-        // private void btnAddPromotion_Click(object sender, EventArgs e)
-        // {
-        //     string makm = txtPromotionID.Text;
-        //     string tenkm = txtPromotionName.Text;
-        //     string ngaybd = mtxtPromotionFromDate.Text;
-        //     string ngaykt = mtxtPromotionToDate.Text;
-        //     string phantramkm;
-        //     int n = 0;
+        //ActionPromotion
+        //
+        private void btnAddPromotion_Click(object sender, EventArgs e)
+        {
+            string makm = txtPromotionID.Text;
+            string tenkm = txtPromotionName.Text;
+            string ngaybd = mtxtPromotionFromDate.Text;
+            string ngaykt = mtxtPromotionToDate.Text;
+            string phantramkm;
+            int n = 0;
 
-        //     if (this.txtPromotionName.Text.ToString().Replace(" ", "") != "" && this.mtxtPromotionFromDate.Text.ToString().Replace(" ", "") != "" && this.mtxtPromotionToDate.Text.ToString().Replace(" ", "") != "")
-        //     {
-        //         if (this.txtPromotionPercent.Text.ToString().Replace(" ", "") != "")
-        //         {
-        //             if (int.TryParse(this.txtPromotionPercent.Text, out n))
-        //             {
-        //                 phantramkm = txtPromotionPercent.Text;
-        //                 if (KhuyenMaiInfras.Instance.ThemKhuyenMai(makm, tenkm, ngaybd, ngaykt, phantramkm) == 1)
-        //                 {
-        //                     MessageBox.Show("Thêm chương trình khuyến mãi thành công", "Thông báo");
-        //                     LoadPromotionListF();
-        //                 }
-        //                 else
-        //                 {
-        //                     MessageBox.Show("Thêm chương trình khuyến mãi thất bại", "Thông báo");
-        //                 }
-        //             }
-        //             else
-        //             {
-        //                 MessageBox.Show("Phần trăm khuyến mãi phải là số", "Thông báo");
-        //             }
-        //         }
-        //         else MessageBox.Show("Phần trăm khuyến mãi không được để trống", "Thông báo");
-        //     }
-        //     else MessageBox.Show("Hãy điền vào trường còn trống", "Thông báo");
-        // }
-        // private void btnEditPromotion_Click(object sender, EventArgs e)
-        // {
-        //     string makm = txtPromotionID.Text;
-        //     string tenkm = txtPromotionName.Text;
-        //     string ngaybd = mtxtPromotionFromDate.Text;
-        //     string ngaykt = mtxtPromotionToDate.Text;
-        //     string phantramkm;
-        //     int n = 0;
-        //     if (this.txtPromotionName.Text.ToString().Replace(" ", "") != "" && this.mtxtPromotionFromDate.Text.ToString().Replace(" ", "") != "" && this.mtxtPromotionToDate.Text.ToString().Replace(" ", "") != "")
-        //     {
-        //         if (this.txtPromotionPercent.Text.ToString().Replace(" ", "") != "")
-        //         {
-        //             if (int.TryParse(this.txtPromotionPercent.Text, out n))
-        //             {
-        //                 phantramkm = txtPromotionPercent.Text;
-        //                 if (KhuyenMaiInfras.Instance.SuaKhuyenMai(makm, tenkm, ngaybd, ngaykt, phantramkm) == 1)
-        //                 {
-        //                     MessageBox.Show("Sửa chương trình khuyến mãi thành công", "Thông báo");
-        //                     LoadPromotionListF();
-        //                 }
-        //                 else
-        //                 {
-        //                     MessageBox.Show("Sửa chương trình khuyến mãi thất bại", "Thông báo");
-        //                 }
-        //             }
-        //             else
-        //             {
-        //                 MessageBox.Show("Phần trăm khuyến mãi phải là số", "Thông báo");
-        //             }
-        //         }
-        //         else MessageBox.Show("Phần trăm khuyến mãi không được để trống", "Thông báo");
-        //     }
-        //     else MessageBox.Show("Hãy điền vào trường còn trống", "Thông báo");
-        // }
-        // private void btnDeletePromotion_Click(object sender, EventArgs e)
-        // {
-        //     string makm = txtPromotionID.Text;
+            if (this.txtPromotionName.Text.ToString().Replace(" ", "") != "" && this.mtxtPromotionFromDate.Text.ToString().Replace(" ", "") != "" && this.mtxtPromotionToDate.Text.ToString().Replace(" ", "") != "")
+            {
+                if (this.txtPromotionPercent.Text.ToString().Replace(" ", "") != "")
+                {
+                    if (int.TryParse(this.txtPromotionPercent.Text, out n))
+                    {
+                        phantramkm = txtPromotionPercent.Text;
+                        if (KhuyenMaiInfras.Instance.ThemKhuyenMai(makm, tenkm, ngaybd, ngaykt, phantramkm) == 1)
+                        {
+                            MessageBox.Show("Thêm chương trình khuyến mãi thành công", "Thông báo");
+                            LoadPromotionListF();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Thêm chương trình khuyến mãi thất bại", "Thông báo");
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Phần trăm khuyến mãi phải là số", "Thông báo");
+                    }
+                }
+                else MessageBox.Show("Phần trăm khuyến mãi không được để trống", "Thông báo");
+            }
+            else MessageBox.Show("Hãy điền vào trường còn trống", "Thông báo");
+        }
+        private void btnEditPromotion_Click(object sender, EventArgs e)
+        {
+            string makm = txtPromotionID.Text;
+            string tenkm = txtPromotionName.Text;
+            string ngaybd = mtxtPromotionFromDate.Text;
+            string ngaykt = mtxtPromotionToDate.Text;
+            string phantramkm;
+            int n = 0;
+            if (this.txtPromotionName.Text.ToString().Replace(" ", "") != "" && this.mtxtPromotionFromDate.Text.ToString().Replace(" ", "") != "" && this.mtxtPromotionToDate.Text.ToString().Replace(" ", "") != "")
+            {
+                if (this.txtPromotionPercent.Text.ToString().Replace(" ", "") != "")
+                {
+                    if (int.TryParse(this.txtPromotionPercent.Text, out n))
+                    {
+                        phantramkm = txtPromotionPercent.Text;
+                        if (KhuyenMaiInfras.Instance.SuaKhuyenMai(makm, tenkm, ngaybd, ngaykt, phantramkm) == 1)
+                        {
+                            MessageBox.Show("Sửa chương trình khuyến mãi thành công", "Thông báo");
+                            LoadPromotionListF();
+                        }
+                        else
+                        {
+                            MessageBox.Show("Sửa chương trình khuyến mãi thất bại", "Thông báo");
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Phần trăm khuyến mãi phải là số", "Thông báo");
+                    }
+                }
+                else MessageBox.Show("Phần trăm khuyến mãi không được để trống", "Thông báo");
+            }
+            else MessageBox.Show("Hãy điền vào trường còn trống", "Thông báo");
+        }
+        private void btnDeletePromotion_Click(object sender, EventArgs e)
+        {
+            string makm = txtPromotionID.Text;
 
-        //     if (KhuyenMaiInfras.Instance.XoaKhuyenMai(makm) == 1)
-        //     {
-        //         MessageBox.Show("Xóa chương trình khuyến mãi thành công", "Thông báo");
-        //         LoadPromotionListF();
-        //     }
-        //     else
-        //     {
-        //         MessageBox.Show("Xóa thất bại", "Thông báo");
-        //     }
-        // }
-        // private void btnSearchPromotion_Click(object sender, EventArgs e)
-        // {
-        //     string noidung = txtSearchPromotion.Text;
-        //     dtgvPromotion.DataSource = promotionList;
-        //     promotionList.DataSource = KhuyenMaiInfras.Instance.TimKhuyenMai(noidung);
-        // }
+            if (KhuyenMaiInfras.Instance.XoaKhuyenMai(makm) == 1)
+            {
+                MessageBox.Show("Xóa chương trình khuyến mãi thành công", "Thông báo");
+                LoadPromotionListF();
+            }
+            else
+            {
+                MessageBox.Show("Xóa thất bại", "Thông báo");
+            }
+        }
+        private void btnSearchPromotion_Click(object sender, EventArgs e)
+        {
+            string noidung = txtSearchPromotion.Text;
+            dtgvPromotion.DataSource = promotionList;
+            promotionList.DataSource = KhuyenMaiInfras.Instance.TimKhuyenMai(noidung);
+        }
         // //
         // //LoadStaff
         // //
         // #region
-         void LoadStaffListF()
+        void LoadStaffListF()
          {
              staffList.DataSource = NhanVienInfras.Instance.LoadStaffList();
          }
