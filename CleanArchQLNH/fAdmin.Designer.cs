@@ -1403,7 +1403,7 @@ namespace CleanArchQLNH
             this.btnDeleteOrder.TabIndex = 17;
             this.btnDeleteOrder.Text = "Xóa";
             this.btnDeleteOrder.UseVisualStyleBackColor = true;
-            // this.btnDeleteOrder.Click += new System.EventHandler(this.btnDeleteOrder_Click);
+             this.btnDeleteOrder.Click += new System.EventHandler(this.btnDeleteOrder_Click);
             // 
             // lbOrderStatus
             // 
@@ -1463,7 +1463,7 @@ namespace CleanArchQLNH
             this.btnEditOrder.TabIndex = 11;
             this.btnEditOrder.Text = "Cập nhật";
             this.btnEditOrder.UseVisualStyleBackColor = true;
-            // this.btnEditOrder.Click += new System.EventHandler(this.btnEditOrder_Click);
+             this.btnEditOrder.Click += new System.EventHandler(this.btnEditOrder_Click);
             // 
             // cbOrderStatus2
             // 
