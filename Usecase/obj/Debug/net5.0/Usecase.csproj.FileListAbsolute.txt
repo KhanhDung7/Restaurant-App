@@ -161,3 +161,4 @@ D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Usecase\obj\Debug\net5.0
 D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Usecase\obj\Debug\net5.0\Usecase.dll
 D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Usecase\obj\Debug\net5.0\ref\Usecase.dll
 D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Usecase\obj\Debug\net5.0\Usecase.pdb
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Usecase\obj\Debug\net5.0\Usecase.csproj.CopyComplete
