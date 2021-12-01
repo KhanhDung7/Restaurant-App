@@ -143,7 +143,6 @@ D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Usecase\obj\Debug\net5.0\Usecase.Generated
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Usecase\obj\Debug\net5.0\Usecase.AssemblyInfoInputs.cache
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Usecase\obj\Debug\net5.0\Usecase.AssemblyInfo.cs
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Usecase\obj\Debug\net5.0\Usecase.csproj.CoreCompileInputs.cache
-D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Usecase\obj\Debug\net5.0\Usecase.csproj.CopyComplete
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Usecase\obj\Debug\net5.0\Usecase.dll
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Usecase\obj\Debug\net5.0\ref\Usecase.dll
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Usecase\obj\Debug\net5.0\Usecase.pdb
