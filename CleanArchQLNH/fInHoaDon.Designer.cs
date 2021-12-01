@@ -95,7 +95,7 @@ namespace CleanArchQLNH
             this.txtCustomerGive.Size = new System.Drawing.Size(120, 23);
             this.txtCustomerGive.TabIndex = 15;
             this.txtCustomerGive.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
-            // this.txtCustomerGive.LostFocus += new System.EventHandler(this.txtCustomerGive_LostFocus);
+            this.txtCustomerGive.LostFocus += new System.EventHandler(this.txtCustomerGive_LostFocus);
             // 
             // txtTotalPrice
             // 
@@ -290,7 +290,7 @@ namespace CleanArchQLNH
             this.Name = "fInHoaDon";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "In hóa đơn";
-            // this.Load += new System.EventHandler(this.fInHoaDon_Load);
+            this.Load += new System.EventHandler(this.fInHoaDon_Load);
             this.pnPrintBill.ResumeLayout(false);
             this.pnPrintBill.PerformLayout();
             this.ResumeLayout(false);

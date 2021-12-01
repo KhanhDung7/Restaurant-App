@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CleanArchQLNH",
+    "\\Domain",
+    "\\Domain\\Entities",
+    "\\Infrastructure",
+    "\\Infrastructure\\Persistence",
+    "\\Usecase"
+  ],
+  "PreviewInSolutionExplorer": false
+}

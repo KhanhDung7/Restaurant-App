@@ -198,3 +198,20 @@ D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Infrastructure\obj\Debug\net5.0\Infrastruc
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Infrastructure\bin\Debug\net5.0\Infrastructure.deps.json
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Infrastructure\bin\Debug\net5.0\Infrastructure.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Infrastructure\bin\Debug\net5.0\ref\Infrastructure.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Infrastructure\bin\Debug\net5.0\Infrastructure.pdb
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Infrastructure\bin\Debug\net5.0\Domain.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Infrastructure\bin\Debug\net5.0\Usecase.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Infrastructure\bin\Debug\net5.0\Usecase.pdb
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Infrastructure\bin\Debug\net5.0\Domain.pdb
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Infrastructure\obj\Debug\net5.0\Infrastructure.csprojAssemblyReference.cache
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Infrastructure\obj\Debug\net5.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfoInputs.cache
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfo.cs
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CoreCompileInputs.cache
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.CopyComplete
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Infrastructure\obj\Debug\net5.0\Infrastructure.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
