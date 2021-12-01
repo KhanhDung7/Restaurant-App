@@ -31,6 +31,8 @@ namespace Usecase
             DataTable data = provider.ExecuteQuery(query);
             foreach (DataRow item in data.Rows)
             {
+                item[1] = item[1].ToString().Split(".")[0];
+                item[6] = item[6].ToString().Split(".")[0];
                 THONGKE tk = new THONGKE(item);
                 dsThongke.Add(tk);
             }
@@ -68,6 +70,8 @@ namespace Usecase
                 DataTable data = provider.ExecuteQuery(query);
                 foreach (DataRow item in data.Rows)
                 {
+                    item[1] = item[1].ToString().Split(".")[0];
+                    item[6] = item[6].ToString().Split(".")[0];
                     THONGKE tk = new THONGKE(item);
                     dsThongke.Add(tk);
                 }
@@ -106,6 +110,8 @@ namespace Usecase
                 DataTable data = provider.ExecuteQuery(query);
                 foreach (DataRow item in data.Rows)
                 {
+                    item[1] = item[1].ToString().Split(".")[0];
+                    item[6] = item[6].ToString().Split(".")[0];
                     THONGKE tk = new THONGKE(item);
                     dsThongke.Add(tk);
                 }
