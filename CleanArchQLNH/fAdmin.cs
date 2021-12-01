@@ -73,104 +73,104 @@ namespace CleanArchQLNH
         //
         //Bill
         //
-        // private void btnViewBill_Click(object sender, EventArgs e)
-        // {
-        //     string ngay = cmbDaysInViewBill.Text;
-        //     string thang = cmbMonthsInViewBill.Text;
-        //     string nam = cmbYearsInViewBill.Text;
+        private void btnViewBill_Click(object sender, EventArgs e)
+        {
+            string ngay = cmbDaysInViewBill.Text;
+            string thang = cmbMonthsInViewBill.Text;
+            string nam = cmbYearsInViewBill.Text;
 
-        //     if(ngay.Replace(" ", "") != "")
-        //     {
-        //         if (Int32.Parse(ngay.ToString().Replace(" ", "")) < 10)
-        //         {
-        //             ngay = "0" + ngay;
-        //         }
-        //     }
+            if(ngay.Replace(" ", "") != "")
+            {
+                if (Int32.Parse(ngay.ToString().Replace(" ", "")) < 10)
+                {
+                    ngay = ngay;
+                }
+            }
 
-        //     if(thang.Replace(" ", "") != "")
-        //     {
-        //         if (Int32.Parse(thang.ToString().Replace(" ", "")) < 10)
-        //         {
-        //             thang = "0" + thang;
-        //         }
-        //     }
+            if(thang.Replace(" ", "") != "")
+            {
+                if (Int32.Parse(thang.ToString().Replace(" ", "")) < 10)
+                {
+                    thang = thang;
+                }
+            }
 
-        //     if (ngay.Replace(" ","") == "" && thang.Replace(" ", "") == "" && nam.Replace(" ", "") == "")
-        //     {
-        //         MessageBox.Show("Hãy chọn ngày cần thống kê", "Thông báo");
-        //     }
-        //     else if (ngay.Replace(" ", "") == "" && thang.Replace(" ", "") == "" && nam.Replace(" ", "") != "")
-        //     {
-        //         dtgvBill.DataSource = ThongKeInfras.Instance.LoadThongKeNam(nam);
-        //         dtgvBill.Columns[0].HeaderText = "Thời gian";
-        //         dtgvBill.Columns[0].Width = 100;
-        //         dtgvBill.Columns[1].HeaderText = "Tổng doanh thu";
-        //         dtgvBill.Columns[1].Width = 70;
-        //         dtgvBill.Columns[2].HeaderText = "Món bán chạy";
-        //         dtgvBill.Columns[2].Width = 150;
-        //         dtgvBill.Columns[3].HeaderText = "Tổng số order";
-        //         dtgvBill.Columns[3].Width = 70;
-        //         dtgvBill.Columns[4].HeaderText = "Chương trình khuyến mãi";
-        //         dtgvBill.Columns[4].Width = 150;
-        //         dtgvBill.Columns[5].HeaderText = "Số lần áp dụng";
-        //         dtgvBill.Columns[5].Width = 70;
-        //         dtgvBill.Columns[6].HeaderText = "Tổng lương nhân viên";
-        //         dtgvBill.Columns[6].Width = 70;
-        //     }
-        //     else if (ngay.Replace(" ", "") == "" && thang.Replace(" ", "") != "" && nam.Replace(" ", "") != "")
-        //     {
-        //         dtgvBill.DataSource = ThongKeInfras.Instance.LoadThongKeThang(thang, nam);
-        //         dtgvBill.Columns[0].HeaderText = "Thời gian";
-        //         dtgvBill.Columns[0].Width = 100;
-        //         dtgvBill.Columns[1].HeaderText = "Tổng doanh thu";
-        //         dtgvBill.Columns[1].Width = 70;
-        //         dtgvBill.Columns[2].HeaderText = "Món bán chạy";
-        //         dtgvBill.Columns[2].Width = 150;
-        //         dtgvBill.Columns[3].HeaderText = "Tổng số order";
-        //         dtgvBill.Columns[3].Width = 70;
-        //         dtgvBill.Columns[4].HeaderText = "Chương trình khuyến mãi";
-        //         dtgvBill.Columns[4].Width = 150;
-        //         dtgvBill.Columns[5].HeaderText = "Số lần áp dụng";
-        //         dtgvBill.Columns[5].Width = 70;
-        //         dtgvBill.Columns[6].HeaderText = "Tổng lương nhân viên";
-        //         dtgvBill.Columns[6].Width = 70;
-        //     }
-        //     else if (ngay.Replace(" ", "") != "" && thang.Replace(" ", "") == "" && nam.Replace(" ", "") != "")
-        //     {
-        //         MessageBox.Show("Hãy chọn tháng cần thống kê", "Thông báo");
-        //     }
-        //     else if (ngay.Replace(" ", "") != "" && thang.Replace(" ", "") != "" && nam.Replace(" ", "") == "")
-        //     {
-        //         MessageBox.Show("Hãy chọn năm cần thống kê", "Thông báo");
-        //     }
-        //     else if (ngay.Replace(" ", "") == "" && thang.Replace(" ", "") != "" && nam.Replace(" ", "") == "")
-        //     {
-        //         MessageBox.Show("Hãy chọn ngày và năm cần thống kê", "Thông báo");
-        //     }
-        //     else if (ngay.Replace(" ", "") != "" && thang.Replace(" ", "") == "" && nam.Replace(" ", "") == "")
-        //     {
-        //         MessageBox.Show("Hãy chọn tháng và năm cần thống kê", "Thông báo");
-        //     }
-        //     else if (ngay.Replace(" ", "") != "" && thang.Replace(" ", "") != "" && nam.Replace(" ", "") != "")
-        //     {
-        //         dtgvBill.DataSource = ThongKeInfras.Instance.LoadThongKeNgay(ngay, thang, nam);
-        //         dtgvBill.Columns[0].HeaderText = "Thời gian";
-        //         dtgvBill.Columns[0].Width = 100;
-        //         dtgvBill.Columns[1].HeaderText = "Tổng doanh thu";
-        //         dtgvBill.Columns[1].Width = 70;
-        //         dtgvBill.Columns[2].HeaderText = "Món bán chạy";
-        //         dtgvBill.Columns[2].Width = 150;
-        //         dtgvBill.Columns[3].HeaderText = "Tổng số order";
-        //         dtgvBill.Columns[3].Width = 70;
-        //         dtgvBill.Columns[4].HeaderText = "Chương trình khuyến mãi";
-        //         dtgvBill.Columns[4].Width = 150;
-        //         dtgvBill.Columns[5].HeaderText = "Số lần áp dụng";
-        //         dtgvBill.Columns[5].Width = 70;
-        //         dtgvBill.Columns[6].HeaderText = "Tổng lương nhân viên";
-        //         dtgvBill.Columns[6].Width = 70;
-        //     }
+            if (ngay.Replace(" ","") == "" && thang.Replace(" ", "") == "" && nam.Replace(" ", "") == "")
+            {
+                MessageBox.Show("Hãy chọn ngày cần thống kê", "Thông báo");
+            }
+            else if (ngay.Replace(" ", "") == "" && thang.Replace(" ", "") == "" && nam.Replace(" ", "") != "")
+            {
+                dtgvBill.DataSource = ThongKeInfras.Instance.LoadThongKeNam(nam);
+                dtgvBill.Columns[0].HeaderText = "Thời gian";
+                dtgvBill.Columns[0].Width = 100;
+                dtgvBill.Columns[1].HeaderText = "Tổng doanh thu";
+                dtgvBill.Columns[1].Width = 70;
+                dtgvBill.Columns[2].HeaderText = "Món bán chạy";
+                dtgvBill.Columns[2].Width = 150;
+                dtgvBill.Columns[3].HeaderText = "Tổng số order";
+                dtgvBill.Columns[3].Width = 70;
+                dtgvBill.Columns[4].HeaderText = "Chương trình khuyến mãi";
+                dtgvBill.Columns[4].Width = 150;
+                dtgvBill.Columns[5].HeaderText = "Số lần áp dụng";
+                dtgvBill.Columns[5].Width = 70;
+                dtgvBill.Columns[6].HeaderText = "Tổng lương nhân viên";
+                dtgvBill.Columns[6].Width = 70;
+            }
+            else if (ngay.Replace(" ", "") == "" && thang.Replace(" ", "") != "" && nam.Replace(" ", "") != "")
+            {
+                dtgvBill.DataSource = ThongKeInfras.Instance.LoadThongKeThang(thang, nam);
+                dtgvBill.Columns[0].HeaderText = "Thời gian";
+                dtgvBill.Columns[0].Width = 100;
+                dtgvBill.Columns[1].HeaderText = "Tổng doanh thu";
+                dtgvBill.Columns[1].Width = 70;
+                dtgvBill.Columns[2].HeaderText = "Món bán chạy";
+                dtgvBill.Columns[2].Width = 150;
+                dtgvBill.Columns[3].HeaderText = "Tổng số order";
+                dtgvBill.Columns[3].Width = 70;
+                dtgvBill.Columns[4].HeaderText = "Chương trình khuyến mãi";
+                dtgvBill.Columns[4].Width = 150;
+                dtgvBill.Columns[5].HeaderText = "Số lần áp dụng";
+                dtgvBill.Columns[5].Width = 70;
+                dtgvBill.Columns[6].HeaderText = "Tổng lương nhân viên";
+                dtgvBill.Columns[6].Width = 70;
+            }
+            else if (ngay.Replace(" ", "") != "" && thang.Replace(" ", "") == "" && nam.Replace(" ", "") != "")
+            {
+                MessageBox.Show("Hãy chọn tháng cần thống kê", "Thông báo");
+            }
+            else if (ngay.Replace(" ", "") != "" && thang.Replace(" ", "") != "" && nam.Replace(" ", "") == "")
+            {
+                MessageBox.Show("Hãy chọn năm cần thống kê", "Thông báo");
+            }
+            else if (ngay.Replace(" ", "") == "" && thang.Replace(" ", "") != "" && nam.Replace(" ", "") == "")
+            {
+                MessageBox.Show("Hãy chọn ngày và năm cần thống kê", "Thông báo");
+            }
+            else if (ngay.Replace(" ", "") != "" && thang.Replace(" ", "") == "" && nam.Replace(" ", "") == "")
+            {
+                MessageBox.Show("Hãy chọn tháng và năm cần thống kê", "Thông báo");
+            }
+            else if (ngay.Replace(" ", "") != "" && thang.Replace(" ", "") != "" && nam.Replace(" ", "") != "")
+            {
+                dtgvBill.DataSource = ThongKeInfras.Instance.LoadThongKeNgay(ngay, thang, nam);
+                dtgvBill.Columns[0].HeaderText = "Thời gian";
+                dtgvBill.Columns[0].Width = 100;
+                dtgvBill.Columns[1].HeaderText = "Tổng doanh thu";
+                dtgvBill.Columns[1].Width = 70;
+                dtgvBill.Columns[2].HeaderText = "Món bán chạy";
+                dtgvBill.Columns[2].Width = 150;
+                dtgvBill.Columns[3].HeaderText = "Tổng số order";
+                dtgvBill.Columns[3].Width = 70;
+                dtgvBill.Columns[4].HeaderText = "Chương trình khuyến mãi";
+                dtgvBill.Columns[4].Width = 150;
+                dtgvBill.Columns[5].HeaderText = "Số lần áp dụng";
+                dtgvBill.Columns[5].Width = 70;
+                dtgvBill.Columns[6].HeaderText = "Tổng lương nhân viên";
+                dtgvBill.Columns[6].Width = 70;
+            }
 
-        // }
+        }
         // //
         //Food
         //
