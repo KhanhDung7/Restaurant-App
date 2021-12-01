@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "MJG1hLkxIjPm0UVPpcneKMwgvUOsof4AmO1K2f7Lm0sANIL1gl/s5RP5GXrvjSO6fhA25kwatSOhfH049/1VJA==",
+  "success": true,
+  "projectFilePath": "D:\\Admin\\Documents\\Visual Studio 2019\\QLNhaHang_PhanLop\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}
