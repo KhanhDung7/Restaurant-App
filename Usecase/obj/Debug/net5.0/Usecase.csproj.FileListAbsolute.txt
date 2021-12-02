@@ -162,3 +162,18 @@ D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Usecase\obj\Debug\net5.0
 D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Usecase\obj\Debug\net5.0\ref\Usecase.dll
 D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\Usecase\obj\Debug\net5.0\Usecase.pdb
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\Usecase\obj\Debug\net5.0\Usecase.csproj.CopyComplete
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\Usecase\bin\Debug\net5.0\Usecase.deps.json
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\Usecase\bin\Debug\net5.0\Usecase.dll
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\Usecase\bin\Debug\net5.0\ref\Usecase.dll
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\Usecase\bin\Debug\net5.0\Usecase.pdb
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\Usecase\bin\Debug\net5.0\Domain.dll
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\Usecase\bin\Debug\net5.0\Domain.pdb
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\Usecase\obj\Debug\net5.0\Usecase.csprojAssemblyReference.cache
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\Usecase\obj\Debug\net5.0\Usecase.GeneratedMSBuildEditorConfig.editorconfig
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\Usecase\obj\Debug\net5.0\Usecase.AssemblyInfoInputs.cache
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\Usecase\obj\Debug\net5.0\Usecase.AssemblyInfo.cs
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\Usecase\obj\Debug\net5.0\Usecase.csproj.CoreCompileInputs.cache
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\Usecase\obj\Debug\net5.0\Usecase.csproj.CopyComplete
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\Usecase\obj\Debug\net5.0\Usecase.dll
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\Usecase\obj\Debug\net5.0\ref\Usecase.dll
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\Usecase\obj\Debug\net5.0\Usecase.pdb
