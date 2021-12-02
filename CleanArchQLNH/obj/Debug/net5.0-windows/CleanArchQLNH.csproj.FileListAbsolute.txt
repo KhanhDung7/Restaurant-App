@@ -1,0 +1,491 @@
+C:\Users\Admin\source\repos\CleanArchQLNH\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.exe
+C:\Users\Admin\source\repos\CleanArchQLNH\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.deps.json
+C:\Users\Admin\source\repos\CleanArchQLNH\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.json
+C:\Users\Admin\source\repos\CleanArchQLNH\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\CleanArchQLNH\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.dll
+C:\Users\Admin\source\repos\CleanArchQLNH\CleanArchQLNH\bin\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+C:\Users\Admin\source\repos\CleanArchQLNH\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.pdb
+C:\Users\Admin\source\repos\CleanArchQLNH\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\CleanArchQLNH\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\CleanArchQLNH\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\CleanArchQLNH\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\CleanArchQLNH\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfo.cs
+C:\Users\Admin\source\repos\CleanArchQLNH\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\CleanArchQLNH\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.dll
+C:\Users\Admin\source\repos\CleanArchQLNH\CleanArchQLNH\obj\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+C:\Users\Admin\source\repos\CleanArchQLNH\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.pdb
+C:\Users\Admin\source\repos\CleanArchQLNH\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.genruntimeconfig.cache
+C:\Users\Admin\source\repos\CleanArchQLNH\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fLogin.resources
+C:\Users\Admin\source\repos\CleanArchQLNH\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fTableManager.resources
+C:\Users\Admin\source\repos\CleanArchQLNH\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAccountProfile.resources
+C:\Users\Admin\source\repos\CleanArchQLNH\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAdmin.resources
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.dll
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.pdb
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csprojAssemblyReference.cache
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAccountProfile.resources
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAdmin.resources
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fLogin.resources
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fTableManager.resources
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.GenerateResource.cache
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfoInputs.cache
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfo.cs
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CoreCompileInputs.cache
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.exe
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.deps.json
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.json
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.dev.json
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.dll
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.pdb
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win7-x86\native\sni.dll
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\Domain.dll
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\Infrastructure.dll
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\Domain.pdb
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\Infrastructure.pdb
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CopyComplete
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.genruntimeconfig.cache
+D:\Download\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csprojAssemblyReference.cache
+D:\Download\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAccountProfile.resources
+D:\Download\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAdmin.resources
+D:\Download\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fLogin.resources
+D:\Download\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fTableManager.resources
+D:\Download\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.GenerateResource.cache
+D:\Download\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.GeneratedMSBuildEditorConfig.editorconfig
+D:\Download\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfoInputs.cache
+D:\Download\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfo.cs
+D:\Download\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CoreCompileInputs.cache
+D:\Download\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.dll
+D:\Download\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+D:\Download\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.pdb
+D:\Download\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.exe
+D:\Download\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.deps.json
+D:\Download\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.json
+D:\Download\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.dev.json
+D:\Download\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.dll
+D:\Download\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+D:\Download\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.pdb
+D:\Download\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+D:\Download\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Download\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+D:\Download\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+D:\Download\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win7-x86\native\sni.dll
+D:\Download\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Download\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Download\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\Domain.dll
+D:\Download\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\Infrastructure.dll
+D:\Download\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\Domain.pdb
+D:\Download\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\Infrastructure.pdb
+D:\Download\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CopyComplete
+D:\Download\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.genruntimeconfig.cache
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.exe
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.deps.json
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.json
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.dev.json
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.dll
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.pdb
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csprojAssemblyReference.cache
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAccountProfile.resources
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAdmin.resources
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fLogin.resources
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fTableManager.resources
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.GenerateResource.cache
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfoInputs.cache
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfo.cs
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CoreCompileInputs.cache
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CopyComplete
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.dll
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.pdb
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.genruntimeconfig.cache
+C:\Users\HP\source\repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\Usecase.dll
+C:\Users\HP\source\repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\Usecase.pdb
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\Usecase.dll
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\Usecase.pdb
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.exe
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.deps.json
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.json
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.dev.json
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.dll
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.pdb
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win7-x86\native\sni.dll
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\Domain.dll
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\Infrastructure.dll
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\Usecase.dll
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\Infrastructure.pdb
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\Domain.pdb
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\Usecase.pdb
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csprojAssemblyReference.cache
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAccountProfile.resources
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAdmin.resources
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fLogin.resources
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fTableManager.resources
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.GenerateResource.cache
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfoInputs.cache
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfo.cs
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CoreCompileInputs.cache
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CopyComplete
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.dll
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.pdb
+C:\Users\tran\Source\Repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.genruntimeconfig.cache
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win7-x86\native\sni.dll
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\Domain.dll
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\Infrastructure.dll
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\Infrastructure.pdb
+C:\Users\HP\Source\Repos\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\Domain.pdb
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.exe
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.deps.json
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.json
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.dev.json
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.dll
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.pdb
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win7-x86\native\sni.dll
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\Domain.dll
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\Infrastructure.dll
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\Usecase.dll
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\Infrastructure.pdb
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\Domain.pdb
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\bin\Debug\net5.0-windows\Usecase.pdb
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAccountProfile.resources
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAdmin.resources
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fLogin.resources
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fTableManager.resources
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfo.cs
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CopyComplete
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.dll
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.pdb
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.genruntimeconfig.cache
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.exe
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.deps.json
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.json
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.dev.json
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.dll
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\bin\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.pdb
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win7-x86\native\sni.dll
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\bin\Debug\net5.0-windows\Domain.dll
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\bin\Debug\net5.0-windows\Infrastructure.dll
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\bin\Debug\net5.0-windows\Usecase.dll
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\bin\Debug\net5.0-windows\Infrastructure.pdb
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\bin\Debug\net5.0-windows\Domain.pdb
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\bin\Debug\net5.0-windows\Usecase.pdb
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csprojAssemblyReference.cache
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAccountProfile.resources
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAdmin.resources
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fLogin.resources
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fTableManager.resources
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.GenerateResource.cache
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfo.cs
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CopyComplete
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.dll
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\obj\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.pdb
+C:\Users\HP\Desktop\IT\HK1-3\CNPM\QuanLyNhaHang - Copy - Copy\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.genruntimeconfig.cache
+C:\Users\Admin\source\repos\QuanLyNhaHang\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fInHoaDon.resources
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.exe
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.deps.json
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.json
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.dev.json
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.dll
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.pdb
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win7-x86\native\sni.dll
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\Domain.dll
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\Infrastructure.dll
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\Usecase.dll
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\Infrastructure.pdb
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\Domain.pdb
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\Usecase.pdb
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csprojAssemblyReference.cache
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAccountProfile.resources
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAdmin.resources
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fInHoaDon.resources
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fLogin.resources
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fTableManager.resources
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.GenerateResource.cache
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfoInputs.cache
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfo.cs
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CopyComplete
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.dll
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.pdb
+C:\Users\Admin\Source\Repos\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.genruntimeconfig.cache
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.exe
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.deps.json
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.json
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.dev.json
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.dll
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.pdb
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win7-x86\native\sni.dll
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\Domain.dll
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\Infrastructure.dll
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\Usecase.dll
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\Infrastructure.pdb
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\Domain.pdb
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\bin\Debug\net5.0-windows\Usecase.pdb
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csprojAssemblyReference.cache
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAccountProfile.resources
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAdmin.resources
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fInHoaDon.resources
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fLogin.resources
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fTableManager.resources
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.GenerateResource.cache
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfoInputs.cache
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfo.cs
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CoreCompileInputs.cache
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CopyComplete
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.dll
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.pdb
+C:\Users\ACER\Documents\GitHub\QuanLyNhaHang_Testing\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.genruntimeconfig.cache
+C:\xampp\htdocs\Restaurant\Restaurant-application\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.AssemblyReference.cache
+C:\xampp\htdocs\Restaurant\Restaurant-application\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\Restaurant\Restaurant-application\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfoInputs.cache
+C:\xampp\htdocs\Restaurant\Restaurant-application\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfo.cs
+C:\xampp\htdocs\Restaurant\Restaurant-application\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\Restaurant\Restaurant-application\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.dll
+C:\xampp\htdocs\Restaurant\Restaurant-application\CleanArchQLNH\obj\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+C:\xampp\htdocs\Restaurant\Restaurant-application\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.pdb
+C:\xampp\htdocs\Restaurant\Restaurant-application\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fLogin.resources
+C:\xampp\htdocs\Restaurant\Restaurant-application\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.GenerateResource.cache
+C:\xampp\htdocs\Restaurant\Restaurant-application\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.exe
+C:\xampp\htdocs\Restaurant\Restaurant-application\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.deps.json
+C:\xampp\htdocs\Restaurant\Restaurant-application\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.json
+C:\xampp\htdocs\Restaurant\Restaurant-application\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.dev.json
+C:\xampp\htdocs\Restaurant\Restaurant-application\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.dll
+C:\xampp\htdocs\Restaurant\Restaurant-application\CleanArchQLNH\bin\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+C:\xampp\htdocs\Restaurant\Restaurant-application\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.pdb
+C:\xampp\htdocs\Restaurant\Restaurant-application\CleanArchQLNH\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\xampp\htdocs\Restaurant\Restaurant-application\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\xampp\htdocs\Restaurant\Restaurant-application\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\xampp\htdocs\Restaurant\Restaurant-application\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\xampp\htdocs\Restaurant\Restaurant-application\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\xampp\htdocs\Restaurant\Restaurant-application\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\xampp\htdocs\Restaurant\Restaurant-application\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CopyComplete
+C:\xampp\htdocs\Restaurant\Restaurant-application\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.genruntimeconfig.cache
+C:\xampp\htdocs\Restaurant\Restaurant-application\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAdmin.resources
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.exe
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.deps.json
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.json
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.dev.json
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.dll
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\bin\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.pdb
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.AssemblyReference.cache
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fLogin.resources
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.GenerateResource.cache
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.GeneratedMSBuildEditorConfig.editorconfig
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfoInputs.cache
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfo.cs
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CoreCompileInputs.cache
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CopyComplete
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.dll
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\obj\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.pdb
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.genruntimeconfig.cache
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAdmin.resources
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.exe
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.deps.json
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.json
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.dev.json
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.dll
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.pdb
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csprojAssemblyReference.cache
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAdmin.resources
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fLogin.resources
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.GenerateResource.cache
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfoInputs.cache
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfo.cs
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CoreCompileInputs.cache
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CopyComplete
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.dll
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.pdb
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.genruntimeconfig.cache
+C:\Users\ChiTran\Desktop\HK I\phanlop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAccountProfile.resources
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAccountProfile.resources
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.pdb
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csprojAssemblyReference.cache
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAccountProfile.resources
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAdmin.resources
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fLogin.resources
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fTableManager.resources
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.GenerateResource.cache
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.GeneratedMSBuildEditorConfig.editorconfig
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfoInputs.cache
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfo.cs
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CoreCompileInputs.cache
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.exe
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.deps.json
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.json
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.dev.json
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.pdb
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CopyComplete
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.genruntimeconfig.cache
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fTableManager.resources
+C:\xampp\htdocs\PL\Restaurant-app\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fInHoaDon.resources
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.exe
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.deps.json
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.json
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.dev.json
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.dll
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.pdb
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win7-x86\native\sni.dll
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\Domain.dll
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\Infrastructure.dll
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\Usecase.dll
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\Infrastructure.pdb
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\Domain.pdb
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\Usecase.pdb
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.AssemblyReference.cache
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAccountProfile.resources
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAdmin.resources
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fInHoaDon.resources
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fLogin.resources
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fTableManager.resources
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.GenerateResource.cache
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.GeneratedMSBuildEditorConfig.editorconfig
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfoInputs.cache
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfo.cs
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CoreCompileInputs.cache
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.dll
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.pdb
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.genruntimeconfig.cache
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win7-x86\native\sni.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\Domain.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\Infrastructure.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\Usecase.dll
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\Infrastructure.pdb
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\Domain.pdb
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\Usecase.pdb
+D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fInHoaDon.resources
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.exe
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.deps.json
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.json
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.runtimeconfig.dev.json
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.dll
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\CleanArchQLNH.pdb
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win7-x86\native\sni.dll
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\Domain.dll
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\Infrastructure.dll
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\Usecase.dll
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\Infrastructure.pdb
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\Domain.pdb
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\bin\Debug\net5.0-windows\Usecase.pdb
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csprojAssemblyReference.cache
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAccountProfile.resources
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fAdmin.resources
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fInHoaDon.resources
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fLogin.resources
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.fTableManager.resources
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.GenerateResource.cache
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.GeneratedMSBuildEditorConfig.editorconfig
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfoInputs.cache
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.AssemblyInfo.cs
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CoreCompileInputs.cache
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CopyComplete
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.dll
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\ref\CleanArchQLNH.dll
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.pdb
+D:\Admin\Documents\Visual Studio 2019\QLNH_PhanLop\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.genruntimeconfig.cache

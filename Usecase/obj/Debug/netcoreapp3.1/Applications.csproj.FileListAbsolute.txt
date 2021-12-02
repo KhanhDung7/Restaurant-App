@@ -1,0 +1,13 @@
+C:\Users\HP\source\repos\QuanLyNhaHang\Usecase\bin\Debug\netcoreapp3.1\Applications.exe
+C:\Users\HP\source\repos\QuanLyNhaHang\Usecase\bin\Debug\netcoreapp3.1\Applications.deps.json
+C:\Users\HP\source\repos\QuanLyNhaHang\Usecase\bin\Debug\netcoreapp3.1\Applications.runtimeconfig.json
+C:\Users\HP\source\repos\QuanLyNhaHang\Usecase\bin\Debug\netcoreapp3.1\Applications.runtimeconfig.dev.json
+C:\Users\HP\source\repos\QuanLyNhaHang\Usecase\bin\Debug\netcoreapp3.1\Applications.dll
+C:\Users\HP\source\repos\QuanLyNhaHang\Usecase\bin\Debug\netcoreapp3.1\Applications.pdb
+C:\Users\HP\source\repos\QuanLyNhaHang\Usecase\obj\Debug\netcoreapp3.1\Applications.csprojAssemblyReference.cache
+C:\Users\HP\source\repos\QuanLyNhaHang\Usecase\obj\Debug\netcoreapp3.1\Applications.AssemblyInfoInputs.cache
+C:\Users\HP\source\repos\QuanLyNhaHang\Usecase\obj\Debug\netcoreapp3.1\Applications.AssemblyInfo.cs
+C:\Users\HP\source\repos\QuanLyNhaHang\Usecase\obj\Debug\netcoreapp3.1\Applications.csproj.CoreCompileInputs.cache
+C:\Users\HP\source\repos\QuanLyNhaHang\Usecase\obj\Debug\netcoreapp3.1\Applications.dll
+C:\Users\HP\source\repos\QuanLyNhaHang\Usecase\obj\Debug\netcoreapp3.1\Applications.pdb
+C:\Users\HP\source\repos\QuanLyNhaHang\Usecase\obj\Debug\netcoreapp3.1\Applications.genruntimeconfig.cache
