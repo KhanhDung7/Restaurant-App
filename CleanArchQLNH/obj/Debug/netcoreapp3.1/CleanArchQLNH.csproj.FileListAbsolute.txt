@@ -1,6 +1,0 @@
-C:\Users\Admin\source\repos\CleanArchQLNH\CleanArchQLNH\obj\Debug\netcoreapp3.1\CleanArchQLNH.csprojAssemblyReference.cache
-C:\Users\Admin\source\repos\CleanArchQLNH\CleanArchQLNH\obj\Debug\netcoreapp3.1\CleanArchQLNH.Form1.resources
-C:\Users\Admin\source\repos\CleanArchQLNH\CleanArchQLNH\obj\Debug\netcoreapp3.1\CleanArchQLNH.csproj.GenerateResource.cache
-C:\Users\Admin\source\repos\CleanArchQLNH\CleanArchQLNH\obj\Debug\netcoreapp3.1\CleanArchQLNH.AssemblyInfoInputs.cache
-C:\Users\Admin\source\repos\CleanArchQLNH\CleanArchQLNH\obj\Debug\netcoreapp3.1\CleanArchQLNH.AssemblyInfo.cs
-C:\Users\Admin\source\repos\CleanArchQLNH\CleanArchQLNH\obj\Debug\netcoreapp3.1\CleanArchQLNH.csproj.CoreCompileInputs.cache
