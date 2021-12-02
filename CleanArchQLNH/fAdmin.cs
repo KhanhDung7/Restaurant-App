@@ -19,7 +19,7 @@ namespace CleanArchQLNH
         BindingSource tableList = new BindingSource();
         BindingSource foodList = new BindingSource();
         BindingSource promotionList = new BindingSource();
-        // //BindingSource positionList = new BindingSource();
+        //BindingSource positionList = new BindingSource();
         public fAdmin()
         {
             InitializeComponent();

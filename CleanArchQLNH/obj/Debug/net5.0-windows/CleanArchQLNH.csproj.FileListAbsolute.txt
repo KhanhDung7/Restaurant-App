@@ -445,7 +445,6 @@ D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\Cle
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\ref\CleanArchQLNH.dll
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.pdb
 D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.genruntimeconfig.cache
-D:\HOC_ONLINE\xdpmmh3l\Restaurant-App\CleanArchQLNH\obj\Debug\net5.0-windows\CleanArchQLNH.csproj.CopyComplete
 D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\runtimes\win7-x86\native\sni.dll
 D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\Domain.dll
 D:\Admin\Documents\Visual Studio 2019\QLNhaHang_PhanLop\CleanArchQLNH\bin\Debug\net5.0-windows\Infrastructure.dll

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Admin\\Documents\\Visual Studio 2019\\QLNH_PhanLop\\Restaurant-App\\CleanArchQLNH\\CleanArchQLNH.csproj": {}
+    "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\CleanArchQLNH\\CleanArchQLNH.csproj": {}
   },
   "projects": {
-    "D:\\Admin\\Documents\\Visual Studio 2019\\QLNH_PhanLop\\Restaurant-App\\CleanArchQLNH\\CleanArchQLNH.csproj": {
+    "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\CleanArchQLNH\\CleanArchQLNH.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Admin\\Documents\\Visual Studio 2019\\QLNH_PhanLop\\Restaurant-App\\CleanArchQLNH\\CleanArchQLNH.csproj",
+        "projectUniqueName": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\CleanArchQLNH\\CleanArchQLNH.csproj",
         "projectName": "CleanArchQLNH",
-        "projectPath": "D:\\Admin\\Documents\\Visual Studio 2019\\QLNH_PhanLop\\Restaurant-App\\CleanArchQLNH\\CleanArchQLNH.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Admin\\Documents\\Visual Studio 2019\\QLNH_PhanLop\\Restaurant-App\\CleanArchQLNH\\obj\\",
+        "projectPath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\CleanArchQLNH\\CleanArchQLNH.csproj",
+        "packagesPath": "C:\\Users\\caodev\\.nuget\\packages\\",
+        "outputPath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\CleanArchQLNH\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\caodev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +22,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://nuget.org/api/v2": {}
         },
         "frameworks": {
           "net5.0-windows7.0": {
             "targetAlias": "net5.0-windows",
             "projectReferences": {
-              "D:\\Admin\\Documents\\Visual Studio 2019\\QLNH_PhanLop\\Restaurant-App\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\Admin\\Documents\\Visual Studio 2019\\QLNH_PhanLop\\Restaurant-App\\Infrastructure\\Infrastructure.csproj"
+              "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -59,6 +59,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.11, 5.0.11]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -67,21 +85,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Admin\\Documents\\Visual Studio 2019\\QLNH_PhanLop\\Restaurant-App\\Domain\\Domain.csproj": {
+    "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Admin\\Documents\\Visual Studio 2019\\QLNH_PhanLop\\Restaurant-App\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Admin\\Documents\\Visual Studio 2019\\QLNH_PhanLop\\Restaurant-App\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Admin\\Documents\\Visual Studio 2019\\QLNH_PhanLop\\Restaurant-App\\Domain\\obj\\",
+        "projectPath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\caodev\\.nuget\\packages\\",
+        "outputPath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\caodev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -89,7 +107,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://nuget.org/api/v2": {}
         },
         "frameworks": {
           "net5.0": {
@@ -122,26 +140,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Admin\\Documents\\Visual Studio 2019\\QLNH_PhanLop\\Restaurant-App\\Infrastructure\\Infrastructure.csproj": {
+    "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Admin\\Documents\\Visual Studio 2019\\QLNH_PhanLop\\Restaurant-App\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\Admin\\Documents\\Visual Studio 2019\\QLNH_PhanLop\\Restaurant-App\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Admin\\Documents\\Visual Studio 2019\\QLNH_PhanLop\\Restaurant-App\\Infrastructure\\obj\\",
+        "projectPath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\caodev\\.nuget\\packages\\",
+        "outputPath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\caodev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -149,14 +181,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://nuget.org/api/v2": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Admin\\Documents\\Visual Studio 2019\\QLNH_PhanLop\\Restaurant-App\\Usecase\\Usecase.csproj": {
-                "projectPath": "D:\\Admin\\Documents\\Visual Studio 2019\\QLNH_PhanLop\\Restaurant-App\\Usecase\\Usecase.csproj"
+              "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Usecase\\Usecase.csproj": {
+                "projectPath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Usecase\\Usecase.csproj"
               }
             }
           }
@@ -190,26 +222,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Admin\\Documents\\Visual Studio 2019\\QLNH_PhanLop\\Restaurant-App\\Usecase\\Usecase.csproj": {
+    "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Usecase\\Usecase.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Admin\\Documents\\Visual Studio 2019\\QLNH_PhanLop\\Restaurant-App\\Usecase\\Usecase.csproj",
+        "projectUniqueName": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Usecase\\Usecase.csproj",
         "projectName": "Usecase",
-        "projectPath": "D:\\Admin\\Documents\\Visual Studio 2019\\QLNH_PhanLop\\Restaurant-App\\Usecase\\Usecase.csproj",
-        "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\Admin\\Documents\\Visual Studio 2019\\QLNH_PhanLop\\Restaurant-App\\Usecase\\obj\\",
+        "projectPath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Usecase\\Usecase.csproj",
+        "packagesPath": "C:\\Users\\caodev\\.nuget\\packages\\",
+        "outputPath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Usecase\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\caodev\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -217,14 +263,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://nuget.org/api/v2": {}
         },
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "D:\\Admin\\Documents\\Visual Studio 2019\\QLNH_PhanLop\\Restaurant-App\\Domain\\Domain.csproj": {
-                "projectPath": "D:\\Admin\\Documents\\Visual Studio 2019\\QLNH_PhanLop\\Restaurant-App\\Domain\\Domain.csproj"
+              "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Domain\\Domain.csproj"
               }
             }
           }
@@ -254,12 +300,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
         }
       }
     }
