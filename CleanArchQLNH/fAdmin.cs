@@ -30,10 +30,10 @@ namespace CleanArchQLNH
             LoadFood();
             LoadPromotion();
         }
-        //
+
         //LoadDatabase
         //
-         void LoadStaff()
+        void LoadStaff()
          {
              dtgvStaff.DataSource = staffList;
              LoadStaffListF();
