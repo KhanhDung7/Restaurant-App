@@ -19,7 +19,7 @@ namespace tests.Clean_Testing.Application.QLNhaHang
         [TestCase(" ", " ")]             
         [TestCase("","")]
         [TestCase("dung' or 1=1'","123")]
-        [TestCase("dung'--","111")]
+        [TestCase("nv01'--","111")]
         public void Login(string username, string password)
         { 
             //Arr
