@@ -14,6 +14,11 @@ namespace tests.Clean_Testing.Application.QLNhaHang
         }
 
         [TestCase("nv02", "Tran Chanh Truc", "026053691", "0987654321", "TPHCM", "1", "123456")]
+        [TestCase("dung", "Tran Chanh Truc'--", "026053691", "0987654321", "TPHCM", "1", "123456")]
+        [TestCase("dung", "Tran Chanh Truc", "026053691'--", "0987654321", "TPHCM", "1", "123456")]
+        [TestCase("dung", "Tran Chanh Truc", "026053691", "0987654321'--", "TPHCM", "1", "123456")]
+        [TestCase("dung", "Tran Chanh Truc", "026053691", "0987654321", "TPHCM'--", "1", "123456")]
+        [TestCase("dung", "Tran Chanh Truc", "026053691", "0987654321", "TPHCM", "1'--", "123456")]
         [TestCase("dung", "Tran Chanh Truc", "026053691", "0987654321", "TPHCM", "1", "123456'--")]
 
         public void UpdateAccountProfile(string manv, string hotennv, string cmnd, string sdtnv, string diachi, string chucvu, string matkhau)
