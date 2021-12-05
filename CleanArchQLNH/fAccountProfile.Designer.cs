@@ -112,10 +112,10 @@ namespace CleanArchQLNH
             // 
             this.txtIdentity.Location = new System.Drawing.Point(168, 7);
             this.txtIdentity.Name = "txtIdentity";
+            this.txtIdentity.ReadOnly = true;
             this.txtIdentity.Size = new System.Drawing.Size(264, 23);
             this.txtIdentity.TabIndex = 1;
             this.txtIdentity.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtIdentity_KeyDown);
-            
             // 
             // lbIdentity
             // 
@@ -140,6 +140,7 @@ namespace CleanArchQLNH
             // 
             this.txtAddress.Location = new System.Drawing.Point(168, 7);
             this.txtAddress.Name = "txtAddress";
+            this.txtAddress.ReadOnly = true;
             this.txtAddress.Size = new System.Drawing.Size(264, 23);
             this.txtAddress.TabIndex = 1;
             this.txtAddress.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtAddress_KeyDown);
@@ -167,6 +168,7 @@ namespace CleanArchQLNH
             // 
             this.txtPhoneNumber.Location = new System.Drawing.Point(168, 7);
             this.txtPhoneNumber.Name = "txtPhoneNumber";
+            this.txtPhoneNumber.ReadOnly = true;
             this.txtPhoneNumber.Size = new System.Drawing.Size(264, 23);
             this.txtPhoneNumber.TabIndex = 1;
             this.txtPhoneNumber.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtPhoneNumber_KeyDown);
@@ -221,6 +223,7 @@ namespace CleanArchQLNH
             // 
             this.txtFullName.Location = new System.Drawing.Point(168, 7);
             this.txtFullName.Name = "txtFullName";
+            this.txtFullName.ReadOnly = true;
             this.txtFullName.Size = new System.Drawing.Size(264, 23);
             this.txtFullName.TabIndex = 1;
             this.txtFullName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtFullName_KeyDown);

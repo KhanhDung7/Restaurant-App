@@ -24,7 +24,7 @@ namespace Infrastructure.Persistence
         {
             return pdb.LoadOrderListUC();
         }
-        public int SuaPhieuDatBan(string mapdb, string mab, string makh, string sdt, string ngaydat, string giodat, string tinhtrang)
+        public int SuaPhieuDatBan(string mapdb, string mab, string makh, string sdt, string ngaydat, string giodat, int tinhtrang)
         {
 
             return pdb.SuaPhieuDatBan(mapdb, mab, makh, sdt, ngaydat, giodat, tinhtrang);

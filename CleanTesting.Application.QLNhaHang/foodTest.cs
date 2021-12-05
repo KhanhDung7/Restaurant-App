@@ -19,8 +19,8 @@ namespace tests.Clean_Testing.Application.QLNhaHang
         [TestCase(" ")]
         [TestCase("Mi xao hai san")]
         [TestCase("80000")]
-        [TestCase("dung' or '1'='1")]     
-        [TestCase("dung';DELETE MONAN WHERE MaM='dung' OR '1'='1")]  
+        [TestCase("dung' or '1'='1' --")]
+        [TestCase("dung';DELETE MONAN WHERE MaM='dung' OR '1'='1'")]  
         public void TimMonAn(string noidung)
         {
             //Arr

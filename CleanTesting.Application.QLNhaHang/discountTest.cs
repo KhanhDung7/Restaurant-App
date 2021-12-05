@@ -1,4 +1,4 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using Domain.Entities;
 using NUnit.Framework;
 using Usecase;
@@ -18,8 +18,8 @@ namespace tests.Clean_Testing.Application.QLNhaHang
         [TestCase("KM10")]      
         [TestCase("-1")]        
         [TestCase(" ")]         
-        [TestCase("dung' or '1'='1")]
-        [TestCase("dung';DELETE KHUYENMAI WHERE MaKM='dung' OR '1'='1")]       
+        [TestCase("dung' or '1'='1' --")]
+        [TestCase("dung';DELETE KHUYENMAI WHERE MaKM='dung' OR '1'='1'")]       
         public void TimKhuyenMai(string noidung)
         {
             //Arr
@@ -34,7 +34,7 @@ namespace tests.Clean_Testing.Application.QLNhaHang
             Assert.IsTrue(actualCount == expectedCount, "Khong tim thay khuyen mai");
         }
 
-        [TestCase("KM7", "8/3", "08/03/2021", "09/03/2021", "20")]              
+        [TestCase("KM6", "8/3", "08/03/2021", "09/03/2021", "20")]              
         [TestCase("KM07", "Quoc Khanh", "02/09/2021", "03/09/2021", "10")]      
         [TestCase(" ", "8/3", "08/03/2021", "09/03/2021", "15")] 
         [TestCase("dung", "8/3'--", "08/03/2021", "09/03/2021", "15")]        

@@ -43,6 +43,7 @@ namespace CleanArchQLNH
             this.cmbMonthsInViewBill = new System.Windows.Forms.ComboBox();
             this.cmbYearsInViewBill = new System.Windows.Forms.ComboBox();
             this.tpFood = new System.Windows.Forms.TabPage();
+            this.dtgvFood = new System.Windows.Forms.DataGridView();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnDeleteFood = new System.Windows.Forms.Button();
             this.btnEditFood = new System.Windows.Forms.Button();
@@ -61,7 +62,6 @@ namespace CleanArchQLNH
             this.txtSearchFood = new System.Windows.Forms.TextBox();
             this.btnSearchFood = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.dtgvFood = new System.Windows.Forms.DataGridView();
             this.tpTable = new System.Windows.Forms.TabPage();
             this.panel8 = new System.Windows.Forms.Panel();
             this.dtgvTable = new System.Windows.Forms.DataGridView();
@@ -84,19 +84,19 @@ namespace CleanArchQLNH
             this.tpPromotion = new System.Windows.Forms.TabPage();
             this.pnListPromotion = new System.Windows.Forms.Panel();
             this.dtgvPromotion = new System.Windows.Forms.DataGridView();
-            this.panel9 = new System.Windows.Forms.Panel();
-            this.btnDeletePromotion = new System.Windows.Forms.Button();
-            this.btnEditPromotion = new System.Windows.Forms.Button();
-            this.btnAddPromotion = new System.Windows.Forms.Button();
             this.panel10 = new System.Windows.Forms.Panel();
             this.pnPromotionPercent = new System.Windows.Forms.Panel();
             this.txtPromotionPercent = new System.Windows.Forms.TextBox();
             this.lbPromotionPercent = new System.Windows.Forms.Label();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.btnDeletePromotion = new System.Windows.Forms.Button();
+            this.btnEditPromotion = new System.Windows.Forms.Button();
+            this.btnAddPromotion = new System.Windows.Forms.Button();
             this.pnPromotionToDate = new System.Windows.Forms.Panel();
-            this.mtxtPromotionToDate = new System.Windows.Forms.MaskedTextBox();
+            this.dateTimePickerPromotionNgayKT = new System.Windows.Forms.DateTimePicker();
             this.lbPromotionToDate = new System.Windows.Forms.Label();
             this.pnPromotionFromDate = new System.Windows.Forms.Panel();
-            this.mtxtPromotionFromDate = new System.Windows.Forms.MaskedTextBox();
+            this.dateTimePickerPromotionNgayBD = new System.Windows.Forms.DateTimePicker();
             this.lbPromotionFromDate = new System.Windows.Forms.Label();
             this.pnPromotionName = new System.Windows.Forms.Panel();
             this.txtPromotionName = new System.Windows.Forms.TextBox();
@@ -111,6 +111,7 @@ namespace CleanArchQLNH
             this.pnListStaff = new System.Windows.Forms.Panel();
             this.dtgvStaff = new System.Windows.Forms.DataGridView();
             this.panel11 = new System.Windows.Forms.Panel();
+            this.mtxtStaffDateOfBirth = new System.Windows.Forms.DateTimePicker();
             this.cmbStaffIdentity = new System.Windows.Forms.ComboBox();
             this.txtSearchStaff = new System.Windows.Forms.TextBox();
             this.btnSearchStaff = new System.Windows.Forms.Button();
@@ -124,7 +125,6 @@ namespace CleanArchQLNH
             this.lbStaffPosition = new System.Windows.Forms.Label();
             this.lbStaffDateOfBirth = new System.Windows.Forms.Label();
             this.txtStaffName = new System.Windows.Forms.TextBox();
-            this.mtxtStaffDateOfBirth = new System.Windows.Forms.MaskedTextBox();
             this.txtStaffPhoneNumber = new System.Windows.Forms.TextBox();
             this.txtStaffAddress = new System.Windows.Forms.TextBox();
             this.txtStaffIdentity = new System.Windows.Forms.TextBox();
@@ -139,6 +139,8 @@ namespace CleanArchQLNH
             this.btnAddStaff = new System.Windows.Forms.Button();
             this.btnEditStaff = new System.Windows.Forms.Button();
             this.tpOrderTable = new System.Windows.Forms.TabPage();
+            this.mtxtOrderTime = new System.Windows.Forms.DateTimePicker();
+            this.mtxtOrderDate = new System.Windows.Forms.DateTimePicker();
             this.lblOrderCustomerPhoneNumber = new System.Windows.Forms.Label();
             this.txtOrderCustomerPhoneNumber = new System.Windows.Forms.TextBox();
             this.cmbOrderTable = new System.Windows.Forms.ComboBox();
@@ -151,8 +153,6 @@ namespace CleanArchQLNH
             this.btnEditOrder = new System.Windows.Forms.Button();
             this.cbOrderStatus2 = new System.Windows.Forms.CheckBox();
             this.cbOrderStatus1 = new System.Windows.Forms.CheckBox();
-            this.mtxtOrderTime = new System.Windows.Forms.MaskedTextBox();
-            this.mtxtOrderDate = new System.Windows.Forms.MaskedTextBox();
             this.txtOrderCustomer = new System.Windows.Forms.TextBox();
             this.txtOrderID = new System.Windows.Forms.TextBox();
             this.lbOrderTableID = new System.Windows.Forms.Label();
@@ -166,13 +166,13 @@ namespace CleanArchQLNH
             ((System.ComponentModel.ISupportInitialize)(this.dtgvBill)).BeginInit();
             this.pnDatetimePicker.SuspendLayout();
             this.tpFood.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvFood)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel5.SuspendLayout();
             this.pnFoodPrice.SuspendLayout();
             this.pnFoodName.SuspendLayout();
             this.pnIDFood.SuspendLayout();
             this.panel4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvFood)).BeginInit();
             this.tpTable.SuspendLayout();
             this.panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvTable)).BeginInit();
@@ -184,9 +184,9 @@ namespace CleanArchQLNH
             this.tpPromotion.SuspendLayout();
             this.pnListPromotion.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgvPromotion)).BeginInit();
-            this.panel9.SuspendLayout();
             this.panel10.SuspendLayout();
             this.pnPromotionPercent.SuspendLayout();
+            this.panel9.SuspendLayout();
             this.pnPromotionToDate.SuspendLayout();
             this.pnPromotionFromDate.SuspendLayout();
             this.pnPromotionName.SuspendLayout();
@@ -221,7 +221,6 @@ namespace CleanArchQLNH
             this.tcAdmin.SelectedIndex = 0;
             this.tcAdmin.Size = new System.Drawing.Size(656, 389);
             this.tcAdmin.TabIndex = 0;
-            ///////////////////
             // 
             // tpBill
             // 
@@ -276,6 +275,7 @@ namespace CleanArchQLNH
             this.btnViewBill.Text = "Thống kê";
             this.btnViewBill.UseVisualStyleBackColor = true;
             this.btnViewBill.Click += new System.EventHandler(this.btnViewBill_Click);
+            // 
             // lbDays
             // 
             this.lbDays.AutoSize = true;
@@ -345,7 +345,7 @@ namespace CleanArchQLNH
             "31"});
             this.cmbDaysInViewBill.Location = new System.Drawing.Point(70, 4);
             this.cmbDaysInViewBill.Name = "cmbDaysInViewBill";
-            this.cmbDaysInViewBill.Size = new System.Drawing.Size(90, 25);
+            this.cmbDaysInViewBill.Size = new System.Drawing.Size(90, 23);
             this.cmbDaysInViewBill.TabIndex = 0;
             // 
             // cmbMonthsInViewBill
@@ -368,7 +368,7 @@ namespace CleanArchQLNH
             "12"});
             this.cmbMonthsInViewBill.Location = new System.Drawing.Point(250, 4);
             this.cmbMonthsInViewBill.Name = "cmbMonthsInViewBill";
-            this.cmbMonthsInViewBill.Size = new System.Drawing.Size(90, 25);
+            this.cmbMonthsInViewBill.Size = new System.Drawing.Size(90, 23);
             this.cmbMonthsInViewBill.TabIndex = 1;
             // 
             // cmbYearsInViewBill
@@ -390,10 +390,8 @@ namespace CleanArchQLNH
             2030});
             this.cmbYearsInViewBill.Location = new System.Drawing.Point(420, 4);
             this.cmbYearsInViewBill.Name = "cmbYearsInViewBill";
-            this.cmbYearsInViewBill.Size = new System.Drawing.Size(90, 25);
+            this.cmbYearsInViewBill.Size = new System.Drawing.Size(90, 23);
             this.cmbYearsInViewBill.TabIndex = 2;
-            
-
             // 
             // tpFood
             // 
@@ -409,6 +407,16 @@ namespace CleanArchQLNH
             this.tpFood.TabIndex = 1;
             this.tpFood.Text = "Món ăn";
             this.tpFood.UseVisualStyleBackColor = true;
+            // 
+            // dtgvFood
+            // 
+            this.dtgvFood.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvFood.Location = new System.Drawing.Point(5, 4);
+            this.dtgvFood.Name = "dtgvFood";
+            this.dtgvFood.ReadOnly = true;
+            this.dtgvFood.RowTemplate.Height = 25;
+            this.dtgvFood.Size = new System.Drawing.Size(367, 354);
+            this.dtgvFood.TabIndex = 0;
             // 
             // panel2
             // 
@@ -566,7 +574,7 @@ namespace CleanArchQLNH
             this.btnSearchFood.Text = "Tìm";
             this.btnSearchFood.UseVisualStyleBackColor = true;
             this.btnSearchFood.Click += new System.EventHandler(this.btnSearchFood_Click);
-            //
+            // 
             // panel3
             // 
             this.panel3.Location = new System.Drawing.Point(4, 56);
@@ -574,18 +582,8 @@ namespace CleanArchQLNH
             this.panel3.Size = new System.Drawing.Size(367, 302);
             this.panel3.TabIndex = 1;
             // 
-            // dtgvFood
+            // tpTable
             // 
-            this.dtgvFood.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvFood.Location = new System.Drawing.Point(5, 4);
-            this.dtgvFood.Name = "dtgvFood";
-            this.dtgvFood.ReadOnly = true;
-            this.dtgvFood.RowTemplate.Height = 25;
-            this.dtgvFood.Size = new System.Drawing.Size(367, 354);
-            this.dtgvFood.TabIndex = 0;
-            // // 
-            // // tpTable
-            // // 
             this.tpTable.Controls.Add(this.panel8);
             this.tpTable.Controls.Add(this.pnTableStatus);
             this.tpTable.Controls.Add(this.panel7);
@@ -774,7 +772,7 @@ namespace CleanArchQLNH
             this.btnSearchTable.Text = "Tìm";
             this.btnSearchTable.UseVisualStyleBackColor = true;
             this.btnSearchTable.Click += new System.EventHandler(this.btnSearchTable_Click);
-            
+            // 
             // tpPromotion
             // 
             this.tpPromotion.Controls.Add(this.pnListPromotion);
@@ -805,46 +803,6 @@ namespace CleanArchQLNH
             this.dtgvPromotion.RowTemplate.Height = 25;
             this.dtgvPromotion.Size = new System.Drawing.Size(365, 354);
             this.dtgvPromotion.TabIndex = 0;
-            // 
-            // panel9
-            // 
-            this.panel9.Controls.Add(this.btnDeletePromotion);
-            this.panel9.Controls.Add(this.btnEditPromotion);
-            this.panel9.Controls.Add(this.btnAddPromotion);
-            this.panel9.Location = new System.Drawing.Point(2, 205);
-            this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(266, 45);
-            this.panel9.TabIndex = 10;
-            // 
-            // btnDeletePromotion
-            // 
-            this.btnDeletePromotion.Location = new System.Drawing.Point(190, 5);
-            this.btnDeletePromotion.Name = "btnDeletePromotion";
-            this.btnDeletePromotion.Size = new System.Drawing.Size(75, 35);
-            this.btnDeletePromotion.TabIndex = 2;
-            this.btnDeletePromotion.Text = "Xóa";
-            this.btnDeletePromotion.UseVisualStyleBackColor = true;
-             this.btnDeletePromotion.Click += new System.EventHandler(this.btnDeletePromotion_Click);
-            // 
-            // btnEditPromotion
-            // 
-            this.btnEditPromotion.Location = new System.Drawing.Point(95, 5);
-            this.btnEditPromotion.Name = "btnEditPromotion";
-            this.btnEditPromotion.Size = new System.Drawing.Size(75, 35);
-            this.btnEditPromotion.TabIndex = 1;
-            this.btnEditPromotion.Text = "Sửa";
-            this.btnEditPromotion.UseVisualStyleBackColor = true;
-             this.btnEditPromotion.Click += new System.EventHandler(this.btnEditPromotion_Click);
-            // 
-            // btnAddPromotion
-            // 
-            this.btnAddPromotion.Location = new System.Drawing.Point(0, 5);
-            this.btnAddPromotion.Name = "btnAddPromotion";
-            this.btnAddPromotion.Size = new System.Drawing.Size(75, 35);
-            this.btnAddPromotion.TabIndex = 0;
-            this.btnAddPromotion.Text = "Thêm";
-            this.btnAddPromotion.UseVisualStyleBackColor = true;
-             this.btnAddPromotion.Click += new System.EventHandler(this.btnAddPromotion_Click);
             // 
             // panel10
             // 
@@ -886,24 +844,63 @@ namespace CleanArchQLNH
             this.lbPromotionPercent.TabIndex = 0;
             this.lbPromotionPercent.Text = "% KM:";
             // 
+            // panel9
+            // 
+            this.panel9.Controls.Add(this.btnDeletePromotion);
+            this.panel9.Controls.Add(this.btnEditPromotion);
+            this.panel9.Controls.Add(this.btnAddPromotion);
+            this.panel9.Location = new System.Drawing.Point(2, 205);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(266, 45);
+            this.panel9.TabIndex = 10;
+            // 
+            // btnDeletePromotion
+            // 
+            this.btnDeletePromotion.Location = new System.Drawing.Point(190, 5);
+            this.btnDeletePromotion.Name = "btnDeletePromotion";
+            this.btnDeletePromotion.Size = new System.Drawing.Size(75, 35);
+            this.btnDeletePromotion.TabIndex = 2;
+            this.btnDeletePromotion.Text = "Xóa";
+            this.btnDeletePromotion.UseVisualStyleBackColor = true;
+            this.btnDeletePromotion.Click += new System.EventHandler(this.btnDeletePromotion_Click);
+            // 
+            // btnEditPromotion
+            // 
+            this.btnEditPromotion.Location = new System.Drawing.Point(95, 5);
+            this.btnEditPromotion.Name = "btnEditPromotion";
+            this.btnEditPromotion.Size = new System.Drawing.Size(75, 35);
+            this.btnEditPromotion.TabIndex = 1;
+            this.btnEditPromotion.Text = "Sửa";
+            this.btnEditPromotion.UseVisualStyleBackColor = true;
+            this.btnEditPromotion.Click += new System.EventHandler(this.btnEditPromotion_Click);
+            // 
+            // btnAddPromotion
+            // 
+            this.btnAddPromotion.Location = new System.Drawing.Point(0, 5);
+            this.btnAddPromotion.Name = "btnAddPromotion";
+            this.btnAddPromotion.Size = new System.Drawing.Size(75, 35);
+            this.btnAddPromotion.TabIndex = 0;
+            this.btnAddPromotion.Text = "Thêm";
+            this.btnAddPromotion.UseVisualStyleBackColor = true;
+            this.btnAddPromotion.Click += new System.EventHandler(this.btnAddPromotion_Click);
+            // 
             // pnPromotionToDate
             // 
-            this.pnPromotionToDate.Controls.Add(this.mtxtPromotionToDate);
+            this.pnPromotionToDate.Controls.Add(this.dateTimePickerPromotionNgayKT);
             this.pnPromotionToDate.Controls.Add(this.lbPromotionToDate);
             this.pnPromotionToDate.Location = new System.Drawing.Point(0, 123);
             this.pnPromotionToDate.Name = "pnPromotionToDate";
             this.pnPromotionToDate.Size = new System.Drawing.Size(267, 35);
             this.pnPromotionToDate.TabIndex = 3;
             // 
-            // mtxtPromotionToDate
+            // dateTimePickerPromotionNgayKT
             // 
-            this.mtxtPromotionToDate.Location = new System.Drawing.Point(97, 6);
-            this.mtxtPromotionToDate.Mask = "00/00/0000";
-            this.mtxtPromotionToDate.Name = "mtxtPromotionToDate";
-            this.mtxtPromotionToDate.Size = new System.Drawing.Size(170, 23);
-            this.mtxtPromotionToDate.TabIndex = 1;
-            this.mtxtPromotionToDate.ValidatingType = typeof(System.DateTime);
-            this.mtxtPromotionToDate.KeyDown += new System.Windows.Forms.KeyEventHandler(this.mtxtPromotionToDate_KeyDown);
+            this.dateTimePickerPromotionNgayKT.CustomFormat = "MM/dd/yyyy";
+            this.dateTimePickerPromotionNgayKT.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePickerPromotionNgayKT.Location = new System.Drawing.Point(97, 8);
+            this.dateTimePickerPromotionNgayKT.Name = "dateTimePickerPromotionNgayKT";
+            this.dateTimePickerPromotionNgayKT.Size = new System.Drawing.Size(171, 23);
+            this.dateTimePickerPromotionNgayKT.TabIndex = 1;
             // 
             // lbPromotionToDate
             // 
@@ -917,22 +914,21 @@ namespace CleanArchQLNH
             // 
             // pnPromotionFromDate
             // 
-            this.pnPromotionFromDate.Controls.Add(this.mtxtPromotionFromDate);
+            this.pnPromotionFromDate.Controls.Add(this.dateTimePickerPromotionNgayBD);
             this.pnPromotionFromDate.Controls.Add(this.lbPromotionFromDate);
             this.pnPromotionFromDate.Location = new System.Drawing.Point(0, 82);
             this.pnPromotionFromDate.Name = "pnPromotionFromDate";
             this.pnPromotionFromDate.Size = new System.Drawing.Size(267, 35);
             this.pnPromotionFromDate.TabIndex = 2;
             // 
-            // mtxtPromotionFromDate
+            // dateTimePickerPromotionNgayBD
             // 
-            this.mtxtPromotionFromDate.Location = new System.Drawing.Point(97, 6);
-            this.mtxtPromotionFromDate.Mask = "00/00/0000";
-            this.mtxtPromotionFromDate.Name = "mtxtPromotionFromDate";
-            this.mtxtPromotionFromDate.Size = new System.Drawing.Size(170, 23);
-            this.mtxtPromotionFromDate.TabIndex = 1;
-            this.mtxtPromotionFromDate.ValidatingType = typeof(System.DateTime);
-            this.mtxtPromotionFromDate.KeyDown += new System.Windows.Forms.KeyEventHandler(this.mtxtPromotionFromDate_KeyDown);
+            this.dateTimePickerPromotionNgayBD.CustomFormat = "MM/dd/yyyy";
+            this.dateTimePickerPromotionNgayBD.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePickerPromotionNgayBD.Location = new System.Drawing.Point(97, 6);
+            this.dateTimePickerPromotionNgayBD.Name = "dateTimePickerPromotionNgayBD";
+            this.dateTimePickerPromotionNgayBD.Size = new System.Drawing.Size(171, 23);
+            this.dateTimePickerPromotionNgayBD.TabIndex = 1;
             // 
             // lbPromotionFromDate
             // 
@@ -1022,7 +1018,7 @@ namespace CleanArchQLNH
             this.btnSearchPromotion.TabIndex = 3;
             this.btnSearchPromotion.Text = "Tìm";
             this.btnSearchPromotion.UseVisualStyleBackColor = true;
-             this.btnSearchPromotion.Click += new System.EventHandler(this.btnSearchPromotion_Click);
+            this.btnSearchPromotion.Click += new System.EventHandler(this.btnSearchPromotion_Click);
             // 
             // tpStaff
             // 
@@ -1056,6 +1052,7 @@ namespace CleanArchQLNH
             // 
             // panel11
             // 
+            this.panel11.Controls.Add(this.mtxtStaffDateOfBirth);
             this.panel11.Controls.Add(this.cmbStaffIdentity);
             this.panel11.Controls.Add(this.txtSearchStaff);
             this.panel11.Controls.Add(this.btnSearchStaff);
@@ -1069,7 +1066,6 @@ namespace CleanArchQLNH
             this.panel11.Controls.Add(this.lbStaffPosition);
             this.panel11.Controls.Add(this.lbStaffDateOfBirth);
             this.panel11.Controls.Add(this.txtStaffName);
-            this.panel11.Controls.Add(this.mtxtStaffDateOfBirth);
             this.panel11.Controls.Add(this.txtStaffPhoneNumber);
             this.panel11.Controls.Add(this.txtStaffAddress);
             this.panel11.Controls.Add(this.txtStaffIdentity);
@@ -1088,15 +1084,21 @@ namespace CleanArchQLNH
             this.panel11.Size = new System.Drawing.Size(642, 198);
             this.panel11.TabIndex = 11;
             // 
+            // mtxtStaffDateOfBirth
+            // 
+            this.mtxtStaffDateOfBirth.CustomFormat = "MM/dd/yyyy";
+            this.mtxtStaffDateOfBirth.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.mtxtStaffDateOfBirth.Location = new System.Drawing.Point(81, 75);
+            this.mtxtStaffDateOfBirth.Name = "mtxtStaffDateOfBirth";
+            this.mtxtStaffDateOfBirth.Size = new System.Drawing.Size(100, 23);
+            this.mtxtStaffDateOfBirth.TabIndex = 30;
+            // 
             // cmbStaffIdentity
             // 
             this.cmbStaffIdentity.FormattingEnabled = true;
             this.cmbStaffIdentity.Items.AddRange(new object[] {
             "1",
-            "2",
-            });
-            this.cmbStaffIdentity.SelectedIndex = -1;
-
+            "2"});
             this.cmbStaffIdentity.Location = new System.Drawing.Point(81, 121);
             this.cmbStaffIdentity.Name = "cmbStaffIdentity";
             this.cmbStaffIdentity.Size = new System.Drawing.Size(100, 23);
@@ -1217,16 +1219,6 @@ namespace CleanArchQLNH
             this.txtStaffName.TabIndex = 6;
             this.txtStaffName.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtStaffName_KeyDown);
             // 
-            // mtxtStaffDateOfBirth
-            // 
-            this.mtxtStaffDateOfBirth.Location = new System.Drawing.Point(81, 75);
-            this.mtxtStaffDateOfBirth.Mask = "00/00/0000";
-            this.mtxtStaffDateOfBirth.Name = "mtxtStaffDateOfBirth";
-            this.mtxtStaffDateOfBirth.Size = new System.Drawing.Size(100, 23);
-            this.mtxtStaffDateOfBirth.TabIndex = 8;
-            this.mtxtStaffDateOfBirth.ValidatingType = typeof(System.DateTime);
-            this.mtxtStaffDateOfBirth.KeyDown += new System.Windows.Forms.KeyEventHandler(this.mtxtStaffDateOfBirth_KeyDown);
-            // 
             // txtStaffPhoneNumber
             // 
             this.txtStaffPhoneNumber.Location = new System.Drawing.Point(280, 0);
@@ -1343,6 +1335,8 @@ namespace CleanArchQLNH
             // 
             // tpOrderTable
             // 
+            this.tpOrderTable.Controls.Add(this.mtxtOrderTime);
+            this.tpOrderTable.Controls.Add(this.mtxtOrderDate);
             this.tpOrderTable.Controls.Add(this.lblOrderCustomerPhoneNumber);
             this.tpOrderTable.Controls.Add(this.txtOrderCustomerPhoneNumber);
             this.tpOrderTable.Controls.Add(this.cmbOrderTable);
@@ -1355,8 +1349,6 @@ namespace CleanArchQLNH
             this.tpOrderTable.Controls.Add(this.btnEditOrder);
             this.tpOrderTable.Controls.Add(this.cbOrderStatus2);
             this.tpOrderTable.Controls.Add(this.cbOrderStatus1);
-            this.tpOrderTable.Controls.Add(this.mtxtOrderTime);
-            this.tpOrderTable.Controls.Add(this.mtxtOrderDate);
             this.tpOrderTable.Controls.Add(this.txtOrderCustomer);
             this.tpOrderTable.Controls.Add(this.txtOrderID);
             this.tpOrderTable.Controls.Add(this.lbOrderTableID);
@@ -1368,6 +1360,24 @@ namespace CleanArchQLNH
             this.tpOrderTable.Size = new System.Drawing.Size(648, 361);
             this.tpOrderTable.TabIndex = 5;
             this.tpOrderTable.Text = "Phiếu đặt bàn";
+            // 
+            // mtxtOrderTime
+            // 
+            this.mtxtOrderTime.CustomFormat = "HH:mm";
+            this.mtxtOrderTime.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.mtxtOrderTime.Location = new System.Drawing.Point(461, 259);
+            this.mtxtOrderTime.Name = "mtxtOrderTime";
+            this.mtxtOrderTime.Size = new System.Drawing.Size(187, 23);
+            this.mtxtOrderTime.TabIndex = 22;
+            // 
+            // mtxtOrderDate
+            // 
+            this.mtxtOrderDate.CustomFormat = "dd/MM/yyyy";
+            this.mtxtOrderDate.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.mtxtOrderDate.Location = new System.Drawing.Point(464, 213);
+            this.mtxtOrderDate.Name = "mtxtOrderDate";
+            this.mtxtOrderDate.Size = new System.Drawing.Size(181, 23);
+            this.mtxtOrderDate.TabIndex = 21;
             // 
             // lblOrderCustomerPhoneNumber
             // 
@@ -1394,16 +1404,16 @@ namespace CleanArchQLNH
             this.cmbOrderTable.Name = "cmbOrderTable";
             this.cmbOrderTable.Size = new System.Drawing.Size(184, 23);
             this.cmbOrderTable.TabIndex = 18;
-            
-            //btnDeleteOrder
-            
+            // 
+            // btnDeleteOrder
+            // 
             this.btnDeleteOrder.Location = new System.Drawing.Point(458, 320);
             this.btnDeleteOrder.Name = "btnDeleteOrder";
             this.btnDeleteOrder.Size = new System.Drawing.Size(76, 38);
             this.btnDeleteOrder.TabIndex = 17;
             this.btnDeleteOrder.Text = "Xóa";
             this.btnDeleteOrder.UseVisualStyleBackColor = true;
-             this.btnDeleteOrder.Click += new System.EventHandler(this.btnDeleteOrder_Click);
+            this.btnDeleteOrder.Click += new System.EventHandler(this.btnDeleteOrder_Click);
             // 
             // lbOrderStatus
             // 
@@ -1463,7 +1473,7 @@ namespace CleanArchQLNH
             this.btnEditOrder.TabIndex = 11;
             this.btnEditOrder.Text = "Cập nhật";
             this.btnEditOrder.UseVisualStyleBackColor = true;
-             this.btnEditOrder.Click += new System.EventHandler(this.btnEditOrder_Click);
+            this.btnEditOrder.Click += new System.EventHandler(this.btnEditOrder_Click);
             // 
             // cbOrderStatus2
             // 
@@ -1486,26 +1496,6 @@ namespace CleanArchQLNH
             this.cbOrderStatus1.Text = "Đang xử lý";
             this.cbOrderStatus1.UseVisualStyleBackColor = true;
             this.cbOrderStatus1.Click += new System.EventHandler(this.cbOrderStatus1_Click);
-            // 
-            // mtxtOrderTime
-            // 
-            this.mtxtOrderTime.Location = new System.Drawing.Point(464, 259);
-            this.mtxtOrderTime.Mask = "00:00";
-            this.mtxtOrderTime.Name = "mtxtOrderTime";
-            this.mtxtOrderTime.Size = new System.Drawing.Size(184, 23);
-            this.mtxtOrderTime.TabIndex = 8;
-            this.mtxtOrderTime.ValidatingType = typeof(System.DateTime);
-            this.mtxtOrderTime.KeyDown += new System.Windows.Forms.KeyEventHandler(this.mtxtOrderTime_KeyDown);
-            // 
-            // mtxtOrderDate
-            // 
-            this.mtxtOrderDate.Location = new System.Drawing.Point(461, 213);
-            this.mtxtOrderDate.Mask = "00/00/0000";
-            this.mtxtOrderDate.Name = "mtxtOrderDate";
-            this.mtxtOrderDate.Size = new System.Drawing.Size(184, 23);
-            this.mtxtOrderDate.TabIndex = 7;
-            this.mtxtOrderDate.ValidatingType = typeof(System.DateTime);
-            this.mtxtOrderDate.KeyDown += new System.Windows.Forms.KeyEventHandler(this.mtxtOrderDate_KeyDown);
             // 
             // txtOrderCustomer
             // 
@@ -1541,7 +1531,7 @@ namespace CleanArchQLNH
             this.btnSearchOrder.TabIndex = 2;
             this.btnSearchOrder.Text = "Tìm kiếm";
             this.btnSearchOrder.UseVisualStyleBackColor = true;
-            // this.btnSearchOrder.Click += new System.EventHandler(this.btnSearchOrder_Click);
+            this.btnSearchOrder.Click += new System.EventHandler(this.btnSearchOrder_Click);
             // 
             // txtSearchOrder
             // 
@@ -1575,7 +1565,9 @@ namespace CleanArchQLNH
             this.panel1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvBill)).EndInit();
             this.pnDatetimePicker.ResumeLayout(false);
+            this.pnDatetimePicker.PerformLayout();
             this.tpFood.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvFood)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel5.ResumeLayout(false);
             this.pnFoodPrice.ResumeLayout(false);
@@ -1586,26 +1578,25 @@ namespace CleanArchQLNH
             this.pnIDFood.PerformLayout();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvFood)).EndInit();
             this.tpTable.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvTable)).EndInit();
-             this.pnTableStatus.ResumeLayout(false);
-             this.pnTableStatus.PerformLayout();
-             this.panel7.ResumeLayout(false);
-             this.pnMaxPeopleOnTable.ResumeLayout(false);
-             this.pnMaxPeopleOnTable.PerformLayout();
-             this.pnTableID.ResumeLayout(false);
-             this.pnTableID.PerformLayout();
-             this.panel12.ResumeLayout(false);
+            this.pnTableStatus.ResumeLayout(false);
+            this.pnTableStatus.PerformLayout();
+            this.panel7.ResumeLayout(false);
+            this.pnMaxPeopleOnTable.ResumeLayout(false);
+            this.pnMaxPeopleOnTable.PerformLayout();
+            this.pnTableID.ResumeLayout(false);
+            this.pnTableID.PerformLayout();
+            this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
             this.tpPromotion.ResumeLayout(false);
             this.pnListPromotion.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dtgvPromotion)).EndInit();
-            this.panel9.ResumeLayout(false);
             this.panel10.ResumeLayout(false);
             this.pnPromotionPercent.ResumeLayout(false);
             this.pnPromotionPercent.PerformLayout();
+            this.panel9.ResumeLayout(false);
             this.pnPromotionToDate.ResumeLayout(false);
             this.pnPromotionToDate.PerformLayout();
             this.pnPromotionFromDate.ResumeLayout(false);
@@ -1657,11 +1648,13 @@ namespace CleanArchQLNH
         private System.Windows.Forms.Button btnDeleteOrder;
         private System.Windows.Forms.Button btnEditTable;
         private System.Windows.Forms.ComboBox cmbOrderTable;
-        private System.Windows.Forms.MaskedTextBox mtxtPromotionFromDate, mtxtPromotionToDate,
-            mtxtStaffDateOfBirth,
-            mtxtOrderDate, mtxtOrderTime;
         private System.Windows.Forms.Label lblOrderCustomerPhoneNumber;
         private System.Windows.Forms.Label lbDays, lbMonths, lbYears;
         private System.Windows.Forms.ComboBox cmbDaysInViewBill, cmbMonthsInViewBill, cmbYearsInViewBill;
+        private System.Windows.Forms.DateTimePicker dateTimePickerPromotionNgayBD;
+        private System.Windows.Forms.DateTimePicker dateTimePickerPromotionNgayKT;
+        private System.Windows.Forms.DateTimePicker mtxtStaffDateOfBirth;
+        private System.Windows.Forms.DateTimePicker mtxtOrderDate;
+        private System.Windows.Forms.DateTimePicker mtxtOrderTime;
     }
 }

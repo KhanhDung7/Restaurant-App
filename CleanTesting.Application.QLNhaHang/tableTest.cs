@@ -22,7 +22,7 @@ namespace tests.Clean_Testing.Application.QLNhaHang
         [TestCase("dung", "4'--", "3")]   
         [TestCase("dung", "4", "3'--")]   
         [TestCase("dung", "4 --", "3")]   
-        [TestCase("dung", "4", "3 --")]  
+        [TestCase("dung", "4", "3 --")]
 
         public void SuaBanAn(int mab, int sokhach_toida, int tinhtrang)
         {
@@ -40,8 +40,8 @@ namespace tests.Clean_Testing.Application.QLNhaHang
 
         [TestCase("1")]    
         [TestCase("-1")]   
-        [TestCase(" ")]    
-        [TestCase("dung' or '1'='1")]
+        [TestCase(" ")]
+        [TestCase("dung' or '1'='1' --")]
         [TestCase("dung';DELETE BANAN WHERE MaB='dung' OR '1'='1")]    
         public void TimBanAn(string noidung)
         { 

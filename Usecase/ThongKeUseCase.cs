@@ -27,7 +27,6 @@ namespace Usecase
             query += " DECLARE @tongL money SET @tongL = (SELECT SUM(LuongCoBan) + SUM(HeSoLuong) AS luong FROM NHANVIEN, LUONGNV, LUONG" +
                 " WHERE NHANVIEN.MaNV = LUONGNV.MaNV AND LUONGNV.MaBacLuong = LUONG.MaBacLuong)";
             query += " SELECT DISTINCT '" + ngay + "-" + thang + "-" + nam + "' AS ThoiGian, @tongtien as TongDoanhThu, @tenM AS TenMonBanChay, @slM AS TongSoOrder, @tenKM AS TenKhuyenMai, @slKM AS TongLanApDung, @tongL as TongLuongNV FROM HOADON WHERE NgayLap LIKE '%" + nam + "-" + thang + "-" + ngay + "%';";
-
             DataTable data = provider.ExecuteQuery(query);
             foreach (DataRow item in data.Rows)
             {
@@ -66,7 +65,6 @@ namespace Usecase
                 query += " DECLARE @tongL money SET @tongL = (SELECT SUM(LuongCoBan) + SUM(HeSoLuong) AS luong FROM NHANVIEN, LUONGNV, LUONG" +
                     " WHERE NHANVIEN.MaNV = LUONGNV.MaNV AND LUONGNV.MaBacLuong = LUONG.MaBacLuong)";
                 query += " SELECT DISTINCT '" + temp + "-" + thang + "-" + nam + "' AS ThoiGian, @tongtien as TongDoanhThu, @tenM AS TenMonBanChay, @slM AS TongSoOrder, @tenKM AS TenKhuyenMai, @slKM AS TongLanApDung, @tongL as TongLuongNV FROM HOADON WHERE NgayLap LIKE '%" + nam + "-" + thang + "-" + temp + "%';";
-
                 DataTable data = provider.ExecuteQuery(query);
                 foreach (DataRow item in data.Rows)
                 {

@@ -433,8 +433,8 @@ namespace CleanArchQLNH
         {
             txtPromotionID.DataBindings.Add(new Binding("Text", dtgvPromotion.DataSource, "makm", true, DataSourceUpdateMode.Never));
             txtPromotionName.DataBindings.Add(new Binding("Text", dtgvPromotion.DataSource, "tenkm", true, DataSourceUpdateMode.Never));
-            mtxtPromotionFromDate.DataBindings.Add(new Binding("Text", dtgvPromotion.DataSource, "ngaybd", true, DataSourceUpdateMode.Never));
-            mtxtPromotionToDate.DataBindings.Add(new Binding("Text", dtgvPromotion.DataSource, "ngaykt", true, DataSourceUpdateMode.Never));
+            dateTimePickerPromotionNgayBD.DataBindings.Add(new Binding("Text", dtgvPromotion.DataSource, "ngaybd", true, DataSourceUpdateMode.Never));
+            dateTimePickerPromotionNgayKT.DataBindings.Add(new Binding("Text", dtgvPromotion.DataSource, "ngaykt", true, DataSourceUpdateMode.Never));
             txtPromotionPercent.DataBindings.Add(new Binding("Text", dtgvPromotion.DataSource, "phantramkm", true, DataSourceUpdateMode.Never));
             dtgvPromotion.Columns[0].HeaderText = "Mã khuyến mãi";
             dtgvPromotion.Columns[0].Width = 50;
@@ -452,30 +452,30 @@ namespace CleanArchQLNH
         //
         private void txtPromotionName_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Enter) mtxtPromotionFromDate.Focus();
-            if (e.KeyCode == Keys.Down) mtxtPromotionFromDate.Focus();
-            if (e.KeyCode == Keys.Right) mtxtPromotionFromDate.Focus();
+            if (e.KeyCode == Keys.Enter) dateTimePickerPromotionNgayBD.Focus();
+            if (e.KeyCode == Keys.Down) dateTimePickerPromotionNgayBD.Focus();
+            if (e.KeyCode == Keys.Right) dateTimePickerPromotionNgayBD.Focus();
         }
         private void mtxtPromotionFromDate_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Enter) mtxtPromotionToDate.Focus();
+            if (e.KeyCode == Keys.Enter) dateTimePickerPromotionNgayKT.Focus();
             if (e.KeyCode == Keys.Up) txtPromotionName.Focus();
-            if (e.KeyCode == Keys.Down) mtxtPromotionToDate.Focus();
+            if (e.KeyCode == Keys.Down) dateTimePickerPromotionNgayKT.Focus();
             if (e.KeyCode == Keys.Left) txtPromotionName.Focus();
-            if (e.KeyCode == Keys.Right) mtxtPromotionToDate.Focus();
+            if (e.KeyCode == Keys.Right) dateTimePickerPromotionNgayKT.Focus();
         }
         private void mtxtPromotionToDate_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter) txtPromotionPercent.Focus();
-            if (e.KeyCode == Keys.Up) mtxtPromotionFromDate.Focus();
+            if (e.KeyCode == Keys.Up) dateTimePickerPromotionNgayBD.Focus();
             if (e.KeyCode == Keys.Down) txtPromotionPercent.Focus();
-            if (e.KeyCode == Keys.Left) mtxtPromotionFromDate.Focus();
+            if (e.KeyCode == Keys.Left) dateTimePickerPromotionNgayBD.Focus();
             if (e.KeyCode == Keys.Right) txtPromotionPercent.Focus();
         }
         private void txtPromotionPercent_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.KeyCode == Keys.Up) mtxtPromotionToDate.Focus();
-            if (e.KeyCode == Keys.Left) mtxtPromotionToDate.Focus();
+            if (e.KeyCode == Keys.Up) dateTimePickerPromotionNgayKT.Focus();
+            if (e.KeyCode == Keys.Left) dateTimePickerPromotionNgayKT.Focus();
         }
         //
         //ActionPromotion
@@ -484,26 +484,35 @@ namespace CleanArchQLNH
         {
             string makm = txtPromotionID.Text;
             string tenkm = txtPromotionName.Text;
-            string ngaybd = mtxtPromotionFromDate.Text;
-            string ngaykt = mtxtPromotionToDate.Text;
+            string ngaybd = dateTimePickerPromotionNgayBD.Text;
+            string ngaykt = dateTimePickerPromotionNgayKT.Text;
             string phantramkm;
             int n = 0;
 
-            if (this.txtPromotionName.Text.ToString().Replace(" ", "") != "" && this.mtxtPromotionFromDate.Text.ToString().Replace(" ", "") != "" && this.mtxtPromotionToDate.Text.ToString().Replace(" ", "") != "")
+            if (this.txtPromotionName.Text.ToString().Replace(" ", "") != "" && this.dateTimePickerPromotionNgayBD.Text.ToString().Replace(" ", "") != "" && this.dateTimePickerPromotionNgayKT.Text.ToString().Replace(" ", "") != "")
             {
                 if (this.txtPromotionPercent.Text.ToString().Replace(" ", "") != "")
                 {
                     if (int.TryParse(this.txtPromotionPercent.Text, out n))
                     {
                         phantramkm = txtPromotionPercent.Text;
-                        if (KhuyenMaiInfras.Instance.ThemKhuyenMai(makm, tenkm, ngaybd, ngaykt, phantramkm) == 1)
+                        DateTime dateNgayBD = DateTime.ParseExact(ngaybd, "MM/dd/yyyy",System.Globalization.CultureInfo.InvariantCulture);
+                        DateTime dateNgayKT = DateTime.ParseExact(ngaykt, "MM/dd/yyyy", System.Globalization.CultureInfo.InvariantCulture);
+                        if(dateNgayBD < dateNgayKT)
                         {
-                            MessageBox.Show("Thêm chương trình khuyến mãi thành công", "Thông báo");
-                            LoadPromotionListF();
+                            if (KhuyenMaiInfras.Instance.ThemKhuyenMai(makm, tenkm, ngaybd, ngaykt, phantramkm) == 1)
+                            {
+                                MessageBox.Show("Thêm chương trình khuyến mãi thành công", "Thông báo");
+                                LoadPromotionListF();
+                            }
+                            else
+                            {
+                                MessageBox.Show("Thêm chương trình khuyến mãi thất bại", "Thông báo");
+                            }
                         }
                         else
                         {
-                            MessageBox.Show("Thêm chương trình khuyến mãi thất bại", "Thông báo");
+                            MessageBox.Show("Ngày kết thúc phải lớn hơn ngày bắt đầu", "Thông báo");
                         }
                     }
                     else
@@ -519,26 +528,36 @@ namespace CleanArchQLNH
         {
             string makm = txtPromotionID.Text;
             string tenkm = txtPromotionName.Text;
-            string ngaybd = mtxtPromotionFromDate.Text;
-            string ngaykt = mtxtPromotionToDate.Text;
+            string ngaybd = dateTimePickerPromotionNgayBD.Text;
+            string ngaykt = dateTimePickerPromotionNgayKT.Text;
             string phantramkm;
             int n = 0;
-            if (this.txtPromotionName.Text.ToString().Replace(" ", "") != "" && this.mtxtPromotionFromDate.Text.ToString().Replace(" ", "") != "" && this.mtxtPromotionToDate.Text.ToString().Replace(" ", "") != "")
+            if (this.txtPromotionName.Text.ToString().Replace(" ", "") != "" && this.dateTimePickerPromotionNgayBD.Text.ToString().Replace(" ", "") != "" && this.dateTimePickerPromotionNgayKT.Text.ToString().Replace(" ", "") != "")
             {
                 if (this.txtPromotionPercent.Text.ToString().Replace(" ", "") != "")
                 {
                     if (int.TryParse(this.txtPromotionPercent.Text, out n))
                     {
                         phantramkm = txtPromotionPercent.Text;
-                        if (KhuyenMaiInfras.Instance.SuaKhuyenMai(makm, tenkm, ngaybd, ngaykt, phantramkm) == 1)
+                        DateTime dateNgayBD = DateTime.ParseExact(ngaybd, "MM/dd/yyyy", System.Globalization.CultureInfo.InvariantCulture);
+                        DateTime dateNgayKT = DateTime.ParseExact(ngaykt, "MM/dd/yyyy", System.Globalization.CultureInfo.InvariantCulture);
+                        if (dateNgayBD < dateNgayKT)
                         {
-                            MessageBox.Show("Sửa chương trình khuyến mãi thành công", "Thông báo");
-                            LoadPromotionListF();
+                            if (KhuyenMaiInfras.Instance.SuaKhuyenMai(makm, tenkm, ngaybd, ngaykt, phantramkm) == 1)
+                            {
+                                MessageBox.Show("Sửa chương trình khuyến mãi thành công", "Thông báo");
+                                LoadPromotionListF();
+                            }
+                            else
+                            {
+                                MessageBox.Show("Sửa chương trình khuyến mãi thất bại", "Thông báo");
+                            }
                         }
                         else
                         {
-                            MessageBox.Show("Sửa chương trình khuyến mãi thất bại", "Thông báo");
+                            MessageBox.Show("Ngày kết thúc phải lớn hơn ngày bắt đầu", "Thông báo");
                         }
+                            
                     }
                     else
                     {
@@ -705,15 +724,26 @@ namespace CleanArchQLNH
                                          if (this.txtStaffContactPhoneNumber.Text.Length == 10)
                                          {
                                              string sdt_nguoilienhe = txtStaffContactPhoneNumber.Text;
-                                             if (NhanVienInfras.Instance.ThemNhanVien(manv, hotennv, cmnd, sdtnv, mail, ngaysinh, diachi, hoten_nguoilienhe, sdt_nguoilienhe, machucvu, matkhau) == 1)
-                                             {
-                                                 MessageBox.Show("Thêm nhân viên thành công", "Thông báo");
-                                                 LoadStaffListF();
-                                             }
-                                             else
-                                             {
-                                                 MessageBox.Show("Thêm thất bại", "Thông báo");
-                                             }
+                                            var today = DateTime.Today;
+                                            DateTime myDate = DateTime.ParseExact(ngaysinh, "dd/MM/yyyy",System.Globalization.CultureInfo.InvariantCulture);
+                                            var age = today.Year - myDate.Year;
+                                            if (myDate.Date > today.AddYears(-age)) age--;
+                                            if (age < 18 || age >65)
+                                            {
+                                                MessageBox.Show("Nhân viên Không nằm trong độ tuổi lao động(18-65)", "Thông báo");
+                                            }
+                                            else
+                                            {
+                                                if (NhanVienInfras.Instance.ThemNhanVien(manv, hotennv, cmnd, sdtnv, mail, ngaysinh, diachi, hoten_nguoilienhe, sdt_nguoilienhe, machucvu, matkhau) == 1)
+                                                {
+                                                    MessageBox.Show("Thêm nhân viên thành công", "Thông báo");
+                                                    LoadStaffListF();
+                                                }
+                                                else
+                                                {
+                                                    MessageBox.Show("Thêm thất bại", "Thông báo");
+                                                }
+                                            }
                                          }
                                          else MessageBox.Show("Số điện thoại phải có đúng 10 ký tự", "Thông báo");
                                      }
@@ -767,15 +797,26 @@ namespace CleanArchQLNH
                                          {
                                              string sdt_nguoilienhe = txtStaffContactPhoneNumber.Text;
                                              n = 0;
-                                             if (NhanVienInfras.Instance.SuaNhanVien(manv, hotennv, cmnd, sdtnv, mail, ngaysinh, diachi, hoten_nguoilienhe, sdt_nguoilienhe, machucvu, matkhau) == 1)
-                                             {
-                                                 MessageBox.Show("Sửa nhân viên thành công", "Thông báo");
-                                                 LoadStaffListF();
-                                             }
-                                             else
-                                             {
-                                                 MessageBox.Show("Sửa thất bại", "Thông báo");
-                                             }
+                                            var today = DateTime.Today;
+                                            DateTime myDate = DateTime.ParseExact(ngaysinh, "dd/MM/yyyy", System.Globalization.CultureInfo.InvariantCulture);
+                                            var age = today.Year - myDate.Year;
+                                            if (myDate.Date > today.AddYears(-age)) age--;
+                                            if(age <18 || age > 65)
+                                            {
+                                                MessageBox.Show("Nhân viên Không nằm trong độ tuổi lao động(18-65)", "Thông báo");
+                                            }
+                                            else
+                                            {
+                                                if (NhanVienInfras.Instance.SuaNhanVien(manv, hotennv, cmnd, sdtnv, mail, ngaysinh, diachi, hoten_nguoilienhe, sdt_nguoilienhe, machucvu, matkhau) == 1)
+                                                {
+                                                    MessageBox.Show("Sửa nhân viên thành công", "Thông báo");
+                                                    LoadStaffListF();
+                                                }
+                                                else
+                                                {
+                                                    MessageBox.Show("Sửa thất bại", "Thông báo");
+                                                }
+                                            }
                                          }
                                          else MessageBox.Show("Số điện thoại phải có đúng 10 ký tự", "Thông báo");
                                      }
@@ -888,9 +929,9 @@ namespace CleanArchQLNH
              string sdt;
              string ngaydat = mtxtOrderDate.Text;
              string giodat = mtxtOrderTime.Text;
-             string tinhtrang;
-             if (cbOrderStatus1.Checked) tinhtrang = "false";
-             else tinhtrang = "true";
+             int tinhtrang;
+             if (cbOrderStatus1.Checked) tinhtrang = 0;
+             else tinhtrang = 1;
              int n = 0;
              if (int.TryParse(txtOrderCustomerPhoneNumber.Text, out n))
              {

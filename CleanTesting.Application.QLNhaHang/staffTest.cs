@@ -16,9 +16,9 @@ namespace tests.Clean_Testing.Application.QLNhaHang
 
         [TestCase("nv01")]      
         [TestCase("nv2")]       
-        [TestCase(" ")]         
-        [TestCase("dung' or '1'='1")]     
-        [TestCase("dung';DELETE NHANVIEN WHERE MaNV='dung' OR '1'='1")]    
+        [TestCase(" ")]
+        [TestCase("dung' or '1'='1' --")]
+        [TestCase("dung';DELETE NHANVIEN WHERE MaNV='dung' OR '1'='1'")]    
         public void TimNhanVien(string noidung)
         {
             //Arr
@@ -34,7 +34,7 @@ namespace tests.Clean_Testing.Application.QLNhaHang
 
         }
 
-        [TestCase("nv7", "Trinh The Vinh", "0123456788", "0987654321", "vinh123", "26/08/2000", "TPHCM", "Nguyen Huu Trung", "0123456798", "1", "123456")]
+        [TestCase("nv01", "Trinh The Vinh", "0123456788", "0987654321", "vinh123", "26/08/2000", "TPHCM", "Nguyen Huu Trung", "0123456798", "1", "123456")]
         [TestCase("dung", "Trinh The Vinh'--", "0123456788", "0987654321", "vinh123", "26/08/2000", "TPHCM", "Nguyen Huu Trung", "0123456798", "1", "123456")]
         [TestCase("dung", "Trinh The Vinh", "0123456788'--", "0987654321", "vinh123", "26/08/2000", "TPHCM", "Nguyen Huu Trung", "0123456798", "1", "123456")]
         [TestCase("dung", "Trinh The Vinh", "0123456788", "0987654321'--", "vinh123", "26/08/2000", "TPHCM", "Nguyen Huu Trung", "0123456798", "1", "123456")]

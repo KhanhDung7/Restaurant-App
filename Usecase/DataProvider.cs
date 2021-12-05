@@ -5,7 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data;
 using System.Data.SqlClient;
-
+using System.Text.RegularExpressions;
+using Domain.Entities;
 
 namespace Usecase
 {
@@ -29,14 +30,38 @@ namespace Usecase
             }
             return data;
         }
-
-        public int ExecuteNonQuery(string query)
+        public DataTable ExecuteQueryLogin(string query,List<DataTypeSql> list)
+        {
+            DataTable data = new DataTable();
+            using (SqlConnection connection = new SqlConnection(connectionSTR))
+            {
+                connection.Open();
+                SqlCommand command = new SqlCommand(query, connection);
+                foreach (DataTypeSql type in list)
+                {
+                    command.Parameters.Add(type.Code, type.Dbtype);
+                    command.Parameters[type.Code].Value = type.Value;
+                }
+                //command.Connection.Open();
+                SqlDataAdapter adapter = new SqlDataAdapter(command);
+                adapter.Fill(data);
+                connection.Close();
+                //command.Connection.Close();
+            }
+            return data;
+        }
+        public int ExecuteNonQuery(string query,List<DataTypeSql> datatypesql)
         {
             int data = 0;
             using (SqlConnection connection = new SqlConnection(connectionSTR))
             {
                 connection.Open();
                 SqlCommand command = new SqlCommand(query, connection);
+                foreach (DataTypeSql datatype in datatypesql)
+                {
+                    command.Parameters.Add(datatype.Code, datatype.Dbtype);
+                    command.Parameters[datatype.Code].Value = datatype.Value;
+                }
                 //command.Connection.Open();
                 data = command.ExecuteNonQuery();
                 connection.Close();

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
@@ -14,9 +15,14 @@ namespace Usecase
 
         public int Login(string username, string password)
         {
-            string query = "Select * from dbo.NHANVIEN where MaNV = '" + username + "' AND MatKhau = '" + password + "'";
-            
-            DataTable result = provider.ExecuteQuery(query);
+            string query = "Select * from dbo.NHANVIEN where MaNV = @1 AND MatKhau = @2 ;";
+
+            List<DataTypeSql> arlist1 = new List<DataTypeSql>();
+            DataTypeSql data = new DataTypeSql("@1", SqlDbType.Char, username);
+            arlist1.Add(data);
+            DataTypeSql data1 = new DataTypeSql("@2", SqlDbType.VarChar, password);
+            arlist1.Add(data1);
+            DataTable result = provider.ExecuteQueryLogin(query, arlist1);
 
             return result.Rows.Count; //nếu số dòng tìm được =1 thì đúng cho đăng nhập
 
