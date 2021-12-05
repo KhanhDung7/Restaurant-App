@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "Usecase": {
+      "commandName": "Project",
+      "jsWebView2Debugging": true,
+      "sqlDebugging": true,
+      "nativeDebugging": true
+    }
+  }
+}
