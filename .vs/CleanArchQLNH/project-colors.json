@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3f1e1831-c62e-46d8-9550-dc7f9212cdff": {
+      "ProjectGuid": "3f1e1831-c62e-46d8-9550-dc7f9212cdff",
+      "DisplayName": "CleanArchQLNH",
+      "ColorIndex": 0
+    },
+    "04449462-f6ba-47e1-9ae2-8851386c987f": {
+      "ProjectGuid": "04449462-f6ba-47e1-9ae2-8851386c987f",
+      "DisplayName": "Usecase",
+      "ColorIndex": 1
+    },
+    "e3536bd4-ab29-4144-af62-05f2fa2e9bb6": {
+      "ProjectGuid": "e3536bd4-ab29-4144-af62-05f2fa2e9bb6",
+      "DisplayName": "CleanTesting.Application.QLNhaHang",
+      "ColorIndex": 2
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "a1d67e43-d9a8-45b5-8271-b55eb35daf98": {
+      "ProjectGuid": "a1d67e43-d9a8-45b5-8271-b55eb35daf98",
+      "DisplayName": "Domain",
+      "ColorIndex": 3
+    },
+    "ab713795-4d86-4b07-bbe5-d6b2ca52d7b6": {
+      "ProjectGuid": "ab713795-4d86-4b07-bbe5-d6b2ca52d7b6",
+      "DisplayName": "Infrastructure",
+      "ColorIndex": 4
+    }
+  },
+  "NextColorIndex": 5
+}
