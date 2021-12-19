@@ -9,6 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using thongke;
 
 namespace CleanArchQLNH
 {
@@ -75,101 +76,37 @@ namespace CleanArchQLNH
         //
         private void btnViewBill_Click(object sender, EventArgs e)
         {
-            string ngay = cmbDaysInViewBill.Text;
-            string thang = cmbMonthsInViewBill.Text;
+            string thang = cmbDaysInViewBill.Text;
+            string quy = cmbMonthsInViewBill.Text;
             string nam = cmbYearsInViewBill.Text;
-
-            if(ngay.Replace(" ", "") != "")
+            if (nam == "")
             {
-                if (Int32.Parse(ngay.ToString().Replace(" ", "")) < 10)
+                MessageBox.Show("Chọn năm thống kê", "Thông báo");
+            }
+            else
+            {
+                if (quy == "---" && thang == "---")
                 {
-                    ngay = ngay;
+                    fThongKe tk = new fThongKe();
+                    tk.ThongKeNam(nam);
+                    tk.Show();
+                }
+                else
+                {
+                    if (quy != "---")
+                    {
+                        fThongKe tk = new fThongKe();
+                        tk.ThongKeQuy(quy, nam);
+                        tk.Show();
+                    }
+                    if (thang != "---")
+                    {
+                        fThongKe tk = new fThongKe();
+                        tk.ThongKeThang(thang, nam);
+                        tk.Show();
+                    }
                 }
             }
-
-            if(thang.Replace(" ", "") != "")
-            {
-                if (Int32.Parse(thang.ToString().Replace(" ", "")) < 10)
-                {
-                    thang = thang;
-                }
-            }
-
-            if (ngay.Replace(" ","") == "" && thang.Replace(" ", "") == "" && nam.Replace(" ", "") == "")
-            {
-                MessageBox.Show("Hãy chọn ngày cần thống kê", "Thông báo");
-            }
-            else if (ngay.Replace(" ", "") == "" && thang.Replace(" ", "") == "" && nam.Replace(" ", "") != "")
-            {
-                dtgvBill.DataSource = ThongKeInfras.Instance.LoadThongKeNam(nam);
-                dtgvBill.Columns[0].HeaderText = "Thời gian";
-                dtgvBill.Columns[0].Width = 100;
-                dtgvBill.Columns[1].HeaderText = "Tổng doanh thu";
-                dtgvBill.Columns[1].Width = 70;
-                dtgvBill.Columns[2].HeaderText = "Món bán chạy";
-                dtgvBill.Columns[2].Width = 150;
-                dtgvBill.Columns[3].HeaderText = "Tổng số order";
-                dtgvBill.Columns[3].Width = 70;
-                dtgvBill.Columns[4].HeaderText = "Chương trình khuyến mãi";
-                dtgvBill.Columns[4].Width = 150;
-                dtgvBill.Columns[5].HeaderText = "Số lần áp dụng";
-                dtgvBill.Columns[5].Width = 70;
-                dtgvBill.Columns[6].HeaderText = "Tổng lương nhân viên";
-                dtgvBill.Columns[6].Width = 70;
-            }
-            else if (ngay.Replace(" ", "") == "" && thang.Replace(" ", "") != "" && nam.Replace(" ", "") != "")
-            {
-                dtgvBill.DataSource = ThongKeInfras.Instance.LoadThongKeThang(thang, nam);
-                dtgvBill.Columns[0].HeaderText = "Thời gian";
-                dtgvBill.Columns[0].Width = 100;
-                dtgvBill.Columns[1].HeaderText = "Tổng doanh thu";
-                dtgvBill.Columns[1].Width = 70;
-                dtgvBill.Columns[2].HeaderText = "Món bán chạy";
-                dtgvBill.Columns[2].Width = 150;
-                dtgvBill.Columns[3].HeaderText = "Tổng số order";
-                dtgvBill.Columns[3].Width = 70;
-                dtgvBill.Columns[4].HeaderText = "Chương trình khuyến mãi";
-                dtgvBill.Columns[4].Width = 150;
-                dtgvBill.Columns[5].HeaderText = "Số lần áp dụng";
-                dtgvBill.Columns[5].Width = 70;
-                dtgvBill.Columns[6].HeaderText = "Tổng lương nhân viên";
-                dtgvBill.Columns[6].Width = 70;
-            }
-            else if (ngay.Replace(" ", "") != "" && thang.Replace(" ", "") == "" && nam.Replace(" ", "") != "")
-            {
-                MessageBox.Show("Hãy chọn tháng cần thống kê", "Thông báo");
-            }
-            else if (ngay.Replace(" ", "") != "" && thang.Replace(" ", "") != "" && nam.Replace(" ", "") == "")
-            {
-                MessageBox.Show("Hãy chọn năm cần thống kê", "Thông báo");
-            }
-            else if (ngay.Replace(" ", "") == "" && thang.Replace(" ", "") != "" && nam.Replace(" ", "") == "")
-            {
-                MessageBox.Show("Hãy chọn ngày và năm cần thống kê", "Thông báo");
-            }
-            else if (ngay.Replace(" ", "") != "" && thang.Replace(" ", "") == "" && nam.Replace(" ", "") == "")
-            {
-                MessageBox.Show("Hãy chọn tháng và năm cần thống kê", "Thông báo");
-            }
-            else if (ngay.Replace(" ", "") != "" && thang.Replace(" ", "") != "" && nam.Replace(" ", "") != "")
-            {
-                dtgvBill.DataSource = ThongKeInfras.Instance.LoadThongKeNgay(ngay, thang, nam);
-                dtgvBill.Columns[0].HeaderText = "Thời gian";
-                dtgvBill.Columns[0].Width = 100;
-                dtgvBill.Columns[1].HeaderText = "Tổng doanh thu";
-                dtgvBill.Columns[1].Width = 70;
-                dtgvBill.Columns[2].HeaderText = "Món bán chạy";
-                dtgvBill.Columns[2].Width = 150;
-                dtgvBill.Columns[3].HeaderText = "Tổng số order";
-                dtgvBill.Columns[3].Width = 70;
-                dtgvBill.Columns[4].HeaderText = "Chương trình khuyến mãi";
-                dtgvBill.Columns[4].Width = 150;
-                dtgvBill.Columns[5].HeaderText = "Số lần áp dụng";
-                dtgvBill.Columns[5].Width = 70;
-                dtgvBill.Columns[6].HeaderText = "Tổng lương nhân viên";
-                dtgvBill.Columns[6].Width = 70;
-            }
-
         }
         // //
         //Food
@@ -496,24 +433,29 @@ namespace CleanArchQLNH
                     if (int.TryParse(this.txtPromotionPercent.Text, out n))
                     {
                         phantramkm = txtPromotionPercent.Text;
-                        DateTime dateNgayBD = DateTime.ParseExact(ngaybd, "MM/dd/yyyy",System.Globalization.CultureInfo.InvariantCulture);
-                        DateTime dateNgayKT = DateTime.ParseExact(ngaykt, "MM/dd/yyyy", System.Globalization.CultureInfo.InvariantCulture);
-                        if(dateNgayBD < dateNgayKT)
+                        int ptkm = int.Parse(phantramkm);
+                        if (ptkm <= 100 && ptkm >= 0)
                         {
-                            if (KhuyenMaiInfras.Instance.ThemKhuyenMai(makm, tenkm, ngaybd, ngaykt, phantramkm) == 1)
+                            DateTime dateNgayBD = DateTime.ParseExact(ngaybd, "MM/dd/yyyy", System.Globalization.CultureInfo.InvariantCulture);
+                            DateTime dateNgayKT = DateTime.ParseExact(ngaykt, "MM/dd/yyyy", System.Globalization.CultureInfo.InvariantCulture);
+                            if (dateNgayBD < dateNgayKT)
                             {
-                                MessageBox.Show("Thêm chương trình khuyến mãi thành công", "Thông báo");
-                                LoadPromotionListF();
+                                if (KhuyenMaiInfras.Instance.ThemKhuyenMai(makm, tenkm, ngaybd, ngaykt, phantramkm) == 1)
+                                {
+                                    MessageBox.Show("Thêm chương trình khuyến mãi thành công", "Thông báo");
+                                    LoadPromotionListF();
+                                }
+                                else
+                                {
+                                    MessageBox.Show("Thêm chương trình khuyến mãi thất bại", "Thông báo");
+                                }
                             }
                             else
                             {
-                                MessageBox.Show("Thêm chương trình khuyến mãi thất bại", "Thông báo");
+                                MessageBox.Show("Ngày kết thúc phải lớn hơn ngày bắt đầu", "Thông báo");
                             }
                         }
-                        else
-                        {
-                            MessageBox.Show("Ngày kết thúc phải lớn hơn ngày bắt đầu", "Thông báo");
-                        }
+                        else MessageBox.Show("Phần trăm khuyến mãi từ 0-100");
                     }
                     else
                     {
@@ -539,25 +481,29 @@ namespace CleanArchQLNH
                     if (int.TryParse(this.txtPromotionPercent.Text, out n))
                     {
                         phantramkm = txtPromotionPercent.Text;
-                        DateTime dateNgayBD = DateTime.ParseExact(ngaybd, "MM/dd/yyyy", System.Globalization.CultureInfo.InvariantCulture);
-                        DateTime dateNgayKT = DateTime.ParseExact(ngaykt, "MM/dd/yyyy", System.Globalization.CultureInfo.InvariantCulture);
-                        if (dateNgayBD < dateNgayKT)
+                        int ptkm = int.Parse(phantramkm);
+                        if (ptkm >= 0 && ptkm <= 100)
                         {
-                            if (KhuyenMaiInfras.Instance.SuaKhuyenMai(makm, tenkm, ngaybd, ngaykt, phantramkm) == 1)
+                            DateTime dateNgayBD = DateTime.ParseExact(ngaybd, "MM/dd/yyyy", System.Globalization.CultureInfo.InvariantCulture);
+                            DateTime dateNgayKT = DateTime.ParseExact(ngaykt, "MM/dd/yyyy", System.Globalization.CultureInfo.InvariantCulture);
+                            if (dateNgayBD < dateNgayKT)
                             {
-                                MessageBox.Show("Sửa chương trình khuyến mãi thành công", "Thông báo");
-                                LoadPromotionListF();
+                                if (KhuyenMaiInfras.Instance.SuaKhuyenMai(makm, tenkm, ngaybd, ngaykt, phantramkm) == 1)
+                                {
+                                    MessageBox.Show("Sửa chương trình khuyến mãi thành công", "Thông báo");
+                                    LoadPromotionListF();
+                                }
+                                else
+                                {
+                                    MessageBox.Show("Sửa chương trình khuyến mãi thất bại", "Thông báo");
+                                }
                             }
                             else
                             {
-                                MessageBox.Show("Sửa chương trình khuyến mãi thất bại", "Thông báo");
+                                MessageBox.Show("Ngày kết thúc phải lớn hơn ngày bắt đầu", "Thông báo");
                             }
                         }
-                        else
-                        {
-                            MessageBox.Show("Ngày kết thúc phải lớn hơn ngày bắt đầu", "Thông báo");
-                        }
-                            
+                        else MessageBox.Show("Phần trăm khuyến mãi từ 0-100");
                     }
                     else
                     {
@@ -607,7 +553,7 @@ namespace CleanArchQLNH
              txtStaffAddress.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "diachi", true, DataSourceUpdateMode.Never));
              txtStaffContactName.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "hoten_nguoilh", true, DataSourceUpdateMode.Never));
              txtStaffContactPhoneNumber.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "sdt_nguoilh", true, DataSourceUpdateMode.Never));
-             cmbStaffIdentity.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "machucvu", true, DataSourceUpdateMode.Never));
+             cmbStaffIdentity.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "tenchucvu", true, DataSourceUpdateMode.Never));
              txtStaffPassWord.DataBindings.Add(new Binding("Text", dtgvStaff.DataSource, "matkhau", true, DataSourceUpdateMode.Never));
              dtgvStaff.Columns[0].HeaderText = "Mã nhân viên";
              dtgvStaff.Columns[0].Width = 45;
@@ -968,5 +914,15 @@ namespace CleanArchQLNH
              dtgvOrderTable.DataSource = orderList;
              orderList.DataSource = PhieuDatBanInfras.Instance.TimPhieuDatBan(noidung);
          }
+
+        private void cmbDaysInViewBill_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cmbMonthsInViewBill.SelectedIndex= 0;
+        }
+
+        private void cmbMonthsInViewBill_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            cmbDaysInViewBill.SelectedIndex= 0;
+        }
     }
 }

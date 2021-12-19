@@ -11,14 +11,15 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using Infrastructure.Persistence;
 using Usecase;
+using System.IO;
+using System.Collections;
 
 namespace CleanArchQLNH
 {
     public partial class fTableManager : Form
     {
         private NHANVIEN loginAccount;
-
-        
+        private decimal total = 0;
         public NHANVIEN LoginAccount
         {
             get { return loginAccount; }
@@ -109,7 +110,7 @@ namespace CleanArchQLNH
             BindingSource tableall = new BindingSource();
             tableall.DataSource = BanAnInfras.Instance.LoadTableListI();
 
-            cmbGopBan.DataSource = tableall.DataSource;
+            cmbGopBan.DataSource = table.DataSource;
             cmbGopBan.DisplayMember = "MaB";
             cmbGopBan.ValueMember = "MaB";
             cbSwitchTable.DataSource = table.DataSource;
@@ -1132,6 +1133,7 @@ namespace CleanArchQLNH
                 totalPrice += item.TongTien;
                 lvBill.Items.Add(lsvItem);
             }
+            total = totalPrice;
             txtTotalPrice.Text = totalPrice.ToString("c", culture);
 
         }
@@ -1167,8 +1169,8 @@ namespace CleanArchQLNH
                 }
                 else
                 {
-                    HoaDonInfras.Instance.InsertHoaDon(manv, mab, makm, slkhach);
-                    CTHDInfras.Instance.InsertCTHD(HoaDonInfras.Instance.getMaxIdHD(), mamon, slmon, tongtien);
+                    HoaDonInfras.Instance.InsertHoaDon(manv, mab, makm, slkhach,DateTime.Now);
+                    CTHDInfras.Instance.InsertCTHD(HoaDonInfras.Instance.getMaxIdHD(),banan.MaB, mamon, slmon, tongtien);
                     BanAnInfras.Instance.SuaBanAn(mab, banan.SoKhach_ToiDa, 2);
                     LoadData();
                     LoadTable();
@@ -1200,7 +1202,7 @@ namespace CleanArchQLNH
                             if (slmonTemp == 0)
                             {
                                 flag = -1;
-                                CTHDInfras.Instance.DeleteCTHD(maHD, mamon);
+                                CTHDInfras.Instance.DeleteCTHD(maHD, mamon,banan.MaB);
                             }
                         }
                         else if (slmon <= 0)
@@ -1211,11 +1213,11 @@ namespace CleanArchQLNH
                     }
                     if (flag == 1)
                     {
-                        CTHDInfras.Instance.UpdateSLMonCTHD(maHD, mamon, slmonTemp, tongtien);
+                        CTHDInfras.Instance.UpdateSLMonCTHD(maHD,banan.MaB, mamon, slmonTemp, tongtien);
                     }
                     if (flag == 0)
                     {
-                        CTHDInfras.Instance.InsertCTHD(maHD, mamon, slmon, tongtien);
+                        CTHDInfras.Instance.InsertCTHD(maHD,banan.MaB, mamon, slmon, tongtien);
                     }
                     if (flag == -1) { }
                     LoadData();
@@ -1251,7 +1253,7 @@ namespace CleanArchQLNH
                 }
                 else
                 {
-                    HoaDonInfras.Instance.SuaSLKhachHoaDon(maHD, slkhach);
+                    HoaDonInfras.Instance.SuaSLKhachHoaDon(maHD,mab, slkhach);
                 }
             }
             LoadData();
@@ -1288,7 +1290,9 @@ namespace CleanArchQLNH
             {
                 BanAnInfras.Instance.SuaBanAn(banan.MaB, banan.SoKhach_ToiDa, 1);
                 BanAnInfras.Instance.SwitchTable(maBanMoi, 2);
-                HoaDonInfras.Instance.SwitchTable(maHD, maBanMoi);
+                string manv = this.loginAccount.MaNV;
+                string makm = this.cbDisscount.SelectedValue.ToString(); 
+                HoaDonInfras.Instance.SwitchTable(maHD,manv,banan.MaB, maBanMoi,1,makm);
                 lvBill.Items.Clear();
                 LoadData();
                 LoadTable();
@@ -1300,99 +1304,53 @@ namespace CleanArchQLNH
         {
 
             BANAN banan = lvBill.Tag as BANAN;
-            string maHD = HoaDonInfras.Instance.GetUncheckBillIdByTableId(banan.MaB);
-
-            int maBanGop = Convert.ToInt32(this.cmbGopBan.SelectedValue.ToString());
-            string maHDBanGop = HoaDonInfras.Instance.GetUncheckBillIdByTableId(maBanGop);
-
-            if (maHD != "-1")
+            if (banan != null)
             {
-                 List<MENU> listCTHD = MenuInfras.Instance.GetListMenuByTable(banan.MaB);
+                string maHD = HoaDonInfras.Instance.GetUncheckBillIdByTableId(banan.MaB);
 
-                if (maHDBanGop != "-1")
+                int maBanGop = Convert.ToInt32(this.cmbGopBan.SelectedValue.ToString());
+                string maHDBanGop = HoaDonInfras.Instance.GetUncheckBillIdByTableId(maBanGop);
+
+                if (maHD != "-1")
                 {
-                    // List<MENU> listCTHDBanGop = MenuInfras.Instance.GetListMenuByTable(maBanGop);
-                    MessageBox.Show("Cả hai bàn đều đang mở", "Thông báo");
+                    List<MENU> listCTHD = MenuInfras.Instance.GetListMenuByTable(banan.MaB);
+
+                    if (maHDBanGop != "-1")
+                    {
+                        // List<MENU> listCTHDBanGop = MenuInfras.Instance.GetListMenuByTable(maBanGop);
+                        MessageBox.Show("Cả hai bàn đều đang mở", "Thông báo");
+                    }
+                    else
+                    {
+                        if (banan.MaB == maBanGop)
+                        {
+                            MessageBox.Show("Bàn cần gộp trùng với bàn hiện tại", "Thông báo");
+                        }
+                        else if ((banan.MaB <= 16 && maBanGop > 16) || (banan.MaB > 16 && maBanGop <= 16))
+                        {
+                            MessageBox.Show("Bàn cần gộp phải chung tầng", "Thông báo");
+                        }
+                        else
+                        {
+                            string manv = this.loginAccount.MaNV;
+                            string makm = this.cbDisscount.SelectedValue.ToString();
+                            int slkhach = (int)this.nudAddSoKhach.Value;
+
+                            HoaDonInfras.Instance.InsertHoaDonGop(maHD, manv, maBanGop, makm, slkhach);
+                            BanAnInfras.Instance.SwitchTable(maBanGop, 2);
+
+                            LoadData();
+                            LoadTable();
+                        }
+                    }
+
                 }
                 else
                 {
-                    if (banan.MaB == maBanGop)
-                    {
-                        MessageBox.Show("Bàn cần gộp trùng với bàn hiện tại", "Thông báo");
-                    }
-                    else if ((banan.MaB <= 16 && maBanGop > 16) || (banan.MaB > 16 && maBanGop <= 16))
-                    {
-                        MessageBox.Show("Bàn cần gộp phải chung tầng", "Thông báo");
-                    }
-                    else
-                    {
-                        string manv = this.loginAccount.MaNV;
-                        string makm = this.cbDisscount.SelectedValue.ToString();
-                        int slkhach = (int)this.nudAddSoKhach.Value;
-
-                        HoaDonInfras.Instance.InsertHoaDon(manv, maBanGop, makm, slkhach);
-                        BanAnInfras.Instance.SwitchTable(maBanGop, 2);
-
-                        LoadData();
-                        LoadTable();
-                    }
-                }
-
-            }
-            else
-            {
-
-                if (maHDBanGop != "-1")
-                {
-                    if (banan.MaB == maBanGop)
-                    {
-                        MessageBox.Show("Bàn cần gộp trùng với bàn hiện tại", "Thông báo");
-                    }
-                    else if ((banan.MaB <= 16 && maBanGop > 16) || (banan.MaB > 16 && maBanGop <= 16))
-                    {
-                        MessageBox.Show("Bàn cần gộp phải chung tầng", "Thông báo");
-                    }
-                    else
-                    {
-                        string manv = this.loginAccount.MaNV;
-                        string makm = this.cbDisscount.SelectedValue.ToString();
-                        int slkhach = (int)this.nudAddSoKhach.Value;
-
-                        HoaDonInfras.Instance.InsertHoaDon(manv, banan.MaB, makm, slkhach);
-                        //CTHDInfras.Instance.InsertCTHD(HoaDonInfras.Instance.getMaxIdHD(), mamon, slmon, tongtien);
-                        BanAnInfras.Instance.SwitchTable(banan.MaB, 2);
-
-                        LoadData();
-                        LoadTable();
-                    }
-                }
-                else
-                {
-                    if (banan.MaB == maBanGop)
-                    {
-                        MessageBox.Show("Bàn cần gộp trùng với bàn hiện tại", "Thông báo");
-                    }
-                    else if ((banan.MaB <= 16 && maBanGop > 16) || (banan.MaB > 16 && maBanGop <= 16))
-                    {
-                        MessageBox.Show("Bàn cần gộp phải chung tầng", "Thông báo");
-                    }
-                    else
-                    {
-                        string manv = this.loginAccount.MaNV;
-                        string makm = this.cbDisscount.SelectedValue.ToString();
-                        int slkhach = (int)this.nudAddSoKhach.Value;
-
-                        HoaDonInfras.Instance.InsertHoaDon(manv, banan.MaB, makm, slkhach);
-                        BanAnInfras.Instance.SwitchTable(banan.MaB, 2);
-
-                        HoaDonInfras.Instance.InsertHoaDon(manv, maBanGop, makm, slkhach);
-                        BanAnInfras.Instance.SwitchTable(maBanGop, 2);
-
-                        LoadData();
-                        LoadTable();
-                    }
+                    MessageBox.Show("Ban " + banan.MaB + " chưa mở", "Thông báo");
                 }
             }
+            else MessageBox.Show("Chọn chưa chọn bàn ăn chính", "Thông báo");
 
         }
 
@@ -1402,7 +1360,6 @@ namespace CleanArchQLNH
             BANAN banan = lvBill.Tag as BANAN;
             string maHD = HoaDonInfras.Instance.GetUncheckBillIdByTableId(banan.MaB);
 
-
             lvBill.Items.Clear();
             List<MENU> listCTHD = MenuInfras.Instance.GetListMenuByTable(banan.MaB);
             decimal totalPrice = 0;
@@ -1410,6 +1367,10 @@ namespace CleanArchQLNH
             {
                 totalPrice += item.TongTien;
             }
+            cbDisscount.ValueMember = "PhanTramKM";
+            decimal discount = Convert.ToDecimal(this.cbDisscount.SelectedValue.ToString());
+            totalPrice = (totalPrice / 100) * (100 - discount);
+            cbDisscount.ValueMember = "MAKM";
             decimal tongthanhtoan = Convert.ToDecimal(totalPrice.ToString());
 
             if (maHD != "-1")
@@ -1418,8 +1379,8 @@ namespace CleanArchQLNH
                 {
                     if (MessageBox.Show("Bạn có chắc thanh toán cho bàn " + banan.MaB, "Thông báo", MessageBoxButtons.OKCancel) == System.Windows.Forms.DialogResult.OK)
                     {
-                        HoaDonInfras.Instance.CheckOut(maHD, tongthanhtoan);
-                        BanAnInfras.Instance.SuaBanAn(banan.MaB, banan.SoKhach_ToiDa, 1);
+                        string makm = this.cbDisscount.SelectedValue.ToString();
+                        HoaDonInfras.Instance.CheckOut(maHD, tongthanhtoan,makm);
                         ShowBill(banan.MaB);
                         LoadData();
                         LoadTable();
@@ -1430,8 +1391,8 @@ namespace CleanArchQLNH
                     int maBanTemp = banan.MaB - 16;
                     if (MessageBox.Show("Bạn có chắc thanh toán cho bàn " + maBanTemp, "Thông báo", MessageBoxButtons.OKCancel) == System.Windows.Forms.DialogResult.OK)
                     {
-                        HoaDonInfras.Instance.CheckOut(maHD, tongthanhtoan);
-                        BanAnInfras.Instance.SuaBanAn(banan.MaB, banan.SoKhach_ToiDa, 1);
+                        string makm = this.cbDisscount.SelectedValue.ToString();
+                        HoaDonInfras.Instance.CheckOut(maHD, tongthanhtoan,makm);
                         ShowBill(banan.MaB);
                         LoadData();
                         LoadTable();
@@ -1445,18 +1406,34 @@ namespace CleanArchQLNH
         {
 
             BANAN banan = lvBill.Tag as BANAN;
-            string maHD = HoaDonInfras.Instance.GetUncheckBillIdByTableId(banan.MaB);
+            if (banan != null)
+            {
+                string maHD = HoaDonInfras.Instance.GetUncheckBillIdByTableId(banan.MaB);
+                if (maHD != "-1")
+                {
+                    fInHoaDon f = new fInHoaDon();
+                    f.LoadSoHD = maHD;
+                    f.LoadTenNV = loginAccount.HoTenNV;
+                    f.LoadLVBill = this.lvBill;
+                    f.MaB = banan.MaB;
+                    cbDisscount.ValueMember = "PhanTramKM";
+                    f.LoadKM = this.cbDisscount.SelectedValue.ToString();
+                    f.ShowDialog();
+                    this.Show();
+                    cbDisscount.ValueMember = "MAKM";
+                }
+                else MessageBox.Show("Bàn ăn chưa có bill", "Thông báo");
+            }
+            else MessageBox.Show("Chưa chọn bàn ăn", "Thông báo");
+        }
 
-            fInHoaDon f = new fInHoaDon();
-            f.LoadSoHD = maHD;
-            f.LoadTenNV = loginAccount.HoTenNV;
-            f.LoadLVBill = this.lvBill;
-            f.MaB = banan.MaB;
+        private void cbDisscount_SelectedIndexChanged(object sender, EventArgs e)
+        {
             cbDisscount.ValueMember = "PhanTramKM";
-            f.LoadKM = this.cbDisscount.SelectedValue.ToString();
-            f.ShowDialog();
-            this.Show();
-
+            decimal discount = Convert.ToDecimal(this.cbDisscount.SelectedValue.ToString());
+            total = (total / 100) * (100 - discount);
+            txtTotalPrice.Text = total.ToString("c", new CultureInfo("vi-VN"));
+            cbDisscount.ValueMember = "MAKM";
         }
     }
 }

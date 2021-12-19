@@ -44,5 +44,9 @@ namespace Infrastructure.Persistence
         {
             return ma.TimMonAn(noidung);
         }
+        public string getTenMonAn(string mamon)
+        {
+            return ma.getTenMonAn(mamon);
+        }
     }
 }

@@ -15,8 +15,8 @@ namespace Usecase
         public List<NHANVIEN> LoadStaffList()
         {
             List<NHANVIEN> staffList = new List<NHANVIEN>();
-            string query = "Select MaNV, HoTenNV, CMND_NV, SDT_NV, Mail_NV, NgaySinh, DiaChi, HoTen_NguoiLH, SDT_NguoiLH, MaCV, MatKhau" +
-                " from NHANVIEN where TinhTrang ='True'";
+            string query = "Select MaNV, HoTenNV, CMND_NV, SDT_NV, Mail_NV, NgaySinh, DiaChi, HoTen_NguoiLH, SDT_NguoiLH, nhanvien.MaCV, MatKhau,chucvu.tencv" +
+                " from NHANVIEN,CHUCVU where nhanvien.macv=chucvu.macv and TinhTrang ='True'";
             DataTable data = provider.ExecuteQuery(query);
             foreach (DataRow item in data.Rows)
             {
@@ -33,20 +33,6 @@ namespace Usecase
             stt = data.Rows.Count + 1;
 
             string query = "Insert into dbo.NHANVIEN values(@1,@2,@3,@4,@5,@6,@7,@8,@9,@10,@11,1) ;";
-            //query = query + "'nv" + stt + "'";
-            //query = query + "," + "'" + hotennv + "'";
-            //query = query + "," + "'" + cmnd + "'";
-            //query = query + "," + "'" + sdtnv + "'";
-            //query = query + "," + "'" + mail + "'";
-            //query = query + "," + "'" + ngaysinh + "'";
-            //query = query + "," + "'" + diachi + "'";
-            //query = query + "," + "'" + hoten_nguoilienhe + "'";
-            //query = query + "," + "'" + sdt_nguoilienhe + "'";
-            //query = query + "," + "'" + machucvu + "'";
-            //query = query + "," + "'" + matkhau + "'";
-            //query = query + "," + "'true'";
-            //query = query + ")";
-            //int result = provider.ExecuteNonQuery(query);
             List<DataTypeSql> list = new List<DataTypeSql>();
             list.Add(new DataTypeSql("@1", SqlDbType.Char, "nv"+stt));
             list.Add(new DataTypeSql("@2", SqlDbType.NVarChar, hotennv));
@@ -67,19 +53,6 @@ namespace Usecase
         {
             string query = "Update dbo.NHANVIEN set HoTenNV = @2,CMND_NV = @3,SDT_NV = @4,Mail_NV = @5, NgaySinh = @6,DiaChi = @7,"+
                 " HoTen_NguoiLH = @8, SDT_NguoiLH = @9, MaCV = @10,MatKhau = @11,TinhTrang = 1 where MaNV = @1 ;";
-            //query = query + "HoTenNV=" + "N'" + hotennv + "'";
-            //query = query + ",CMND_NV=" + "'" + cmnd + "'";
-            //query = query + ",SDT_NV=" + "'" + sdtnv + "'";
-            //query = query + ",Mail_NV=" + "'" + mail + "'";
-            //query = query + ",NgaySinh=" + "'" + ngaysinh + "'";
-            //query = query + ",DiaChi=" + "N'" + diachi + "'";
-            //query = query + ",HoTen_NguoiLH=" + "N'" + hoten_nguoilienhe + "'";
-            //query = query + ",SDT_NguoiLH=" + "'" + sdt_nguoilienhe + "'";
-            //query = query + ",MaCV=" + machucvu;
-            //query = query + ",MatKhau=" + "'" + matkhau + "'";
-            //query = query + ",TinhTrang = 'true'";
-            //query = query + " " + "where MaNV = '" + manv + "'";
-            //int result = provider.ExecuteNonQuery(query);
             List<DataTypeSql> list = new List<DataTypeSql>();
             list.Add(new DataTypeSql("@1", SqlDbType.Char, manv));
             list.Add(new DataTypeSql("@2", SqlDbType.NVarChar, hotennv));

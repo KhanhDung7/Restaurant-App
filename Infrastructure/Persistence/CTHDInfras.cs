@@ -27,19 +27,19 @@ namespace Infrastructure.Persistence
             return cthd.GetListCTHD(id);
         }
 
-        public int InsertCTHD(string mahd, string mam, int slmon, decimal tongtien)
+        public int InsertCTHD(string mahd,int mab, string mam, int slmon, decimal tongtien)
         {
-            return cthd.InsertCTHD(mahd, mam, slmon, tongtien);
+            return cthd.InsertCTHD(mahd,mab, mam, slmon, tongtien);
         }
 
-        public int UpdateSLMonCTHD(string mahd, string mam, int slmon, decimal tongtien)
+        public int UpdateSLMonCTHD(string mahd,int mab, string mam, int slmon, decimal tongtien)
         {
-            return cthd.UpdateSLMonCTHD(mahd, mam, slmon, tongtien);
+            return cthd.UpdateSLMonCTHD(mahd, mab, mam, slmon, tongtien);
         }
 
-        public int DeleteCTHD(string mahd, string mam)
+        public int DeleteCTHD(string mahd, string mam,int mab)
         {
-            return cthd.DeleteCTHD(mahd, mam);
+            return cthd.DeleteCTHD(mahd, mam,mab);
         }
     }
 }

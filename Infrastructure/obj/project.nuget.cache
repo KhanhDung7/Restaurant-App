@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AcmuDYXNSkuUZTbX/0O6/yVmFGZ2nAJ3AJHzCY07bIU50g9FjBMww9PRLqnElS/PuX9+y/gGhg29xLUip8hcJg==",
+  "dgSpecHash": "PllcZuajNzxQ5QyRKC/yMGUwjgvOXNWvRwdU5punYk3igcPmHVvhPaNAOBLcV+VGjkDEzXjw1KFk6WMPvzWPfQ==",
   "success": true,
-  "projectFilePath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App-main\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\caodev\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\caodev\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

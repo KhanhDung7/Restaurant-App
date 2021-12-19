@@ -21,21 +21,30 @@ namespace Infrastructure.Persistence
         private ThongKeInfras() { }
 
         public static ThongKeUseCase tkuc = new ThongKeUseCase();
-        public List<THONGKE> LoadThongKeNgay(string ngay, string thang, string nam)
+        public List<THONGKE> LoadThongKeQuy(int quy, string nam)
         {
-            return tkuc.LoadThongKeNgay(ngay, thang, nam);
+            return tkuc.LoadThongKeQuy(quy, nam);
         }
-
+        public List<THONGKE> LoadThongKeMonAnQuy(int quy, string nam)
+        {
+            return tkuc.LoadThongKeMonAnQuy(quy, nam);
+        }
         public List<THONGKE> LoadThongKeThang(string thang, string nam)
         {
             return tkuc.LoadThongKeThang(thang, nam);
         }
-
+        public List<THONGKE> LoadThongKeMonAnThang(string thang, string nam)
+        {
+            return tkuc.LoadThongKeMonAnThang(thang, nam);
+        }
         public List<THONGKE> LoadThongKeNam(string nam)
         {
             return tkuc.LoadThongKeNam(nam);
         }
-
+        public List<THONGKE> LoadThongKeMonAnNam(string nam)
+        {
+            return tkuc.LoadThongKeMonAnNam(nam);
+        }
 
     }
 }

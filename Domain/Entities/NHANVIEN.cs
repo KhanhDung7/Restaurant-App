@@ -39,6 +39,7 @@ namespace Domain.Entities
             this.SDT_NguoiLH = "";
             this.MaChucVu = 0;
             this.MatKhau = "";
+            this.tenChucVu = "";
         }
         public NHANVIEN(DataRow row)
         {
@@ -53,6 +54,7 @@ namespace Domain.Entities
             this.SDT_NguoiLH = (string)row["SDT_NguoiLH"];
             this.MaChucVu = (int)row["MaCV"];
             this.MatKhau = (string)row["MatKhau"];
+            this.tenChucVu = (string)row["tencv"];
         }
         private string maNV;
         private string hoTenNV;
@@ -65,6 +67,7 @@ namespace Domain.Entities
         private string hoTen_NguoiLH;
         private string sDT_NguoiLH;
         private int maChucVu;
+        private string tenChucVu;
         private string matKhau;
         public string MaNV { get => maNV; set => maNV = value; }
         public string HoTenNV { get => hoTenNV; set => hoTenNV = value; }
@@ -73,6 +76,7 @@ namespace Domain.Entities
         public string Mail_NV { get => mail_NV; set => mail_NV = value; }
         public DateTime NgaySinh { get => ngaySinh; set => ngaySinh = value; }
         public string DiaChi { get => diaChi; set => diaChi = value; }
+        public string TenChucVu { get => tenChucVu; set => tenChucVu = value; }
         public string HoTen_NguoiLH { get => hoTen_NguoiLH; set => hoTen_NguoiLH = value; }
         public string SDT_NguoiLH { get => sDT_NguoiLH; set => sDT_NguoiLH = value; }
         public int MaChucVu { get => maChucVu; set => maChucVu = value; }

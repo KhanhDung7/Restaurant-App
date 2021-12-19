@@ -27,33 +27,43 @@ namespace Infrastructure.Persistence
             return hd.GetUncheckBillIdByTableId(id);
         }
 
-        public int InsertHoaDon(string manv, int mab, string makm, int slkhach)
+        public int InsertHoaDon(string manv, int mab, string makm, int slkhach,DateTime ngaylap)
         {
-            return hd.InsertHoaDon(manv, mab, makm, slkhach);
+            return hd.InsertHoaDon(manv, mab, makm, slkhach,ngaylap);
         }
-
+        public int InsertHoaDonGop(string mahd,string manv, int mab, string makm, int slkhach)
+        {
+            return hd.InsertHoaDonGop(mahd,manv, mab, makm, slkhach);
+        }
         public string getMaxIdHD()
         {
             return hd.getMaxIdHD();
         }
 
-        public int SuaSLKhachHoaDon(string mahd, int slkhach)
+        public int SuaSLKhachHoaDon(string mahd,int mab, int slkhach)
         {
-            return hd.SuaSLKhachHoaDon(mahd, slkhach);
+            return hd.SuaSLKhachHoaDon(mahd,mab, slkhach);
         }
-
-        public int SwitchTable(string mahd, int mab)
+        public int SuaTienThanhToanHoaDon(string mahd, decimal tienmat, decimal tienthua)
         {
-            return hd.SwitchTable(mahd, mab);
+            return hd.SuaTienThanhToanHoaDon(mahd, tienmat,tienthua);
+        }
+        public int SwitchTable(string mahd,string manv,int bancu, int mab,int slkhach,string makm)
+        {
+            return hd.SwitchTable(mahd,manv,bancu, mab,slkhach,makm);
         }
 
         public int LaySoKhachHD(int id)
         {
             return hd.LaySoKhachHD(id);
         }
-        public void CheckOut(string id, decimal tongthanhtoan)
+        public void CheckOut(string id, decimal tongthanhtoan,string makm)
         {
-           hd.CheckOut(id, tongthanhtoan);
+           hd.CheckOut(id, tongthanhtoan,makm);
+        }
+        public XUATHD LayThongTinHoaDon(string id)
+        {
+            return hd.LayThongTinHoaDon(id);
         }
     }
 }

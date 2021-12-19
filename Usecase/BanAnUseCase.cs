@@ -39,8 +39,6 @@ namespace Usecase
         public int SwitchTable(int mab, int tinhtrang)
         {
             string query = "UPDATE BANAN SET TinhTrang=@1 where MaB = @2 ;";
-            //query += "TinhTrang=" + tinhtrang + " ";
-            //query += "WHERE MaB=" + mab;
             List<DataTypeSql> list = new List<DataTypeSql>();
             list.Add(new DataTypeSql("@1", SqlDbType.Int, tinhtrang));
             list.Add(new DataTypeSql("@2", SqlDbType.Int, mab));

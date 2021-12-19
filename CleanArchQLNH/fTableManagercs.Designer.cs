@@ -206,6 +206,7 @@ namespace CleanArchQLNH
             // 
             // cmbGopBan
             // 
+            this.cmbGopBan.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbGopBan.FormattingEnabled = true;
             this.cmbGopBan.Location = new System.Drawing.Point(97, 51);
             this.cmbGopBan.Name = "cmbGopBan";
@@ -236,6 +237,7 @@ namespace CleanArchQLNH
             // 
             // cbSwitchTable
             // 
+            this.cbSwitchTable.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbSwitchTable.FormattingEnabled = true;
             this.cbSwitchTable.Location = new System.Drawing.Point(0, 51);
             this.cbSwitchTable.Name = "cbSwitchTable";
@@ -251,15 +253,17 @@ namespace CleanArchQLNH
             this.btnSwitchTable.TabIndex = 6;
             this.btnSwitchTable.Text = "Chuyển bàn";
             this.btnSwitchTable.UseVisualStyleBackColor = false;
-            this.btnSwitchTable.Click += new System.EventHandler(btnSwitchTable_Click);
+            this.btnSwitchTable.Click += new System.EventHandler(this.btnSwitchTable_Click);
             // 
             // cbDisscount
             // 
+            this.cbDisscount.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbDisscount.FormattingEnabled = true;
             this.cbDisscount.Location = new System.Drawing.Point(199, 51);
             this.cbDisscount.Name = "cbDisscount";
             this.cbDisscount.Size = new System.Drawing.Size(80, 23);
             this.cbDisscount.TabIndex = 5;
+            this.cbDisscount.SelectedIndexChanged += new System.EventHandler(this.cbDisscount_SelectedIndexChanged);
             // 
             // brnDissCount
             // 
@@ -402,6 +406,7 @@ namespace CleanArchQLNH
             // 
             // cbFood
             // 
+            this.cbFood.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cbFood.FormattingEnabled = true;
             this.cbFood.Location = new System.Drawing.Point(0, 22);
             this.cbFood.Name = "cbFood";
@@ -1094,13 +1099,13 @@ namespace CleanArchQLNH
             // 
             // ChooseFloorComboBox
             // 
+            this.ChooseFloorComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.ChooseFloorComboBox.Items.AddRange(new object[] {
             "Tầng 1",
             "Tầng 2"});
             this.ChooseFloorComboBox.Name = "ChooseFloorComboBox";
             this.ChooseFloorComboBox.Size = new System.Drawing.Size(121, 23);
-            this.ChooseFloorComboBox.Text = "Chọn Tầng";
-            this.ChooseFloorComboBox.SelectedIndex = 0;
+            this.ChooseFloorComboBox.Text = "Tầng 1";
             this.ChooseFloorComboBox.SelectedIndexChanged += new System.EventHandler(this.ChooseFloorComboBox_IndexChanged);
             // 
             // fTableManager

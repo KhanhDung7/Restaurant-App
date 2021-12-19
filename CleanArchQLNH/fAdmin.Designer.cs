@@ -282,9 +282,9 @@ namespace CleanArchQLNH
             this.lbDays.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbDays.Location = new System.Drawing.Point(10, 7);
             this.lbDays.Name = "lbDays";
-            this.lbDays.Size = new System.Drawing.Size(50, 19);
+            this.lbDays.Size = new System.Drawing.Size(56, 19);
             this.lbDays.TabIndex = 0;
-            this.lbDays.Text = "Ngày:";
+            this.lbDays.Text = "Tháng:";
             // 
             // lbMonths
             // 
@@ -292,9 +292,9 @@ namespace CleanArchQLNH
             this.lbMonths.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lbMonths.Location = new System.Drawing.Point(190, 7);
             this.lbMonths.Name = "lbMonths";
-            this.lbMonths.Size = new System.Drawing.Size(56, 19);
+            this.lbMonths.Size = new System.Drawing.Size(42, 19);
             this.lbMonths.TabIndex = 1;
-            this.lbMonths.Text = "Tháng:";
+            this.lbMonths.Text = "Quý:";
             // 
             // lbYears
             // 
@@ -309,71 +309,51 @@ namespace CleanArchQLNH
             // cmbDaysInViewBill
             // 
             this.cmbDaysInViewBill.DropDownHeight = 170;
+            this.cmbDaysInViewBill.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbDaysInViewBill.FormattingEnabled = true;
             this.cmbDaysInViewBill.IntegralHeight = false;
             this.cmbDaysInViewBill.Items.AddRange(new object[] {
-            "01",
-            "02",
-            "03",
-            "04",
-            "05",
-            "06",
-            "07",
-            "08",
-            "09",
+            "---",
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
             "10",
             "11",
-            "12",
-            "13",
-            "14",
-            "15",
-            "16",
-            "17",
-            "18",
-            "19",
-            "20",
-            "21",
-            "22",
-            "23",
-            "24",
-            "25",
-            "26",
-            "27",
-            "28",
-            "29",
-            "30",
-            "31"});
+            "12"});
             this.cmbDaysInViewBill.Location = new System.Drawing.Point(70, 4);
             this.cmbDaysInViewBill.Name = "cmbDaysInViewBill";
             this.cmbDaysInViewBill.Size = new System.Drawing.Size(90, 23);
             this.cmbDaysInViewBill.TabIndex = 0;
+            this.cmbDaysInViewBill.SelectedIndexChanged += new System.EventHandler(this.cmbDaysInViewBill_SelectedIndexChanged);
             // 
             // cmbMonthsInViewBill
             // 
             this.cmbMonthsInViewBill.DropDownHeight = 170;
+            this.cmbMonthsInViewBill.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbMonthsInViewBill.FormattingEnabled = true;
             this.cmbMonthsInViewBill.IntegralHeight = false;
             this.cmbMonthsInViewBill.Items.AddRange(new object[] {
-            "01",
-            "02",
-            "03",
-            "04",
-            "05",
-            "06",
-            "07",
-            "08",
-            "09",
-            "10",
-            "11",
-            "12"});
+            "---",
+            "1",
+            "2",
+            "3",
+            "4"});
             this.cmbMonthsInViewBill.Location = new System.Drawing.Point(250, 4);
             this.cmbMonthsInViewBill.Name = "cmbMonthsInViewBill";
             this.cmbMonthsInViewBill.Size = new System.Drawing.Size(90, 23);
             this.cmbMonthsInViewBill.TabIndex = 1;
+            this.cmbMonthsInViewBill.SelectedIndexChanged += new System.EventHandler(this.cmbMonthsInViewBill_SelectedIndexChanged);
             // 
             // cmbYearsInViewBill
             // 
             this.cmbYearsInViewBill.DropDownHeight = 170;
+            this.cmbYearsInViewBill.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbYearsInViewBill.FormattingEnabled = true;
             this.cmbYearsInViewBill.IntegralHeight = false;
             this.cmbYearsInViewBill.Items.AddRange(new object[] {
@@ -699,6 +679,7 @@ namespace CleanArchQLNH
             // 
             // cmbMaxPeopleOnTable
             // 
+            this.cmbMaxPeopleOnTable.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbMaxPeopleOnTable.FormattingEnabled = true;
             this.cmbMaxPeopleOnTable.Items.AddRange(new object[] {
             1,
@@ -1095,6 +1076,7 @@ namespace CleanArchQLNH
             // 
             // cmbStaffIdentity
             // 
+            this.cmbStaffIdentity.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbStaffIdentity.FormattingEnabled = true;
             this.cmbStaffIdentity.Items.AddRange(new object[] {
             "1",
@@ -1399,6 +1381,7 @@ namespace CleanArchQLNH
             // 
             // cmbOrderTable
             // 
+            this.cmbOrderTable.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbOrderTable.FormattingEnabled = true;
             this.cmbOrderTable.Location = new System.Drawing.Point(461, 86);
             this.cmbOrderTable.Name = "cmbOrderTable";

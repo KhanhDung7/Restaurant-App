@@ -522,11 +522,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App-main\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App-main\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\caodev\\.nuget\\packages\\",
-      "outputPath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Infrastructure\\obj\\",
+      "outputPath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App-main\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\caodev\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -543,8 +543,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Usecase\\Usecase.csproj": {
-              "projectPath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Usecase\\Usecase.csproj"
+            "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App-main\\Usecase\\Usecase.csproj": {
+              "projectPath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App-main\\Usecase\\Usecase.csproj"
             }
           }
         }

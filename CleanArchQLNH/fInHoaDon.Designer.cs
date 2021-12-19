@@ -76,7 +76,7 @@ namespace CleanArchQLNH
             this.pnPrintBill.Controls.Add(this.label1);
             this.pnPrintBill.Location = new System.Drawing.Point(12, 12);
             this.pnPrintBill.Name = "pnPrintBill";
-            this.pnPrintBill.Size = new System.Drawing.Size(296, 426);
+            this.pnPrintBill.Size = new System.Drawing.Size(353, 426);
             this.pnPrintBill.TabIndex = 0;
             // 
             // txtExcessCash
@@ -84,17 +84,19 @@ namespace CleanArchQLNH
             this.txtExcessCash.Location = new System.Drawing.Point(176, 354);
             this.txtExcessCash.Name = "txtExcessCash";
             this.txtExcessCash.ReadOnly = true;
-            this.txtExcessCash.Size = new System.Drawing.Size(120, 23);
+            this.txtExcessCash.Size = new System.Drawing.Size(174, 23);
             this.txtExcessCash.TabIndex = 16;
             this.txtExcessCash.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            
             // 
             // txtCustomerGive
             // 
             this.txtCustomerGive.Location = new System.Drawing.Point(176, 325);
             this.txtCustomerGive.Name = "txtCustomerGive";
-            this.txtCustomerGive.Size = new System.Drawing.Size(120, 23);
+            this.txtCustomerGive.Size = new System.Drawing.Size(174, 23);
             this.txtCustomerGive.TabIndex = 15;
             this.txtCustomerGive.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.txtCustomerGive.TextChanged += new System.EventHandler(this.txtCustomerGive_TextChanged);
             this.txtCustomerGive.LostFocus += new System.EventHandler(this.txtCustomerGive_LostFocus);
             // 
             // txtTotalPrice
@@ -102,7 +104,7 @@ namespace CleanArchQLNH
             this.txtTotalPrice.Location = new System.Drawing.Point(176, 297);
             this.txtTotalPrice.Name = "txtTotalPrice";
             this.txtTotalPrice.ReadOnly = true;
-            this.txtTotalPrice.Size = new System.Drawing.Size(120, 23);
+            this.txtTotalPrice.Size = new System.Drawing.Size(174, 23);
             this.txtTotalPrice.TabIndex = 14;
             this.txtTotalPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -147,7 +149,7 @@ namespace CleanArchQLNH
             this.lvPrintBill.HideSelection = false;
             this.lvPrintBill.Location = new System.Drawing.Point(3, 170);
             this.lvPrintBill.Name = "lvPrintBill";
-            this.lvPrintBill.Size = new System.Drawing.Size(293, 124);
+            this.lvPrintBill.Size = new System.Drawing.Size(347, 124);
             this.lvPrintBill.TabIndex = 10;
             this.lvPrintBill.UseCompatibleStateImageBehavior = false;
             this.lvPrintBill.View = System.Windows.Forms.View.Details;
@@ -156,20 +158,21 @@ namespace CleanArchQLNH
             // 
             this.columnHeader1.Name = "columnHeader1";
             this.columnHeader1.Text = "Tên món";
-            this.columnHeader1.Width = 70;
+            this.columnHeader1.Width = 99;
             // 
             // columnHeader2
             // 
             this.columnHeader2.Name = "columnHeader2";
             this.columnHeader2.Text = "SL";
             this.columnHeader2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader2.Width = 35;
+            this.columnHeader2.Width = 47;
             // 
             // columnHeader3
             // 
             this.columnHeader3.Name = "columnHeader3";
             this.columnHeader3.Text = "ĐG";
             this.columnHeader3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.columnHeader3.Width = 70;
             // 
             // columnHeader4
             // 
@@ -183,14 +186,14 @@ namespace CleanArchQLNH
             this.columnHeader5.Name = "columnHeader5";
             this.columnHeader5.Text = "TT";
             this.columnHeader5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.columnHeader5.Width = 73;
+            this.columnHeader5.Width = 80;
             // 
             // txtStaffName
             // 
             this.txtStaffName.Location = new System.Drawing.Point(74, 141);
             this.txtStaffName.Name = "txtStaffName";
             this.txtStaffName.ReadOnly = true;
-            this.txtStaffName.Size = new System.Drawing.Size(222, 23);
+            this.txtStaffName.Size = new System.Drawing.Size(243, 23);
             this.txtStaffName.TabIndex = 9;
             this.txtStaffName.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -206,17 +209,17 @@ namespace CleanArchQLNH
             // 
             // txtBillDate
             // 
-            this.txtBillDate.Location = new System.Drawing.Point(176, 109);
+            this.txtBillDate.Location = new System.Drawing.Point(209, 109);
             this.txtBillDate.Name = "txtBillDate";
             this.txtBillDate.ReadOnly = true;
-            this.txtBillDate.Size = new System.Drawing.Size(120, 23);
+            this.txtBillDate.Size = new System.Drawing.Size(141, 23);
             this.txtBillDate.TabIndex = 7;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(133, 112);
+            this.label5.Location = new System.Drawing.Point(165, 112);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(38, 15);
             this.label5.TabIndex = 6;
@@ -227,7 +230,7 @@ namespace CleanArchQLNH
             this.txtBillID.Location = new System.Drawing.Point(34, 109);
             this.txtBillID.Name = "txtBillID";
             this.txtBillID.ReadOnly = true;
-            this.txtBillID.Size = new System.Drawing.Size(78, 23);
+            this.txtBillID.Size = new System.Drawing.Size(125, 23);
             this.txtBillID.TabIndex = 5;
             this.txtBillID.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -245,7 +248,7 @@ namespace CleanArchQLNH
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.Location = new System.Drawing.Point(30, 66);
+            this.label3.Location = new System.Drawing.Point(65, 65);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(232, 22);
             this.label3.TabIndex = 3;
@@ -254,18 +257,18 @@ namespace CleanArchQLNH
             // btnPrintBill
             // 
             this.btnPrintBill.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btnPrintBill.Location = new System.Drawing.Point(206, 391);
+            this.btnPrintBill.Location = new System.Drawing.Point(212, 391);
             this.btnPrintBill.Name = "btnPrintBill";
-            this.btnPrintBill.Size = new System.Drawing.Size(90, 35);
+            this.btnPrintBill.Size = new System.Drawing.Size(138, 35);
             this.btnPrintBill.TabIndex = 2;
-            this.btnPrintBill.Text = "QUAY LẠI";
+            this.btnPrintBill.Text = "In hóa đơn";
             this.btnPrintBill.UseVisualStyleBackColor = true;
             this.btnPrintBill.Click += new System.EventHandler(this.btnPrintBill_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(22, 35);
+            this.label2.Location = new System.Drawing.Point(57, 37);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(248, 15);
             this.label2.TabIndex = 1;
@@ -275,7 +278,7 @@ namespace CleanArchQLNH
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(28, 5);
+            this.label1.Location = new System.Drawing.Point(57, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(240, 22);
             this.label1.TabIndex = 0;
@@ -285,7 +288,7 @@ namespace CleanArchQLNH
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(320, 450);
+            this.ClientSize = new System.Drawing.Size(377, 450);
             this.Controls.Add(this.pnPrintBill);
             this.Name = "fInHoaDon";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Z7i9tRSH5xi7yvPJBw7IdCFBfo3l8ws/hJabHLSfiq70U8rKq7T0PGF6e0ysWh5DV7cehVlIHsC9CmcR6y7n9A==",
+  "dgSpecHash": "dBpXhWTckwEBMxVlgF2gYjmRtlOtAuAiy/qfnv2fY9xGc1RAvRFOy8F9yM9T9W5SmeZaeX4tqaWciU1FvN/zPw==",
   "success": true,
-  "projectFilePath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\CleanTesting.Application.QLNhaHang\\CleanTesting.Application.QLNhaHang.csproj",
+  "projectFilePath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App-main\\CleanTesting.Application.QLNhaHang\\CleanTesting.Application.QLNhaHang.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\caodev\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
     "C:\\Users\\caodev\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",

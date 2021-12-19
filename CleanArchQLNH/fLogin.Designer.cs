@@ -122,6 +122,11 @@ namespace CleanArchQLNH
             this.lbUserName.Size = new System.Drawing.Size(137, 22);
             this.lbUserName.TabIndex = 0;
             this.lbUserName.Text = "Tên đăng nhập:";
+
+
+            //set user and pass
+            txtUserName.Text = "nv01";
+            txtPassWord.Text = "123";
             // 
             // fLogin
             // 

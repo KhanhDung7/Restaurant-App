@@ -22,14 +22,12 @@ namespace CleanArchQLNH
         private int _maB;
         private string _loadKM;
         private int _disablePrint;
-
+        private string makm;
         private BANAN _banan;
-
         public fInHoaDon()
         {
             InitializeComponent();
         }
-
         public string LoadSoHD { get => _loadSoHD; set => _loadSoHD = value; }
         public DateTime NgayHD { get => _ngayHD; set => _ngayHD = value; }
         public string LoadTenNV { get => _loadTenNV; set => _loadTenNV = value; }
@@ -70,13 +68,59 @@ namespace CleanArchQLNH
 
         private void btnPrintBill_Click(object sender, EventArgs e)
         {
+            List<MENU> listCTHD = MenuInfras.Instance.GetListMenuByTable(_maB);
+            decimal totalPrice = 0;
+            int ptKM = Convert.ToInt32(_loadKM);
+            string tongtien = txtTotalPrice.Text;
+            string tienmat = txtCustomerGive.Text;
+            string tienthua = txtExcessCash.Text;
+            xuatHoaDonPDF(_loadSoHD, _loadTenNV, ptKM, listCTHD, tongtien, tienmat, tienthua);
 
             this.Close();
         }
 
         private void txtCustomerGive_LostFocus(object sender, EventArgs e)
         {
+            //nothing
+        }
+        public void xuatHoaDonPDF(string mahd,string tennv,int ptKM,List<MENU> menu,string tongtien,string tienmat,string tienthua)
+        {
+            string htmlString = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><meta name='viewport' content='width=device-width, initial-scale=1.0'><title>HOADON</title></head><body><div align = 'center' >";
+            htmlString = "<div><h1>DIAMOND RESTAURANT</h1></div><div><p>273 AN DƯƠNG VƯƠNG, PHƯỜNG 3,QUẬN 5</p></div><div><h1>HÓA ĐƠN THANH TOÁN</h1></div><div><p>Mã hóa đơn : ";
+            htmlString += mahd;
+            htmlString += "</p><p>Ngày : ";
+            htmlString += DateTime.Now.ToString("yyyy/MM/dd HH:mm");
+            htmlString += "</p><p>Tên Nhân Viên : ";
+            htmlString += tennv;
+            htmlString += "</p></div><div><table style='width:500px;border: 1px solid black;border-collapse: collapse;'><tr style='border: 1px solid black;border-collapse: collapse;'><td style='border: 1px solid black;border-collapse: collapse;'>Tên món</td><td style='border: 1px solid black;border-collapse: collapse;'>Số lượng</td><td style='border: 1px solid black;border-collapse: collapse;'>Đơn giá</td><td style='border: 1px solid black;border-collapse: collapse;'>% KM</td><td style='border: 1px solid black;border-collapse: collapse;'>Thành Tiền</td></tr>";
+            foreach (MENU item in menu)
+            {
+                decimal tt = item.TongTien - item.TongTien * ptKM / 100;
+                htmlString += "<tr style='border: 1px solid black;border-collapse: collapse;'><td  style='border: 1px solid black;border-collapse: collapse;'>";
+                htmlString += item.TenMon.ToString();
+                htmlString += "</td'><td  style='border: 1px solid black;border-collapse: collapse;'>";
+                htmlString += item.SLMon.ToString();
+                htmlString += "</td><td  style='border: 1px solid black;border-collapse: collapse;'>";
+                htmlString += item.DonGia.ToString("c", culture);
+                htmlString += "</td><td  style='border: 1px solid black;border-collapse: collapse;'>";
+                htmlString += ptKM;
+                htmlString += "</td><td style='border: 1px solid black;border-collapse: collapse;'>";
+                htmlString += tt.ToString("c", culture);
+                htmlString += "</td></tr>";
+            }
+            htmlString += "</table></div><div><p>Tổng thanh toán : ";
+            htmlString += tongtien;
+            htmlString += "</p><p>Tiền mặt : ";
+            htmlString += float.Parse(tienmat).ToString("c", new CultureInfo("vi-VN"));
+            htmlString += "</p><p>Tiền thừa : ";
+            htmlString += tienthua;
+            htmlString += "</p></div></div></body></html>";
+            var Renderer = new IronPdf.ChromePdfRenderer();
+            Renderer.RenderHtmlAsPdf(htmlString).SaveAs("HOADON_" + mahd + "_" + DateTime.Now.ToString("yyyy_MM_dd_HH_mm_ss") + ".pdf");
+        }
 
+        private void txtCustomerGive_TextChanged(object sender, EventArgs e)
+        {
             List<MENU> listCTHD = MenuInfras.Instance.GetListMenuByTable(_maB);
             decimal totalPrice = 0;
             int ptKM = Convert.ToInt32(_loadKM);
@@ -84,7 +128,14 @@ namespace CleanArchQLNH
             {
                 totalPrice += item.TongTien;
             }
-            txtExcessCash.Text = (Convert.ToDecimal(txtCustomerGive.Text) - (totalPrice - totalPrice * ptKM / 100)).ToString("c", culture);
+            totalPrice = totalPrice - (totalPrice * ptKM / 100);
+            decimal tienmat = decimal.Parse(txtCustomerGive.Text);
+            decimal tienthua = tienmat - (totalPrice - (totalPrice * ptKM / 100));
+            string mahd = txtBillID.Text;
+            HoaDonInfras.Instance.SuaTienThanhToanHoaDon(mahd, tienmat, tienthua);
+            txtExcessCash.Text = tienthua.ToString("c", culture);
+            if(tienthua < 0 || tienmat<totalPrice) this.btnPrintBill.Enabled = false;
+            else this.btnPrintBill.Enabled = true;
         }
     }
 }

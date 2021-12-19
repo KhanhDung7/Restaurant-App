@@ -1,0 +1,15 @@
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App-main\Usecase\bin\Release\net5.0\Usecase.deps.json
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App-main\Usecase\bin\Release\net5.0\Usecase.dll
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App-main\Usecase\bin\Release\net5.0\ref\Usecase.dll
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App-main\Usecase\bin\Release\net5.0\Usecase.pdb
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App-main\Usecase\bin\Release\net5.0\Domain.dll
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App-main\Usecase\bin\Release\net5.0\Domain.pdb
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App-main\Usecase\obj\Release\net5.0\Usecase.csproj.AssemblyReference.cache
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App-main\Usecase\obj\Release\net5.0\Usecase.GeneratedMSBuildEditorConfig.editorconfig
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App-main\Usecase\obj\Release\net5.0\Usecase.AssemblyInfoInputs.cache
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App-main\Usecase\obj\Release\net5.0\Usecase.AssemblyInfo.cs
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App-main\Usecase\obj\Release\net5.0\Usecase.csproj.CoreCompileInputs.cache
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App-main\Usecase\obj\Release\net5.0\Usecase.csproj.CopyComplete
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App-main\Usecase\obj\Release\net5.0\Usecase.dll
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App-main\Usecase\obj\Release\net5.0\ref\Usecase.dll
+D:\HOC_ONLINE\xdpmmh3l\Restaurant-App-main\Usecase\obj\Release\net5.0\Usecase.pdb

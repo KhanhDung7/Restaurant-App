@@ -459,11 +459,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Domain\\Domain.csproj",
+      "projectUniqueName": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App-main\\Domain\\Domain.csproj",
       "projectName": "Domain",
-      "projectPath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Domain\\Domain.csproj",
+      "projectPath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App-main\\Domain\\Domain.csproj",
       "packagesPath": "C:\\Users\\caodev\\.nuget\\packages\\",
-      "outputPath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App\\Domain\\obj\\",
+      "outputPath": "D:\\HOC_ONLINE\\xdpmmh3l\\Restaurant-App-main\\Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\caodev\\AppData\\Roaming\\NuGet\\NuGet.Config",
